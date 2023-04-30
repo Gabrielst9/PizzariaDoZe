@@ -1,0 +1,520 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="icons8-menu-squared-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-menu-squared-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-1137028124-612x612" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-1137028124-612x612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-bullet-list-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-bullet-list-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="291125" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\291125.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-menu-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-menu-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-user-male-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-user-male-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-reminders-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-reminders-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-lock-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-lock-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BTN1_CADASTRO_CLIENT.Text" xml:space="preserve">
+    <value>CADASTRAR</value>
+    <comment>TELA LOGIN INICIAL- 1</comment>
+  </data>
+  <data name="BTN1_CLIENTES.Text" xml:space="preserve">
+    <value>CLIENTE</value>
+    <comment>TELA LOGIN INICIAL- 1</comment>
+  </data>
+  <data name="BTN1_LOGIN.Text" xml:space="preserve">
+    <value>ENTRAR</value>
+    <comment>TELA LOGIN INICIAL- 1</comment>
+  </data>
+  <data name="BTN1_SAIR.Text" xml:space="preserve">
+    <value>SAIR</value>
+    <comment>TELA LOGIN INICIAL- 1</comment>
+  </data>
+  <data name="BTN_LOGIN_ADM.Text" xml:space="preserve">
+    <value>ADMINISTRADOR</value>
+    <comment>TELA LOGIN INICIAL- 1</comment>
+  </data>
+  <data name="BTN_SAIR.Text" xml:space="preserve">
+    <value>SAIR</value>
+    <comment>TELA CLIENTES - 2</comment>
+  </data>
+  <data name="TEXT1_FACA_LOGIN.Text" xml:space="preserve">
+    <value>JÁ TEM UMA CONTA? FAÇA LOGIN</value>
+    <comment>TELA LOGIN INICIAL- 1</comment>
+  </data>
+  <data name="TEXT1_MENU.Text" xml:space="preserve">
+    <value>MENU</value>
+    <comment>TELA LOGIN INICIAL- 1</comment>
+  </data>
+  <data name="TEXT_ENDERECO.Text" xml:space="preserve">
+    <value>ENDEREÇO</value>
+    <comment>TELA CLIENTES - 2</comment>
+  </data>
+  <data name="TEXT_NOME.Text" xml:space="preserve">
+    <value>NOME</value>
+    <comment>TELA CLIENTES - 2</comment>
+  </data>
+  <data name="TEXT_PRIMEI_VEZ.Text" xml:space="preserve">
+    <value>PRIMEIRA VEZ? CRIE UMA CONTA!</value>
+    <comment>TELA LOGIN INICIAL- 1</comment>
+  </data>
+  <data name="TITULO_CADASTRO_CLI.Text" xml:space="preserve">
+    <value>CADASTRO DE CLIENTES</value>
+    <comment>TELA CLIENTES - 2</comment>
+  </data>
+  <data name="TIT_CPF.Text" xml:space="preserve">
+    <value>CPF</value>
+    <comment>TELA CLIENTES - 2</comment>
+  </data>
+  <data name="TIT_EMAIL.Text" xml:space="preserve">
+    <value>EMAIL</value>
+    <comment>TELA CLIENTES - 2</comment>
+  </data>
+  <data name="TIT_TELEFONE.Text" xml:space="preserve">
+    <value>TELEFONE</value>
+    <comment>TELA CLIENTES - 2</comment>
+  </data>
+  <data name="Btn20_SAIR.Text" xml:space="preserve">
+    <value>SAIR</value>
+    <comment>Form1 - 3</comment>
+  </data>
+  <data name="BTN_PEDIDOS.Text" xml:space="preserve">
+    <value>PEDIDOS</value>
+    <comment>Form1 - 3</comment>
+  </data>
+  <data name="TITULO_PRINCIPAL.Text" xml:space="preserve">
+    <value>PIZZARIA DO ZÉ</value>
+    <comment>Form1 - 3</comment>
+  </data>
+  <data name="BTN4_VOLTAR" xml:space="preserve">
+    <value>SAIR</value>
+    <comment>TELA ADM - 6</comment>
+  </data>
+  <data name="BTN5_ENVIAR.Text" xml:space="preserve">
+    <value>ENVIAR</value>
+    <comment>TELA ATENDENTE - 7</comment>
+  </data>
+  <data name="BTN5_VOLTAR.Text" xml:space="preserve">
+    <value>VOLTAR</value>
+    <comment>TELA ATENDENTE - 7</comment>
+  </data>
+  <data name="BTN6_VOLTAR.Text" xml:space="preserve">
+    <value>VOLTAR</value>
+    <comment>TELA ENTREGADOR - 8</comment>
+  </data>
+  <data name="BTN7_CLIENTES.Text" xml:space="preserve">
+    <value>CLIENTES</value>
+    <comment>TELA CADASTROS - 9</comment>
+  </data>
+  <data name="BTN7_FUNCIONARIOS.Text" xml:space="preserve">
+    <value>FUNCIONÁRIOS</value>
+    <comment>TELA CADASTROS - 9</comment>
+  </data>
+  <data name="BTN7_SAIR.Text" xml:space="preserve">
+    <value>SAIR</value>
+    <comment>TELA CADASTROS - 9</comment>
+  </data>
+  <data name="BTN8_FAZER_PEDIDO.Text" xml:space="preserve">
+    <value>FAZER PEDIDO</value>
+    <comment>TELA INICIAL CLIENTE - 4</comment>
+  </data>
+  <data name="BTN8_PENDENTES" xml:space="preserve">
+    <value>VER PEDIDOS PENDENTES</value>
+    <comment>TELA INICIAL CLIENTE - 4</comment>
+  </data>
+  <data name="BTN8_SABORES" xml:space="preserve">
+    <value>CATALOGO DE SABORES</value>
+    <comment>TELA INICIAL CLIENTE - 4</comment>
+  </data>
+  <data name="BTN8_SAIR" xml:space="preserve">
+    <value>SAIR</value>
+    <comment>TELA INICIAL CLIENTE - 4</comment>
+  </data>
+  <data name="BTN_10_SAIR" xml:space="preserve">
+    <value>SAIR</value>
+    <comment>Tela_Produtos - 13</comment>
+  </data>
+  <data name="BTN_11_SAIR" xml:space="preserve">
+    <value>SAIR</value>
+    <comment>CADASTRO INGREDIENTES - 11</comment>
+  </data>
+  <data name="BTN_7_INGREDIENTES.Text" xml:space="preserve">
+    <value>INGREDIENTES</value>
+    <comment>TELA CADASTROS - 9</comment>
+  </data>
+  <data name="BTN_7_PRODUTOS.Text" xml:space="preserve">
+    <value>PRODUTOS</value>
+    <comment>TELA CADASTROS - 9</comment>
+  </data>
+  <data name="BTN_7_SABORES.Text" xml:space="preserve">
+    <value>SABORES</value>
+    <comment>TELA CADASTROS - 9</comment>
+  </data>
+  <data name="BTN_7_VALORES.Text" xml:space="preserve">
+    <value>VALORES</value>
+    <comment>TELA CADASTROS - 9</comment>
+  </data>
+  <data name="BTN_8_SAIR.Text" xml:space="preserve">
+    <value>SAIR</value>
+    <comment>CADASTRO SABORES - 10</comment>
+  </data>
+  <data name="BTN_9_SAIR" xml:space="preserve">
+    <value>SAIR</value>
+    <comment>Tela Valores - 12</comment>
+  </data>
+  <data name="BTN_CADASTRAR.Text" xml:space="preserve">
+    <value>CADASTRAR</value>
+    <comment>Form1 - 3</comment>
+  </data>
+  <data name="BTN_SALVAR_INGREDIENTES.Text" xml:space="preserve">
+    <value>SALVAR</value>
+    <comment>CADASTRO SABORES - 10</comment>
+  </data>
+  <data name="CATEGORIA_SABOR.Text" xml:space="preserve">
+    <value>CATEGORIA</value>
+    <comment>CADASTRO SABORES - 10</comment>
+  </data>
+  <data name="ING_NOME" xml:space="preserve">
+    <value>NOME</value>
+    <comment>CADASTRO INDREDIENTES - 11</comment>
+  </data>
+  <data name="LABEL1.Text" xml:space="preserve">
+    <value>CADASTRO ATENDENTE</value>
+    <comment>TELA ATENDENTE - 7</comment>
+  </data>
+  <data name="RADIO6_HAB_A.Text" xml:space="preserve">
+    <value>HABILITAÇÃO - A</value>
+    <comment>TELA ENTREGADOR - 8</comment>
+  </data>
+  <data name="RADIO6_HAB_B.Text" xml:space="preserve">
+    <value>HABILITAÇÃO - B</value>
+    <comment>TELA ENTREGADOR - 8</comment>
+  </data>
+  <data name="RADIO6_HAB_C.Text" xml:space="preserve">
+    <value>HABILITAÇÃO - C</value>
+    <comment>TELA ENTREGADOR - 8</comment>
+  </data>
+  <data name="RADIO6_HAB_D.Text" xml:space="preserve">
+    <value>HABILITAÇÃO - D</value>
+    <comment>TELA ENTREGADOR - 8</comment>
+  </data>
+  <data name="SABOR_COD.Text" xml:space="preserve">
+    <value>CÓDIGO</value>
+    <comment>CADASTRO SABORES - 10</comment>
+  </data>
+  <data name="SABOR_FOTO.Text" xml:space="preserve">
+    <value>FOTO</value>
+    <comment>CADASTRO SABORES - 10</comment>
+  </data>
+  <data name="SABOR_INGREDIENTES.Text" xml:space="preserve">
+    <value>INGREDIENTES</value>
+    <comment>CADASTRO SABORES - 10</comment>
+  </data>
+  <data name="SABOR_NOME.Text" xml:space="preserve">
+    <value>NOME</value>
+    <comment>CADASTRO SABORES - 10</comment>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+    <comment>Tela_Produtos - 13</comment>
+  </data>
+  <data name="TEXT4_CNF_SENHA" xml:space="preserve">
+    <value>CONFIRMAR SENHA</value>
+    <comment>TELA ADM - 6</comment>
+  </data>
+  <data name="TEXT4_CPF" xml:space="preserve">
+    <value>CPF</value>
+    <comment>TELA ADM - 6</comment>
+  </data>
+  <data name="TEXT4_EMAIL" xml:space="preserve">
+    <value>EMAIL</value>
+    <comment>TELA ADM - 6</comment>
+  </data>
+  <data name="TEXT4_ENDERECO" xml:space="preserve">
+    <value>ENDEREÇO</value>
+    <comment>TELA ADM - 6</comment>
+  </data>
+  <data name="TEXT4_NOME" xml:space="preserve">
+    <value>NOME</value>
+    <comment>TELA ADM - 6</comment>
+  </data>
+  <data name="TEXT4_SENHA" xml:space="preserve">
+    <value>SENHA</value>
+    <comment>TELA ADM - 6</comment>
+  </data>
+  <data name="TEXT4_TELEFONE" xml:space="preserve">
+    <value>TELEFONE</value>
+    <comment>TELA ADM - 6</comment>
+  </data>
+  <data name="TEXT5_CNF_SENHA.Text" xml:space="preserve">
+    <value>CONFIRMAR SENHA</value>
+    <comment>TELA ATENDENTE - 7</comment>
+  </data>
+  <data name="TEXT5_CPF.Text" xml:space="preserve">
+    <value>CPF</value>
+    <comment>TELA ATENDENTE - 7</comment>
+  </data>
+  <data name="TEXT5_EMAIL.Text" xml:space="preserve">
+    <value>EMAIL</value>
+    <comment>TELA ATENDENTE - 7</comment>
+  </data>
+  <data name="TEXT5_ENDERECO.Text" xml:space="preserve">
+    <value>ENDEREÇO</value>
+    <comment>TELA ATENDENTE - 7</comment>
+  </data>
+  <data name="TEXT5_NOME.Text" xml:space="preserve">
+    <value>NOME</value>
+    <comment>TELA ATENDENTE - 7</comment>
+  </data>
+  <data name="TEXT5_SENHA.Text" xml:space="preserve">
+    <value>SENHA</value>
+    <comment>TELA ATENDENTE - 7</comment>
+  </data>
+  <data name="TEXT5_TELEFONE.Text" xml:space="preserve">
+    <value>TELEFONE</value>
+    <comment>TELA ATENDENTE - 7</comment>
+  </data>
+  <data name="TEXT6_CNF_SENHA.Text" xml:space="preserve">
+    <value>CONFIRMAR SENHA</value>
+    <comment>TELA ENTREGADOR - 8</comment>
+  </data>
+  <data name="TEXT6_CPF.Text" xml:space="preserve">
+    <value>CPF</value>
+    <comment>TELA ENTREGADOR - 8</comment>
+  </data>
+  <data name="TEXT6_EMAIL.Text" xml:space="preserve">
+    <value>EMAIL</value>
+    <comment>TELA ENTREGADOR - 8</comment>
+  </data>
+  <data name="TEXT6_ENDERECO.Text" xml:space="preserve">
+    <value>ENDEREÇO</value>
+    <comment>TELA ENTREGADOR - 8</comment>
+  </data>
+  <data name="TEXT6_NOME.Text" xml:space="preserve">
+    <value>NOME</value>
+    <comment>TELA ENTREGADOR - 8</comment>
+  </data>
+  <data name="TEXT6_OBSERVACAO.Text" xml:space="preserve">
+    <value>OBSERVAÇÃO:</value>
+    <comment>TELA ENTREGADOR - 8</comment>
+  </data>
+  <data name="TEXT6_SEL_HAB.Text" xml:space="preserve">
+    <value>SELECIONE A HABILITAÇÃO:</value>
+    <comment>TELA ENTREGADOR - 8</comment>
+  </data>
+  <data name="TEXT6_SENHA.Text" xml:space="preserve">
+    <value>SENHA</value>
+    <comment>TELA ENTREGADOR - 8</comment>
+  </data>
+  <data name="TEXT6_TELEFONE.Text" xml:space="preserve">
+    <value>TELEFONE</value>
+    <comment>TELA ENTREGADOR - 8</comment>
+  </data>
+  <data name="TEXT6_VALID_HAB.Text" xml:space="preserve">
+    <value>ATA DO VENCIMENTO DA \r\nCARTEIRA DE MOTORISTA</value>
+    <comment>TELA ENTREGADOR - 8</comment>
+  </data>
+  <data name="TEXT_10_ML.Text" xml:space="preserve">
+    <value>ML</value>
+    <comment>Tela_Produtos - 13</comment>
+  </data>
+  <data name="TEXT_10_NOME.Text" xml:space="preserve">
+    <value>NOME</value>
+    <comment>Tela_Produtos - 13</comment>
+  </data>
+  <data name="TEXT_10_TIPO.Text" xml:space="preserve">
+    <value>TIPO</value>
+    <comment>Tela_Produtos - 13</comment>
+  </data>
+  <data name="TEXT_10_VALOR.Text" xml:space="preserve">
+    <value>VALOR</value>
+    <comment>Tela_Produtos - 13</comment>
+  </data>
+  <data name="TEXT_9_CATEGORIAS.Text" xml:space="preserve">
+    <value>CATEGORIA</value>
+    <comment>Tela Valores - 12</comment>
+  </data>
+  <data name="TEXT_9_TAMANHOS.Text" xml:space="preserve">
+    <value>TAMANHOS</value>
+    <comment>Tela Valores - 12</comment>
+  </data>
+  <data name="TEXT_9_VALOR" xml:space="preserve">
+    <value>VALOR</value>
+    <comment>Tela Valores - 12</comment>
+  </data>
+  <data name="TEXT_9_VALORES_ADICIONAIS.Text" xml:space="preserve">
+    <value>VALOR ADICIONAL BORDA</value>
+    <comment>Tela Valores - 12</comment>
+  </data>
+  <data name="TIPO_SABOR.Text" xml:space="preserve">
+    <value>TIPO</value>
+    <comment>CADASTRO SABORES - 10</comment>
+  </data>
+  <data name="TIT12_CADASTRAR.Text" xml:space="preserve">
+    <value>CADASTRAR VALORES</value>
+    <comment>Tela Valores - 12</comment>
+  </data>
+  <data name="TIT6_ENTREGADOR.Text" xml:space="preserve">
+    <value>CADASTRO DE ENTREGADOR</value>
+    <comment>TELA ENTREGADOR - 8</comment>
+  </data>
+  <data name="TIT7_CADASTRAR.Text" xml:space="preserve">
+    <value>CADASTRAR:</value>
+    <comment>TELA CADASTROS - 9</comment>
+  </data>
+  <data name="TIT8_CADASTRO_SABORES.Text" xml:space="preserve">
+    <value>CADASTRO DE SABORES</value>
+    <comment>CADASTRO SABORES - 10</comment>
+  </data>
+  <data name="Titulo8_Principal" xml:space="preserve">
+    <value>PIZZARIA DO ZÉ</value>
+    <comment>TELA INICIAL CLIENTE - 4</comment>
+  </data>
+  <data name="TIT_10_CADASTRAR_PRODUTOS.Text" xml:space="preserve">
+    <value>CADASTRAR PRODUTOS</value>
+    <comment>Tela_Produtos - 13</comment>
+  </data>
+  <data name="TIT_11_INGREDIENTES.Text" xml:space="preserve">
+    <value>CADASTRO DE INGREDIENTES</value>
+    <comment>CADASTRO INGREDIENTES - 11</comment>
+  </data>
+  <data name="TIT_ADM.Text" xml:space="preserve">
+    <value>CADASTRO DE ADMINISTRADOR</value>
+    <comment>TELA ADM - 6</comment>
+  </data>
+  <data name="VOLTAR_CAD_INGREDIENTES.Text" xml:space="preserve">
+    <value>VOLTAR</value>
+    <comment>CADASTRO SABORES - 10</comment>
+  </data>
+</root>
