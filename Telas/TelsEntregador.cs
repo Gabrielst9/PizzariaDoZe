@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PizzariaDoZe
 {
-    public partial class TELA_ENTREGADOR : Form
+    public partial class TelsEntregador : Form
     {
-        public TELA_ENTREGADOR()
+        public TelsEntregador()
         {
             InitializeComponent();
         }

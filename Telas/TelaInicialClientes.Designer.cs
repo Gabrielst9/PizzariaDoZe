@@ -1,6 +1,6 @@
 ﻿namespace PizzariaDoZe
 {
-    partial class TELA_INICIAL_CLIENTE
+    partial class TelaInicialClientes
     {
         /// <summary>
         /// Required designer variable.

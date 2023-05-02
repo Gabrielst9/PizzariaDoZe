@@ -1,6 +1,6 @@
 ﻿namespace PizzariaDoZe
 {
-    partial class Form1
+    partial class TelaAdm
     {
         /// <summary>
         ///  Required designer variable.

@@ -10,24 +10,14 @@ using System.Windows.Forms;
 
 namespace PizzariaDoZe
 {
-    public partial class TELA_CLIENTES : Form
+    public partial class CadastroValores : Form
     {
-        public TELA_CLIENTES()
+        public CadastroValores()
         {
             InitializeComponent();
         }
 
-        private void TIT_EMAIL_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Btn2_Voltar_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void Btn_Sair_Click(object sender, EventArgs e)
+        private void Btn_9_Sair_Click(object sender, EventArgs e)
         {
             this.Close();
         }

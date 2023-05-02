@@ -1,6 +1,6 @@
 ﻿namespace PizzariaDoZe
 {
-    partial class CADASTRO_INGREDIENTES
+    partial class CadastroIngredientes
     {
         /// <summary>
         /// Required designer variable.

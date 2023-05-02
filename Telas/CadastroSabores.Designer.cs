@@ -1,6 +1,6 @@
 ﻿namespace PizzariaDoZe
 {
-    partial class CADASTRO_SABORES
+    partial class CadastroSabores
     {
         /// <summary>
         /// Required designer variable.
@@ -181,7 +181,7 @@
             // 
             // SABOR_COD_TEXT
             // 
-            SABOR_COD_TEXT.Location = new Point(35, 96);
+            SABOR_COD_TEXT.Location = new Point(35, 99);
             SABOR_COD_TEXT.Name = "SABOR_COD_TEXT";
             SABOR_COD_TEXT.Size = new Size(188, 21);
             SABOR_COD_TEXT.TabIndex = 29;
@@ -206,7 +206,6 @@
             SABOR_NOME_TEXT.Name = "SABOR_NOME_TEXT";
             SABOR_NOME_TEXT.Size = new Size(188, 21);
             SABOR_NOME_TEXT.TabIndex = 27;
-            SABOR_NOME_TEXT.TextChanged += ING_NOME_TEXT_TextChanged;
             // 
             // SABOR_NOME
             // 
@@ -290,7 +289,7 @@
             Btn_8_Sair.UseVisualStyleBackColor = false;
             Btn_8_Sair.Click += Btn_8_Sair_Click;
             // 
-            // CADASTRO_SABORES
+            // CadastroSabores
             // 
             AutoScaleDimensions = new SizeF(9F, 14F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -302,7 +301,7 @@
             Font = new Font("Copperplate Gothic Bold", 9F, FontStyle.Regular, GraphicsUnit.Point);
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(4, 3, 4, 3);
-            Name = "CADASTRO_SABORES";
+            Name = "CadastroSabores";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "CADASTRO_SABORES";
             WindowState = FormWindowState.Maximized;

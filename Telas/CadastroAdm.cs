@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PizzariaDoZe
 {
-    public partial class TELA_ADM : Form
+    public partial class CadastroAdm : Form
     {
-        public TELA_ADM()
+        public CadastroAdm()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace PizzariaDoZe
 {
-    partial class Tela_Produtos
+    partial class CadastrarProdutos
     {
         /// <summary>
         /// Required designer variable.
@@ -34,8 +34,8 @@
             ListBox_10_Tipo = new ListBox();
             Text_10_Nome = new Label();
             Text_10_Valor = new Label();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
+            TextBoxValorCadastros = new TextBox();
+            TextBoxNomeCadastros = new TextBox();
             Tit_10_Cadastrar_Produtos = new Label();
             Pnl_10_Produtos = new Panel();
             crud1 = new CRUD();
@@ -113,19 +113,19 @@
             Text_10_Valor.TabIndex = 20;
             Text_10_Valor.Text = "VALOR:";
             // 
-            // textBox2
+            // TextBoxValorCadastros
             // 
-            textBox2.Location = new Point(38, 188);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(319, 25);
-            textBox2.TabIndex = 19;
+            TextBoxValorCadastros.Location = new Point(38, 188);
+            TextBoxValorCadastros.Name = "TextBoxValorCadastros";
+            TextBoxValorCadastros.Size = new Size(319, 25);
+            TextBoxValorCadastros.TabIndex = 19;
             // 
-            // textBox1
+            // TextBoxNomeCadastros
             // 
-            textBox1.Location = new Point(38, 77);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(319, 25);
-            textBox1.TabIndex = 18;
+            TextBoxNomeCadastros.Location = new Point(38, 77);
+            TextBoxNomeCadastros.Name = "TextBoxNomeCadastros";
+            TextBoxNomeCadastros.Size = new Size(319, 25);
+            TextBoxNomeCadastros.TabIndex = 18;
             // 
             // Tit_10_Cadastrar_Produtos
             // 
@@ -146,9 +146,9 @@
             Pnl_10_Produtos.BackgroundImageLayout = ImageLayout.Stretch;
             Pnl_10_Produtos.Controls.Add(crud1);
             Pnl_10_Produtos.Controls.Add(Text_10_Nome);
-            Pnl_10_Produtos.Controls.Add(textBox2);
+            Pnl_10_Produtos.Controls.Add(TextBoxValorCadastros);
             Pnl_10_Produtos.Controls.Add(Text_10_ML);
-            Pnl_10_Produtos.Controls.Add(textBox1);
+            Pnl_10_Produtos.Controls.Add(TextBoxNomeCadastros);
             Pnl_10_Produtos.Controls.Add(ListBox_10_ML);
             Pnl_10_Produtos.Controls.Add(Text_10_Valor);
             Pnl_10_Produtos.Controls.Add(Text_10_Tipo);
@@ -186,7 +186,7 @@
             Btn_10_Sair.UseVisualStyleBackColor = false;
             Btn_10_Sair.Click += Btn_10_Sair_Click;
             // 
-            // Tela_Produtos
+            // CadastrarProdutos
             // 
             AutoScaleDimensions = new SizeF(12F, 18F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -198,7 +198,7 @@
             Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(5, 4, 5, 4);
-            Name = "Tela_Produtos";
+            Name = "CadastrarProdutos";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Tela_Produtos";
             WindowState = FormWindowState.Maximized;
@@ -216,8 +216,8 @@
         private ListBox ListBox_10_Tipo;
         private Label Text_10_Nome;
         private Label Text_10_Valor;
-        private TextBox textBox2;
-        private TextBox textBox1;
+        private TextBox TextBoxValorCadastros;
+        private TextBox TextBoxNomeCadastros;
         private Label Tit_10_Cadastrar_Produtos;
         private Panel Pnl_10_Produtos;
         private CRUD crud1;

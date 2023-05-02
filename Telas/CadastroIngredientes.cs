@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PizzariaDoZe.Telas;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,21 +8,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using PizzariaDoZe.Telas;
 
 namespace PizzariaDoZe
 {
-    public partial class CADASTRO_INGREDIENTES : Form
+    public partial class CadastroIngredientes : Form
     {
-        public CADASTRO_INGREDIENTES()
+        public CadastroIngredientes()
         {
             InitializeComponent();
+            //Ajuste do Foco campo Nome
+            ING_NOME_TEXT.Enter += new
+            EventHandler(Funcoes.CampoEventoEnter!);
+            ING_NOME_TEXT.Leave += new
+            EventHandler(Funcoes.CampoEventoLeave!);
+            //Ajuste do Foco campo ID
+            ING_ID_TEXT.Enter += new
+            EventHandler(Funcoes.CampoEventoEnter!);
+            ING_ID_TEXT.Leave += new
+            EventHandler(Funcoes.CampoEventoLeave!);
         }
 
         private void VOLTAR_CAD_INGREDIENTES_Click(object sender, EventArgs e)
         {
             this.Close();
-            TELA_CADASTROS cad1 = new();
+            Tela_Cadastros cad1 = new();
             cad1.Show();
 
         }

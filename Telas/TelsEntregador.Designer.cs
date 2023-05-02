@@ -1,6 +1,6 @@
 ﻿namespace PizzariaDoZe
 {
-    partial class TELA_ENTREGADOR
+    partial class TelsEntregador
     {
         /// <summary>
         /// Required designer variable.

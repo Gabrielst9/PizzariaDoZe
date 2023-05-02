@@ -13,10 +13,10 @@ using System.Windows.Forms;
 
 namespace PizzariaDoZe
 {
-    public partial class TELA_LOGIN_INICIAL : Form
+    public partial class TelaInicial : Form
     {
         bool PNL_LATERAL_EXPANDE;
-        public TELA_LOGIN_INICIAL()
+        public TelaInicial()
         {
             InitializeComponent();
             //adiciona eventos em geral, exemplo: ganhar e perder o foco
@@ -30,7 +30,7 @@ namespace PizzariaDoZe
         /// <param name="e"></param>
         private void BTN1_CADASTRO_CLIENT_Click(object sender, EventArgs e)
         {
-            TELA_CLIENTES t1 = new();
+            CadastroCliente t1 = new();
             t1.Show();
         }
 
@@ -48,7 +48,7 @@ namespace PizzariaDoZe
         /// <param name="e"></param>
         private void BTN_LOGIN_ADM_Click(object sender, EventArgs e)
         {
-            Form1 t1 = new();
+            TelaAdm t1 = new();
             t1.Show();
         }
 
@@ -95,7 +95,7 @@ namespace PizzariaDoZe
         /// <param name="e"></param>
         private void BTN1_CLIENTES_Click(object sender, EventArgs e)
         {
-            TELA_LOGIN_INICIAL t1 = new();
+            TelaInicial t1 = new();
             t1.Show();
         }
         /// <summary>
@@ -105,7 +105,7 @@ namespace PizzariaDoZe
         /// <param name="e"></param>
         private void BTN1_LOGIN_Click(object sender, EventArgs e)
         {
-            TELA_INICIAL_CLIENTE t8 = new();
+            TelaInicialClientes t8 = new();
             t8.Show();
         }
         /// <summary>

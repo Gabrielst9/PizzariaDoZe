@@ -2,9 +2,9 @@ using PizzariaDoZe.Telas;
 
 namespace PizzariaDoZe
 {
-    public partial class Form1 : Form
+    public partial class TelaAdm : Form
     {
-        public Form1()
+        public TelaAdm()
         {
             InitializeComponent();
         }
@@ -15,7 +15,7 @@ namespace PizzariaDoZe
 
         private void BTN_CADASTRAR_Click(object sender, EventArgs e)
         {
-            TELA_CADASTROS t7 = new();
+            Tela_Cadastros t7 = new();
             t7.Show();
         }
 

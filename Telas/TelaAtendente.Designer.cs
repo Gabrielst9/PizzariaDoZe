@@ -1,6 +1,6 @@
 ﻿namespace PizzariaDoZe
 {
-    partial class TELA_ATENDENTE
+    partial class TelaAtendente
     {
         /// <summary>
         /// Required designer variable.

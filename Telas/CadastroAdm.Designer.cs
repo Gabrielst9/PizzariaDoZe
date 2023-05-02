@@ -1,6 +1,6 @@
 ﻿namespace PizzariaDoZe
 {
-    partial class TELA_ADM
+    partial class CadastroAdm
     {
         /// <summary>
         /// Required designer variable.

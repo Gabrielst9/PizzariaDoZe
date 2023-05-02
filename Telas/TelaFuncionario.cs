@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PizzariaDoZe
 {
-    public partial class TELA_FUNCIONARIOS : Form
+    public partial class TelaFuncionario : Form
     {
-        public TELA_FUNCIONARIOS()
+        public TelaFuncionario()
         {
             InitializeComponent();
         }
@@ -24,19 +24,19 @@ namespace PizzariaDoZe
 
         private void Btn3_Administrador_Click(object sender, EventArgs e)
         {
-            TELA_ADM t4 = new();
+            CadastroAdm t4 = new();
             t4.Show();
         }
 
         private void Btn3_Atendente_Click(object sender, EventArgs e)
         {
-            TELA_ATENDENTE t4 = new();
+            TelaAtendente t4 = new();
             t4.Show();
         }
 
         private void Btn3_Entregador_Click(object sender, EventArgs e)
         {
-            TELA_ENTREGADOR t6 = new();
+            TelsEntregador t6 = new();
             t6.Show();
         }
     }
