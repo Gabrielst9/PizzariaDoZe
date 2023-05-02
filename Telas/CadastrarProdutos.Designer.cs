@@ -65,7 +65,7 @@
             ListBox_10_ML.Name = "ListBox_10_ML";
             ListBox_10_ML.Size = new Size(151, 94);
             ListBox_10_ML.TabIndex = 24;
-            ListBox_10_ML.SelectedIndexChanged += ListBox_10_ML_SelectedIndexChanged;
+            //ListBox_10_ML.SelectedIndexChanged += ListBox_10_ML_SelectedIndexChanged;
             // 
             // Text_10_Tipo
             // 
@@ -89,7 +89,7 @@
             ListBox_10_Tipo.Name = "ListBox_10_Tipo";
             ListBox_10_Tipo.Size = new Size(151, 94);
             ListBox_10_Tipo.TabIndex = 22;
-            ListBox_10_Tipo.SelectedIndexChanged += ListBox_10_Tipo_SelectedIndexChanged;
+            //ListBox_10_Tipo.SelectedIndexChanged += ListBox_10_Tipo_SelectedIndexChanged;
             // 
             // Text_10_Nome
             // 

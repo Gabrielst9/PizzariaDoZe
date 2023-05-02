@@ -85,7 +85,6 @@
             TIT_EMAIL.TabIndex = 2;
             TIT_EMAIL.Text = "EMAIL";
             TIT_EMAIL.TextAlign = ContentAlignment.TopCenter;
-            TIT_EMAIL.Click += TIT_EMAIL_Click;
             // 
             // TIT_CPF
             // 
