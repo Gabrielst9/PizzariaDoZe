@@ -16,6 +16,9 @@ namespace PizzariaDoZe
         public CadastroIngredientes()
         {
             InitializeComponent();
+
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown!);
+
             //Ajuste do Foco campo Nome
             ING_NOME_TEXT.Enter += new
             EventHandler(Funcoes.CampoEventoEnter!);

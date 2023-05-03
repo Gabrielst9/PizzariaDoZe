@@ -307,6 +307,7 @@
             Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
             ForeColor = SystemColors.Info;
             FormBorderStyle = FormBorderStyle.None;
+            KeyPreview = true;
             Margin = new Padding(6, 4, 6, 4);
             Name = "CadastroAdm";
             StartPosition = FormStartPosition.CenterScreen;

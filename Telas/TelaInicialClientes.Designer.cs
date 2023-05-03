@@ -133,6 +133,7 @@
             Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
             ForeColor = SystemColors.Info;
             FormBorderStyle = FormBorderStyle.None;
+            KeyPreview = true;
             Margin = new Padding(5, 4, 5, 4);
             Name = "TelaInicialClientes";
             StartPosition = FormStartPosition.CenterScreen;

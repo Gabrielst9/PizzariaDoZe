@@ -15,6 +15,8 @@ namespace PizzariaDoZe.Telas
         public Tela_Cadastros()
         {
             InitializeComponent();
+
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown!);
         }
 
         private void BTN_Cadastrar_Ingredientes_Click(object sender, EventArgs e)

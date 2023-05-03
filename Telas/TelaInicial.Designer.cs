@@ -243,11 +243,13 @@
             Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
             ForeColor = SystemColors.Info;
             FormBorderStyle = FormBorderStyle.None;
+            KeyPreview = true;
             Margin = new Padding(5, 4, 5, 4);
             Name = "TelaInicial";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "TELA_LOGIN_INICIAL";
             WindowState = FormWindowState.Maximized;
+            Load += TelaInicial_Load;
             PNL_LATERAL_LOGIN.ResumeLayout(false);
             PNL1_MENU.ResumeLayout(false);
             PNL1_MENU.PerformLayout();

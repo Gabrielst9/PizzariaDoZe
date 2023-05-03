@@ -123,6 +123,7 @@
             Controls.Add(Titulo_Principal);
             Font = new Font("Copperplate Gothic Bold", 9F, FontStyle.Regular, GraphicsUnit.Point);
             FormBorderStyle = FormBorderStyle.None;
+            KeyPreview = true;
             Margin = new Padding(4, 3, 4, 3);
             Name = "TelaAdm";
             StartPosition = FormStartPosition.CenterScreen;

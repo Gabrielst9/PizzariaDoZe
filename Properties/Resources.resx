@@ -517,4 +517,8 @@
     <value>VOLTAR</value>
     <comment>CADASTRO SABORES - 10</comment>
   </data>
+  <data name="ConfirmarFechamentoDeFormulario" xml:space="preserve">
+    <value>Tem certeza que deseja sair?, Confirmação</value>
+    <comment>Mensagem de Fechamento das janelas</comment>
+  </data>
 </root>

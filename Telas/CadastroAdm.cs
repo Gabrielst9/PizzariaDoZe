@@ -16,6 +16,8 @@ namespace PizzariaDoZe
         {
             InitializeComponent();
 
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown!);
+
             Textbox4_NOME.Enter += new
            EventHandler(Funcoes.CampoEventoEnter!);
             Textbox4_NOME.Leave += new

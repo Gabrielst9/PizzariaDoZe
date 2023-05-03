@@ -15,6 +15,8 @@ namespace PizzariaDoZe
         public TelaInicialClientes()
         {
             InitializeComponent();
+
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown!);
         }
 
         private void BTN8_SAIR_Click(object sender, EventArgs e)

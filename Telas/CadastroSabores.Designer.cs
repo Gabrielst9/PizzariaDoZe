@@ -300,11 +300,13 @@
             Controls.Add(Pnl_8_Sabores);
             Font = new Font("Copperplate Gothic Bold", 9F, FontStyle.Regular, GraphicsUnit.Point);
             FormBorderStyle = FormBorderStyle.None;
+            KeyPreview = true;
             Margin = new Padding(4, 3, 4, 3);
             Name = "CadastroSabores";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "CADASTRO_SABORES";
             WindowState = FormWindowState.Maximized;
+            Load += CadastroSabores_Load;
             Pnl_8_Sabores.ResumeLayout(false);
             Pnl_8_Sabores.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)FOTO_SABOR).EndInit();

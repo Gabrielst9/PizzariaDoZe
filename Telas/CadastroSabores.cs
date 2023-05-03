@@ -16,6 +16,9 @@ namespace PizzariaDoZe
         public CadastroSabores()
         {
             InitializeComponent();
+
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown!);
+
             //Ajuste do Foco campo 
             SABOR_NOME_TEXT.Enter += new
             EventHandler(Funcoes.CampoEventoEnter!);
@@ -52,6 +55,11 @@ namespace PizzariaDoZe
         }
 
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CadastroSabores_Load(object sender, EventArgs e)
         {
 
         }

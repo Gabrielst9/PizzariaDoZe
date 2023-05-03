@@ -22,7 +22,7 @@ namespace PizzariaDoZe.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace PizzariaDoZe.Properties {
         ///   Retorna a instância de ResourceManager armazenada em cache usada por essa classe.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("PizzariaDoZe.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace PizzariaDoZe.Properties {
         ///   pesquisas de recursos que usam essa classe de recurso de tipo de alta segurança.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _291125 {
+        public static System.Drawing.Bitmap _291125 {
             get {
                 object obj = ResourceManager.GetObject("291125", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -73,7 +73,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a SAIR.
         /// </summary>
-        internal static string BTN_10_SAIR {
+        public static string BTN_10_SAIR {
             get {
                 return ResourceManager.GetString("BTN_10_SAIR", resourceCulture);
             }
@@ -82,7 +82,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a SAIR.
         /// </summary>
-        internal static string BTN_11_SAIR {
+        public static string BTN_11_SAIR {
             get {
                 return ResourceManager.GetString("BTN_11_SAIR", resourceCulture);
             }
@@ -91,7 +91,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a INGREDIENTES.
         /// </summary>
-        internal static string BTN_7_INGREDIENTES_Text {
+        public static string BTN_7_INGREDIENTES_Text {
             get {
                 return ResourceManager.GetString("BTN_7_INGREDIENTES.Text", resourceCulture);
             }
@@ -100,7 +100,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a PRODUTOS.
         /// </summary>
-        internal static string BTN_7_PRODUTOS_Text {
+        public static string BTN_7_PRODUTOS_Text {
             get {
                 return ResourceManager.GetString("BTN_7_PRODUTOS.Text", resourceCulture);
             }
@@ -109,7 +109,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a SABORES.
         /// </summary>
-        internal static string BTN_7_SABORES_Text {
+        public static string BTN_7_SABORES_Text {
             get {
                 return ResourceManager.GetString("BTN_7_SABORES.Text", resourceCulture);
             }
@@ -118,7 +118,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a VALORES.
         /// </summary>
-        internal static string BTN_7_VALORES_Text {
+        public static string BTN_7_VALORES_Text {
             get {
                 return ResourceManager.GetString("BTN_7_VALORES.Text", resourceCulture);
             }
@@ -127,7 +127,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a SAIR.
         /// </summary>
-        internal static string BTN_8_SAIR_Text {
+        public static string BTN_8_SAIR_Text {
             get {
                 return ResourceManager.GetString("BTN_8_SAIR.Text", resourceCulture);
             }
@@ -136,7 +136,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a SAIR.
         /// </summary>
-        internal static string BTN_9_SAIR {
+        public static string BTN_9_SAIR {
             get {
                 return ResourceManager.GetString("BTN_9_SAIR", resourceCulture);
             }
@@ -145,7 +145,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a CADASTRAR.
         /// </summary>
-        internal static string BTN_CADASTRAR_Text {
+        public static string BTN_CADASTRAR_Text {
             get {
                 return ResourceManager.GetString("BTN_CADASTRAR.Text", resourceCulture);
             }
@@ -154,7 +154,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a ADMINISTRADOR.
         /// </summary>
-        internal static string BTN_LOGIN_ADM_Text {
+        public static string BTN_LOGIN_ADM_Text {
             get {
                 return ResourceManager.GetString("BTN_LOGIN_ADM.Text", resourceCulture);
             }
@@ -163,7 +163,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a PEDIDOS.
         /// </summary>
-        internal static string BTN_PEDIDOS_Text {
+        public static string BTN_PEDIDOS_Text {
             get {
                 return ResourceManager.GetString("BTN_PEDIDOS.Text", resourceCulture);
             }
@@ -172,7 +172,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a SAIR.
         /// </summary>
-        internal static string BTN_SAIR_Text {
+        public static string BTN_SAIR_Text {
             get {
                 return ResourceManager.GetString("BTN_SAIR.Text", resourceCulture);
             }
@@ -181,7 +181,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a SALVAR.
         /// </summary>
-        internal static string BTN_SALVAR_INGREDIENTES_Text {
+        public static string BTN_SALVAR_INGREDIENTES_Text {
             get {
                 return ResourceManager.GetString("BTN_SALVAR_INGREDIENTES.Text", resourceCulture);
             }
@@ -190,7 +190,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a CADASTRAR.
         /// </summary>
-        internal static string BTN1_CADASTRO_CLIENT_Text {
+        public static string BTN1_CADASTRO_CLIENT_Text {
             get {
                 return ResourceManager.GetString("BTN1_CADASTRO_CLIENT.Text", resourceCulture);
             }
@@ -199,7 +199,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a CLIENTE.
         /// </summary>
-        internal static string BTN1_CLIENTES_Text {
+        public static string BTN1_CLIENTES_Text {
             get {
                 return ResourceManager.GetString("BTN1_CLIENTES.Text", resourceCulture);
             }
@@ -208,7 +208,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a ENTRAR.
         /// </summary>
-        internal static string BTN1_LOGIN_Text {
+        public static string BTN1_LOGIN_Text {
             get {
                 return ResourceManager.GetString("BTN1_LOGIN.Text", resourceCulture);
             }
@@ -217,7 +217,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a SAIR.
         /// </summary>
-        internal static string BTN1_SAIR_Text {
+        public static string BTN1_SAIR_Text {
             get {
                 return ResourceManager.GetString("BTN1_SAIR.Text", resourceCulture);
             }
@@ -226,7 +226,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a SAIR.
         /// </summary>
-        internal static string Btn20_SAIR_Text {
+        public static string Btn20_SAIR_Text {
             get {
                 return ResourceManager.GetString("Btn20_SAIR.Text", resourceCulture);
             }
@@ -235,7 +235,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a SAIR.
         /// </summary>
-        internal static string BTN4_VOLTAR {
+        public static string BTN4_VOLTAR {
             get {
                 return ResourceManager.GetString("BTN4_VOLTAR", resourceCulture);
             }
@@ -244,7 +244,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a ENVIAR.
         /// </summary>
-        internal static string BTN5_ENVIAR_Text {
+        public static string BTN5_ENVIAR_Text {
             get {
                 return ResourceManager.GetString("BTN5_ENVIAR.Text", resourceCulture);
             }
@@ -253,7 +253,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a VOLTAR.
         /// </summary>
-        internal static string BTN5_VOLTAR_Text {
+        public static string BTN5_VOLTAR_Text {
             get {
                 return ResourceManager.GetString("BTN5_VOLTAR.Text", resourceCulture);
             }
@@ -262,7 +262,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a VOLTAR.
         /// </summary>
-        internal static string BTN6_VOLTAR_Text {
+        public static string BTN6_VOLTAR_Text {
             get {
                 return ResourceManager.GetString("BTN6_VOLTAR.Text", resourceCulture);
             }
@@ -271,7 +271,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a CLIENTES.
         /// </summary>
-        internal static string BTN7_CLIENTES_Text {
+        public static string BTN7_CLIENTES_Text {
             get {
                 return ResourceManager.GetString("BTN7_CLIENTES.Text", resourceCulture);
             }
@@ -280,7 +280,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a FUNCIONÁRIOS.
         /// </summary>
-        internal static string BTN7_FUNCIONARIOS_Text {
+        public static string BTN7_FUNCIONARIOS_Text {
             get {
                 return ResourceManager.GetString("BTN7_FUNCIONARIOS.Text", resourceCulture);
             }
@@ -289,7 +289,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a SAIR.
         /// </summary>
-        internal static string BTN7_SAIR_Text {
+        public static string BTN7_SAIR_Text {
             get {
                 return ResourceManager.GetString("BTN7_SAIR.Text", resourceCulture);
             }
@@ -298,7 +298,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a FAZER PEDIDO.
         /// </summary>
-        internal static string BTN8_FAZER_PEDIDO_Text {
+        public static string BTN8_FAZER_PEDIDO_Text {
             get {
                 return ResourceManager.GetString("BTN8_FAZER_PEDIDO.Text", resourceCulture);
             }
@@ -307,7 +307,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a VER PEDIDOS PENDENTES.
         /// </summary>
-        internal static string BTN8_PENDENTES {
+        public static string BTN8_PENDENTES {
             get {
                 return ResourceManager.GetString("BTN8_PENDENTES", resourceCulture);
             }
@@ -316,7 +316,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a CATALOGO DE SABORES.
         /// </summary>
-        internal static string BTN8_SABORES {
+        public static string BTN8_SABORES {
             get {
                 return ResourceManager.GetString("BTN8_SABORES", resourceCulture);
             }
@@ -325,7 +325,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a SAIR.
         /// </summary>
-        internal static string BTN8_SAIR {
+        public static string BTN8_SAIR {
             get {
                 return ResourceManager.GetString("BTN8_SAIR", resourceCulture);
             }
@@ -334,16 +334,25 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a CATEGORIA.
         /// </summary>
-        internal static string CATEGORIA_SABOR_Text {
+        public static string CATEGORIA_SABOR_Text {
             get {
                 return ResourceManager.GetString("CATEGORIA_SABOR.Text", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Tem certeza que deseja sair?, Confirmação.
+        /// </summary>
+        public static string ConfirmarFechamentoDeFormulario {
+            get {
+                return ResourceManager.GetString("ConfirmarFechamentoDeFormulario", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icons8_bullet_list_30 {
+        public static System.Drawing.Bitmap icons8_bullet_list_30 {
             get {
                 object obj = ResourceManager.GetObject("icons8-bullet-list-30", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -353,7 +362,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icons8_lock_48 {
+        public static System.Drawing.Bitmap icons8_lock_48 {
             get {
                 object obj = ResourceManager.GetObject("icons8-lock-48", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -363,7 +372,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icons8_menu_48 {
+        public static System.Drawing.Bitmap icons8_menu_48 {
             get {
                 object obj = ResourceManager.GetObject("icons8-menu-48", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -373,7 +382,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icons8_menu_squared_50 {
+        public static System.Drawing.Bitmap icons8_menu_squared_50 {
             get {
                 object obj = ResourceManager.GetObject("icons8-menu-squared-50", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -383,7 +392,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icons8_reminders_50 {
+        public static System.Drawing.Bitmap icons8_reminders_50 {
             get {
                 object obj = ResourceManager.GetObject("icons8-reminders-50", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -393,7 +402,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icons8_user_male_48 {
+        public static System.Drawing.Bitmap icons8_user_male_48 {
             get {
                 object obj = ResourceManager.GetObject("icons8-user-male-48", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -403,7 +412,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a NOME.
         /// </summary>
-        internal static string ING_NOME {
+        public static string ING_NOME {
             get {
                 return ResourceManager.GetString("ING_NOME", resourceCulture);
             }
@@ -412,7 +421,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap istockphoto_1137028124_612x612 {
+        public static System.Drawing.Bitmap istockphoto_1137028124_612x612 {
             get {
                 object obj = ResourceManager.GetObject("istockphoto-1137028124-612x612", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -422,7 +431,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a CADASTRO ATENDENTE.
         /// </summary>
-        internal static string LABEL1_Text {
+        public static string LABEL1_Text {
             get {
                 return ResourceManager.GetString("LABEL1.Text", resourceCulture);
             }
@@ -431,7 +440,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a HABILITAÇÃO - A.
         /// </summary>
-        internal static string RADIO6_HAB_A_Text {
+        public static string RADIO6_HAB_A_Text {
             get {
                 return ResourceManager.GetString("RADIO6_HAB_A.Text", resourceCulture);
             }
@@ -440,7 +449,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a HABILITAÇÃO - B.
         /// </summary>
-        internal static string RADIO6_HAB_B_Text {
+        public static string RADIO6_HAB_B_Text {
             get {
                 return ResourceManager.GetString("RADIO6_HAB_B.Text", resourceCulture);
             }
@@ -449,7 +458,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a HABILITAÇÃO - C.
         /// </summary>
-        internal static string RADIO6_HAB_C_Text {
+        public static string RADIO6_HAB_C_Text {
             get {
                 return ResourceManager.GetString("RADIO6_HAB_C.Text", resourceCulture);
             }
@@ -458,7 +467,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a HABILITAÇÃO - D.
         /// </summary>
-        internal static string RADIO6_HAB_D_Text {
+        public static string RADIO6_HAB_D_Text {
             get {
                 return ResourceManager.GetString("RADIO6_HAB_D.Text", resourceCulture);
             }
@@ -467,7 +476,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a CÓDIGO.
         /// </summary>
-        internal static string SABOR_COD_Text {
+        public static string SABOR_COD_Text {
             get {
                 return ResourceManager.GetString("SABOR_COD.Text", resourceCulture);
             }
@@ -476,7 +485,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a FOTO.
         /// </summary>
-        internal static string SABOR_FOTO_Text {
+        public static string SABOR_FOTO_Text {
             get {
                 return ResourceManager.GetString("SABOR_FOTO.Text", resourceCulture);
             }
@@ -485,7 +494,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a INGREDIENTES.
         /// </summary>
-        internal static string SABOR_INGREDIENTES_Text {
+        public static string SABOR_INGREDIENTES_Text {
             get {
                 return ResourceManager.GetString("SABOR_INGREDIENTES.Text", resourceCulture);
             }
@@ -494,7 +503,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a NOME.
         /// </summary>
-        internal static string SABOR_NOME_Text {
+        public static string SABOR_NOME_Text {
             get {
                 return ResourceManager.GetString("SABOR_NOME.Text", resourceCulture);
             }
@@ -503,7 +512,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_1 {
+        public static System.Drawing.Bitmap Screenshot_1 {
             get {
                 object obj = ResourceManager.GetObject("Screenshot_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -513,7 +522,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a .
         /// </summary>
-        internal static string String1 {
+        public static string String1 {
             get {
                 return ResourceManager.GetString("String1", resourceCulture);
             }
@@ -522,7 +531,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a ML.
         /// </summary>
-        internal static string TEXT_10_ML_Text {
+        public static string TEXT_10_ML_Text {
             get {
                 return ResourceManager.GetString("TEXT_10_ML.Text", resourceCulture);
             }
@@ -531,7 +540,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a NOME.
         /// </summary>
-        internal static string TEXT_10_NOME_Text {
+        public static string TEXT_10_NOME_Text {
             get {
                 return ResourceManager.GetString("TEXT_10_NOME.Text", resourceCulture);
             }
@@ -540,7 +549,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a TIPO.
         /// </summary>
-        internal static string TEXT_10_TIPO_Text {
+        public static string TEXT_10_TIPO_Text {
             get {
                 return ResourceManager.GetString("TEXT_10_TIPO.Text", resourceCulture);
             }
@@ -549,7 +558,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a VALOR.
         /// </summary>
-        internal static string TEXT_10_VALOR_Text {
+        public static string TEXT_10_VALOR_Text {
             get {
                 return ResourceManager.GetString("TEXT_10_VALOR.Text", resourceCulture);
             }
@@ -558,7 +567,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a CATEGORIA.
         /// </summary>
-        internal static string TEXT_9_CATEGORIAS_Text {
+        public static string TEXT_9_CATEGORIAS_Text {
             get {
                 return ResourceManager.GetString("TEXT_9_CATEGORIAS.Text", resourceCulture);
             }
@@ -567,7 +576,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a TAMANHOS.
         /// </summary>
-        internal static string TEXT_9_TAMANHOS_Text {
+        public static string TEXT_9_TAMANHOS_Text {
             get {
                 return ResourceManager.GetString("TEXT_9_TAMANHOS.Text", resourceCulture);
             }
@@ -576,7 +585,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a VALOR.
         /// </summary>
-        internal static string TEXT_9_VALOR {
+        public static string TEXT_9_VALOR {
             get {
                 return ResourceManager.GetString("TEXT_9_VALOR", resourceCulture);
             }
@@ -585,7 +594,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a VALOR ADICIONAL BORDA.
         /// </summary>
-        internal static string TEXT_9_VALORES_ADICIONAIS_Text {
+        public static string TEXT_9_VALORES_ADICIONAIS_Text {
             get {
                 return ResourceManager.GetString("TEXT_9_VALORES_ADICIONAIS.Text", resourceCulture);
             }
@@ -594,7 +603,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a ENDEREÇO.
         /// </summary>
-        internal static string TEXT_ENDERECO_Text {
+        public static string TEXT_ENDERECO_Text {
             get {
                 return ResourceManager.GetString("TEXT_ENDERECO.Text", resourceCulture);
             }
@@ -603,7 +612,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a NOME.
         /// </summary>
-        internal static string TEXT_NOME_Text {
+        public static string TEXT_NOME_Text {
             get {
                 return ResourceManager.GetString("TEXT_NOME.Text", resourceCulture);
             }
@@ -612,7 +621,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a PRIMEIRA VEZ? CRIE UMA CONTA!.
         /// </summary>
-        internal static string TEXT_PRIMEI_VEZ_Text {
+        public static string TEXT_PRIMEI_VEZ_Text {
             get {
                 return ResourceManager.GetString("TEXT_PRIMEI_VEZ.Text", resourceCulture);
             }
@@ -621,7 +630,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a JÁ TEM UMA CONTA? FAÇA LOGIN.
         /// </summary>
-        internal static string TEXT1_FACA_LOGIN_Text {
+        public static string TEXT1_FACA_LOGIN_Text {
             get {
                 return ResourceManager.GetString("TEXT1_FACA_LOGIN.Text", resourceCulture);
             }
@@ -630,7 +639,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a MENU.
         /// </summary>
-        internal static string TEXT1_MENU_Text {
+        public static string TEXT1_MENU_Text {
             get {
                 return ResourceManager.GetString("TEXT1_MENU.Text", resourceCulture);
             }
@@ -639,7 +648,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a CONFIRMAR SENHA.
         /// </summary>
-        internal static string TEXT4_CNF_SENHA {
+        public static string TEXT4_CNF_SENHA {
             get {
                 return ResourceManager.GetString("TEXT4_CNF_SENHA", resourceCulture);
             }
@@ -648,7 +657,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a CPF.
         /// </summary>
-        internal static string TEXT4_CPF {
+        public static string TEXT4_CPF {
             get {
                 return ResourceManager.GetString("TEXT4_CPF", resourceCulture);
             }
@@ -657,7 +666,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a EMAIL.
         /// </summary>
-        internal static string TEXT4_EMAIL {
+        public static string TEXT4_EMAIL {
             get {
                 return ResourceManager.GetString("TEXT4_EMAIL", resourceCulture);
             }
@@ -666,7 +675,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a ENDEREÇO.
         /// </summary>
-        internal static string TEXT4_ENDERECO {
+        public static string TEXT4_ENDERECO {
             get {
                 return ResourceManager.GetString("TEXT4_ENDERECO", resourceCulture);
             }
@@ -675,7 +684,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a NOME.
         /// </summary>
-        internal static string TEXT4_NOME {
+        public static string TEXT4_NOME {
             get {
                 return ResourceManager.GetString("TEXT4_NOME", resourceCulture);
             }
@@ -684,7 +693,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a SENHA.
         /// </summary>
-        internal static string TEXT4_SENHA {
+        public static string TEXT4_SENHA {
             get {
                 return ResourceManager.GetString("TEXT4_SENHA", resourceCulture);
             }
@@ -693,7 +702,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a TELEFONE.
         /// </summary>
-        internal static string TEXT4_TELEFONE {
+        public static string TEXT4_TELEFONE {
             get {
                 return ResourceManager.GetString("TEXT4_TELEFONE", resourceCulture);
             }
@@ -702,7 +711,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a CONFIRMAR SENHA.
         /// </summary>
-        internal static string TEXT5_CNF_SENHA_Text {
+        public static string TEXT5_CNF_SENHA_Text {
             get {
                 return ResourceManager.GetString("TEXT5_CNF_SENHA.Text", resourceCulture);
             }
@@ -711,7 +720,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a CPF.
         /// </summary>
-        internal static string TEXT5_CPF_Text {
+        public static string TEXT5_CPF_Text {
             get {
                 return ResourceManager.GetString("TEXT5_CPF.Text", resourceCulture);
             }
@@ -720,7 +729,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a EMAIL.
         /// </summary>
-        internal static string TEXT5_EMAIL_Text {
+        public static string TEXT5_EMAIL_Text {
             get {
                 return ResourceManager.GetString("TEXT5_EMAIL.Text", resourceCulture);
             }
@@ -729,7 +738,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a ENDEREÇO.
         /// </summary>
-        internal static string TEXT5_ENDERECO_Text {
+        public static string TEXT5_ENDERECO_Text {
             get {
                 return ResourceManager.GetString("TEXT5_ENDERECO.Text", resourceCulture);
             }
@@ -738,7 +747,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a NOME.
         /// </summary>
-        internal static string TEXT5_NOME_Text {
+        public static string TEXT5_NOME_Text {
             get {
                 return ResourceManager.GetString("TEXT5_NOME.Text", resourceCulture);
             }
@@ -747,7 +756,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a SENHA.
         /// </summary>
-        internal static string TEXT5_SENHA_Text {
+        public static string TEXT5_SENHA_Text {
             get {
                 return ResourceManager.GetString("TEXT5_SENHA.Text", resourceCulture);
             }
@@ -756,7 +765,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a TELEFONE.
         /// </summary>
-        internal static string TEXT5_TELEFONE_Text {
+        public static string TEXT5_TELEFONE_Text {
             get {
                 return ResourceManager.GetString("TEXT5_TELEFONE.Text", resourceCulture);
             }
@@ -765,7 +774,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a CONFIRMAR SENHA.
         /// </summary>
-        internal static string TEXT6_CNF_SENHA_Text {
+        public static string TEXT6_CNF_SENHA_Text {
             get {
                 return ResourceManager.GetString("TEXT6_CNF_SENHA.Text", resourceCulture);
             }
@@ -774,7 +783,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a CPF.
         /// </summary>
-        internal static string TEXT6_CPF_Text {
+        public static string TEXT6_CPF_Text {
             get {
                 return ResourceManager.GetString("TEXT6_CPF.Text", resourceCulture);
             }
@@ -783,7 +792,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a EMAIL.
         /// </summary>
-        internal static string TEXT6_EMAIL_Text {
+        public static string TEXT6_EMAIL_Text {
             get {
                 return ResourceManager.GetString("TEXT6_EMAIL.Text", resourceCulture);
             }
@@ -792,7 +801,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a ENDEREÇO.
         /// </summary>
-        internal static string TEXT6_ENDERECO_Text {
+        public static string TEXT6_ENDERECO_Text {
             get {
                 return ResourceManager.GetString("TEXT6_ENDERECO.Text", resourceCulture);
             }
@@ -801,7 +810,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a NOME.
         /// </summary>
-        internal static string TEXT6_NOME_Text {
+        public static string TEXT6_NOME_Text {
             get {
                 return ResourceManager.GetString("TEXT6_NOME.Text", resourceCulture);
             }
@@ -810,7 +819,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a OBSERVAÇÃO:.
         /// </summary>
-        internal static string TEXT6_OBSERVACAO_Text {
+        public static string TEXT6_OBSERVACAO_Text {
             get {
                 return ResourceManager.GetString("TEXT6_OBSERVACAO.Text", resourceCulture);
             }
@@ -819,7 +828,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a SELECIONE A HABILITAÇÃO:.
         /// </summary>
-        internal static string TEXT6_SEL_HAB_Text {
+        public static string TEXT6_SEL_HAB_Text {
             get {
                 return ResourceManager.GetString("TEXT6_SEL_HAB.Text", resourceCulture);
             }
@@ -828,7 +837,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a SENHA.
         /// </summary>
-        internal static string TEXT6_SENHA_Text {
+        public static string TEXT6_SENHA_Text {
             get {
                 return ResourceManager.GetString("TEXT6_SENHA.Text", resourceCulture);
             }
@@ -837,7 +846,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a TELEFONE.
         /// </summary>
-        internal static string TEXT6_TELEFONE_Text {
+        public static string TEXT6_TELEFONE_Text {
             get {
                 return ResourceManager.GetString("TEXT6_TELEFONE.Text", resourceCulture);
             }
@@ -846,7 +855,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a ATA DO VENCIMENTO DA \r\nCARTEIRA DE MOTORISTA.
         /// </summary>
-        internal static string TEXT6_VALID_HAB_Text {
+        public static string TEXT6_VALID_HAB_Text {
             get {
                 return ResourceManager.GetString("TEXT6_VALID_HAB.Text", resourceCulture);
             }
@@ -855,7 +864,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a TIPO.
         /// </summary>
-        internal static string TIPO_SABOR_Text {
+        public static string TIPO_SABOR_Text {
             get {
                 return ResourceManager.GetString("TIPO_SABOR.Text", resourceCulture);
             }
@@ -864,7 +873,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a CADASTRAR PRODUTOS.
         /// </summary>
-        internal static string TIT_10_CADASTRAR_PRODUTOS_Text {
+        public static string TIT_10_CADASTRAR_PRODUTOS_Text {
             get {
                 return ResourceManager.GetString("TIT_10_CADASTRAR_PRODUTOS.Text", resourceCulture);
             }
@@ -873,7 +882,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a CADASTRO DE INGREDIENTES.
         /// </summary>
-        internal static string TIT_11_INGREDIENTES_Text {
+        public static string TIT_11_INGREDIENTES_Text {
             get {
                 return ResourceManager.GetString("TIT_11_INGREDIENTES.Text", resourceCulture);
             }
@@ -882,7 +891,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a CADASTRO DE ADMINISTRADOR.
         /// </summary>
-        internal static string TIT_ADM_Text {
+        public static string TIT_ADM_Text {
             get {
                 return ResourceManager.GetString("TIT_ADM.Text", resourceCulture);
             }
@@ -891,7 +900,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a CPF.
         /// </summary>
-        internal static string TIT_CPF_Text {
+        public static string TIT_CPF_Text {
             get {
                 return ResourceManager.GetString("TIT_CPF.Text", resourceCulture);
             }
@@ -900,7 +909,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a EMAIL.
         /// </summary>
-        internal static string TIT_EMAIL_Text {
+        public static string TIT_EMAIL_Text {
             get {
                 return ResourceManager.GetString("TIT_EMAIL.Text", resourceCulture);
             }
@@ -909,7 +918,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a TELEFONE.
         /// </summary>
-        internal static string TIT_TELEFONE_Text {
+        public static string TIT_TELEFONE_Text {
             get {
                 return ResourceManager.GetString("TIT_TELEFONE.Text", resourceCulture);
             }
@@ -918,7 +927,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a CADASTRAR VALORES.
         /// </summary>
-        internal static string TIT12_CADASTRAR_Text {
+        public static string TIT12_CADASTRAR_Text {
             get {
                 return ResourceManager.GetString("TIT12_CADASTRAR.Text", resourceCulture);
             }
@@ -927,7 +936,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a CADASTRO DE ENTREGADOR.
         /// </summary>
-        internal static string TIT6_ENTREGADOR_Text {
+        public static string TIT6_ENTREGADOR_Text {
             get {
                 return ResourceManager.GetString("TIT6_ENTREGADOR.Text", resourceCulture);
             }
@@ -936,7 +945,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a CADASTRAR:.
         /// </summary>
-        internal static string TIT7_CADASTRAR_Text {
+        public static string TIT7_CADASTRAR_Text {
             get {
                 return ResourceManager.GetString("TIT7_CADASTRAR.Text", resourceCulture);
             }
@@ -945,7 +954,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a CADASTRO DE SABORES.
         /// </summary>
-        internal static string TIT8_CADASTRO_SABORES_Text {
+        public static string TIT8_CADASTRO_SABORES_Text {
             get {
                 return ResourceManager.GetString("TIT8_CADASTRO_SABORES.Text", resourceCulture);
             }
@@ -954,7 +963,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a CADASTRO DE CLIENTES.
         /// </summary>
-        internal static string TITULO_CADASTRO_CLI_Text {
+        public static string TITULO_CADASTRO_CLI_Text {
             get {
                 return ResourceManager.GetString("TITULO_CADASTRO_CLI.Text", resourceCulture);
             }
@@ -963,7 +972,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a PIZZARIA DO ZÉ.
         /// </summary>
-        internal static string TITULO_PRINCIPAL_Text {
+        public static string TITULO_PRINCIPAL_Text {
             get {
                 return ResourceManager.GetString("TITULO_PRINCIPAL.Text", resourceCulture);
             }
@@ -972,7 +981,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a PIZZARIA DO ZÉ.
         /// </summary>
-        internal static string Titulo8_Principal {
+        public static string Titulo8_Principal {
             get {
                 return ResourceManager.GetString("Titulo8_Principal", resourceCulture);
             }
@@ -981,7 +990,7 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a VOLTAR.
         /// </summary>
-        internal static string VOLTAR_CAD_INGREDIENTES_Text {
+        public static string VOLTAR_CAD_INGREDIENTES_Text {
             get {
                 return ResourceManager.GetString("VOLTAR_CAD_INGREDIENTES.Text", resourceCulture);
             }

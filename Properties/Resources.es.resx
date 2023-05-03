@@ -393,4 +393,7 @@
   <data name="VOLTAR_CAD_INGREDIENTES.Text" xml:space="preserve">
     <value>&amp;atrás</value>
   </data>
+  <data name="ConfirmarFechamentoDeFormulario" xml:space="preserve">
+    <value>¿Estás seguro de que quieres salir?, Confirmación</value>
+  </data>
 </root>

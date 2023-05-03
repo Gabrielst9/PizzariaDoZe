@@ -241,6 +241,7 @@
             Controls.Add(PNL2_CADRASTRO_CLI);
             Controls.Add(TITULO_CADASTRO_CLI);
             FormBorderStyle = FormBorderStyle.None;
+            KeyPreview = true;
             Name = "CadastroCliente";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "TELA_CLIENTES";

@@ -57,53 +57,97 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;Btn_Sair.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Btn3_Voltar.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Btn3_Atendente.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="Btn3_Administrador.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 76</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="TIT_GRUPOS.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="Btn3_Voltar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>349, 336</value>
-  </data>
-  <data name="Btn_Sair.Location" type="System.Drawing.Point, System.Drawing">
-    <value>361, 326</value>
+  <data name="TIT_GRUPOS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, -1</value>
   </data>
   <data name="&gt;&gt;Btn3_Administrador.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;Btn3_Entregador.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;Btn3_Voltar.Name" xml:space="preserve">
+    <value>Btn3_Voltar</value>
   </data>
-  <data name="&gt;&gt;Btn3_Administrador.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Btn3_Entregador.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>15, 24</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>TELA_FUNCIONARIOS</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 5, 6, 5</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1370, 720</value>
+  </data>
+  <data name="&gt;&gt;Btn3_Administrador.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Btn3_Voltar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>349, 336</value>
+  </data>
+  <data name="&gt;&gt;Btn3_Administrador.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Btn_Sair.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Btn3_Entregador.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Copperplate Gothic Bold, 15.75pt</value>
+  </data>
+  <data name="Btn3_Administrador.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Btn3_Voltar.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Btn_Sair.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Btn3_Entregador.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>TelaFuncionario</value>
+  </data>
+  <data name="Btn_Sair.Location" type="System.Drawing.Point, System.Drawing">
+    <value>361, 326</value>
+  </data>
+  <data name="&gt;&gt;Btn3_Atendente.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Btn_Sair.Name" xml:space="preserve">
+    <value>Btn_Sair</value>
+  </data>
+  <data name="Btn3_Entregador.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;TIT_GRUPOS.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Btn3_Voltar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Btn3_Atendente.Name" xml:space="preserve">
+    <value>Btn3_Atendente</value>
+  </data>
+  <data name="&gt;&gt;Btn3_Voltar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Btn3_Administrador.Name" xml:space="preserve">
+    <value>Btn3_Administrador</value>
   </data>
   <data name="&gt;&gt;Btn_Sair.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;TIT_GRUPOS.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Btn3_Administrador.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="Btn3_Administrador.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 76</value>
   </data>
   <data name="Btn3_Entregador.Location" type="System.Drawing.Point, System.Drawing">
     <value>229, 249</value>
@@ -111,91 +155,47 @@
   <data name="Btn3_Atendente.Location" type="System.Drawing.Point, System.Drawing">
     <value>229, 166</value>
   </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Copperplate Gothic Bold, 15.75pt</value>
-  </data>
   <data name="&gt;&gt;Btn_Sair.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;TIT_GRUPOS.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Btn3_Entregador.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>15, 24</value>
-  </data>
-  <data name="&gt;&gt;Btn3_Voltar.Name" xml:space="preserve">
-    <value>Btn3_Voltar</value>
-  </data>
-  <data name="&gt;&gt;Btn3_Voltar.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="Btn3_Atendente.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;Btn3_Administrador.Name" xml:space="preserve">
-    <value>Btn3_Administrador</value>
-  </data>
-  <data name="&gt;&gt;Btn3_Atendente.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="Btn_Sair.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="TIT_GRUPOS.Location" type="System.Drawing.Point, System.Drawing">
-    <value>291, -1</value>
-  </data>
-  <data name="&gt;&gt;Btn3_Atendente.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;Btn3_Atendente.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Btn3_Entregador.Name" xml:space="preserve">
-    <value>Btn3_Entregador</value>
-  </data>
-  <data name="&gt;&gt;Btn_Sair.Name" xml:space="preserve">
-    <value>Btn_Sair</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TIT_GRUPOS.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="Btn3_Voltar.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
+  <data name="&gt;&gt;TIT_GRUPOS.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Btn3_Atendente.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;TIT_GRUPOS.Name" xml:space="preserve">
     <value>TIT_GRUPOS</value>
   </data>
-  <data name="&gt;&gt;Btn3_Entregador.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="TIT_GRUPOS.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1370, 720</value>
+  <data name="&gt;&gt;TIT_GRUPOS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Btn3_Entregador.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
   </data>
-  <data name="&gt;&gt;Btn3_Administrador.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="Btn3_Atendente.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
-  <data name="&gt;&gt;Btn3_Atendente.Name" xml:space="preserve">
-    <value>Btn3_Atendente</value>
+  <data name="&gt;&gt;Btn3_Entregador.Name" xml:space="preserve">
+    <value>Btn3_Entregador</value>
   </data>
-  <data name="&gt;&gt;Btn3_Voltar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>TelaFuncionario</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
     <value>pt</value>
   </metadata>
   <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
 </root>

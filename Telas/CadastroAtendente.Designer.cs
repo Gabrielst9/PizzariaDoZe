@@ -290,6 +290,7 @@
             Font = new Font("Copperplate Gothic Bold", 9F, FontStyle.Regular, GraphicsUnit.Point);
             ForeColor = SystemColors.Info;
             FormBorderStyle = FormBorderStyle.None;
+            KeyPreview = true;
             Margin = new Padding(4, 3, 4, 3);
             Name = "CadastroAtendente";
             StartPosition = FormStartPosition.CenterScreen;

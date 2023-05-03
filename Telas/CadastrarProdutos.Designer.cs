@@ -195,6 +195,7 @@
             Controls.Add(Tit_10_Cadastrar_Produtos);
             Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
             FormBorderStyle = FormBorderStyle.None;
+            KeyPreview = true;
             Margin = new Padding(5, 4, 5, 4);
             Name = "CadastrarProdutos";
             StartPosition = FormStartPosition.CenterScreen;

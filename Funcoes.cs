@@ -103,7 +103,15 @@ namespace PizzariaDoZe
                 }
             }
         }
-
+        /// <summary>
+        /// Tratar eventos de teclado, no caso tecla ENTER funcionando com TAB e tecla ESC para fechar
+        /// </summary>
+        /// <remarks>KeyPreview do formulário para true.</remarks>
+        /// <param name="sender">Objeto que gerou o evento</param>
+        /// <param name="e">Evento que foi capturado</param>
+        /// <example>No construtor do formulário:
+        /// this.KeyDown += new System.Windows.Forms.KeyEventHandler(ClassFuncoes.FormEventoKeyDown);
+        ///</example>
         public static void FormEventoKeyDown(object sender, KeyEventArgs e)
         {
             //obtém o form onde o componente gerou o evento
@@ -124,6 +132,18 @@ namespace PizzariaDoZe
             else if (e.KeyCode == Keys.Escape)
             {
                 form.Close();
+            }
+        }
+        /// <summary>
+        /// confirmação para fechar as janelas
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        public static void ConfirmarFechamentoDeFormulario(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("Tem certeza que deseja sair?", "Confirmação", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
+            {
+                e.Cancel = true;
             }
         }
     }

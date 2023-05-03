@@ -150,6 +150,7 @@
             Controls.Add(Tit_11_Ingredientes);
             Controls.Add(Pnl_11_Ingredientes);
             FormBorderStyle = FormBorderStyle.None;
+            KeyPreview = true;
             Name = "CadastroIngredientes";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "CADASTRO_INGREDIENTES";

@@ -16,6 +16,7 @@ namespace PizzariaDoZe
         public Tela_Configuracoes()
         {
             InitializeComponent();
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown!);
             //seleciona no comboBox o idioma/cultura atual
             Combo20Idiomas.SelectedItem = ConfigurationManager.AppSettings.Get("IdiomaRegiao");
             //adiciona eventos em geral, exemplo: ganhar e perder o foco

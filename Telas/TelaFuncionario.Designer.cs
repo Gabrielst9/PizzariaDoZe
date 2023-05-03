@@ -101,6 +101,7 @@
             Controls.Add(Btn3_Voltar);
             ForeColor = SystemColors.Info;
             FormBorderStyle = FormBorderStyle.None;
+            KeyPreview = true;
             Name = "TelaFuncionario";
             WindowState = FormWindowState.Maximized;
             ResumeLayout(false);

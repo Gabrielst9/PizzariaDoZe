@@ -7,6 +7,8 @@ namespace PizzariaDoZe
         public TelaAdm()
         {
             InitializeComponent();
+
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown!);
         }
         private void Btn20_Sair_Click(object sender, EventArgs e)
         {

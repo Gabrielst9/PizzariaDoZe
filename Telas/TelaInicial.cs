@@ -21,6 +21,10 @@ namespace PizzariaDoZe
             InitializeComponent();
             //adiciona eventos em geral, exemplo: ganhar e perder o foco
             Funcoes.EventoFocoCampos(this);
+            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown!);
+
+            //confirmação para fechar as janelas
+            this.FormClosing += Funcoes.ConfirmarFechamentoDeFormulario;
 
         }
         /// <summary>
@@ -120,6 +124,11 @@ namespace PizzariaDoZe
         }
 
         private void PNL_LATERAL_LOGIN_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void TelaInicial_Load(object sender, EventArgs e)
         {
 
         }
