@@ -27,7 +27,7 @@ namespace PizzariaDoZe
             //confirmação para fechar as janelas
             this.FormClosing += Funcoes.ConfirmarFechamentoDeFormulario;
 
-           
+
 
         }
         /// <summary>
@@ -140,6 +140,35 @@ namespace PizzariaDoZe
         {
             TelaShortCuts t = new TelaShortCuts();
             t.Show();
+        }
+
+        private void contextMenuStrip_Opening(object sender, CancelEventArgs e)
+        {
+
+        }
+
+        private void abrirApliacaçaoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void FormPrincipal_Resize(object sender, EventArgs e)
+        {
+            if (this.WindowState == FormWindowState.Minimized)
+            {
+                this.Hide();
+                notifyIconSystemTray.Visible = true;
+            }
+            else if (FormWindowState.Normal == this.WindowState)
+            {
+                notifyIconSystemTray.Visible = false;
+            }
+        }
+        private void NotifyIconSystemTray_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            Show();
+            notifyIconSystemTray.ShowBalloonTip(1000);
+            WindowState = FormWindowState.Normal;
+            notifyIconSystemTray.Visible = false;
         }
     }
 }

@@ -28,11 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaInicial));
             PNL_LATERAL_LOGIN = new FlowLayoutPanel();
             PNL1_MENU = new Panel();
             BTN_MENU = new Button();
             TEXT1_MENU = new Label();
             panel1 = new Panel();
+            BTN_TelaPrincipalShortCuts = new Button();
             BtnConfiguracoes = new Button();
             BTN1_CLIENTES = new Button();
             BTN_LOGIN_ADM = new Button();
@@ -42,11 +45,16 @@
             BTN1_LOGIN = new Button();
             PNL1_MENU_LOGIN = new Panel();
             BTN1_SAIR = new Button();
-            BTN_TelaPrincipalShortCuts = new Button();
+            notifyIconSystemTray = new NotifyIcon(components);
+            contextMenuStrip = new ContextMenuStrip(components);
+            abrirApliacaçaoToolStripMenuItem = new ToolStripMenuItem();
+            encerrarToolStripMenuItem = new ToolStripMenuItem();
+            sobreToolStripMenuItem = new ToolStripMenuItem();
             PNL_LATERAL_LOGIN.SuspendLayout();
             PNL1_MENU.SuspendLayout();
             panel1.SuspendLayout();
             PNL1_MENU_LOGIN.SuspendLayout();
+            contextMenuStrip.SuspendLayout();
             SuspendLayout();
             // 
             // PNL_LATERAL_LOGIN
@@ -92,7 +100,7 @@
             TEXT1_MENU.AutoSize = true;
             TEXT1_MENU.Location = new Point(65, 35);
             TEXT1_MENU.Name = "TEXT1_MENU";
-            TEXT1_MENU.Size = new Size(62, 18);
+            TEXT1_MENU.Size = new Size(94, 26);
             TEXT1_MENU.TabIndex = 1;
             TEXT1_MENU.Text = "MENU";
             // 
@@ -107,6 +115,24 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(207, 245);
             panel1.TabIndex = 5;
+            // 
+            // BTN_TelaPrincipalShortCuts
+            // 
+            BTN_TelaPrincipalShortCuts.Anchor = AnchorStyles.None;
+            BTN_TelaPrincipalShortCuts.BackColor = SystemColors.Info;
+            BTN_TelaPrincipalShortCuts.BackgroundImageLayout = ImageLayout.None;
+            BTN_TelaPrincipalShortCuts.Font = new Font("Copperplate Gothic Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            BTN_TelaPrincipalShortCuts.ForeColor = SystemColors.ControlText;
+            BTN_TelaPrincipalShortCuts.ImageAlign = ContentAlignment.BottomLeft;
+            BTN_TelaPrincipalShortCuts.Location = new Point(4, 219);
+            BTN_TelaPrincipalShortCuts.Margin = new Padding(0);
+            BTN_TelaPrincipalShortCuts.Name = "BTN_TelaPrincipalShortCuts";
+            BTN_TelaPrincipalShortCuts.Size = new Size(127, 24);
+            BTN_TelaPrincipalShortCuts.TabIndex = 7;
+            BTN_TelaPrincipalShortCuts.Text = "SHORTCUTS";
+            BTN_TelaPrincipalShortCuts.TextAlign = ContentAlignment.TopRight;
+            BTN_TelaPrincipalShortCuts.UseVisualStyleBackColor = false;
+            BTN_TelaPrincipalShortCuts.Click += BTN_TelaPrincipalShortCuts_Click;
             // 
             // BtnConfiguracoes
             // 
@@ -148,7 +174,7 @@
             BTN_LOGIN_ADM.ImageAlign = ContentAlignment.MiddleLeft;
             BTN_LOGIN_ADM.Location = new Point(-1, 54);
             BTN_LOGIN_ADM.Name = "BTN_LOGIN_ADM";
-            BTN_LOGIN_ADM.Size = new Size(208, 44);
+            BTN_LOGIN_ADM.Size = new Size(209, 44);
             BTN_LOGIN_ADM.TabIndex = 4;
             BTN_LOGIN_ADM.Text = "         ADMINISTRADOR";
             BTN_LOGIN_ADM.UseVisualStyleBackColor = false;
@@ -173,7 +199,7 @@
             TEXT_PRIMEI_VEZ.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
             TEXT_PRIMEI_VEZ.Location = new Point(3, 41);
             TEXT_PRIMEI_VEZ.Name = "TEXT_PRIMEI_VEZ";
-            TEXT_PRIMEI_VEZ.Size = new Size(310, 18);
+            TEXT_PRIMEI_VEZ.Size = new Size(469, 26);
             TEXT_PRIMEI_VEZ.TabIndex = 2;
             TEXT_PRIMEI_VEZ.Text = "PRIMEIRA VEZ? CRIE UMA CONTA!";
             // 
@@ -184,7 +210,7 @@
             TEXT1_FACA_LOGIN.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
             TEXT1_FACA_LOGIN.Location = new Point(15, 197);
             TEXT1_FACA_LOGIN.Name = "TEXT1_FACA_LOGIN";
-            TEXT1_FACA_LOGIN.Size = new Size(285, 18);
+            TEXT1_FACA_LOGIN.Size = new Size(430, 26);
             TEXT1_FACA_LOGIN.TabIndex = 3;
             TEXT1_FACA_LOGIN.Text = "JA TEM CONTA? FAÇA O LOGIN";
             // 
@@ -232,27 +258,45 @@
             BTN1_SAIR.UseVisualStyleBackColor = false;
             BTN1_SAIR.Click += BTN1_SAIR_Click;
             // 
-            // BTN_TelaPrincipalShortCuts
+            // notifyIconSystemTray
             // 
-            BTN_TelaPrincipalShortCuts.Anchor = AnchorStyles.None;
-            BTN_TelaPrincipalShortCuts.BackColor = SystemColors.Info;
-            BTN_TelaPrincipalShortCuts.BackgroundImageLayout = ImageLayout.None;
-            BTN_TelaPrincipalShortCuts.Font = new Font("Copperplate Gothic Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            BTN_TelaPrincipalShortCuts.ForeColor = SystemColors.ControlText;
-            BTN_TelaPrincipalShortCuts.ImageAlign = ContentAlignment.BottomLeft;
-            BTN_TelaPrincipalShortCuts.Location = new Point(4, 219);
-            BTN_TelaPrincipalShortCuts.Margin = new Padding(0);
-            BTN_TelaPrincipalShortCuts.Name = "BTN_TelaPrincipalShortCuts";
-            BTN_TelaPrincipalShortCuts.Size = new Size(127, 24);
-            BTN_TelaPrincipalShortCuts.TabIndex = 7;
-            BTN_TelaPrincipalShortCuts.Text = "SHORTCUTS";
-            BTN_TelaPrincipalShortCuts.TextAlign = ContentAlignment.TopRight;
-            BTN_TelaPrincipalShortCuts.UseVisualStyleBackColor = false;
-            BTN_TelaPrincipalShortCuts.Click += BTN_TelaPrincipalShortCuts_Click;
+            notifyIconSystemTray.BalloonTipIcon = ToolTipIcon.Info;
+            notifyIconSystemTray.BalloonTipText = "Executando em segundo plano";
+            notifyIconSystemTray.BalloonTipTitle = "Pizzaria do Zé";
+            notifyIconSystemTray.ContextMenuStrip = contextMenuStrip;
+            notifyIconSystemTray.Icon = (Icon)resources.GetObject("notifyIconSystemTray.Icon");
+            notifyIconSystemTray.Text = "Pizzaria do Zé";
+            // 
+            // contextMenuStrip
+            // 
+            contextMenuStrip.ImageScalingSize = new Size(24, 24);
+            contextMenuStrip.Items.AddRange(new ToolStripItem[] { abrirApliacaçaoToolStripMenuItem, encerrarToolStripMenuItem, sobreToolStripMenuItem });
+            contextMenuStrip.Name = "contextMenuStrip";
+            contextMenuStrip.Size = new Size(241, 133);
+            contextMenuStrip.Opening += contextMenuStrip_Opening;
+            // 
+            // abrirApliacaçaoToolStripMenuItem
+            // 
+            abrirApliacaçaoToolStripMenuItem.Name = "abrirApliacaçaoToolStripMenuItem";
+            abrirApliacaçaoToolStripMenuItem.Size = new Size(240, 32);
+            abrirApliacaçaoToolStripMenuItem.Text = "AbrirApliacaçao";
+            abrirApliacaçaoToolStripMenuItem.Click += abrirApliacaçaoToolStripMenuItem_Click;
+            // 
+            // encerrarToolStripMenuItem
+            // 
+            encerrarToolStripMenuItem.Name = "encerrarToolStripMenuItem";
+            encerrarToolStripMenuItem.Size = new Size(240, 32);
+            encerrarToolStripMenuItem.Text = "Encerrar";
+            // 
+            // sobreToolStripMenuItem
+            // 
+            sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
+            sobreToolStripMenuItem.Size = new Size(240, 32);
+            sobreToolStripMenuItem.Text = "Sobre";
             // 
             // TelaInicial
             // 
-            AutoScaleDimensions = new SizeF(12F, 18F);
+            AutoScaleDimensions = new SizeF(17F, 26F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
             BackgroundImage = Properties.Resources.istockphoto_1137028124_612x612;
@@ -276,6 +320,7 @@
             panel1.ResumeLayout(false);
             PNL1_MENU_LOGIN.ResumeLayout(false);
             PNL1_MENU_LOGIN.PerformLayout();
+            contextMenuStrip.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -297,5 +342,10 @@
         private Button BTN1_SAIR;
         private Button BtnConfiguracoes;
         private Button BTN_TelaPrincipalShortCuts;
+        private NotifyIcon notifyIconSystemTray;
+        private ContextMenuStrip contextMenuStrip;
+        private ToolStripMenuItem abrirApliacaçaoToolStripMenuItem;
+        private ToolStripMenuItem encerrarToolStripMenuItem;
+        private ToolStripMenuItem sobreToolStripMenuItem;
     }
 }
