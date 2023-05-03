@@ -89,7 +89,7 @@
             TIT_GRUPOS.Image = Properties.Resources.Screenshot_1;
             TIT_GRUPOS.Name = "TIT_GRUPOS";
             // 
-            // TELA_FUNCIONARIOS
+            // TelaFuncionario
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
@@ -101,7 +101,7 @@
             Controls.Add(Btn3_Voltar);
             ForeColor = SystemColors.Info;
             FormBorderStyle = FormBorderStyle.None;
-            Name = "TELA_FUNCIONARIOS";
+            Name = "TelaFuncionario";
             WindowState = FormWindowState.Maximized;
             ResumeLayout(false);
             PerformLayout();

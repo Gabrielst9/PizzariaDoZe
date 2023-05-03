@@ -15,6 +15,41 @@ namespace PizzariaDoZe
         public CadastroAdm()
         {
             InitializeComponent();
+
+            Textbox4_NOME.Enter += new
+           EventHandler(Funcoes.CampoEventoEnter!);
+            Textbox4_NOME.Leave += new
+            EventHandler(Funcoes.CampoEventoLeave!);
+
+            Textbox4_EMAIL.Enter += new
+            EventHandler(Funcoes.CampoEventoEnter!);
+            Textbox4_EMAIL.Leave += new
+            EventHandler(Funcoes.CampoEventoLeave!);
+
+            Textbox4_ENDERECO.Enter += new
+           EventHandler(Funcoes.CampoEventoEnter!);
+            Textbox4_ENDERECO.Leave += new
+            EventHandler(Funcoes.CampoEventoLeave!);
+
+            Textbox4_SENHA.Enter += new
+           EventHandler(Funcoes.CampoEventoEnter!);
+            Textbox4_SENHA.Leave += new
+            EventHandler(Funcoes.CampoEventoLeave!);
+
+            Textbox4_CNF_SENHA.Enter += new
+           EventHandler(Funcoes.CampoEventoEnter!);
+            Textbox4_CNF_SENHA.Leave += new
+            EventHandler(Funcoes.CampoEventoLeave!);
+
+            Maskedbox4_CPF.Enter += new
+           EventHandler(Funcoes.CampoEventoEnter!);
+            Maskedbox4_CPF.Leave += new
+            EventHandler(Funcoes.CampoEventoLeave!);
+
+            Maskedbox4_TELEFONE.Enter += new
+           EventHandler(Funcoes.CampoEventoEnter!);
+            Maskedbox4_TELEFONE.Leave += new
+            EventHandler(Funcoes.CampoEventoLeave!);
         }
 
         private void Maskedbox4_TELEFONE_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)

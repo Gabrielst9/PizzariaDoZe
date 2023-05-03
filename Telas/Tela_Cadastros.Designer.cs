@@ -61,7 +61,7 @@
             BTN_Cadastro_Sabores.Location = new Point(23, 131);
             BTN_Cadastro_Sabores.Name = "BTN_Cadastro_Sabores";
             BTN_Cadastro_Sabores.Size = new Size(135, 58);
-            BTN_Cadastro_Sabores.TabIndex = 2;
+            BTN_Cadastro_Sabores.TabIndex = 4;
             BTN_Cadastro_Sabores.Text = "CADASTRAR SABORES";
             BTN_Cadastro_Sabores.UseVisualStyleBackColor = true;
             BTN_Cadastro_Sabores.Click += BTN_Cadastro_Sabores_Click;
@@ -102,7 +102,7 @@
             BTN_CadastrarFuncionarios.Location = new Point(350, 33);
             BTN_CadastrarFuncionarios.Name = "BTN_CadastrarFuncionarios";
             BTN_CadastrarFuncionarios.Size = new Size(135, 58);
-            BTN_CadastrarFuncionarios.TabIndex = 5;
+            BTN_CadastrarFuncionarios.TabIndex = 3;
             BTN_CadastrarFuncionarios.Text = "CADASTRAR FUNCIONARIOS";
             BTN_CadastrarFuncionarios.UseVisualStyleBackColor = true;
             BTN_CadastrarFuncionarios.Click += BTN_CadastrarFuncionarios_Click;
@@ -115,7 +115,7 @@
             BTN_CadastroValores.Location = new Point(184, 131);
             BTN_CadastroValores.Name = "BTN_CadastroValores";
             BTN_CadastroValores.Size = new Size(135, 58);
-            BTN_CadastroValores.TabIndex = 4;
+            BTN_CadastroValores.TabIndex = 5;
             BTN_CadastroValores.Text = "CADASTRAR VALORES";
             BTN_CadastroValores.UseVisualStyleBackColor = true;
             BTN_CadastroValores.Click += BTN_CadastroValores_Click;
@@ -128,7 +128,7 @@
             BTN_CadastrarClientes.Location = new Point(184, 33);
             BTN_CadastrarClientes.Name = "BTN_CadastrarClientes";
             BTN_CadastrarClientes.Size = new Size(135, 58);
-            BTN_CadastrarClientes.TabIndex = 3;
+            BTN_CadastrarClientes.TabIndex = 2;
             BTN_CadastrarClientes.Text = "CADASTRAR CLIENTES";
             BTN_CadastrarClientes.UseVisualStyleBackColor = true;
             BTN_CadastrarClientes.Click += BTN_CadastrarClientes_Click;
@@ -143,7 +143,7 @@
             BTN_Sair_TelaCadastro.Location = new Point(439, 380);
             BTN_Sair_TelaCadastro.Name = "BTN_Sair_TelaCadastro";
             BTN_Sair_TelaCadastro.Size = new Size(150, 58);
-            BTN_Sair_TelaCadastro.TabIndex = 4;
+            BTN_Sair_TelaCadastro.TabIndex = 7;
             BTN_Sair_TelaCadastro.Text = "SAIR";
             BTN_Sair_TelaCadastro.UseVisualStyleBackColor = true;
             BTN_Sair_TelaCadastro.Click += BTN_Sair_TelaCadastro_Click;

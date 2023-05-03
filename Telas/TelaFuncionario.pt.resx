@@ -106,6 +106,9 @@
   <data name="Btn3_Administrador.Size" type="System.Drawing.Size, System.Drawing">
     <value>365, 54</value>
   </data>
+  <data name="Btn3_Administrador.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
   <data name="Btn3_Administrador.Text" xml:space="preserve">
     <value>ADMINISTRADOR</value>
   </data>
@@ -133,6 +136,9 @@
   <data name="Btn3_Atendente.Size" type="System.Drawing.Size, System.Drawing">
     <value>365, 54</value>
   </data>
+  <data name="Btn3_Atendente.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
   <data name="Btn3_Atendente.Text" xml:space="preserve">
     <value>ATENDENTE</value>
   </data>
@@ -159,6 +165,9 @@
   </data>
   <data name="Btn3_Entregador.Size" type="System.Drawing.Size, System.Drawing">
     <value>365, 54</value>
+  </data>
+  <data name="Btn3_Entregador.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="Btn3_Entregador.Text" xml:space="preserve">
     <value>ENTREGADOR</value>

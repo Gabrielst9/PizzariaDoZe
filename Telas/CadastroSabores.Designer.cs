@@ -82,7 +82,7 @@
             crud1.Location = new Point(38, 303);
             crud1.Name = "crud1";
             crud1.Size = new Size(583, 65);
-            crud1.TabIndex = 38;
+            crud1.TabIndex = 5;
             // 
             // SABOR_INGREDIENTES
             // 
@@ -103,7 +103,7 @@
             listView1.Location = new Point(359, 160);
             listView1.Name = "listView1";
             listView1.Size = new Size(262, 105);
-            listView1.TabIndex = 36;
+            listView1.TabIndex = 4;
             listView1.UseCompatibleStateImageBehavior = false;
             listView1.SelectedIndexChanged += listView1_SelectedIndexChanged;
             // 
@@ -130,7 +130,7 @@
             SABOR_TIPO.Location = new Point(35, 217);
             SABOR_TIPO.Name = "SABOR_TIPO";
             SABOR_TIPO.Size = new Size(188, 36);
-            SABOR_TIPO.TabIndex = 34;
+            SABOR_TIPO.TabIndex = 3;
             // 
             // CATEGORIA_SABOR
             // 
@@ -155,7 +155,7 @@
             SABOR_CATEGORIA.Location = new Point(35, 157);
             SABOR_CATEGORIA.Name = "SABOR_CATEGORIA";
             SABOR_CATEGORIA.Size = new Size(188, 36);
-            SABOR_CATEGORIA.TabIndex = 32;
+            SABOR_CATEGORIA.TabIndex = 2;
             // 
             // SABOR_FOTO
             // 
@@ -184,7 +184,7 @@
             SABOR_COD_TEXT.Location = new Point(35, 99);
             SABOR_COD_TEXT.Name = "SABOR_COD_TEXT";
             SABOR_COD_TEXT.Size = new Size(188, 21);
-            SABOR_COD_TEXT.TabIndex = 29;
+            SABOR_COD_TEXT.TabIndex = 1;
             // 
             // SABOR_COD
             // 
@@ -205,7 +205,7 @@
             SABOR_NOME_TEXT.Location = new Point(35, 36);
             SABOR_NOME_TEXT.Name = "SABOR_NOME_TEXT";
             SABOR_NOME_TEXT.Size = new Size(188, 21);
-            SABOR_NOME_TEXT.TabIndex = 27;
+            SABOR_NOME_TEXT.TabIndex = 0;
             // 
             // SABOR_NOME
             // 
@@ -284,7 +284,7 @@
             Btn_8_Sair.Margin = new Padding(4, 3, 4, 3);
             Btn_8_Sair.Name = "Btn_8_Sair";
             Btn_8_Sair.Size = new Size(229, 32);
-            Btn_8_Sair.TabIndex = 30;
+            Btn_8_Sair.TabIndex = 6;
             Btn_8_Sair.Text = "SAIR";
             Btn_8_Sair.UseVisualStyleBackColor = false;
             Btn_8_Sair.Click += Btn_8_Sair_Click;

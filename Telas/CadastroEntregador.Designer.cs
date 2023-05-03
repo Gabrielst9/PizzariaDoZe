@@ -1,6 +1,6 @@
 ﻿namespace PizzariaDoZe
 {
-    partial class TelsEntregador
+    partial class CadastroEntregador
     {
         /// <summary>
         /// Required designer variable.
@@ -37,8 +37,8 @@
             Text6_SENHA = new Label();
             Textbox6_ENDERECO = new TextBox();
             Textbox6_SENHA = new TextBox();
-            Textbox5_EMAIL = new TextBox();
-            Textbox5_NOME = new TextBox();
+            Textbox6_EMAIL = new TextBox();
+            Textbox6_NOME = new TextBox();
             Btn6_Voltar = new Button();
             Maskedbox6_CPF = new MaskedTextBox();
             TEXT6_TELEFONE = new Label();
@@ -51,7 +51,7 @@
             RADIO6_HAB_B = new RadioButton();
             splitContainer1 = new SplitContainer();
             TEXT6_OBSERVACAO = new Label();
-            textBox1 = new TextBox();
+            Textbox6_OBSERVACAO = new TextBox();
             CALEND6_VENC_CARTEI = new MonthCalendar();
             TEXT6_VALID_HAB = new Label();
             TEXT6_SEL_HAB = new Label();
@@ -96,7 +96,7 @@
             TextBox6_CNF_SENHA.Location = new Point(23, 307);
             TextBox6_CNF_SENHA.Name = "TextBox6_CNF_SENHA";
             TextBox6_CNF_SENHA.Size = new Size(228, 21);
-            TextBox6_CNF_SENHA.TabIndex = 61;
+            TextBox6_CNF_SENHA.TabIndex = 7;
             TextBox6_CNF_SENHA.TextChanged += TextBox6_CNF_SENHA_TextChanged;
             // 
             // TEXT6_CPF
@@ -161,7 +161,7 @@
             Textbox6_ENDERECO.PasswordChar = '*';
             Textbox6_ENDERECO.RightToLeft = RightToLeft.No;
             Textbox6_ENDERECO.Size = new Size(229, 21);
-            Textbox6_ENDERECO.TabIndex = 55;
+            Textbox6_ENDERECO.TabIndex = 3;
             Textbox6_ENDERECO.TextChanged += Textbox6_ENDERECO_TextChanged;
             // 
             // Textbox6_SENHA
@@ -170,32 +170,32 @@
             Textbox6_SENHA.Location = new Point(23, 262);
             Textbox6_SENHA.Name = "Textbox6_SENHA";
             Textbox6_SENHA.Size = new Size(228, 21);
-            Textbox6_SENHA.TabIndex = 58;
+            Textbox6_SENHA.TabIndex = 6;
             Textbox6_SENHA.TextChanged += Textbox6_SENHA_TextChanged;
             // 
-            // Textbox5_EMAIL
+            // Textbox6_EMAIL
             // 
-            Textbox5_EMAIL.Anchor = AnchorStyles.None;
-            Textbox5_EMAIL.Font = new Font("Copperplate Gothic Bold", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            Textbox5_EMAIL.Location = new Point(22, 170);
-            Textbox5_EMAIL.Name = "Textbox5_EMAIL";
-            Textbox5_EMAIL.PasswordChar = '*';
-            Textbox5_EMAIL.Size = new Size(228, 21);
-            Textbox5_EMAIL.TabIndex = 54;
-            Textbox5_EMAIL.TextChanged += Textbox5_EMAIL_TextChanged;
+            Textbox6_EMAIL.Anchor = AnchorStyles.None;
+            Textbox6_EMAIL.Font = new Font("Copperplate Gothic Bold", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            Textbox6_EMAIL.Location = new Point(22, 170);
+            Textbox6_EMAIL.Name = "Textbox6_EMAIL";
+            Textbox6_EMAIL.PasswordChar = '*';
+            Textbox6_EMAIL.Size = new Size(228, 21);
+            Textbox6_EMAIL.TabIndex = 4;
+            Textbox6_EMAIL.TextChanged += Textbox5_EMAIL_TextChanged;
             // 
-            // Textbox5_NOME
+            // Textbox6_NOME
             // 
-            Textbox5_NOME.Anchor = AnchorStyles.None;
-            Textbox5_NOME.BackColor = SystemColors.ButtonHighlight;
-            Textbox5_NOME.Cursor = Cursors.IBeam;
-            Textbox5_NOME.Font = new Font("Copperplate Gothic Bold", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            Textbox5_NOME.ForeColor = SystemColors.MenuText;
-            Textbox5_NOME.Location = new Point(22, 37);
-            Textbox5_NOME.Name = "Textbox5_NOME";
-            Textbox5_NOME.Size = new Size(228, 21);
-            Textbox5_NOME.TabIndex = 46;
-            Textbox5_NOME.TextChanged += Textbox5_NOME_TextChanged;
+            Textbox6_NOME.Anchor = AnchorStyles.None;
+            Textbox6_NOME.BackColor = SystemColors.ButtonHighlight;
+            Textbox6_NOME.Cursor = Cursors.IBeam;
+            Textbox6_NOME.Font = new Font("Copperplate Gothic Bold", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            Textbox6_NOME.ForeColor = SystemColors.MenuText;
+            Textbox6_NOME.Location = new Point(22, 37);
+            Textbox6_NOME.Name = "Textbox6_NOME";
+            Textbox6_NOME.Size = new Size(228, 21);
+            Textbox6_NOME.TabIndex = 0;
+            Textbox6_NOME.TextChanged += Textbox5_NOME_TextChanged;
             // 
             // Btn6_Voltar
             // 
@@ -210,7 +210,7 @@
             Btn6_Voltar.Margin = new Padding(4, 3, 4, 3);
             Btn6_Voltar.Name = "Btn6_Voltar";
             Btn6_Voltar.Size = new Size(129, 31);
-            Btn6_Voltar.TabIndex = 57;
+            Btn6_Voltar.TabIndex = 15;
             Btn6_Voltar.Text = "VOLTAR";
             Btn6_Voltar.UseVisualStyleBackColor = false;
             Btn6_Voltar.Click += Btn6_Voltar_Click;
@@ -224,7 +224,7 @@
             Maskedbox6_CPF.Name = "Maskedbox6_CPF";
             Maskedbox6_CPF.RightToLeft = RightToLeft.No;
             Maskedbox6_CPF.Size = new Size(228, 21);
-            Maskedbox6_CPF.TabIndex = 53;
+            Maskedbox6_CPF.TabIndex = 1;
             Maskedbox6_CPF.MaskInputRejected += Maskedbox6_CPF_MaskInputRejected;
             // 
             // TEXT6_TELEFONE
@@ -263,7 +263,7 @@
             Maskedbox6_TELEFONE.Mask = "(999) 00 0000-0000";
             Maskedbox6_TELEFONE.Name = "Maskedbox6_TELEFONE";
             Maskedbox6_TELEFONE.Size = new Size(228, 21);
-            Maskedbox6_TELEFONE.TabIndex = 52;
+            Maskedbox6_TELEFONE.TabIndex = 5;
             Maskedbox6_TELEFONE.MaskInputRejected += Maskedbox6_TELEFONE_MaskInputRejected;
             // 
             // RADIO6_HAB_A
@@ -274,7 +274,7 @@
             RADIO6_HAB_A.Location = new Point(15, 12);
             RADIO6_HAB_A.Name = "RADIO6_HAB_A";
             RADIO6_HAB_A.Size = new Size(138, 18);
-            RADIO6_HAB_A.TabIndex = 63;
+            RADIO6_HAB_A.TabIndex = 9;
             RADIO6_HAB_A.TabStop = true;
             RADIO6_HAB_A.Text = "HABILITAÇÃO - A";
             RADIO6_HAB_A.UseVisualStyleBackColor = false;
@@ -299,7 +299,7 @@
             RADIO6_HAB_D.Location = new Point(15, 81);
             RADIO6_HAB_D.Name = "RADIO6_HAB_D";
             RADIO6_HAB_D.Size = new Size(138, 18);
-            RADIO6_HAB_D.TabIndex = 66;
+            RADIO6_HAB_D.TabIndex = 12;
             RADIO6_HAB_D.Text = "HABILITAÇÃO - D";
             RADIO6_HAB_D.UseVisualStyleBackColor = false;
             // 
@@ -310,7 +310,7 @@
             RADIO6_HAB_C.Location = new Point(15, 57);
             RADIO6_HAB_C.Name = "RADIO6_HAB_C";
             RADIO6_HAB_C.Size = new Size(138, 18);
-            RADIO6_HAB_C.TabIndex = 65;
+            RADIO6_HAB_C.TabIndex = 11;
             RADIO6_HAB_C.Text = "HABILITAÇÃO - C";
             RADIO6_HAB_C.UseVisualStyleBackColor = false;
             // 
@@ -321,7 +321,7 @@
             RADIO6_HAB_B.Location = new Point(15, 36);
             RADIO6_HAB_B.Name = "RADIO6_HAB_B";
             RADIO6_HAB_B.Size = new Size(138, 18);
-            RADIO6_HAB_B.TabIndex = 64;
+            RADIO6_HAB_B.TabIndex = 10;
             RADIO6_HAB_B.Text = "HABILITAÇÃO - B";
             RADIO6_HAB_B.UseVisualStyleBackColor = false;
             // 
@@ -337,15 +337,15 @@
             splitContainer1.Panel1.BackgroundImage = Properties.Resources.Screenshot_1;
             splitContainer1.Panel1.BackgroundImageLayout = ImageLayout.Stretch;
             splitContainer1.Panel1.Controls.Add(TEXT6_OBSERVACAO);
-            splitContainer1.Panel1.Controls.Add(textBox1);
+            splitContainer1.Panel1.Controls.Add(Textbox6_OBSERVACAO);
             splitContainer1.Panel1.Controls.Add(TEXT6_NOME);
             splitContainer1.Panel1.Controls.Add(Maskedbox6_TELEFONE);
             splitContainer1.Panel1.Controls.Add(TextBox6_CNF_SENHA);
             splitContainer1.Panel1.Controls.Add(TEXT6_CPF);
-            splitContainer1.Panel1.Controls.Add(Textbox5_NOME);
+            splitContainer1.Panel1.Controls.Add(Textbox6_NOME);
             splitContainer1.Panel1.Controls.Add(Text6_SENHA);
             splitContainer1.Panel1.Controls.Add(TEXT6_TELEFONE);
-            splitContainer1.Panel1.Controls.Add(Textbox5_EMAIL);
+            splitContainer1.Panel1.Controls.Add(Textbox6_EMAIL);
             splitContainer1.Panel1.Controls.Add(Maskedbox6_CPF);
             splitContainer1.Panel1.Controls.Add(Textbox6_ENDERECO);
             splitContainer1.Panel1.Controls.Add(Text6_CNF_SENHA);
@@ -364,6 +364,7 @@
             splitContainer1.Size = new Size(556, 471);
             splitContainer1.SplitterDistance = 278;
             splitContainer1.TabIndex = 65;
+            splitContainer1.TabStop = false;
             // 
             // TEXT6_OBSERVACAO
             // 
@@ -376,19 +377,19 @@
             TEXT6_OBSERVACAO.TabIndex = 63;
             TEXT6_OBSERVACAO.Text = "OBSERVAÇÃO:\r\n(DADOS DO VEÍCULO)";
             // 
-            // textBox1
+            // Textbox6_OBSERVACAO
             // 
-            textBox1.Location = new Point(23, 377);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(230, 80);
-            textBox1.TabIndex = 62;
+            Textbox6_OBSERVACAO.Location = new Point(23, 377);
+            Textbox6_OBSERVACAO.Multiline = true;
+            Textbox6_OBSERVACAO.Name = "Textbox6_OBSERVACAO";
+            Textbox6_OBSERVACAO.Size = new Size(230, 80);
+            Textbox6_OBSERVACAO.TabIndex = 8;
             // 
             // CALEND6_VENC_CARTEI
             // 
             CALEND6_VENC_CARTEI.Location = new Point(27, 275);
             CALEND6_VENC_CARTEI.Name = "CALEND6_VENC_CARTEI";
-            CALEND6_VENC_CARTEI.TabIndex = 67;
+            CALEND6_VENC_CARTEI.TabIndex = 13;
             CALEND6_VENC_CARTEI.DateChanged += monthCalendar1_DateChanged;
             // 
             // TEXT6_VALID_HAB
@@ -421,9 +422,9 @@
             crud1.Location = new Point(358, 614);
             crud1.Name = "crud1";
             crud1.Size = new Size(452, 65);
-            crud1.TabIndex = 66;
+            crud1.TabIndex = 14;
             // 
-            // TELA_ENTREGADOR
+            // CadastroEntregador
             // 
             AutoScaleDimensions = new SizeF(9F, 14F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -438,9 +439,9 @@
             ForeColor = SystemColors.Info;
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(4, 3, 4, 3);
-            Name = "TELA_ENTREGADOR";
+            Name = "CadastroEntregador";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "TELA_ENTREGADOR";
+            Text = "CADASTRO_ENTREGADOR";
             WindowState = FormWindowState.Maximized;
             PAINEL6_HABILITACAO.ResumeLayout(false);
             PAINEL6_HABILITACAO.PerformLayout();
@@ -465,8 +466,8 @@
         private Label Text6_SENHA;
         private TextBox Textbox6_ENDERECO;
         private TextBox Textbox6_SENHA;
-        private TextBox Textbox5_EMAIL;
-        private TextBox Textbox5_NOME;
+        private TextBox Textbox6_EMAIL;
+        private TextBox Textbox6_NOME;
         private Button Btn6_Voltar;
         private MaskedTextBox Maskedbox6_CPF;
         private Label TEXT6_TELEFONE;
@@ -482,7 +483,7 @@
         private RadioButton RADIO6_HAB_B;
         private MonthCalendar CALEND6_VENC_CARTEI;
         private Label TEXT6_OBSERVACAO;
-        private TextBox textBox1;
+        private TextBox Textbox6_OBSERVACAO;
         private CRUD crud1;
     }
 }

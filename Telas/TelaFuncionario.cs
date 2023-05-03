@@ -30,13 +30,13 @@ namespace PizzariaDoZe
 
         private void Btn3_Atendente_Click(object sender, EventArgs e)
         {
-            TelaAtendente t4 = new();
+            CadastroAtendente t4 = new();
             t4.Show();
         }
 
         private void Btn3_Entregador_Click(object sender, EventArgs e)
         {
-            TelsEntregador t6 = new();
+            CadastroEntregador t6 = new();
             t6.Show();
         }
     }

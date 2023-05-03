@@ -140,7 +140,7 @@
             Btn20Salvar.Margin = new Padding(5, 4, 5, 4);
             Btn20Salvar.Name = "Btn20Salvar";
             Btn20Salvar.Size = new Size(129, 28);
-            Btn20Salvar.TabIndex = 1;
+            Btn20Salvar.TabIndex = 3;
             Btn20Salvar.Text = "SALVAR";
             Btn20Salvar.UseVisualStyleBackColor = true;
             Btn20Salvar.Click += Btn20Salvar_Click;

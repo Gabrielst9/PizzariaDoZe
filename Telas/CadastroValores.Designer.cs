@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             TIT12_CADASTRAR = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            TextBox2ValorBorda = new TextBox();
+            TextBox2Valor = new TextBox();
             Text_9_Valor = new Label();
             Text_9_Valores_Adicionais = new Label();
             ListBox_9_Tamanhos = new ListBox();
@@ -56,19 +56,19 @@
             TIT12_CADASTRAR.TabIndex = 6;
             TIT12_CADASTRAR.Text = "CADASTRAR VALORES";
             // 
-            // textBox1
+            // TextBox2ValorBorda
             // 
-            textBox1.Location = new Point(46, 196);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(319, 25);
-            textBox1.TabIndex = 7;
+            TextBox2ValorBorda.Location = new Point(46, 196);
+            TextBox2ValorBorda.Name = "TextBox2ValorBorda";
+            TextBox2ValorBorda.Size = new Size(319, 25);
+            TextBox2ValorBorda.TabIndex = 1;
             // 
-            // textBox2
+            // TextBox2Valor
             // 
-            textBox2.Location = new Point(46, 70);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(319, 25);
-            textBox2.TabIndex = 8;
+            TextBox2Valor.Location = new Point(46, 70);
+            TextBox2Valor.Name = "TextBox2Valor";
+            TextBox2Valor.Size = new Size(319, 25);
+            TextBox2Valor.TabIndex = 0;
             // 
             // Text_9_Valor
             // 
@@ -102,7 +102,7 @@
             ListBox_9_Tamanhos.Location = new Point(458, 108);
             ListBox_9_Tamanhos.Name = "ListBox_9_Tamanhos";
             ListBox_9_Tamanhos.Size = new Size(120, 94);
-            ListBox_9_Tamanhos.TabIndex = 13;
+            ListBox_9_Tamanhos.TabIndex = 2;
             // 
             // Text_9_Tamanhos
             // 
@@ -125,7 +125,7 @@
             ListBox_9_Categorias.Location = new Point(640, 108);
             ListBox_9_Categorias.Name = "ListBox_9_Categorias";
             ListBox_9_Categorias.Size = new Size(120, 94);
-            ListBox_9_Categorias.TabIndex = 15;
+            ListBox_9_Categorias.TabIndex = 3;
             // 
             // Text_9_Categorias
             // 
@@ -152,7 +152,7 @@
             Btn_9_Sair.Margin = new Padding(4, 3, 4, 3);
             Btn_9_Sair.Name = "Btn_9_Sair";
             Btn_9_Sair.Size = new Size(229, 32);
-            Btn_9_Sair.TabIndex = 17;
+            Btn_9_Sair.TabIndex = 5;
             Btn_9_Sair.Text = "SAIR";
             Btn_9_Sair.UseVisualStyleBackColor = false;
             Btn_9_Sair.Click += Btn_9_Sair_Click;
@@ -163,9 +163,9 @@
             Pnl_9_Valores.BackgroundImageLayout = ImageLayout.Stretch;
             Pnl_9_Valores.Controls.Add(crud1);
             Pnl_9_Valores.Controls.Add(Text_9_Valor);
-            Pnl_9_Valores.Controls.Add(textBox1);
+            Pnl_9_Valores.Controls.Add(TextBox2ValorBorda);
             Pnl_9_Valores.Controls.Add(Text_9_Categorias);
-            Pnl_9_Valores.Controls.Add(textBox2);
+            Pnl_9_Valores.Controls.Add(TextBox2Valor);
             Pnl_9_Valores.Controls.Add(ListBox_9_Categorias);
             Pnl_9_Valores.Controls.Add(Text_9_Valores_Adicionais);
             Pnl_9_Valores.Controls.Add(Text_9_Tamanhos);
@@ -182,9 +182,9 @@
             crud1.Location = new Point(41, 283);
             crud1.Name = "crud1";
             crud1.Size = new Size(765, 65);
-            crud1.TabIndex = 17;
+            crud1.TabIndex = 4;
             // 
-            // Tela_Valores
+            // CadastroValores
             // 
             AutoScaleDimensions = new SizeF(12F, 18F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -196,7 +196,7 @@
             Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(5, 4, 5, 4);
-            Name = "Tela_Valores";
+            Name = "CadastroValores";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Tela_Valores";
             WindowState = FormWindowState.Maximized;
@@ -209,8 +209,8 @@
         #endregion
 
         private Label TIT12_CADASTRAR;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox TextBox2ValorBorda;
+        private TextBox TextBox2Valor;
         private Label Text_9_Valor;
         private Label Text_9_Valores_Adicionais;
         private ListBox ListBox_9_Tamanhos;

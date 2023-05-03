@@ -66,7 +66,7 @@
             BTN_PEDIDOS.Margin = new Padding(4, 3, 4, 3);
             BTN_PEDIDOS.Name = "BTN_PEDIDOS";
             BTN_PEDIDOS.Size = new Size(365, 54);
-            BTN_PEDIDOS.TabIndex = 3;
+            BTN_PEDIDOS.TabIndex = 0;
             BTN_PEDIDOS.Text = "PEDIDOS";
             BTN_PEDIDOS.UseVisualStyleBackColor = false;
             BTN_PEDIDOS.Click += BTN_PEDIDOS_Click;
@@ -85,7 +85,7 @@
             Btn20_Sair.Margin = new Padding(4, 3, 4, 3);
             Btn20_Sair.Name = "Btn20_Sair";
             Btn20_Sair.Size = new Size(229, 32);
-            Btn20_Sair.TabIndex = 4;
+            Btn20_Sair.TabIndex = 3;
             Btn20_Sair.Text = "SAIR";
             Btn20_Sair.UseVisualStyleBackColor = false;
             Btn20_Sair.Click += Btn20_Sair_Click;
@@ -105,12 +105,12 @@
             BTN_CADASTRAR.Margin = new Padding(4, 3, 4, 3);
             BTN_CADASTRAR.Name = "BTN_CADASTRAR";
             BTN_CADASTRAR.Size = new Size(365, 54);
-            BTN_CADASTRAR.TabIndex = 5;
+            BTN_CADASTRAR.TabIndex = 1;
             BTN_CADASTRAR.Text = "CADASTRAR";
             BTN_CADASTRAR.UseVisualStyleBackColor = false;
             BTN_CADASTRAR.Click += BTN_CADASTRAR_Click;
             // 
-            // Form1
+            // TelaAdm
             // 
             AutoScaleDimensions = new SizeF(9F, 14F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -124,7 +124,7 @@
             Font = new Font("Copperplate Gothic Bold", 9F, FontStyle.Regular, GraphicsUnit.Point);
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(4, 3, 4, 3);
-            Name = "Form1";
+            Name = "TelaAdm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Principal";
             WindowState = FormWindowState.Maximized;

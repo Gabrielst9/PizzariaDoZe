@@ -80,7 +80,7 @@
             BTN8_SAIR.Margin = new Padding(4, 3, 4, 3);
             BTN8_SAIR.Name = "BTN8_SAIR";
             BTN8_SAIR.Size = new Size(229, 32);
-            BTN8_SAIR.TabIndex = 5;
+            BTN8_SAIR.TabIndex = 100;
             BTN8_SAIR.Text = "SAIR";
             BTN8_SAIR.UseVisualStyleBackColor = false;
             BTN8_SAIR.Click += BTN8_SAIR_Click;
@@ -93,7 +93,7 @@
             BTN8_PENDENTES.Location = new Point(4, 113);
             BTN8_PENDENTES.Name = "BTN8_PENDENTES";
             BTN8_PENDENTES.Size = new Size(279, 58);
-            BTN8_PENDENTES.TabIndex = 6;
+            BTN8_PENDENTES.TabIndex = 1;
             BTN8_PENDENTES.Text = "VER PEDIDOS PENDENTES";
             BTN8_PENDENTES.UseVisualStyleBackColor = true;
             // 
@@ -121,7 +121,7 @@
             panel1.Size = new Size(290, 275);
             panel1.TabIndex = 8;
             // 
-            // TELA_INICIAL_CLIENTE
+            // TelaInicialClientes
             // 
             AutoScaleDimensions = new SizeF(12F, 18F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -134,7 +134,7 @@
             ForeColor = SystemColors.Info;
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(5, 4, 5, 4);
-            Name = "TELA_INICIAL_CLIENTE";
+            Name = "TelaInicialClientes";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "TELA_INICIAL_CLIENTE";
             WindowState = FormWindowState.Maximized;

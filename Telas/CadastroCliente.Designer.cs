@@ -146,7 +146,7 @@
             Maskedbox_TELEFONE.Mask = "(999) 00 0000-0000";
             Maskedbox_TELEFONE.Name = "Maskedbox_TELEFONE";
             Maskedbox_TELEFONE.Size = new Size(228, 23);
-            Maskedbox_TELEFONE.TabIndex = 7;
+            Maskedbox_TELEFONE.TabIndex = 4;
             // 
             // Maskedbox_CPF
             // 
@@ -156,7 +156,7 @@
             Maskedbox_CPF.Name = "Maskedbox_CPF";
             Maskedbox_CPF.RightToLeft = RightToLeft.No;
             Maskedbox_CPF.Size = new Size(228, 23);
-            Maskedbox_CPF.TabIndex = 8;
+            Maskedbox_CPF.TabIndex = 1;
             // 
             // Textbox_EMAIL
             // 
@@ -165,7 +165,7 @@
             Textbox_EMAIL.Name = "Textbox_EMAIL";
             Textbox_EMAIL.PasswordChar = '*';
             Textbox_EMAIL.Size = new Size(228, 23);
-            Textbox_EMAIL.TabIndex = 9;
+            Textbox_EMAIL.TabIndex = 3;
             // 
             // Textbox_ENDERECO
             // 
@@ -176,7 +176,7 @@
             Textbox_ENDERECO.PasswordChar = '*';
             Textbox_ENDERECO.RightToLeft = RightToLeft.No;
             Textbox_ENDERECO.Size = new Size(229, 23);
-            Textbox_ENDERECO.TabIndex = 10;
+            Textbox_ENDERECO.TabIndex = 2;
             // 
             // PNL2_CADRASTRO_CLI
             // 
@@ -209,7 +209,7 @@
             crud1.Location = new Point(3, 270);
             crud1.Name = "crud1";
             crud1.Size = new Size(452, 65);
-            crud1.TabIndex = 11;
+            crud1.TabIndex = 5;
             // 
             // Btn_Sair
             // 
@@ -230,7 +230,7 @@
             Btn_Sair.UseVisualStyleBackColor = false;
             Btn_Sair.Click += Btn_Sair_Click;
             // 
-            // TELA_CLIENTES
+            // CadastroCliente
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -241,7 +241,7 @@
             Controls.Add(PNL2_CADRASTRO_CLI);
             Controls.Add(TITULO_CADASTRO_CLI);
             FormBorderStyle = FormBorderStyle.None;
-            Name = "TELA_CLIENTES";
+            Name = "CadastroCliente";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "TELA_CLIENTES";
             WindowState = FormWindowState.Maximized;

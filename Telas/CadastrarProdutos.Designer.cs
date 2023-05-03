@@ -64,8 +64,7 @@
             ListBox_10_ML.Location = new Point(586, 125);
             ListBox_10_ML.Name = "ListBox_10_ML";
             ListBox_10_ML.Size = new Size(151, 94);
-            ListBox_10_ML.TabIndex = 24;
-            //ListBox_10_ML.SelectedIndexChanged += ListBox_10_ML_SelectedIndexChanged;
+            ListBox_10_ML.TabIndex = 4;
             // 
             // Text_10_Tipo
             // 
@@ -88,8 +87,7 @@
             ListBox_10_Tipo.Location = new Point(407, 125);
             ListBox_10_Tipo.Name = "ListBox_10_Tipo";
             ListBox_10_Tipo.Size = new Size(151, 94);
-            ListBox_10_Tipo.TabIndex = 22;
-            //ListBox_10_Tipo.SelectedIndexChanged += ListBox_10_Tipo_SelectedIndexChanged;
+            ListBox_10_Tipo.TabIndex = 3;
             // 
             // Text_10_Nome
             // 
@@ -118,14 +116,14 @@
             TextBoxValorCadastros.Location = new Point(38, 188);
             TextBoxValorCadastros.Name = "TextBoxValorCadastros";
             TextBoxValorCadastros.Size = new Size(319, 25);
-            TextBoxValorCadastros.TabIndex = 19;
+            TextBoxValorCadastros.TabIndex = 1;
             // 
             // TextBoxNomeCadastros
             // 
             TextBoxNomeCadastros.Location = new Point(38, 77);
             TextBoxNomeCadastros.Name = "TextBoxNomeCadastros";
             TextBoxNomeCadastros.Size = new Size(319, 25);
-            TextBoxNomeCadastros.TabIndex = 18;
+            TextBoxNomeCadastros.TabIndex = 0;
             // 
             // Tit_10_Cadastrar_Produtos
             // 
@@ -156,7 +154,7 @@
             Pnl_10_Produtos.Location = new Point(294, 105);
             Pnl_10_Produtos.Name = "Pnl_10_Produtos";
             Pnl_10_Produtos.Size = new Size(783, 351);
-            Pnl_10_Produtos.TabIndex = 26;
+            Pnl_10_Produtos.TabIndex = 0;
             // 
             // crud1
             // 
@@ -165,7 +163,7 @@
             crud1.Location = new Point(15, 263);
             crud1.Name = "crud1";
             crud1.Size = new Size(745, 70);
-            crud1.TabIndex = 26;
+            crud1.TabIndex = 6;
             // 
             // Btn_10_Sair
             // 
@@ -181,7 +179,7 @@
             Btn_10_Sair.Margin = new Padding(4, 3, 4, 3);
             Btn_10_Sair.Name = "Btn_10_Sair";
             Btn_10_Sair.Size = new Size(229, 32);
-            Btn_10_Sair.TabIndex = 27;
+            Btn_10_Sair.TabIndex = 7;
             Btn_10_Sair.Text = "SAIR";
             Btn_10_Sair.UseVisualStyleBackColor = false;
             Btn_10_Sair.Click += Btn_10_Sair_Click;

@@ -61,14 +61,14 @@
             crud1.Location = new Point(31, 224);
             crud1.Name = "crud1";
             crud1.Size = new Size(452, 65);
-            crud1.TabIndex = 30;
+            crud1.TabIndex = 2;
             // 
             // ING_ID_TEXT
             // 
             ING_ID_TEXT.Location = new Point(163, 150);
             ING_ID_TEXT.Name = "ING_ID_TEXT";
             ING_ID_TEXT.Size = new Size(188, 23);
-            ING_ID_TEXT.TabIndex = 29;
+            ING_ID_TEXT.TabIndex = 1;
             // 
             // ING_ID
             // 
@@ -89,7 +89,7 @@
             ING_NOME_TEXT.Location = new Point(163, 66);
             ING_NOME_TEXT.Name = "ING_NOME_TEXT";
             ING_NOME_TEXT.Size = new Size(188, 23);
-            ING_NOME_TEXT.TabIndex = 27;
+            ING_NOME_TEXT.TabIndex = 0;
             // 
             // ING_NOME
             // 
@@ -135,12 +135,12 @@
             Btn_11_Sair.Margin = new Padding(4, 3, 4, 3);
             Btn_11_Sair.Name = "Btn_11_Sair";
             Btn_11_Sair.Size = new Size(229, 32);
-            Btn_11_Sair.TabIndex = 29;
+            Btn_11_Sair.TabIndex = 3;
             Btn_11_Sair.Text = "SAIR";
             Btn_11_Sair.UseVisualStyleBackColor = false;
             Btn_11_Sair.Click += Btn_11_Sair_Click;
             // 
-            // CADASTRO_INGREDIENTES
+            // CadastroIngredientes
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -150,7 +150,7 @@
             Controls.Add(Tit_11_Ingredientes);
             Controls.Add(Pnl_11_Ingredientes);
             FormBorderStyle = FormBorderStyle.None;
-            Name = "CADASTRO_INGREDIENTES";
+            Name = "CadastroIngredientes";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "CADASTRO_INGREDIENTES";
             WindowState = FormWindowState.Maximized;

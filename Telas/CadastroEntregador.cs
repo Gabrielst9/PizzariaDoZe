@@ -10,11 +10,46 @@ using System.Windows.Forms;
 
 namespace PizzariaDoZe
 {
-    public partial class TelsEntregador : Form
+    public partial class CadastroEntregador : Form
     {
-        public TelsEntregador()
+        public CadastroEntregador()
         {
             InitializeComponent();
+
+            Textbox6_NOME.Enter += new
+          EventHandler(Funcoes.CampoEventoEnter!);
+            Textbox6_NOME.Leave += new
+            EventHandler(Funcoes.CampoEventoLeave!);
+
+            Textbox6_EMAIL.Enter += new
+            EventHandler(Funcoes.CampoEventoEnter!);
+            Textbox6_EMAIL.Leave += new
+            EventHandler(Funcoes.CampoEventoLeave!);
+
+            Textbox6_ENDERECO.Enter += new
+           EventHandler(Funcoes.CampoEventoEnter!);
+            Textbox6_ENDERECO.Leave += new
+            EventHandler(Funcoes.CampoEventoLeave!);
+
+            Textbox6_SENHA.Enter += new
+           EventHandler(Funcoes.CampoEventoEnter!);
+            Textbox6_SENHA.Leave += new
+            EventHandler(Funcoes.CampoEventoLeave!);
+
+            TextBox6_CNF_SENHA.Enter += new
+           EventHandler(Funcoes.CampoEventoEnter!);
+            TextBox6_CNF_SENHA.Leave += new
+            EventHandler(Funcoes.CampoEventoLeave!);
+
+            Maskedbox6_CPF.Enter += new
+           EventHandler(Funcoes.CampoEventoEnter!);
+            Maskedbox6_CPF.Leave += new
+            EventHandler(Funcoes.CampoEventoLeave!);
+
+            Maskedbox6_TELEFONE.Enter += new
+           EventHandler(Funcoes.CampoEventoEnter!);
+            Maskedbox6_TELEFONE.Leave += new
+            EventHandler(Funcoes.CampoEventoLeave!);
         }
 
         private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)

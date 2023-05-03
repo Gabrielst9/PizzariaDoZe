@@ -225,12 +225,12 @@
             BTN1_SAIR.Margin = new Padding(4, 3, 4, 3);
             BTN1_SAIR.Name = "BTN1_SAIR";
             BTN1_SAIR.Size = new Size(229, 32);
-            BTN1_SAIR.TabIndex = 2;
+            BTN1_SAIR.TabIndex = 6;
             BTN1_SAIR.Text = "SAIR";
             BTN1_SAIR.UseVisualStyleBackColor = false;
             BTN1_SAIR.Click += BTN1_SAIR_Click;
             // 
-            // TELA_LOGIN_INICIAL
+            // TelaInicial
             // 
             AutoScaleDimensions = new SizeF(12F, 18F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -244,7 +244,7 @@
             ForeColor = SystemColors.Info;
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(5, 4, 5, 4);
-            Name = "TELA_LOGIN_INICIAL";
+            Name = "TelaInicial";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "TELA_LOGIN_INICIAL";
             WindowState = FormWindowState.Maximized;

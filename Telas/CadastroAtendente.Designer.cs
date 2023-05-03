@@ -1,6 +1,6 @@
 ﻿namespace PizzariaDoZe
 {
-    partial class TelaAtendente
+    partial class CadastroAtendente
     {
         /// <summary>
         /// Required designer variable.
@@ -67,7 +67,7 @@
             TextBox5_CNF_SENHA.Location = new Point(41, 309);
             TextBox5_CNF_SENHA.Name = "TextBox5_CNF_SENHA";
             TextBox5_CNF_SENHA.Size = new Size(228, 21);
-            TextBox5_CNF_SENHA.TabIndex = 45;
+            TextBox5_CNF_SENHA.TabIndex = 7;
             // 
             // Text5_CNF_SENHA
             // 
@@ -97,7 +97,7 @@
             Textbox5_SENHA.Location = new Point(42, 264);
             Textbox5_SENHA.Name = "Textbox5_SENHA";
             Textbox5_SENHA.Size = new Size(228, 21);
-            Textbox5_SENHA.TabIndex = 42;
+            Textbox5_SENHA.TabIndex = 6;
             // 
             // TEXT5_NOME
             // 
@@ -124,7 +124,7 @@
             Btn5_Voltar.Margin = new Padding(4, 3, 4, 3);
             Btn5_Voltar.Name = "Btn5_Voltar";
             Btn5_Voltar.Size = new Size(78, 24);
-            Btn5_Voltar.TabIndex = 41;
+            Btn5_Voltar.TabIndex = 9;
             Btn5_Voltar.Text = "VOLTAR";
             Btn5_Voltar.UseVisualStyleBackColor = false;
             Btn5_Voltar.Click += Btn5_Voltar_Click;
@@ -163,7 +163,7 @@
             Maskedbox5_TELEFONE.Mask = "(999) 00 0000-0000";
             Maskedbox5_TELEFONE.Name = "Maskedbox5_TELEFONE";
             Maskedbox5_TELEFONE.Size = new Size(228, 21);
-            Maskedbox5_TELEFONE.TabIndex = 36;
+            Maskedbox5_TELEFONE.TabIndex = 5;
             // 
             // Btn5_Enviar
             // 
@@ -177,7 +177,7 @@
             Btn5_Enviar.Margin = new Padding(4, 3, 4, 3);
             Btn5_Enviar.Name = "Btn5_Enviar";
             Btn5_Enviar.Size = new Size(90, 24);
-            Btn5_Enviar.TabIndex = 40;
+            Btn5_Enviar.TabIndex = 8;
             Btn5_Enviar.Text = "ENVIAR";
             Btn5_Enviar.UseVisualStyleBackColor = false;
             // 
@@ -190,7 +190,7 @@
             Maskedbox5_CPF.Name = "Maskedbox5_CPF";
             Maskedbox5_CPF.RightToLeft = RightToLeft.No;
             Maskedbox5_CPF.Size = new Size(228, 21);
-            Maskedbox5_CPF.TabIndex = 37;
+            Maskedbox5_CPF.TabIndex = 2;
             // 
             // Textbox5_NOME
             // 
@@ -202,7 +202,7 @@
             Textbox5_NOME.Location = new Point(41, 38);
             Textbox5_NOME.Name = "Textbox5_NOME";
             Textbox5_NOME.Size = new Size(228, 21);
-            Textbox5_NOME.TabIndex = 30;
+            Textbox5_NOME.TabIndex = 0;
             // 
             // Textbox5_EMAIL
             // 
@@ -212,7 +212,7 @@
             Textbox5_EMAIL.Name = "Textbox5_EMAIL";
             Textbox5_EMAIL.PasswordChar = '*';
             Textbox5_EMAIL.Size = new Size(228, 21);
-            Textbox5_EMAIL.TabIndex = 38;
+            Textbox5_EMAIL.TabIndex = 4;
             // 
             // Textbox5_ENDERECO
             // 
@@ -224,7 +224,7 @@
             Textbox5_ENDERECO.PasswordChar = '*';
             Textbox5_ENDERECO.RightToLeft = RightToLeft.No;
             Textbox5_ENDERECO.Size = new Size(229, 21);
-            Textbox5_ENDERECO.TabIndex = 39;
+            Textbox5_ENDERECO.TabIndex = 3;
             // 
             // TEXT5_ENDERECO
             // 
@@ -278,7 +278,7 @@
             panel1.Size = new Size(310, 421);
             panel1.TabIndex = 46;
             // 
-            // TELA_ATENDENTE
+            // CadastroAtendente
             // 
             AutoScaleDimensions = new SizeF(9F, 14F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -291,7 +291,7 @@
             ForeColor = SystemColors.Info;
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(4, 3, 4, 3);
-            Name = "TELA_ATENDENTE";
+            Name = "CadastroAtendente";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "TELA_ATENDENTE";
             WindowState = FormWindowState.Maximized;
