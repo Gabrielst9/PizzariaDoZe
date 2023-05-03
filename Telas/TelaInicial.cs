@@ -1,4 +1,5 @@
 ﻿using PizzariaDoZe.Properties;
+using PizzariaDoZe.Telas;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -25,6 +26,8 @@ namespace PizzariaDoZe
 
             //confirmação para fechar as janelas
             this.FormClosing += Funcoes.ConfirmarFechamentoDeFormulario;
+
+           
 
         }
         /// <summary>
@@ -131,6 +134,12 @@ namespace PizzariaDoZe
         private void TelaInicial_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void BTN_TelaPrincipalShortCuts_Click(object sender, EventArgs e)
+        {
+            TelaShortCuts t = new TelaShortCuts();
+            t.Show();
         }
     }
 }

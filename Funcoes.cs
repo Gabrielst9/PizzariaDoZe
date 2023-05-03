@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace PizzariaDoZe
 {
@@ -146,5 +148,193 @@ namespace PizzariaDoZe
                 e.Cancel = true;
             }
         }
+        public static void ShiftF1AbrirTelaInicial(object sender, KeyEventArgs e)
+        {
+            //obtém o form onde o componente gerou o evento
+            Control x = (Control)sender;
+            Form form = x.FindForm();
+            //verifica se foi pressionado ENTER
+            Keys RShiftKey = Keys.ShiftKey | Keys.F1;
+            if (e.KeyCode == RShiftKey)
+            {
+                    //Obtém ou define um valor que indica se o evento de chave deve ser passado para o controle
+                    //subjacente.
+                    //true caso o evento chave não deva ser enviado ao controle; caso contrário, false
+                    //com isso evitamos o som de erro toda vez que pressionamos enter em algum campo
+                    e.SuppressKeyPress = true;
+                    //SendKeys.Send("{TAB}");
+                    form.Close();
+                    TelaInicial tl = new();
+                    tl.Show();
+                
+            }
+        }
+        public static void ShiftF2AbrirTelaFuncionarios(object sender, KeyEventArgs e)
+        {
+            //obtém o form onde o componente gerou o evento
+            Control x = (Control)sender;
+            Form form = x.FindForm();
+            //verifica se foi pressionado ENTER
+            Keys RShiftKey = Keys.ShiftKey | Keys.F2;
+            if (e.KeyCode == RShiftKey)
+            {
+                //Obtém ou define um valor que indica se o evento de chave deve ser passado para o controle
+                //subjacente.
+                //true caso o evento chave não deva ser enviado ao controle; caso contrário, false
+                //com isso evitamos o som de erro toda vez que pressionamos enter em algum campo
+                e.SuppressKeyPress = true;
+                //SendKeys.Send("{TAB}");
+                form.Close();
+                TelaFuncionario tl = new();
+                tl.Show();
+
+            }
+        }
+        public static void ShiftF3AbrirTelaClientes(object sender, KeyEventArgs e)
+        {
+            //obtém o form onde o componente gerou o evento
+            Control x = (Control)sender;
+            Form form = x.FindForm();
+            //verifica se foi pressionado ENTER
+            Keys RShiftKey = Keys.ShiftKey | Keys.F3;
+            if (e.KeyCode == RShiftKey)
+            {
+                //Obtém ou define um valor que indica se o evento de chave deve ser passado para o controle
+                //subjacente.
+                //true caso o evento chave não deva ser enviado ao controle; caso contrário, false
+                //com isso evitamos o som de erro toda vez que pressionamos enter em algum campo
+                e.SuppressKeyPress = true;
+                //SendKeys.Send("{TAB}");
+                form.Close();
+                TelaInicialClientes tl = new();
+                tl.Show();
+
+            }
+        }
+        public static void ShiftF4AbrirTelaIngredientes(object sender, KeyEventArgs e)
+        {
+            //obtém o form onde o componente gerou o evento
+            Control x = (Control)sender;
+            Form form = x.FindForm();
+            //verifica se foi pressionado ENTER
+            Keys RShiftKey = Keys.ShiftKey | Keys.F4;
+            if (e.KeyCode == RShiftKey)
+            {
+                //Obtém ou define um valor que indica se o evento de chave deve ser passado para o controle
+                //subjacente.
+                //true caso o evento chave não deva ser enviado ao controle; caso contrário, false
+                //com isso evitamos o som de erro toda vez que pressionamos enter em algum campo
+                e.SuppressKeyPress = true;
+                //SendKeys.Send("{TAB}");
+                form.Close();
+                CadastroIngredientes tl = new();
+                tl.Show();
+
+            }
+        }
+        public static void ShiftF5AbrirTelaSabor(object sender, KeyEventArgs e)
+        {
+            //obtém o form onde o componente gerou o evento
+            Control x = (Control)sender;
+            Form form = x.FindForm();
+            //verifica se foi pressionado ENTER
+            Keys RShiftKey = Keys.ShiftKey | Keys.F5;
+            if (e.KeyCode == RShiftKey)
+            {
+                //Obtém ou define um valor que indica se o evento de chave deve ser passado para o controle
+                //subjacente.
+                //true caso o evento chave não deva ser enviado ao controle; caso contrário, false
+                //com isso evitamos o som de erro toda vez que pressionamos enter em algum campo
+                e.SuppressKeyPress = true;
+                //SendKeys.Send("{TAB}");
+                form.Close();
+                CadastroSabores tl = new();
+                tl.Show();
+
+            }
+        }
+        public static void ShiftF6abrirTelaValor(object sender, KeyEventArgs e)
+        {
+            //obtém o form onde o componente gerou o evento
+            Control x = (Control)sender;
+            Form form = x.FindForm();
+            //verifica se foi pressionado ENTER
+            Keys RShiftKey = Keys.ShiftKey | Keys.F6;
+            if (e.KeyCode == RShiftKey)
+            {
+                //Obtém ou define um valor que indica se o evento de chave deve ser passado para o controle
+                //subjacente.
+                //true caso o evento chave não deva ser enviado ao controle; caso contrário, false
+                //com isso evitamos o som de erro toda vez que pressionamos enter em algum campo
+                e.SuppressKeyPress = true;
+                //SendKeys.Send("{TAB}");
+                form.Close();
+                CadastroValores tl = new();
+                tl.Show();
+
+            }
+        }
+        public static void ShiftF7AbrirTelaProduto(object sender, KeyEventArgs e)
+        {
+            //obtém o form onde o componente gerou o evento
+            Control x = (Control)sender;
+            Form form = x.FindForm();
+            //verifica se foi pressionado ENTER
+            Keys RShiftKey = Keys.ShiftKey | Keys.F7;
+            if (e.KeyCode == RShiftKey)
+            {
+                //Obtém ou define um valor que indica se o evento de chave deve ser passado para o controle
+                //subjacente.
+                //true caso o evento chave não deva ser enviado ao controle; caso contrário, false
+                //com isso evitamos o som de erro toda vez que pressionamos enter em algum campo
+                e.SuppressKeyPress = true;
+                //SendKeys.Send("{TAB}");
+                form.Close();
+                CadastrarProdutos tl = new();
+                tl.Show();
+
+            }
+        }
+        public static void ShiftF8AbrirConfiguracoes(object sender, KeyEventArgs e)
+        {
+            //obtém o form onde o componente gerou o evento
+            Control x = (Control)sender;
+            Form form = x.FindForm();
+            //verifica se foi pressionado ENTER
+            Keys RShiftKey = Keys.ShiftKey | Keys.F8;
+            if (e.KeyCode == RShiftKey)
+            {
+                //Obtém ou define um valor que indica se o evento de chave deve ser passado para o controle
+                //subjacente.
+                //true caso o evento chave não deva ser enviado ao controle; caso contrário, false
+                //com isso evitamos o som de erro toda vez que pressionamos enter em algum campo
+                e.SuppressKeyPress = true;
+                //SendKeys.Send("{TAB}");
+                form.Close();
+                Tela_Configuracoes tl = new();
+                tl.Show();
+
+            }
+        }
+        public static void ShiftDeleteSair(object sender, KeyEventArgs e)
+        {
+            //obtém o form onde o componente gerou o evento
+            Control x = (Control)sender;
+            Form form = x.FindForm();
+            //verifica se foi pressionado ENTER
+            Keys RShiftKey = Keys.ShiftKey | Keys.Delete;
+            if (e.KeyCode == RShiftKey)
+            {
+                //Obtém ou define um valor que indica se o evento de chave deve ser passado para o controle
+                //subjacente.
+                //true caso o evento chave não deva ser enviado ao controle; caso contrário, false
+                //com isso evitamos o som de erro toda vez que pressionamos enter em algum campo
+                e.SuppressKeyPress = true;
+                //SendKeys.Send("{TAB}");
+                form.Close();
+
+            }
+        }
+
     }
 }

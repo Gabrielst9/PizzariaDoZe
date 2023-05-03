@@ -42,6 +42,7 @@
             BTN1_LOGIN = new Button();
             PNL1_MENU_LOGIN = new Panel();
             BTN1_SAIR = new Button();
+            BTN_TelaPrincipalShortCuts = new Button();
             PNL_LATERAL_LOGIN.SuspendLayout();
             PNL1_MENU.SuspendLayout();
             panel1.SuspendLayout();
@@ -98,12 +99,13 @@
             // panel1
             // 
             panel1.BackColor = Color.Transparent;
+            panel1.Controls.Add(BTN_TelaPrincipalShortCuts);
             panel1.Controls.Add(BtnConfiguracoes);
             panel1.Controls.Add(BTN1_CLIENTES);
             panel1.Controls.Add(BTN_LOGIN_ADM);
             panel1.Location = new Point(3, 96);
             panel1.Name = "panel1";
-            panel1.Size = new Size(207, 171);
+            panel1.Size = new Size(207, 245);
             panel1.TabIndex = 5;
             // 
             // BtnConfiguracoes
@@ -114,7 +116,7 @@
             BtnConfiguracoes.Font = new Font("Copperplate Gothic Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
             BtnConfiguracoes.ForeColor = SystemColors.ControlText;
             BtnConfiguracoes.ImageAlign = ContentAlignment.BottomLeft;
-            BtnConfiguracoes.Location = new Point(-1, 106);
+            BtnConfiguracoes.Location = new Point(0, 105);
             BtnConfiguracoes.Margin = new Padding(0);
             BtnConfiguracoes.Name = "BtnConfiguracoes";
             BtnConfiguracoes.Size = new Size(208, 44);
@@ -230,13 +232,31 @@
             BTN1_SAIR.UseVisualStyleBackColor = false;
             BTN1_SAIR.Click += BTN1_SAIR_Click;
             // 
+            // BTN_TelaPrincipalShortCuts
+            // 
+            BTN_TelaPrincipalShortCuts.Anchor = AnchorStyles.None;
+            BTN_TelaPrincipalShortCuts.BackColor = SystemColors.Info;
+            BTN_TelaPrincipalShortCuts.BackgroundImageLayout = ImageLayout.None;
+            BTN_TelaPrincipalShortCuts.Font = new Font("Copperplate Gothic Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            BTN_TelaPrincipalShortCuts.ForeColor = SystemColors.ControlText;
+            BTN_TelaPrincipalShortCuts.ImageAlign = ContentAlignment.BottomLeft;
+            BTN_TelaPrincipalShortCuts.Location = new Point(4, 219);
+            BTN_TelaPrincipalShortCuts.Margin = new Padding(0);
+            BTN_TelaPrincipalShortCuts.Name = "BTN_TelaPrincipalShortCuts";
+            BTN_TelaPrincipalShortCuts.Size = new Size(127, 24);
+            BTN_TelaPrincipalShortCuts.TabIndex = 7;
+            BTN_TelaPrincipalShortCuts.Text = "SHORTCUTS";
+            BTN_TelaPrincipalShortCuts.TextAlign = ContentAlignment.TopRight;
+            BTN_TelaPrincipalShortCuts.UseVisualStyleBackColor = false;
+            BTN_TelaPrincipalShortCuts.Click += BTN_TelaPrincipalShortCuts_Click;
+            // 
             // TelaInicial
             // 
             AutoScaleDimensions = new SizeF(12F, 18F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
             BackgroundImage = Properties.Resources.istockphoto_1137028124_612x612;
-            ClientSize = new Size(1370, 540);
+            ClientSize = new Size(1284, 540);
             Controls.Add(BTN1_SAIR);
             Controls.Add(PNL1_MENU_LOGIN);
             Controls.Add(PNL_LATERAL_LOGIN);
@@ -276,5 +296,6 @@
         private Panel PNL1_MENU_LOGIN;
         private Button BTN1_SAIR;
         private Button BtnConfiguracoes;
+        private Button BTN_TelaPrincipalShortCuts;
     }
 }
