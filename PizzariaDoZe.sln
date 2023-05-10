@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzariaDoZe", "PizzariaDoZe.csproj", "{10A868C4-E2B7-449B-A2BC-24CFBE8DF6D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzariaDoZe_DAO", "..\PizzariaDoZe_DAO\PizzariaDoZe_DAO.csproj", "{24833684-BCD8-440E-A7AC-B6583ED63601}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzariaDoZe_DAO", "..\PizzariaDoZe_DAO\PizzariaDoZe_DAO.csproj", "{24833684-BCD8-440E-A7AC-B6583ED63601}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,8 +26,9 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C312BE9E-7463-4554-8DB5-8038043A1141}
-		RESX_NeutralResourcesLanguage = pt-BR
+		RESX_PrefixTranslations = True
 		RESX_PrefixFieldType = Value
+		RESX_NeutralResourcesLanguage = pt-BR
+		SolutionGuid = {C312BE9E-7463-4554-8DB5-8038043A1141}
 	EndGlobalSection
 EndGlobal

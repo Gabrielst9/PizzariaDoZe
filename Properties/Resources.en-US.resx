@@ -178,10 +178,10 @@
     <value>Send</value>
   </data>
   <data name="BTN5_VOLTAR.Text" xml:space="preserve">
-    <value>&lt; &amp;Back</value>
+    <value>Back</value>
   </data>
   <data name="BTN6_VOLTAR.Text" xml:space="preserve">
-    <value>&lt; &amp;Back</value>
+    <value>Back</value>
   </data>
   <data name="BTN7_CLIENTES.Text" xml:space="preserve">
     <value>Customers</value>
