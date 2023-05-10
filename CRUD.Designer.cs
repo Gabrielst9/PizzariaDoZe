@@ -44,6 +44,7 @@
             Btn12_Salvar.TabIndex = 0;
             Btn12_Salvar.Text = "SALVAR";
             Btn12_Salvar.UseVisualStyleBackColor = true;
+            Btn12_Salvar.Click += Btn12_Salvar_Click;
             // 
             // Btn12_Editar
             // 
@@ -96,9 +97,9 @@
 
         #endregion
 
-        private Button Btn12_Salvar;
-        private Button Btn12_Editar;
-        private Button Btn12_Excluir;
-        private Button Btn12_Fechar;
+        public Button Btn12_Salvar;
+        public Button Btn12_Editar;
+        public Button Btn12_Excluir;
+        public Button Btn12_Fechar;
     }
 }

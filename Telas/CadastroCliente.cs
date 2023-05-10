@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PizzariaDoZe_DAO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -53,6 +54,12 @@ namespace PizzariaDoZe
         private void Btn_Sair_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void crud1_Load(object sender, EventArgs e)
+        {
+            
+
         }
     }
 }
