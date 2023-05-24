@@ -100,7 +100,7 @@
             TEXT1_MENU.AutoSize = true;
             TEXT1_MENU.Location = new Point(65, 35);
             TEXT1_MENU.Name = "TEXT1_MENU";
-            TEXT1_MENU.Size = new Size(94, 26);
+            TEXT1_MENU.Size = new Size(62, 18);
             TEXT1_MENU.TabIndex = 1;
             TEXT1_MENU.Text = "MENU";
             // 
@@ -199,7 +199,7 @@
             TEXT_PRIMEI_VEZ.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
             TEXT_PRIMEI_VEZ.Location = new Point(3, 41);
             TEXT_PRIMEI_VEZ.Name = "TEXT_PRIMEI_VEZ";
-            TEXT_PRIMEI_VEZ.Size = new Size(469, 26);
+            TEXT_PRIMEI_VEZ.Size = new Size(310, 18);
             TEXT_PRIMEI_VEZ.TabIndex = 2;
             TEXT_PRIMEI_VEZ.Text = "PRIMEIRA VEZ? CRIE UMA CONTA!";
             // 
@@ -210,7 +210,7 @@
             TEXT1_FACA_LOGIN.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
             TEXT1_FACA_LOGIN.Location = new Point(15, 197);
             TEXT1_FACA_LOGIN.Name = "TEXT1_FACA_LOGIN";
-            TEXT1_FACA_LOGIN.Size = new Size(430, 26);
+            TEXT1_FACA_LOGIN.Size = new Size(285, 18);
             TEXT1_FACA_LOGIN.TabIndex = 3;
             TEXT1_FACA_LOGIN.Text = "JA TEM CONTA? FAÇA O LOGIN";
             // 
@@ -272,31 +272,31 @@
             contextMenuStrip.ImageScalingSize = new Size(24, 24);
             contextMenuStrip.Items.AddRange(new ToolStripItem[] { abrirApliacaçaoToolStripMenuItem, encerrarToolStripMenuItem, sobreToolStripMenuItem });
             contextMenuStrip.Name = "contextMenuStrip";
-            contextMenuStrip.Size = new Size(241, 133);
+            contextMenuStrip.Size = new Size(159, 70);
             contextMenuStrip.Opening += contextMenuStrip_Opening;
             // 
             // abrirApliacaçaoToolStripMenuItem
             // 
             abrirApliacaçaoToolStripMenuItem.Name = "abrirApliacaçaoToolStripMenuItem";
-            abrirApliacaçaoToolStripMenuItem.Size = new Size(240, 32);
+            abrirApliacaçaoToolStripMenuItem.Size = new Size(158, 22);
             abrirApliacaçaoToolStripMenuItem.Text = "AbrirApliacaçao";
             abrirApliacaçaoToolStripMenuItem.Click += abrirApliacaçaoToolStripMenuItem_Click;
             // 
             // encerrarToolStripMenuItem
             // 
             encerrarToolStripMenuItem.Name = "encerrarToolStripMenuItem";
-            encerrarToolStripMenuItem.Size = new Size(240, 32);
+            encerrarToolStripMenuItem.Size = new Size(158, 22);
             encerrarToolStripMenuItem.Text = "Encerrar";
             // 
             // sobreToolStripMenuItem
             // 
             sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
-            sobreToolStripMenuItem.Size = new Size(240, 32);
+            sobreToolStripMenuItem.Size = new Size(158, 22);
             sobreToolStripMenuItem.Text = "Sobre";
             // 
             // TelaInicial
             // 
-            AutoScaleDimensions = new SizeF(17F, 26F);
+            AutoScaleDimensions = new SizeF(12F, 18F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
             BackgroundImage = Properties.Resources.istockphoto_1137028124_612x612;

@@ -170,5 +170,6 @@
         private CRUD crud1;
         private Label Tit_11_Ingredientes;
         private Button Btn_11_Sair;
+        private DataGridView dataGridViewDados;
     }
 }

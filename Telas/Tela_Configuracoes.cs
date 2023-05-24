@@ -17,8 +17,20 @@ namespace PizzariaDoZe
         {
             InitializeComponent();
             this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown!);
+            
             //seleciona no comboBox o idioma/cultura atual
-            Combo20Idiomas.SelectedItem = ConfigurationManager.AppSettings.Get("IdiomaRegiao");
+            //seleciona no combo a cultura atual
+            Combo20Idiomas.SelectedItem = ConfigurationManager.AppSettings.Get("Cultura");
+            //Combo20Idiomas.SelectedItem = ConfigurationManager.AppSettings.Get("IdiomaRegiao");
+            
+            // busca os dados com nome BD
+            ConnectionStringSettings connectionStringSettings =
+            ConfigurationManager.ConnectionStrings["BD"];
+            // obtém o providerName e atualiza em tela
+            comboBoxProvider.Text = connectionStringSettings.ProviderName;
+            // obtém a connectionString e atualiza em tela
+            textBoxStringDeConexao.Text = connectionStringSettings.ConnectionString;
+
             //adiciona eventos em geral, exemplo: ganhar e perder o foco
             Funcoes.EventoFocoCampos(this);
         }

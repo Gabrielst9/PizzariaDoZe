@@ -10,15 +10,28 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using PizzariaDoZe_DAO;
 using System.Configuration;
+using System.Data.SqlClient;
 
 namespace PizzariaDoZe
 {
     public partial class CadastroIngredientes : Form
     {
+        private IngredienteDAO ingredienteDAO;
+        private string provider;
+        private string strConnection;
         private readonly IngredienteDAO dao; //No construtor da classe FormMarcas vamos instanciar
+
         public CadastroIngredientes()
         {
             InitializeComponent();
+            provider = ConfigurationManager.ConnectionStrings["BD"].ProviderName;
+            strConnection = ConfigurationManager.ConnectionStrings["BD"].ConnectionString;
+
+            ingredienteDAO = new IngredienteDAO();
+            ingredienteDAO.Provider = provider;
+            ingredienteDAO.StringConexao = strConnection;
+            // Cria a instância da classe da model
+            dataGridViewDados = new DataGridView(); // Instancie o DataGridView conforme sua necessidade
 
             dao = new IngredienteDAO();
 
@@ -47,8 +60,6 @@ namespace PizzariaDoZe
 
         }
 
-       
-
         private void Btn_11_Sair_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -58,13 +69,31 @@ namespace PizzariaDoZe
         {
             //Instância e Preenche o objeto com os dados da view
             var ingrediente = new Ingrediente(ING_NOME_TEXT.Text);
-
-
             try
             {
                 // chama o método para inserir da camada model
                 dao.InserirDbProvider(ingrediente);
                 MessageBox.Show("Dados inseridos com sucesso!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void AtualizarTela()
+        {
+            //Instância e Preenche o objeto com os dados da view
+            var ingrediente = new Ingrediente(ING_NOME_TEXT.Text);
+            try
+            {
+                //chama o método para buscar todos os dados da nossa camada model
+                DataTable linhas = ingredienteDAO.Buscar(ingrediente);
+                // seta o datasouce do dataGridView com os dados retornados
+                dataGridViewDados.Columns.Clear();
+                dataGridViewDados.AutoGenerateColumns = true;
+                dataGridViewDados.DataSource = linhas;
+                dataGridViewDados.Refresh();
             }
             catch (Exception ex)
             {
