@@ -54,6 +54,25 @@ namespace PizzariaDoZe
                 Application.Restart();
                 Environment.Exit(0);
             }
+
+
+
+
+            //abre o arquivo local como leitura/escrita - ControleEstoqueDoZe.exe.config
+            config = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
+            //altera os valores de provider e da connectionStrings com nome BD
+            config.ConnectionStrings.ConnectionStrings["BD"].ProviderName = comboBoxProvider.Text;
+            config.ConnectionStrings.ConnectionStrings["BD"].ConnectionString = textBoxStringDeConexao.Text;
+            //salva as alterações
+            config.Save(ConfigurationSaveMode.Modified, true);
+            //recarrega os dados da seção especificada
+            ConfigurationManager.RefreshSection("connectionStrings");
+            //fecha a tela
+            Close();
+            //dispara msg para usuário
+            _ = MessageBox.Show("Dados alterados com sucesso!");
+
+
         }
     }
 }

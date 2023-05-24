@@ -27,8 +27,6 @@ namespace PizzariaDoZe
             //confirmação para fechar as janelas
             this.FormClosing += Funcoes.ConfirmarFechamentoDeFormulario;
 
-
-
         }
         /// <summary>
         /// este botão serve para realizar o cadastro de um cliente
