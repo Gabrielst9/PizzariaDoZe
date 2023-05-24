@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using PizzariaDoZe_DAO;
 using System.Configuration;
 using System.Data.SqlClient;
+using Org.BouncyCastle.Asn1;
 
 namespace PizzariaDoZe
 {
@@ -44,11 +45,6 @@ namespace PizzariaDoZe
             ING_NOME_TEXT.Enter += new
             EventHandler(Funcoes.CampoEventoEnter!);
             ING_NOME_TEXT.Leave += new
-            EventHandler(Funcoes.CampoEventoLeave!);
-            //Ajuste do Foco campo ID
-            ING_ID_TEXT.Enter += new
-            EventHandler(Funcoes.CampoEventoEnter!);
-            ING_ID_TEXT.Leave += new
             EventHandler(Funcoes.CampoEventoLeave!);
         }
 
@@ -99,6 +95,12 @@ namespace PizzariaDoZe
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void BtnListaIngredientes_Click(object sender, EventArgs e)
+        {
+            ListarIngredientes t7= new();
+            t7.Show();
         }
     }
 }

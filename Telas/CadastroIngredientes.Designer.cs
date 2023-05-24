@@ -30,12 +30,11 @@
         {
             Pnl_11_Ingredientes = new Panel();
             crud1 = new CRUD();
-            ING_ID_TEXT = new TextBox();
-            ING_ID = new Label();
             ING_NOME_TEXT = new TextBox();
             ING_NOME = new Label();
             Tit_11_Ingredientes = new Label();
             Btn_11_Sair = new Button();
+            BtnListaIngredientes = new Button();
             Pnl_11_Ingredientes.SuspendLayout();
             SuspendLayout();
             // 
@@ -44,49 +43,27 @@
             Pnl_11_Ingredientes.Anchor = AnchorStyles.None;
             Pnl_11_Ingredientes.BackgroundImage = Properties.Resources.Screenshot_1;
             Pnl_11_Ingredientes.BackgroundImageLayout = ImageLayout.Stretch;
+            Pnl_11_Ingredientes.Controls.Add(BtnListaIngredientes);
             Pnl_11_Ingredientes.Controls.Add(crud1);
-            Pnl_11_Ingredientes.Controls.Add(ING_ID_TEXT);
-            Pnl_11_Ingredientes.Controls.Add(ING_ID);
             Pnl_11_Ingredientes.Controls.Add(ING_NOME_TEXT);
             Pnl_11_Ingredientes.Controls.Add(ING_NOME);
-            Pnl_11_Ingredientes.Location = new Point(209, 91);
+            Pnl_11_Ingredientes.Location = new Point(237, 88);
             Pnl_11_Ingredientes.Name = "Pnl_11_Ingredientes";
-            Pnl_11_Ingredientes.Size = new Size(514, 301);
+            Pnl_11_Ingredientes.Size = new Size(458, 301);
             Pnl_11_Ingredientes.TabIndex = 27;
             // 
             // crud1
             // 
             crud1.BackColor = SystemColors.Desktop;
             crud1.ForeColor = SystemColors.Info;
-            crud1.Location = new Point(31, 224);
+            crud1.Location = new Point(3, 233);
             crud1.Name = "crud1";
             crud1.Size = new Size(452, 65);
             crud1.TabIndex = 2;
             // 
-            // ING_ID_TEXT
-            // 
-            ING_ID_TEXT.Location = new Point(163, 150);
-            ING_ID_TEXT.Name = "ING_ID_TEXT";
-            ING_ID_TEXT.Size = new Size(188, 23);
-            ING_ID_TEXT.TabIndex = 1;
-            // 
-            // ING_ID
-            // 
-            ING_ID.Anchor = AnchorStyles.None;
-            ING_ID.AutoSize = true;
-            ING_ID.BackColor = Color.Transparent;
-            ING_ID.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            ING_ID.ForeColor = SystemColors.Info;
-            ING_ID.Location = new Point(245, 129);
-            ING_ID.Name = "ING_ID";
-            ING_ID.Size = new Size(26, 18);
-            ING_ID.TabIndex = 28;
-            ING_ID.Text = "ID";
-            ING_ID.TextAlign = ContentAlignment.TopCenter;
-            // 
             // ING_NOME_TEXT
             // 
-            ING_NOME_TEXT.Location = new Point(163, 66);
+            ING_NOME_TEXT.Location = new Point(130, 66);
             ING_NOME_TEXT.Name = "ING_NOME_TEXT";
             ING_NOME_TEXT.Size = new Size(188, 23);
             ING_NOME_TEXT.TabIndex = 0;
@@ -98,7 +75,7 @@
             ING_NOME.BackColor = Color.Transparent;
             ING_NOME.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
             ING_NOME.ForeColor = SystemColors.Info;
-            ING_NOME.Location = new Point(223, 45);
+            ING_NOME.Location = new Point(195, 45);
             ING_NOME.Name = "ING_NOME";
             ING_NOME.Size = new Size(63, 18);
             ING_NOME.TabIndex = 26;
@@ -140,6 +117,16 @@
             Btn_11_Sair.UseVisualStyleBackColor = false;
             Btn_11_Sair.Click += Btn_11_Sair_Click;
             // 
+            // BtnListaIngredientes
+            // 
+            BtnListaIngredientes.Location = new Point(165, 160);
+            BtnListaIngredientes.Name = "BtnListaIngredientes";
+            BtnListaIngredientes.Size = new Size(117, 33);
+            BtnListaIngredientes.TabIndex = 29;
+            BtnListaIngredientes.Text = "Listar Ingredientes";
+            BtnListaIngredientes.UseVisualStyleBackColor = true;
+            BtnListaIngredientes.Click += BtnListaIngredientes_Click;
+            // 
             // CadastroIngredientes
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -163,13 +150,12 @@
 
         #endregion
         private Panel Pnl_11_Ingredientes;
-        private TextBox ING_ID_TEXT;
-        private Label ING_ID;
         private TextBox ING_NOME_TEXT;
         private Label ING_NOME;
         private CRUD crud1;
         private Label Tit_11_Ingredientes;
         private Button Btn_11_Sair;
         private DataGridView dataGridViewDados;
+        private Button BtnListaIngredientes;
     }
 }

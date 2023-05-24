@@ -88,7 +88,7 @@
             // comboBoxProvider
             // 
             comboBoxProvider.FormattingEnabled = true;
-            comboBoxProvider.Items.AddRange(new object[] { "pt-BR", "en-US", "es" });
+            comboBoxProvider.Items.AddRange(new object[] { "MySql.Data", "System.Data.SqlClient" });
             comboBoxProvider.Location = new Point(29, 181);
             comboBoxProvider.Name = "comboBoxProvider";
             comboBoxProvider.Size = new Size(176, 26);
