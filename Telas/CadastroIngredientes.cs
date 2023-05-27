@@ -8,10 +8,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using PizzariaDoZe_DAO;
 using System.Configuration;
 using System.Data.SqlClient;
 using Org.BouncyCastle.Asn1;
+using PizzariaDoZe_DAO.Ingredientes;
+using System.Security.Cryptography.X509Certificates;
 
 namespace PizzariaDoZe
 {
@@ -65,15 +66,26 @@ namespace PizzariaDoZe
         {
             //Instância e Preenche o objeto com os dados da view
             var ingrediente = new Ingrediente(ING_NOME_TEXT.Text);
-            try
+            var Validador = new ValidadorIngrediente();
+
+            var resultadovalidacao = Validador.Validate(ingrediente);
+            if (resultadovalidacao.Errors.Count == 0)
             {
-                // chama o método para inserir da camada model
-                dao.InserirDbProvider(ingrediente);
-                MessageBox.Show("Dados inseridos com sucesso!");
+                try
+                {
+                    // chama o método para inserir da camada model
+                    dao.InserirDbProvider(ingrediente);
+                    MessageBox.Show("Dados inseridos com sucesso!");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
             }
-            catch (Exception ex)
+            else
             {
-                MessageBox.Show(ex.Message);
+                string PrimeiroErro = resultadovalidacao.Errors[0].ErrorMessage;
+                MessageBox.Show(PrimeiroErro);
             }
         }
 
@@ -99,7 +111,7 @@ namespace PizzariaDoZe
 
         private void BtnListaIngredientes_Click(object sender, EventArgs e)
         {
-            ListarIngredientes t7= new();
+            ListarIngredientes t7 = new();
             t7.Show();
         }
     }

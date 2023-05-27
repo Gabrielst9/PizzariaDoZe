@@ -34,25 +34,30 @@
             // 
             // dataGridViewDados
             // 
+            dataGridViewDados.AllowUserToAddRows = false;
+            dataGridViewDados.AllowUserToDeleteRows = false;
             dataGridViewDados.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridViewDados.BackgroundColor = SystemColors.ActiveCaptionText;
-            dataGridViewDados.BorderStyle = BorderStyle.Fixed3D;
             dataGridViewDados.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewDados.Dock = DockStyle.Fill;
             dataGridViewDados.GridColor = SystemColors.HotTrack;
             dataGridViewDados.Location = new Point(0, 0);
             dataGridViewDados.Name = "dataGridViewDados";
             dataGridViewDados.RowTemplate.Height = 25;
-            dataGridViewDados.Size = new Size(716, 204);
+            dataGridViewDados.Size = new Size(402, 204);
             dataGridViewDados.TabIndex = 0;
             // 
             // ListarIngredientes
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(716, 204);
+            BackgroundImage = Properties.Resources.Screenshot_1;
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(402, 204);
             Controls.Add(dataGridViewDados);
+            DoubleBuffered = true;
             Name = "ListarIngredientes";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "ListarIngredientes";
             ((System.ComponentModel.ISupportInitialize)dataGridViewDados).EndInit();
             ResumeLayout(false);

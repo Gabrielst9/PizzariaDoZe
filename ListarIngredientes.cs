@@ -1,4 +1,4 @@
-﻿using PizzariaDoZe_DAO;
+﻿using PizzariaDoZe_DAO.Ingredientes;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;

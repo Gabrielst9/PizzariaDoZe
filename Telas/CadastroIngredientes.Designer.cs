@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             Pnl_11_Ingredientes = new Panel();
+            BtnListaIngredientes = new Button();
             crud1 = new CRUD();
             ING_NOME_TEXT = new TextBox();
             ING_NOME = new Label();
             Tit_11_Ingredientes = new Label();
             Btn_11_Sair = new Button();
-            BtnListaIngredientes = new Button();
             Pnl_11_Ingredientes.SuspendLayout();
             SuspendLayout();
             // 
@@ -52,6 +52,16 @@
             Pnl_11_Ingredientes.Size = new Size(458, 301);
             Pnl_11_Ingredientes.TabIndex = 27;
             // 
+            // BtnListaIngredientes
+            // 
+            BtnListaIngredientes.Location = new Point(165, 160);
+            BtnListaIngredientes.Name = "BtnListaIngredientes";
+            BtnListaIngredientes.Size = new Size(117, 33);
+            BtnListaIngredientes.TabIndex = 29;
+            BtnListaIngredientes.Text = "Listar Ingredientes";
+            BtnListaIngredientes.UseVisualStyleBackColor = true;
+            BtnListaIngredientes.Click += BtnListaIngredientes_Click;
+            // 
             // crud1
             // 
             crud1.BackColor = SystemColors.Desktop;
@@ -64,6 +74,7 @@
             // ING_NOME_TEXT
             // 
             ING_NOME_TEXT.Location = new Point(130, 66);
+            ING_NOME_TEXT.MaxLength = 80;
             ING_NOME_TEXT.Name = "ING_NOME_TEXT";
             ING_NOME_TEXT.Size = new Size(188, 23);
             ING_NOME_TEXT.TabIndex = 0;
@@ -116,16 +127,6 @@
             Btn_11_Sair.Text = "SAIR";
             Btn_11_Sair.UseVisualStyleBackColor = false;
             Btn_11_Sair.Click += Btn_11_Sair_Click;
-            // 
-            // BtnListaIngredientes
-            // 
-            BtnListaIngredientes.Location = new Point(165, 160);
-            BtnListaIngredientes.Name = "BtnListaIngredientes";
-            BtnListaIngredientes.Size = new Size(117, 33);
-            BtnListaIngredientes.TabIndex = 29;
-            BtnListaIngredientes.Text = "Listar Ingredientes";
-            BtnListaIngredientes.UseVisualStyleBackColor = true;
-            BtnListaIngredientes.Click += BtnListaIngredientes_Click;
             // 
             // CadastroIngredientes
             // 
