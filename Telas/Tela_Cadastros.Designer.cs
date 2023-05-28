@@ -37,6 +37,7 @@
             BTN_CadastrarClientes = new Button();
             BTN_Sair_TelaCadastro = new Button();
             Titulo_Principal = new Label();
+            BtnListarEnderecos = new Button();
             PainelTelaCadastrosAdm.SuspendLayout();
             SuspendLayout();
             // 
@@ -70,15 +71,16 @@
             // 
             PainelTelaCadastrosAdm.Anchor = AnchorStyles.None;
             PainelTelaCadastrosAdm.BackColor = Color.Transparent;
+            PainelTelaCadastrosAdm.Controls.Add(BtnListarEnderecos);
             PainelTelaCadastrosAdm.Controls.Add(BTN_CadastrarProdutos);
             PainelTelaCadastrosAdm.Controls.Add(BTN_CadastrarFuncionarios);
             PainelTelaCadastrosAdm.Controls.Add(BTN_CadastroValores);
             PainelTelaCadastrosAdm.Controls.Add(BTN_CadastrarClientes);
             PainelTelaCadastrosAdm.Controls.Add(BTN_Cadastrar_Ingredientes);
             PainelTelaCadastrosAdm.Controls.Add(BTN_Cadastro_Sabores);
-            PainelTelaCadastrosAdm.Location = new Point(255, 94);
+            PainelTelaCadastrosAdm.Location = new Point(255, 129);
             PainelTelaCadastrosAdm.Name = "PainelTelaCadastrosAdm";
-            PainelTelaCadastrosAdm.Size = new Size(518, 227);
+            PainelTelaCadastrosAdm.Size = new Size(675, 227);
             PainelTelaCadastrosAdm.TabIndex = 3;
             // 
             // BTN_CadastrarProdutos
@@ -140,7 +142,7 @@
             BTN_Sair_TelaCadastro.BackgroundImageLayout = ImageLayout.Stretch;
             BTN_Sair_TelaCadastro.Font = new Font("Copperplate Gothic Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
             BTN_Sair_TelaCadastro.ForeColor = SystemColors.Info;
-            BTN_Sair_TelaCadastro.Location = new Point(439, 380);
+            BTN_Sair_TelaCadastro.Location = new Point(439, 415);
             BTN_Sair_TelaCadastro.Name = "BTN_Sair_TelaCadastro";
             BTN_Sair_TelaCadastro.Size = new Size(150, 58);
             BTN_Sair_TelaCadastro.TabIndex = 7;
@@ -157,7 +159,7 @@
             Titulo_Principal.Font = new Font("Copperplate Gothic Bold", 36F, FontStyle.Regular, GraphicsUnit.Point);
             Titulo_Principal.ForeColor = SystemColors.Info;
             Titulo_Principal.Image = Properties.Resources.Screenshot_1;
-            Titulo_Principal.Location = new Point(287, 12);
+            Titulo_Principal.Location = new Point(287, 47);
             Titulo_Principal.Margin = new Padding(4, 50, 4, 0);
             Titulo_Principal.Name = "Titulo_Principal";
             Titulo_Principal.Size = new Size(454, 55);
@@ -166,12 +168,25 @@
             Titulo_Principal.TextAlign = ContentAlignment.MiddleCenter;
             Titulo_Principal.Click += Titulo_Principal_Click;
             // 
+            // BtnListarEnderecos
+            // 
+            BtnListarEnderecos.BackgroundImage = Properties.Resources.Screenshot_1;
+            BtnListarEnderecos.BackgroundImageLayout = ImageLayout.Stretch;
+            BtnListarEnderecos.ForeColor = SystemColors.Info;
+            BtnListarEnderecos.Location = new Point(506, 33);
+            BtnListarEnderecos.Name = "BtnListarEnderecos";
+            BtnListarEnderecos.Size = new Size(135, 58);
+            BtnListarEnderecos.TabIndex = 8;
+            BtnListarEnderecos.Text = "LISTAR ENDEREÇOS";
+            BtnListarEnderecos.UseVisualStyleBackColor = true;
+            BtnListarEnderecos.Click += BtnListarEnderecos_Click;
+            // 
             // Tela_Cadastros
             // 
             AutoScaleDimensions = new SizeF(9F, 14F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.istockphoto_1137028124_612x612;
-            ClientSize = new Size(1029, 420);
+            ClientSize = new Size(1029, 491);
             Controls.Add(Titulo_Principal);
             Controls.Add(BTN_Sair_TelaCadastro);
             Controls.Add(PainelTelaCadastrosAdm);
@@ -199,5 +214,6 @@
         private Button BTN_CadastroValores;
         private Button BTN_CadastrarFuncionarios;
         private Button BTN_CadastrarProdutos;
+        private Button BtnListarEnderecos;
     }
 }

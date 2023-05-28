@@ -58,7 +58,12 @@ namespace PizzariaDoZe
 
         private void crud1_Load(object sender, EventArgs e)
         {
-            
+
+
+        }
+
+        private void PNL2_CADRASTRO_CLI_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }

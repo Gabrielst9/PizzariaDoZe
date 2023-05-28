@@ -72,5 +72,11 @@ namespace PizzariaDoZe.Telas
             CadastrarProdutos cad = new CadastrarProdutos();
             cad.Show();
         }
+
+        private void BtnListarEnderecos_Click(object sender, EventArgs e)
+        {
+            ListarEnderecos t8 = new();
+            t8.Show();
+        }
     }
 }
