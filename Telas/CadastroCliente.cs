@@ -24,11 +24,6 @@ namespace PizzariaDoZe
             EventHandler(Funcoes.CampoEventoEnter!);
             Textbox_NOME.Leave += new
             EventHandler(Funcoes.CampoEventoLeave!);
-            //Ajuste de Foco campo endereço
-            Textbox_ENDERECO.Enter += new
-            EventHandler(Funcoes.CampoEventoEnter!);
-            Textbox_ENDERECO.Leave += new
-            EventHandler(Funcoes.CampoEventoLeave!);
             //Ajuste de Foco campo email
             Textbox_EMAIL.Enter += new
             EventHandler(Funcoes.CampoEventoEnter!);
