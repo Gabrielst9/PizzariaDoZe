@@ -29,7 +29,7 @@ namespace PizzariaDoZe.Telas
 
         public string Numero
         {
-            get 
+            get
             {
                 return TextBoxNumero.Text;
             }
@@ -53,17 +53,17 @@ namespace PizzariaDoZe.Telas
 
         public string Cidade
         {
-            get 
-            { 
+            get
+            {
                 return TextBoxCidade.Text;
             }
         }
 
         public string Pais
         {
-            get 
-            { 
-                return TextBoxPais.Text; 
+            get
+            {
+                return TextBoxPais.Text;
             }
         }
 

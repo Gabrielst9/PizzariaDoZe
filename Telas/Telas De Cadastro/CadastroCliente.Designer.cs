@@ -45,7 +45,7 @@
             TextNome = new Label();
             TextTelefone = new Label();
             panel2 = new Panel();
-            ControlEnderecoClientes = new Telas.userControlEndereco();
+            userControlEnderecoClientes = new Telas.userControlEndereco();
             panel3 = new Panel();
             panel5 = new Panel();
             panel4 = new Panel();
@@ -258,23 +258,23 @@
             // 
             // panel2
             // 
-            panel2.Controls.Add(ControlEnderecoClientes);
+            panel2.Controls.Add(userControlEnderecoClientes);
             panel2.Controls.Add(panel3);
             panel2.Location = new Point(336, 3);
             panel2.Name = "panel2";
             panel2.Size = new Size(443, 294);
             panel2.TabIndex = 0;
             // 
-            // ControlEnderecoClientes
+            // userControlEnderecoClientes
             // 
-            ControlEnderecoClientes.Anchor = AnchorStyles.None;
-            ControlEnderecoClientes.BackgroundImage = (Image)resources.GetObject("ControlEnderecoClientes.BackgroundImage");
-            ControlEnderecoClientes.BackgroundImageLayout = ImageLayout.Stretch;
-            ControlEnderecoClientes.ForeColor = SystemColors.Info;
-            ControlEnderecoClientes.Location = new Point(0, 0);
-            ControlEnderecoClientes.Name = "ControlEnderecoClientes";
-            ControlEnderecoClientes.Size = new Size(440, 294);
-            ControlEnderecoClientes.TabIndex = 2;
+            userControlEnderecoClientes.Anchor = AnchorStyles.None;
+            userControlEnderecoClientes.BackgroundImage = (Image)resources.GetObject("userControlEnderecoClientes.BackgroundImage");
+            userControlEnderecoClientes.BackgroundImageLayout = ImageLayout.Stretch;
+            userControlEnderecoClientes.ForeColor = SystemColors.Info;
+            userControlEnderecoClientes.Location = new Point(0, 0);
+            userControlEnderecoClientes.Name = "userControlEnderecoClientes";
+            userControlEnderecoClientes.Size = new Size(440, 294);
+            userControlEnderecoClientes.TabIndex = 2;
             // 
             // panel3
             // 
@@ -343,6 +343,6 @@
         private Panel panel3;
         private Panel panel5;
         private Panel panel4;
-        public Telas.userControlEndereco ControlEnderecoClientes;
+        public Telas.userControlEndereco userControlEnderecoClientes;
     }
 }

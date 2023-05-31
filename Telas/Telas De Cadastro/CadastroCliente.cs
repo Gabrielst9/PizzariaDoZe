@@ -29,7 +29,7 @@ namespace PizzariaDoZe
             enderecoDAO.StringConexao = strConnection;
 
             //página 20 do slide, nao funciona:
-            //userControlEndereco.maskedTextBoxCep.Leave += MaskedTextBoxCep_Leave;
+            userControlEnderecoClientes.maskedTextBoxCep.Leave += maskedTextBoxCep_Leave;
 
             //--------------------------------------------------------------------------------------
 
@@ -70,43 +70,43 @@ namespace PizzariaDoZe
             this.Close();
         }
 
-        /*private void maskedTextBoxCep_Leave(object sender, EventArgs e)
+        private void maskedTextBoxCep_Leave(object sender, EventArgs e)
         {
-                if (userControlEndereco.maskedTextBoxCep.Text.Trim().Length <= 0)
+                if (userControlEnderecoClientes.maskedTextBoxCep.Text.Trim().Length <= 0)
                 {
                     return;
                 }
                 var endereco = new Endereco
                 {
-                    Cep = userControlEndereco.maskedTextBoxCep.Text.Trim(),
+                    Cep = userControlEnderecoClientes.maskedTextBoxCep.Text.Trim(),
                 };
                 try
                 {
                     // chama o método para buscar todos os dados da nossa camada model
                     DataTable linhas = enderecoDAO.Buscar(endereco);
                     // seta os dados na tela
-                    userControlEndereco.textBoxId.Text = "";
-                    //userControlEndereco.maskedTextBoxCep.Text = "";
-                    userControlEndereco.textBoxLogradouro.Text = "";
-                    userControlEndereco.textBoxBairro.Text = "";
-                    userControlEndereco.textBoxCidade.Text = "";
-                    userControlEndereco.comboBoxUF.Text = "";
-                    userControlEndereco.textBoxPais.Text = "";
+                    //userControlEnderecoClientes.TextBoxIdEndereco; =  "";
+                    userControlEnderecoClientes.maskedTextBoxCep.Text = "";
+                    userControlEnderecoClientes.TextBoxLogradouro.Text = "";
+                    userControlEnderecoClientes.TextBoxBairro.Text = "";
+                    userControlEnderecoClientes.TextBoxCidade.Text = "";
+                    userControlEnderecoClientes.comboBoxUF.Text = "";
+                    userControlEnderecoClientes.TextBoxPais.Text = "";
                     foreach (DataRow row in linhas.Rows)
                     {
-                        userControlEndereco.textBoxId.Text = row["id"].ToString(); ;
-                        userControlEndereco.maskedTextBoxCep.Text = row["cep"].ToString(); ;
-                        userControlEndereco.textBoxLogradouro.Text = row["logradouro"].ToString(); ;
-                        userControlEndereco.textBoxBairro.Text = row["bairro"].ToString(); ;
-                        userControlEndereco.textBoxCidade.Text = row["cidade"].ToString(); ;
-                        userControlEndereco.comboBoxUF.Text = row["uf"].ToString(); ;
-                        userControlEndereco.textBoxPais.Text = row["pais"].ToString(); ;
+                        //userControlEnderecoClientes.TextBoxIdEndereco.Text = row["id"].ToString(); ;
+                        userControlEnderecoClientes.maskedTextBoxCep.Text = row["cep"].ToString(); ;
+                        userControlEnderecoClientes.TextBoxLogradouro.Text = row["logradouro"].ToString(); ;
+                        userControlEnderecoClientes.TextBoxBairro.Text = row["bairro"].ToString(); ;
+                        userControlEnderecoClientes.TextBoxCidade.Text = row["cidade"].ToString(); ;
+                        userControlEnderecoClientes.comboBoxUF.Text = row["uf"].ToString(); ;
+                        userControlEnderecoClientes.TextBoxPais.Text = row["pais"].ToString(); ;
                     }
                 }
                 catch (Exception ex)
                 {
                     MessageBox.Show(ex.Message, "Pizzaria do Zé", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-        }*/
+        }
     }
 }

@@ -67,12 +67,12 @@
             TextBoxIdEndereco.Anchor = AnchorStyles.None;
             TextBoxIdEndereco.BackColor = SystemColors.ControlDarkDark;
             TextBoxIdEndereco.Cursor = Cursors.IBeam;
-            TextBoxIdEndereco.Enabled = false;
             TextBoxIdEndereco.Font = new Font("Copperplate Gothic Bold", 9F, FontStyle.Regular, GraphicsUnit.Point);
             TextBoxIdEndereco.ForeColor = SystemColors.MenuText;
             TextBoxIdEndereco.Location = new Point(3, 21);
             TextBoxIdEndereco.MaxLength = 80;
             TextBoxIdEndereco.Name = "TextBoxIdEndereco";
+            TextBoxIdEndereco.ReadOnly = true;
             TextBoxIdEndereco.Size = new Size(33, 21);
             TextBoxIdEndereco.TabIndex = 10;
             TextBoxIdEndereco.TabStop = false;
