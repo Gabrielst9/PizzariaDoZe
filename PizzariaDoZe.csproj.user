@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Telas\DataGridView's\ListarIngredientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\Telas De Cadastro\CadastroAdm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\Telas De Cadastro\CadastroIngredientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\Telas De Cadastro\CadastroSabores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\CRUD\CRUD.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Telas\TelaAdm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\Telas De Cadastro\CadastroAtendente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\Telas De Cadastro\CadastroCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\DataGridView's\ListarEnderecos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\TelaFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\TelaInicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\TelaInicialClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\TelaShortCuts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\Tela_Cadastros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\Tela_Configuracoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\Telas De Cadastro\CadastrarProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\Telas De Cadastro\CadastroValores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\Telas De Cadastro\CadastroEntregador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\userControlEndereco.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

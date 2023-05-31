@@ -48,7 +48,7 @@
             ShiftF1.Font = new Font("Copperplate Gothic Bold", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
             ShiftF1.ForeColor = SystemColors.Info;
             ShiftF1.ImeMode = ImeMode.NoControl;
-            ShiftF1.Location = new Point(30, 6);
+            ShiftF1.Location = new Point(19, 20);
             ShiftF1.Margin = new Padding(4, 50, 4, 0);
             ShiftF1.Name = "ShiftF1";
             ShiftF1.Size = new Size(484, 32);
@@ -65,7 +65,7 @@
             label1.Font = new Font("Copperplate Gothic Bold", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
             label1.ForeColor = SystemColors.Info;
             label1.ImeMode = ImeMode.NoControl;
-            label1.Location = new Point(30, 45);
+            label1.Location = new Point(19, 61);
             label1.Margin = new Padding(4, 50, 4, 0);
             label1.Name = "label1";
             label1.Size = new Size(592, 32);
@@ -82,7 +82,7 @@
             label2.Font = new Font("Copperplate Gothic Bold", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
             label2.ForeColor = SystemColors.Info;
             label2.ImeMode = ImeMode.NoControl;
-            label2.Location = new Point(30, 88);
+            label2.Location = new Point(19, 102);
             label2.Margin = new Padding(4, 50, 4, 0);
             label2.Name = "label2";
             label2.Size = new Size(518, 32);
@@ -99,7 +99,7 @@
             label3.Font = new Font("Copperplate Gothic Bold", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
             label3.ForeColor = SystemColors.Info;
             label3.ImeMode = ImeMode.NoControl;
-            label3.Location = new Point(30, 127);
+            label3.Location = new Point(19, 143);
             label3.Margin = new Padding(4, 50, 4, 0);
             label3.Name = "label3";
             label3.Size = new Size(565, 32);
@@ -116,7 +116,7 @@
             label4.Font = new Font("Copperplate Gothic Bold", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
             label4.ForeColor = SystemColors.Info;
             label4.ImeMode = ImeMode.NoControl;
-            label4.Location = new Point(30, 170);
+            label4.Location = new Point(19, 184);
             label4.Margin = new Padding(4, 50, 4, 0);
             label4.Name = "label4";
             label4.Size = new Size(479, 32);
@@ -133,7 +133,7 @@
             label5.Font = new Font("Copperplate Gothic Bold", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
             label5.ForeColor = SystemColors.Info;
             label5.ImeMode = ImeMode.NoControl;
-            label5.Location = new Point(30, 209);
+            label5.Location = new Point(19, 225);
             label5.Margin = new Padding(4, 50, 4, 0);
             label5.Name = "label5";
             label5.Size = new Size(479, 32);
@@ -150,7 +150,7 @@
             label6.Font = new Font("Copperplate Gothic Bold", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
             label6.ForeColor = SystemColors.Info;
             label6.ImeMode = ImeMode.NoControl;
-            label6.Location = new Point(30, 252);
+            label6.Location = new Point(19, 266);
             label6.Margin = new Padding(4, 50, 4, 0);
             label6.Name = "label6";
             label6.Size = new Size(523, 32);
@@ -167,7 +167,7 @@
             label7.Font = new Font("Copperplate Gothic Bold", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
             label7.ForeColor = SystemColors.Info;
             label7.ImeMode = ImeMode.NoControl;
-            label7.Location = new Point(30, 291);
+            label7.Location = new Point(19, 307);
             label7.Margin = new Padding(4, 50, 4, 0);
             label7.Name = "label7";
             label7.Size = new Size(619, 32);
@@ -184,7 +184,7 @@
             label8.Font = new Font("Copperplate Gothic Bold", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
             label8.ForeColor = SystemColors.Info;
             label8.ImeMode = ImeMode.NoControl;
-            label8.Location = new Point(30, 334);
+            label8.Location = new Point(19, 348);
             label8.Margin = new Padding(4, 50, 4, 0);
             label8.Name = "label8";
             label8.Size = new Size(348, 32);
@@ -197,7 +197,8 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Screenshot_1;
-            ClientSize = new Size(828, 422);
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(656, 400);
             Controls.Add(label8);
             Controls.Add(label7);
             Controls.Add(label6);
@@ -207,6 +208,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(ShiftF1);
+            DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.None;
             Name = "TelaShortCuts";
             Text = "TelaShortCuts";

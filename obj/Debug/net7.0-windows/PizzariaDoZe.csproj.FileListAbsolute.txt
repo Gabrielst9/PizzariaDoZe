@@ -1,0 +1,173 @@
+C:\Users\Administrador\Desktop\Projeto Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\PizzariaDoZe.exe
+C:\Users\Administrador\Desktop\Projeto Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\PizzariaDoZe.deps.json
+C:\Users\Administrador\Desktop\Projeto Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\PizzariaDoZe.runtimeconfig.json
+C:\Users\Administrador\Desktop\Projeto Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\PizzariaDoZe.dll
+C:\Users\Administrador\Desktop\Projeto Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\PizzariaDoZe.pdb
+C:\Users\Administrador\Desktop\Projeto Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.csproj.AssemblyReference.cache
+C:\Users\Administrador\Desktop\Projeto Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Form1.resources
+C:\Users\Administrador\Desktop\Projeto Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.csproj.GenerateResource.cache
+C:\Users\Administrador\Desktop\Projeto Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\Desktop\Projeto Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.AssemblyInfoInputs.cache
+C:\Users\Administrador\Desktop\Projeto Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.AssemblyInfo.cs
+C:\Users\Administrador\Desktop\Projeto Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\Projeto Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.dll
+C:\Users\Administrador\Desktop\Projeto Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\refint\PizzariaDoZe.dll
+C:\Users\Administrador\Desktop\Projeto Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.pdb
+C:\Users\Administrador\Desktop\Projeto Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.genruntimeconfig.cache
+C:\Users\Administrador\Desktop\Projeto Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\ref\PizzariaDoZe.dll
+C:\Users\Administrador\Desktop\Projeto Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Properties.Resources.resources
+C:\Users\Administrador\Desktop\Projeto Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TELA_CLIENTES.resources
+C:\Users\Administrador\Desktop\Projeto Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TELA_FUNCIONARIOS.resources
+C:\Users\Administrador\Desktop\Projeto Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\pt\PizzariaDoZe.resources.dll
+C:\Users\Administrador\Desktop\Projeto Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TELA_FUNCIONARIOS.pt.resources
+C:\Users\Administrador\Desktop\Projeto Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\pt\PizzariaDoZe.resources.dll
+C:\Users\Administrador\Desktop\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TELA_ADM.resources
+C:\Users\Administrador\Desktop\Projeto Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TELA_ATENDENTE.resources
+C:\Users\Administrador\Desktop\Projeto Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TELA_ENTREGADOR.resources
+C:\Users\Administrador\Desktop\Projeto Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TELA_CADASTROS.resources
+C:\Users\Administrador\Desktop\Projeto Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TELA_LOGIN_INICIAL.resources
+C:\Users\Administrador\Desktop\Projeto Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TELA_INICIAL_CLIENTE.resources
+C:\Users\Rafael\Downloads\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\PizzariaDoZe.exe
+C:\Users\Rafael\Downloads\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\PizzariaDoZe.deps.json
+C:\Users\Rafael\Downloads\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\PizzariaDoZe.runtimeconfig.json
+C:\Users\Rafael\Downloads\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\PizzariaDoZe.dll
+C:\Users\Rafael\Downloads\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\PizzariaDoZe.pdb
+C:\Users\Rafael\Downloads\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\pt\PizzariaDoZe.resources.dll
+C:\Users\Rafael\Downloads\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.csproj.AssemblyReference.cache
+C:\Users\Rafael\Downloads\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Form1.resources
+C:\Users\Rafael\Downloads\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Properties.Resources.resources
+C:\Users\Rafael\Downloads\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TELA_ADM.resources
+C:\Users\Rafael\Downloads\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TELA_ATENDENTE.resources
+C:\Users\Rafael\Downloads\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TELA_CADASTROS.resources
+C:\Users\Rafael\Downloads\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TELA_CLIENTES.resources
+C:\Users\Rafael\Downloads\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TELA_ENTREGADOR.resources
+C:\Users\Rafael\Downloads\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TELA_FUNCIONARIOS.resources
+C:\Users\Rafael\Downloads\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TELA_INICIAL_CLIENTE.resources
+C:\Users\Rafael\Downloads\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TELA_LOGIN_INICIAL.resources
+C:\Users\Rafael\Downloads\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TELA_FUNCIONARIOS.pt.resources
+C:\Users\Rafael\Downloads\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.csproj.GenerateResource.cache
+C:\Users\Rafael\Downloads\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rafael\Downloads\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.AssemblyInfoInputs.cache
+C:\Users\Rafael\Downloads\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.AssemblyInfo.cs
+C:\Users\Rafael\Downloads\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.csproj.CoreCompileInputs.cache
+C:\Users\Rafael\Downloads\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\pt\PizzariaDoZe.resources.dll
+C:\Users\Rafael\Downloads\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.dll
+C:\Users\Rafael\Downloads\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\refint\PizzariaDoZe.dll
+C:\Users\Rafael\Downloads\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.pdb
+C:\Users\Rafael\Downloads\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.genruntimeconfig.cache
+C:\Users\Rafael\Downloads\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\ref\PizzariaDoZe.dll
+C:\Users\Rafael\Downloads\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.CADASTRO_INGREDIENTES.resources
+C:\Users\Rafael\Downloads\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.CADASTRO_SABORES.resources
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\PizzariaDoZe.exe
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\PizzariaDoZe.deps.json
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\PizzariaDoZe.runtimeconfig.json
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\PizzariaDoZe.dll
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\PizzariaDoZe.pdb
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\pt\PizzariaDoZe.resources.dll
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.csproj.AssemblyReference.cache
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.CADASTRO_INGREDIENTES.resources
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.CADASTRO_SABORES.resources
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.CRUD.resources
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Form1.resources
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Properties.Resources.resources
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TELA_ADM.resources
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TELA_ATENDENTE.resources
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TELA_CADASTROS.resources
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TELA_CLIENTES.resources
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TELA_ENTREGADOR.resources
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TELA_FUNCIONARIOS.resources
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TELA_INICIAL_CLIENTE.resources
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TELA_LOGIN_INICIAL.resources
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Tela_Produtos.resources
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Tela_Valores.resources
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TELA_FUNCIONARIOS.pt.resources
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.csproj.GenerateResource.cache
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.AssemblyInfoInputs.cache
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.AssemblyInfo.cs
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\pt\PizzariaDoZe.resources.dll
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.dll
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\refint\PizzariaDoZe.dll
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.pdb
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.genruntimeconfig.cache
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\ref\PizzariaDoZe.dll
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\en-US\PizzariaDoZe.resources.dll
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\es\PizzariaDoZe.resources.dll
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Properties.Resources.en-US.resources
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Properties.Resources.es.resources
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\en-US\PizzariaDoZe.resources.dll
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\es\PizzariaDoZe.resources.dll
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Properties.Resources.pt.resources
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TELA_FUNCIONARIOS.en-US.resources
+C:\Users\Administrador\Downloads\PROJETO-2.0-LUCIANO\PROJETO Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TELA_FUNCIONARIOS.es.resources
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.csproj.AssemblyReference.cache
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.CRUD.resources
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Properties.Resources.resources
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Properties.Resources.en-US.resources
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Properties.Resources.es.resources
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.csproj.GenerateResource.cache
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.AssemblyInfoInputs.cache
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.AssemblyInfo.cs
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.dll
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\refint\PizzariaDoZe.dll
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.pdb
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\PizzariaDoZe.exe
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\PizzariaDoZe.dll.config
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\PizzariaDoZe.deps.json
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\PizzariaDoZe.runtimeconfig.json
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\PizzariaDoZe.dll
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\PizzariaDoZe.pdb
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\en-US\PizzariaDoZe.resources.dll
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\es\PizzariaDoZe.resources.dll
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\pt\PizzariaDoZe.resources.dll
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Tela_Configuracoes.resources
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\en-US\PizzariaDoZe.resources.dll
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\es\PizzariaDoZe.resources.dll
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\pt\PizzariaDoZe.resources.dll
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.genruntimeconfig.cache
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\ref\PizzariaDoZe.dll
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Telas.TELA_CADASTROS.resources
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.CadastroAdm.resources
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.CadastroIngredientes.resources
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.CadastroSabores.resources
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TelaAdm.resources
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TelaFuncionario.resources
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TelaInicial.resources
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TelaInicialClientes.resources
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TelaFuncionario.en-US.resources
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TelaFuncionario.es.resources
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TelaFuncionario.pt.resources
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.CadastroCliente.resources
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.CadastroValores.resources
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.CadastrarProdutos.resources
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.CadastroAtendente.resources
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.CadastroEntregador.resources
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Telas.TelaShortCuts.resources
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\Google.Protobuf.dll
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\MySql.Data.dll
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\BouncyCastle.Crypto.dll
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\System.Data.SqlClient.dll
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\System.IO.Pipelines.dll
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.csproj.CopyComplete
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\PizzariaDoZe_DAO.dll
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\PizzariaDoZe_DAO.pdb
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.ListarIngredientes.resources
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\FluentValidation.dll
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Telas.ListarEnderecos.resources
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Telas.userControlEndereco.resources

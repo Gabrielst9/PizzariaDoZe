@@ -234,9 +234,9 @@
             PNL1_MENU_LOGIN.Controls.Add(BTN1_LOGIN);
             PNL1_MENU_LOGIN.Controls.Add(BTN1_CADASTRO_CLIENT);
             PNL1_MENU_LOGIN.Controls.Add(TEXT1_FACA_LOGIN);
-            PNL1_MENU_LOGIN.Location = new Point(525, 118);
+            PNL1_MENU_LOGIN.Location = new Point(480, 112);
             PNL1_MENU_LOGIN.Name = "PNL1_MENU_LOGIN";
-            PNL1_MENU_LOGIN.Size = new Size(321, 304);
+            PNL1_MENU_LOGIN.Size = new Size(320, 304);
             PNL1_MENU_LOGIN.TabIndex = 0;
             // 
             // BTN1_SAIR
@@ -249,10 +249,10 @@
             BTN1_SAIR.FlatStyle = FlatStyle.Flat;
             BTN1_SAIR.Font = new Font("Copperplate Gothic Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             BTN1_SAIR.ForeColor = SystemColors.Info;
-            BTN1_SAIR.Location = new Point(571, 476);
+            BTN1_SAIR.Location = new Point(480, 472);
             BTN1_SAIR.Margin = new Padding(4, 3, 4, 3);
             BTN1_SAIR.Name = "BTN1_SAIR";
-            BTN1_SAIR.Size = new Size(229, 32);
+            BTN1_SAIR.Size = new Size(320, 43);
             BTN1_SAIR.TabIndex = 6;
             BTN1_SAIR.Text = "SAIR";
             BTN1_SAIR.UseVisualStyleBackColor = false;

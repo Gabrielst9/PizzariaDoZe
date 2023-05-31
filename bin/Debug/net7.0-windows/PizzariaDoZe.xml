@@ -1,0 +1,421 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PizzariaDoZe</name>
+    </assembly>
+    <members>
+        <member name="F:PizzariaDoZe.ControleDeUsuario.components">
+            <summary> 
+            Variável de designer necessária.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.ControleDeUsuario.Dispose(System.Boolean)">
+            <summary> 
+            Limpar os recursos que estão sendo usados.
+            </summary>
+            <param name="disposing">true se for necessário descartar os recursos gerenciados; caso contrário, false.</param>
+        </member>
+        <member name="M:PizzariaDoZe.ControleDeUsuario.InitializeComponent">
+            <summary> 
+            Método necessário para suporte ao Designer - não modifique 
+            o conteúdo deste método com o editor de código.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.Funcoes.AjustaResourcesControl(System.Windows.Forms.Control)">
+            <summary>
+            De forma recursiva, varre todos os componentes do Control informado, executando o método ApplyResources em cada um dos componentes localizados.
+            O ApplyResources realiza a leitura do satellite assembly, ou seja, do arquivo de resource que foi ativo conforme o idioma escolhido pelo usuário,
+            e com base no nome do campo ajusta todos os parâmetros contidos no resource para aquele campo, por exemplo Text, Font, Size, PasswordChar, Location etc.
+            O objetivo principal aqui é ajustar o Control, por exemplo o Form, para o Idioma e Cultura escolhido pelo usuário.
+            Deve possuir, em Properties, um arquivo de resources para cada idioma desejado, devendo ser alimentado na coluna nome o nome do campo e a propriedade que deseja ajustar.
+            Por exemplo, em cadeias de caracteres labelLogin.Text, em outros textBoxSenha.PasswordChar, ou seja, todas as propriedades podem ser ajustadas conforme o idioma e região em uso.
+            </summary>
+            <param name="container">Informar o container inicial, geralmente this para pegar todos os campos da tela, ou então, por exemplo, o nome de um panel ou usercontrol.</param>
+        </member>
+        <member name="M:PizzariaDoZe.Funcoes.CampoEventoEnter(System.Object,System.EventArgs)">
+            <summary>
+            Altera a cor do BackGroud quando o campo ganha o foco
+            </summary>
+            <param name="sender">Objeto que gerou o evento</param>
+            <param name="e">Evento que foi capturado</param>
+            <example> textBoxUsuario.Enter += new System.EventHandler(ClassFuncoes.CampoEventoEnter); </example>
+        </member>
+        <member name="M:PizzariaDoZe.Funcoes.CampoEventoLeave(System.Object,System.EventArgs)">
+            <summary>
+            Alterar a cor do BackGroup quando o campo perde o foco
+            </summary>
+            <param name="sender">Objeto que gerou o evento</param>
+            <param name="e">Evento que foi capturado</param>
+            <example> textBoxUsuario.Leave += new System.EventHandler(ClassFuncoes.CampoEventoLeave); </example>
+        </member>
+        <member name="M:PizzariaDoZe.Funcoes.EventoFocoCampos(System.Windows.Forms.Control)">
+            <summary>
+            Controla os eventos de ganho e perca de foco
+            </summary>
+            <param name="container"></param>
+        </member>
+        <member name="M:PizzariaDoZe.Program.Main">
+            <summary>
+             The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:PizzariaDoZe.Properties.Resources">
+            <summary>
+              Uma classe de recurso de tipo de alta segurança, para pesquisar cadeias de caracteres localizadas etc.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.ResourceManager">
+            <summary>
+              Retorna a instância de ResourceManager armazenada em cache usada por essa classe.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.Culture">
+            <summary>
+              Substitui a propriedade CurrentUICulture do thread atual para todas as
+              pesquisas de recursos que usam essa classe de recurso de tipo de alta segurança.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources._291125">
+            <summary>
+              Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.icons8_bullet_list_30">
+            <summary>
+              Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.icons8_lock_48">
+            <summary>
+              Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.icons8_menu_48">
+            <summary>
+              Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.icons8_menu_squared_50">
+            <summary>
+              Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.icons8_reminders_50">
+            <summary>
+              Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.icons8_user_male_48">
+            <summary>
+              Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.istockphoto_1137028124_612x612">
+            <summary>
+              Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:PizzariaDoZe.Properties.Resources.Screenshot_1">
+            <summary>
+              Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.Form1.Btn_Sair_Click(System.Object,System.EventArgs)">
+            <summary>
+            ~botão sair padrão
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:PizzariaDoZe.Form1.BTN_CADASTRAR_Click(System.Object,System.EventArgs)">
+            <summary>
+            botão para cadastrar clientes
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:PizzariaDoZe.Form1.components">
+            <summary>
+             Required designer variable.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.Form1.Dispose(System.Boolean)">
+            <summary>
+             Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:PizzariaDoZe.Form1.InitializeComponent">
+            <summary>
+             Required method for Designer support - do not modify
+             the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.TELA_ADM.Btn4_Voltar_Click(System.Object,System.EventArgs)">
+             <summary>
+            botão de voltar padrão 
+             </summary>
+             <param name="sender"></param>
+             <param name="e"></param>
+        </member>
+        <member name="F:PizzariaDoZe.TELA_ADM.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.TELA_ADM.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:PizzariaDoZe.TELA_ADM.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.TELA_ATENDENTE.Btn5_Voltar_Click(System.Object,System.EventArgs)">
+            <summary>
+            botão de voltar padrão
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:PizzariaDoZe.TELA_ATENDENTE.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.TELA_ATENDENTE.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:PizzariaDoZe.TELA_ATENDENTE.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.TELA_CADASTROS.BTN7_SAIR_Click(System.Object,System.EventArgs)">
+            <summary>
+            botão de voltar padrão
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:PizzariaDoZe.TELA_CADASTROS.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.TELA_CADASTROS.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:PizzariaDoZe.TELA_CADASTROS.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.TELA_CLIENTES.Btn2_Voltar_Click(System.Object,System.EventArgs)">
+            <summary>
+            botão de voltar padrão
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:PizzariaDoZe.TELA_CLIENTES.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.TELA_CLIENTES.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:PizzariaDoZe.TELA_CLIENTES.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.Tela_Configuracoes.Btn20Salvar_Click(System.Object,System.EventArgs)">
+            <summary>
+            Este botão salva as configurações definidas pelo usuário
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:PizzariaDoZe.Tela_Configuracoes.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.Tela_Configuracoes.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:PizzariaDoZe.Tela_Configuracoes.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.TELA_ENTREGADOR.Btn6_Voltar_Click(System.Object,System.EventArgs)">
+            <summary>
+            botão de voltar padrão
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:PizzariaDoZe.TELA_ENTREGADOR.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.TELA_ENTREGADOR.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:PizzariaDoZe.TELA_ENTREGADOR.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.TELA_FUNCIONARIOS.Btn_Sair_Click(System.Object,System.EventArgs)">
+            <summary>
+            botão de voltar padrão
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:PizzariaDoZe.TELA_FUNCIONARIOS.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.TELA_FUNCIONARIOS.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:PizzariaDoZe.TELA_FUNCIONARIOS.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.TELA_INICIAL_CLIENTE.BTN8_SAIR_Click(System.Object,System.EventArgs)">
+            <summary>
+            botão de voltar padrão
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:PizzariaDoZe.TELA_INICIAL_CLIENTE.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.TELA_INICIAL_CLIENTE.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:PizzariaDoZe.TELA_INICIAL_CLIENTE.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.TELA_LOGIN_INICIAL.BTN1_CADASTRO_CLIENT_Click(System.Object,System.EventArgs)">
+            <summary>
+            este botão serve para realizar o cadastro de um cliente
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:PizzariaDoZe.TELA_LOGIN_INICIAL.BTN_LOGIN_ADM_Click(System.Object,System.EventArgs)">
+            <summary>
+            este botão redireciona para a página de cadastrar administrador
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:PizzariaDoZe.TELA_LOGIN_INICIAL.BTN1_SAIR_Click(System.Object,System.EventArgs)">
+            <summary>
+            botão de voltar padrão
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:PizzariaDoZe.TELA_LOGIN_INICIAL.BTN1_CLIENTES_Click(System.Object,System.EventArgs)">
+            <summary>
+            este botão abre as telas de clientes
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:PizzariaDoZe.TELA_LOGIN_INICIAL.BTN1_LOGIN_Click(System.Object,System.EventArgs)">
+            <summary>
+            este botão serve para o usuário que já tem conta entrar
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:PizzariaDoZe.TELA_LOGIN_INICIAL.BtnConfiguracoes_Click(System.Object,System.EventArgs)">
+            <summary>
+            este botão redireciona para a página de configurações
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:PizzariaDoZe.TELA_LOGIN_INICIAL.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.TELA_LOGIN_INICIAL.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:PizzariaDoZe.TELA_LOGIN_INICIAL.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:PizzariaDoZe.ApplicationConfiguration">
+            <summary>
+             Bootstrap the application configuration.
+            </summary>
+        </member>
+        <member name="M:PizzariaDoZe.ApplicationConfiguration.Initialize">
+            <summary>
+             Bootstrap the application as follows:
+             <code>
+             global::System.Windows.Forms.Application.EnableVisualStyles();
+             global::System.Windows.Forms.Application.SetCompatibleTextRenderingDefault(false);
+             global::System.Windows.Forms.Application.SetHighDpiMode(HighDpiMode.SystemAware);
+            </code>
+            </summary>
+        </member>
+    </members>
+</doc>

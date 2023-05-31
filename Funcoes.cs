@@ -1,6 +1,9 @@
-﻿using System;
+﻿using PizzariaDoZe.Telas;
+using PizzariaDoZe_DAO.Endereco;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Data;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
@@ -11,6 +14,8 @@ namespace PizzariaDoZe
 {
     internal class Funcoes
     {
+
+        EnderecoDAO enderecoDAO = new EnderecoDAO();
         /// <summary>
         /// De forma recursiva, varre todos os componentes do Control informado, executando o método ApplyResources em cada um dos componentes localizados.
         /// O ApplyResources realiza a leitura do satellite assembly, ou seja, do arquivo de resource que foi ativo conforme o idioma escolhido pelo usuário,
