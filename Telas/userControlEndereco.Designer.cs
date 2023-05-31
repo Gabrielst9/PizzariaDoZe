@@ -319,7 +319,6 @@
         #endregion
 
         private Label label1;
-        private TextBox TextBoxIdEndereco;
         private Label TextCep;
         private Label TextLogradouro;
         private Label TextBairro;
@@ -336,5 +335,6 @@
         public TextBox TextBoxComplemento;
         public MaskedTextBox maskedTextBoxCep;
         public ComboBox comboBoxUF;
+        public TextBox TextBoxIdEndereco;
     }
 }

@@ -28,67 +28,67 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Btn12_Salvar = new Button();
-            Btn12_Editar = new Button();
-            Btn12_Excluir = new Button();
-            Btn12_Fechar = new Button();
+            BtnSalvar = new Button();
+            BtnEditar = new Button();
+            BtnExcluir = new Button();
+            BtnFechar = new Button();
             SuspendLayout();
             // 
-            // Btn12_Salvar
+            // BtnSalvar
             // 
-            Btn12_Salvar.BackgroundImage = Properties.Resources.Screenshot_1;
-            Btn12_Salvar.BackgroundImageLayout = ImageLayout.Stretch;
-            Btn12_Salvar.Location = new Point(22, 9);
-            Btn12_Salvar.Name = "Btn12_Salvar";
-            Btn12_Salvar.Size = new Size(99, 41);
-            Btn12_Salvar.TabIndex = 0;
-            Btn12_Salvar.Text = "SALVAR";
-            Btn12_Salvar.UseVisualStyleBackColor = true;
-            Btn12_Salvar.Click += Btn12_Salvar_Click;
+            BtnSalvar.BackgroundImage = Properties.Resources.Screenshot_1;
+            BtnSalvar.BackgroundImageLayout = ImageLayout.Stretch;
+            BtnSalvar.Location = new Point(22, 9);
+            BtnSalvar.Name = "BtnSalvar";
+            BtnSalvar.Size = new Size(99, 41);
+            BtnSalvar.TabIndex = 0;
+            BtnSalvar.Text = "SALVAR";
+            BtnSalvar.UseVisualStyleBackColor = true;
+            BtnSalvar.Click += Btn12_Salvar_Click;
             // 
-            // Btn12_Editar
+            // BtnEditar
             // 
-            Btn12_Editar.BackgroundImage = Properties.Resources.Screenshot_1;
-            Btn12_Editar.BackgroundImageLayout = ImageLayout.Stretch;
-            Btn12_Editar.Location = new Point(126, 10);
-            Btn12_Editar.Name = "Btn12_Editar";
-            Btn12_Editar.Size = new Size(99, 41);
-            Btn12_Editar.TabIndex = 1;
-            Btn12_Editar.Text = "EDITAR";
-            Btn12_Editar.UseVisualStyleBackColor = true;
+            BtnEditar.BackgroundImage = Properties.Resources.Screenshot_1;
+            BtnEditar.BackgroundImageLayout = ImageLayout.Stretch;
+            BtnEditar.Location = new Point(126, 10);
+            BtnEditar.Name = "BtnEditar";
+            BtnEditar.Size = new Size(99, 41);
+            BtnEditar.TabIndex = 1;
+            BtnEditar.Text = "EDITAR";
+            BtnEditar.UseVisualStyleBackColor = true;
             // 
-            // Btn12_Excluir
+            // BtnExcluir
             // 
-            Btn12_Excluir.BackgroundImage = Properties.Resources.Screenshot_1;
-            Btn12_Excluir.BackgroundImageLayout = ImageLayout.Stretch;
-            Btn12_Excluir.Location = new Point(230, 11);
-            Btn12_Excluir.Name = "Btn12_Excluir";
-            Btn12_Excluir.Size = new Size(99, 41);
-            Btn12_Excluir.TabIndex = 2;
-            Btn12_Excluir.Text = "EXCLUIR";
-            Btn12_Excluir.UseVisualStyleBackColor = true;
+            BtnExcluir.BackgroundImage = Properties.Resources.Screenshot_1;
+            BtnExcluir.BackgroundImageLayout = ImageLayout.Stretch;
+            BtnExcluir.Location = new Point(230, 11);
+            BtnExcluir.Name = "BtnExcluir";
+            BtnExcluir.Size = new Size(99, 41);
+            BtnExcluir.TabIndex = 2;
+            BtnExcluir.Text = "EXCLUIR";
+            BtnExcluir.UseVisualStyleBackColor = true;
             // 
-            // Btn12_Fechar
+            // BtnFechar
             // 
-            Btn12_Fechar.BackgroundImage = Properties.Resources.Screenshot_1;
-            Btn12_Fechar.BackgroundImageLayout = ImageLayout.Stretch;
-            Btn12_Fechar.ForeColor = SystemColors.Info;
-            Btn12_Fechar.Location = new Point(335, 11);
-            Btn12_Fechar.Name = "Btn12_Fechar";
-            Btn12_Fechar.Size = new Size(99, 41);
-            Btn12_Fechar.TabIndex = 3;
-            Btn12_Fechar.Text = "FECHAR";
-            Btn12_Fechar.UseVisualStyleBackColor = true;
+            BtnFechar.BackgroundImage = Properties.Resources.Screenshot_1;
+            BtnFechar.BackgroundImageLayout = ImageLayout.Stretch;
+            BtnFechar.ForeColor = SystemColors.Info;
+            BtnFechar.Location = new Point(335, 11);
+            BtnFechar.Name = "BtnFechar";
+            BtnFechar.Size = new Size(99, 41);
+            BtnFechar.TabIndex = 3;
+            BtnFechar.Text = "FECHAR";
+            BtnFechar.UseVisualStyleBackColor = true;
             // 
             // CRUD
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Desktop;
-            Controls.Add(Btn12_Fechar);
-            Controls.Add(Btn12_Excluir);
-            Controls.Add(Btn12_Editar);
-            Controls.Add(Btn12_Salvar);
+            Controls.Add(BtnFechar);
+            Controls.Add(BtnExcluir);
+            Controls.Add(BtnEditar);
+            Controls.Add(BtnSalvar);
             ForeColor = SystemColors.Info;
             Name = "CRUD";
             Size = new Size(452, 65);
@@ -97,9 +97,9 @@
 
         #endregion
 
-        public Button Btn12_Salvar;
-        public Button Btn12_Editar;
-        public Button Btn12_Excluir;
-        public Button Btn12_Fechar;
+        public Button BtnSalvar;
+        public Button BtnEditar;
+        public Button BtnExcluir;
+        public Button BtnFechar;
     }
 }

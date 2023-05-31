@@ -1,7 +1,10 @@
-﻿using PizzariaDoZe.Telas;
+﻿using PizzariaDoZe.DAO;
+using PizzariaDoZe.Telas;
+using PizzariaDoZe_DAO.Cliente;
 using PizzariaDoZe_DAO.Endereco;
 using System.Configuration;
 using System.Data;
+
 
 namespace PizzariaDoZe
 {
@@ -11,8 +14,10 @@ namespace PizzariaDoZe
         //--------------------------------------------------------------------------------------
         //Atividade-15
         private EnderecoDAO enderecoDAO; //Criando a instancia da classe model
+        private ClienteDAO clienteDAO; //Criando a instancia da classe model
         private string provider;
         private string strConnection;
+
         //--------------------------------------------------------------------------------------
         public CadastroCliente()
         {
@@ -28,9 +33,14 @@ namespace PizzariaDoZe
             enderecoDAO.Provider = provider;
             enderecoDAO.StringConexao = strConnection;
 
-            //página 20 do slide, nao funciona:
             userControlEnderecoClientes.maskedTextBoxCep.Leave += maskedTextBoxCep_Leave;
 
+            //Parte Cliente
+            // cria a instancia da classe da model
+
+            clienteDAO = new ClienteDAO(provider, strConnection);
+
+            CrudCliente.BtnSalvar.Click += BtnSalvar_Click;
             //--------------------------------------------------------------------------------------
 
 
@@ -39,24 +49,24 @@ namespace PizzariaDoZe
             this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown!);
 
             //Ajuste de Foco campo nome
-            Textbox_NOME.Enter += new
+            TextboxNome.Enter += new
             EventHandler(Funcoes.CampoEventoEnter!);
-            Textbox_NOME.Leave += new
+            TextboxNome.Leave += new
             EventHandler(Funcoes.CampoEventoLeave!);
             //Ajuste de Foco campo email
-            Textbox_EMAIL.Enter += new
+            TextboxEmail.Enter += new
             EventHandler(Funcoes.CampoEventoEnter!);
-            Textbox_EMAIL.Leave += new
+            TextboxEmail.Leave += new
             EventHandler(Funcoes.CampoEventoLeave!);
             //Ajuste de Foco campo cpf
-            Maskedbox_CPF.Enter += new
+            MaskedTextboxCpf.Enter += new
             EventHandler(Funcoes.CampoEventoEnter!);
-            Maskedbox_CPF.Leave += new
+            MaskedTextboxCpf.Leave += new
             EventHandler(Funcoes.CampoEventoLeave!);
             //Ajuste do Foco campo telefone
-            Maskedbox_TELEFONE.Enter += new
+            MaskedTextboxTelefone.Enter += new
             EventHandler(Funcoes.CampoEventoEnter!);
-            Maskedbox_TELEFONE.Leave += new
+            MaskedTextboxTelefone.Leave += new
             EventHandler(Funcoes.CampoEventoLeave!);
         }
 
@@ -70,43 +80,82 @@ namespace PizzariaDoZe
             this.Close();
         }
 
+        /// <summary>
+        /// Quando occore a saida da MaskedTexBox ele traz os dados completos do Endereço
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void maskedTextBoxCep_Leave(object sender, EventArgs e)
         {
-                if (userControlEnderecoClientes.maskedTextBoxCep.Text.Trim().Length <= 0)
+            if (userControlEnderecoClientes.maskedTextBoxCep.Text.Trim().Length <= 0)
+            {
+                return;
+            }
+            var endereco = new Endereco
+            {
+                Cep = userControlEnderecoClientes.maskedTextBoxCep.Text.Trim(),
+            };
+            try
+            {
+                // chama o método para buscar todos os dados da nossa camada model
+                DataTable linhas = enderecoDAO.Buscar(endereco);
+                // seta os dados na tela
+                userControlEnderecoClientes.TextBoxIdEndereco.Text = "";
+                userControlEnderecoClientes.maskedTextBoxCep.Text = "";
+                userControlEnderecoClientes.TextBoxLogradouro.Text = "";
+                userControlEnderecoClientes.TextBoxBairro.Text = "";
+                userControlEnderecoClientes.TextBoxCidade.Text = "";
+                userControlEnderecoClientes.comboBoxUF.Text = "";
+                userControlEnderecoClientes.TextBoxPais.Text = "";
+                foreach (DataRow row in linhas.Rows)
                 {
-                    return;
+                    userControlEnderecoClientes.TextBoxIdEndereco.Text = row["id"].ToString(); ;
+                    userControlEnderecoClientes.maskedTextBoxCep.Text = row["cep"].ToString(); ;
+                    userControlEnderecoClientes.TextBoxLogradouro.Text = row["logradouro"].ToString(); ;
+                    userControlEnderecoClientes.TextBoxBairro.Text = row["bairro"].ToString(); ;
+                    userControlEnderecoClientes.TextBoxCidade.Text = row["cidade"].ToString(); ;
+                    userControlEnderecoClientes.comboBoxUF.Text = row["uf"].ToString(); ;
+                    userControlEnderecoClientes.TextBoxPais.Text = row["pais"].ToString(); ;
                 }
-                var endereco = new Endereco
-                {
-                    Cep = userControlEnderecoClientes.maskedTextBoxCep.Text.Trim(),
-                };
-                try
-                {
-                    // chama o método para buscar todos os dados da nossa camada model
-                    DataTable linhas = enderecoDAO.Buscar(endereco);
-                    // seta os dados na tela
-                    //userControlEnderecoClientes.TextBoxIdEndereco; =  "";
-                    userControlEnderecoClientes.maskedTextBoxCep.Text = "";
-                    userControlEnderecoClientes.TextBoxLogradouro.Text = "";
-                    userControlEnderecoClientes.TextBoxBairro.Text = "";
-                    userControlEnderecoClientes.TextBoxCidade.Text = "";
-                    userControlEnderecoClientes.comboBoxUF.Text = "";
-                    userControlEnderecoClientes.TextBoxPais.Text = "";
-                    foreach (DataRow row in linhas.Rows)
-                    {
-                        //userControlEnderecoClientes.TextBoxIdEndereco.Text = row["id"].ToString(); ;
-                        userControlEnderecoClientes.maskedTextBoxCep.Text = row["cep"].ToString(); ;
-                        userControlEnderecoClientes.TextBoxLogradouro.Text = row["logradouro"].ToString(); ;
-                        userControlEnderecoClientes.TextBoxBairro.Text = row["bairro"].ToString(); ;
-                        userControlEnderecoClientes.TextBoxCidade.Text = row["cidade"].ToString(); ;
-                        userControlEnderecoClientes.comboBoxUF.Text = row["uf"].ToString(); ;
-                        userControlEnderecoClientes.TextBoxPais.Text = row["pais"].ToString(); ;
-                    }
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.Message, "Pizzaria do Zé", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Pizzaria do Zé", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+
+        private void BtnSalvar_Click(object sender, EventArgs e)
+        {
+            if (userControlEnderecoClientes.TextBoxIdEndereco.Text.Length <= 0)
+            {
+                MessageBox.Show("Selecione um endereço valido!");
+                return;
+            }
+
+            //Instância e Preenche o objeto com os dados da view
+            var cliente = new Cliente
+            {
+                Id = 0,
+                Nome = TextboxNome.Text,
+                Cpf = MaskedTextboxCpf.Text,
+                Telefone = MaskedTextboxTelefone.Text,
+                Email = TextboxEmail.Text,
+                EnderecoId = int.Parse(userControlEnderecoClientes.TextBoxIdEndereco.Text),
+                Numero = userControlEnderecoClientes.TextBoxNumero.Text,
+                Complemento = userControlEnderecoClientes.TextBoxComplemento.Text,
+            };
+            try
+            {
+                // chama o método da model para inserir e capturar o ID do cliente
+                int IdClienteGerado = clienteDAO.Inserir(cliente);
+                MessageBox.Show("Dados inseridos com sucesso! " + IdClienteGerado);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
         }
     }
 }

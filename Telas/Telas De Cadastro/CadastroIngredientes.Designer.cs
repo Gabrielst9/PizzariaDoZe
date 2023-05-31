@@ -54,9 +54,13 @@
             // 
             // BtnListaIngredientes
             // 
-            BtnListaIngredientes.Location = new Point(165, 160);
+            BtnListaIngredientes.BackgroundImage = Properties.Resources.Screenshot_1;
+            BtnListaIngredientes.BackgroundImageLayout = ImageLayout.Stretch;
+            BtnListaIngredientes.Font = new Font("Copperplate Gothic Bold", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            BtnListaIngredientes.ForeColor = SystemColors.Info;
+            BtnListaIngredientes.Location = new Point(165, 148);
             BtnListaIngredientes.Name = "BtnListaIngredientes";
-            BtnListaIngredientes.Size = new Size(117, 33);
+            BtnListaIngredientes.Size = new Size(117, 45);
             BtnListaIngredientes.TabIndex = 29;
             BtnListaIngredientes.Text = "Listar Ingredientes";
             BtnListaIngredientes.UseVisualStyleBackColor = true;

@@ -23,7 +23,7 @@ namespace PizzariaDoZe
         private string strConnection;
         private readonly IngredienteDAO dao; //No construtor da classe FormMarcas vamos instanciar
 
-        public CadastroIngredientes() 
+        public CadastroIngredientes()
         {
             InitializeComponent();
             provider = ConfigurationManager.ConnectionStrings["BD"].ProviderName;
@@ -40,7 +40,7 @@ namespace PizzariaDoZe
             this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown!);
 
 
-            crud1.Btn12_Salvar.Click += Btn12_Salvar_Click;
+            crud1.BtnSalvar.Click += BtnSalvar_Click;
 
             //Ajuste do Foco campo Nome
             ING_NOME_TEXT.Enter += new
@@ -62,7 +62,7 @@ namespace PizzariaDoZe
             this.Close();
         }
 
-        private void Btn12_Salvar_Click(object sender, EventArgs e)
+        private void BtnSalvar_Click(object sender, EventArgs e)
         {
             //Instância e Preenche o objeto com os dados da view
             var ingrediente = new Ingrediente(ING_NOME_TEXT.Text);
