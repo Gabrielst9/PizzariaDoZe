@@ -269,6 +269,7 @@
             // 
             // maskedTextBoxCep
             // 
+            maskedTextBoxCep.Anchor = AnchorStyles.None;
             maskedTextBoxCep.Location = new Point(82, 21);
             maskedTextBoxCep.Mask = "00.000-000";
             maskedTextBoxCep.Name = "maskedTextBoxCep";
@@ -278,6 +279,7 @@
             // 
             // comboBoxUF
             // 
+            comboBoxUF.Anchor = AnchorStyles.None;
             comboBoxUF.FormattingEnabled = true;
             comboBoxUF.Location = new Point(3, 194);
             comboBoxUF.Name = "comboBoxUF";

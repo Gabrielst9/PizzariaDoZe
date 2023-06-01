@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="userControlEnderecoClientes.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="userControlEndereco1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAUsAAAFICAYAAADZI9wwAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vAAADrwBlbxySQAAjrpJREFUeF7t/dmW4wh2ZYvW41GvlEJtSkr1UqZSqVCVqjl1mnvv/3+ULhacmz6x
+        wgAADsIBFShKgAAAjrpJREFUeF7t/dmW4wh2ZYvW41GvlEJtSkr1UqZSqVCVqjl1mnvv/3+ULhacmz6x
         OAGCNDN3c097mKNGKSNIYO+1ZpBGEPwvv/HbP/nPXxd+83f+4FX4rd/9w3P83g//+dsv5Hd+/4+e5nd/
         8se/3vzBn/zn7+2g//yD2Mz3sN2+hGRLM3cHy/Me1qFn+D9+6/c32D/znvkv/+W/fML+x+8RC8MzWAAb
         C/cjWNnOYIV+BpPL94qd/6PYLu7x20F2/yiWvyMs00f8xu94nx7lQ5bfEBaER7DgEQvyo1ipzmAFfhYT

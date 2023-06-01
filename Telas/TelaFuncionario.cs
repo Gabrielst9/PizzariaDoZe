@@ -32,7 +32,7 @@ namespace PizzariaDoZe
 
         private void Btn3_Atendente_Click(object sender, EventArgs e)
         {
-            CadastroAtendente t4 = new();
+            CadastroFuncionario t4 = new();
             t4.Show();
         }
 

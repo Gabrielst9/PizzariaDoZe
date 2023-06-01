@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CadastroCliente));
-            TITULO_CADASTRO_CLI = new Label();
+            TextCadastroCliente = new Label();
             CrudCliente = new CRUD();
             BtnSair = new Button();
             flowLayoutPanel1 = new FlowLayoutPanel();
@@ -45,31 +45,29 @@
             TextNome = new Label();
             TextTelefone = new Label();
             panel2 = new Panel();
-            userControlEnderecoClientes = new Telas.userControlEndereco();
-            panel3 = new Panel();
             panel5 = new Panel();
-            panel4 = new Panel();
+            userControlEndereco1 = new Telas.userControlEndereco();
             flowLayoutPanel1.SuspendLayout();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             panel5.SuspendLayout();
             SuspendLayout();
             // 
-            // TITULO_CADASTRO_CLI
+            // TextCadastroCliente
             // 
-            TITULO_CADASTRO_CLI.Anchor = AnchorStyles.None;
-            TITULO_CADASTRO_CLI.AutoSize = true;
-            TITULO_CADASTRO_CLI.BackColor = SystemColors.ActiveCaptionText;
-            TITULO_CADASTRO_CLI.BorderStyle = BorderStyle.Fixed3D;
-            TITULO_CADASTRO_CLI.Font = new Font("Copperplate Gothic Bold", 36F, FontStyle.Regular, GraphicsUnit.Point);
-            TITULO_CADASTRO_CLI.ForeColor = SystemColors.Info;
-            TITULO_CADASTRO_CLI.Image = Properties.Resources.Screenshot_1;
-            TITULO_CADASTRO_CLI.Location = new Point(237, 5);
-            TITULO_CADASTRO_CLI.Name = "TITULO_CADASTRO_CLI";
-            TITULO_CADASTRO_CLI.Size = new Size(701, 55);
-            TITULO_CADASTRO_CLI.TabIndex = 1;
-            TITULO_CADASTRO_CLI.Text = "CADASTRO DE CLIENTES";
-            TITULO_CADASTRO_CLI.TextAlign = ContentAlignment.TopCenter;
+            TextCadastroCliente.Anchor = AnchorStyles.None;
+            TextCadastroCliente.AutoSize = true;
+            TextCadastroCliente.BackColor = SystemColors.ActiveCaptionText;
+            TextCadastroCliente.BorderStyle = BorderStyle.Fixed3D;
+            TextCadastroCliente.Font = new Font("Copperplate Gothic Bold", 36F, FontStyle.Regular, GraphicsUnit.Point);
+            TextCadastroCliente.ForeColor = SystemColors.Info;
+            TextCadastroCliente.Image = Properties.Resources.Screenshot_1;
+            TextCadastroCliente.Location = new Point(237, 5);
+            TextCadastroCliente.Name = "TextCadastroCliente";
+            TextCadastroCliente.Size = new Size(701, 55);
+            TextCadastroCliente.TabIndex = 1;
+            TextCadastroCliente.Text = "CADASTRO DE CLIENTES";
+            TextCadastroCliente.TextAlign = ContentAlignment.TopCenter;
             // 
             // CrudCliente
             // 
@@ -105,7 +103,6 @@
             flowLayoutPanel1.Controls.Add(panel1);
             flowLayoutPanel1.Controls.Add(panel2);
             flowLayoutPanel1.Controls.Add(panel5);
-            flowLayoutPanel1.Controls.Add(panel4);
             flowLayoutPanel1.Location = new Point(283, 160);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
             flowLayoutPanel1.Size = new Size(784, 384);
@@ -258,30 +255,11 @@
             // 
             // panel2
             // 
-            panel2.Controls.Add(userControlEnderecoClientes);
-            panel2.Controls.Add(panel3);
+            panel2.Controls.Add(userControlEndereco1);
             panel2.Location = new Point(336, 3);
             panel2.Name = "panel2";
-            panel2.Size = new Size(443, 294);
+            panel2.Size = new Size(445, 285);
             panel2.TabIndex = 0;
-            // 
-            // userControlEnderecoClientes
-            // 
-            userControlEnderecoClientes.Anchor = AnchorStyles.None;
-            userControlEnderecoClientes.BackgroundImage = (Image)resources.GetObject("userControlEnderecoClientes.BackgroundImage");
-            userControlEnderecoClientes.BackgroundImageLayout = ImageLayout.Stretch;
-            userControlEnderecoClientes.ForeColor = SystemColors.Info;
-            userControlEnderecoClientes.Location = new Point(0, 0);
-            userControlEnderecoClientes.Name = "userControlEnderecoClientes";
-            userControlEnderecoClientes.Size = new Size(440, 294);
-            userControlEnderecoClientes.TabIndex = 2;
-            // 
-            // panel3
-            // 
-            panel3.Location = new Point(471, 26);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(295, 205);
-            panel3.TabIndex = 1;
             // 
             // panel5
             // 
@@ -291,12 +269,15 @@
             panel5.Size = new Size(784, 86);
             panel5.TabIndex = 2;
             // 
-            // panel4
+            // userControlEndereco1
             // 
-            panel4.Location = new Point(3, 395);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(631, 77);
-            panel4.TabIndex = 1;
+            userControlEndereco1.BackgroundImage = (Image)resources.GetObject("userControlEndereco1.BackgroundImage");
+            userControlEndereco1.BackgroundImageLayout = ImageLayout.Stretch;
+            userControlEndereco1.ForeColor = SystemColors.Info;
+            userControlEndereco1.Location = new Point(2, 0);
+            userControlEndereco1.Name = "userControlEndereco1";
+            userControlEndereco1.Size = new Size(441, 285);
+            userControlEndereco1.TabIndex = 2;
             // 
             // CadastroCliente
             // 
@@ -307,7 +288,7 @@
             ClientSize = new Size(1174, 616);
             Controls.Add(flowLayoutPanel1);
             Controls.Add(BtnSair);
-            Controls.Add(TITULO_CADASTRO_CLI);
+            Controls.Add(TextCadastroCliente);
             FormBorderStyle = FormBorderStyle.None;
             KeyPreview = true;
             Name = "CadastroCliente";
@@ -324,7 +305,7 @@
         }
 
         #endregion
-        private Label TITULO_CADASTRO_CLI;
+        private Label TextCadastroCliente;
         private CRUD CrudCliente;
         private Button BtnSair;
         private FlowLayoutPanel flowLayoutPanel1;
@@ -340,9 +321,7 @@
         private Label TextNome;
         private Label TextTelefone;
         private Panel panel2;
-        private Panel panel3;
         private Panel panel5;
-        private Panel panel4;
-        public Telas.userControlEndereco userControlEnderecoClientes;
+        private Telas.userControlEndereco userControlEndereco1;
     }
 }

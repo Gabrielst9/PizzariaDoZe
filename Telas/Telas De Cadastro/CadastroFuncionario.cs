@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PizzariaDoZe
 {
-    public partial class CadastroAtendente : Form
+    public partial class CadastroFuncionario : Form
     {
-        public CadastroAtendente()
+        public CadastroFuncionario()
         {
             InitializeComponent();
 
@@ -57,6 +57,11 @@ namespace PizzariaDoZe
         private void Btn5_Voltar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

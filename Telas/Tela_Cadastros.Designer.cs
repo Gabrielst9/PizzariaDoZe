@@ -38,6 +38,7 @@
             BTN_CadastrarClientes = new Button();
             BTN_Sair_TelaCadastro = new Button();
             Titulo_Principal = new Label();
+            BtnListarClientes = new Button();
             PainelTelaCadastrosAdm.SuspendLayout();
             SuspendLayout();
             // 
@@ -71,6 +72,7 @@
             // 
             PainelTelaCadastrosAdm.Anchor = AnchorStyles.None;
             PainelTelaCadastrosAdm.BackColor = Color.Transparent;
+            PainelTelaCadastrosAdm.Controls.Add(BtnListarClientes);
             PainelTelaCadastrosAdm.Controls.Add(BtnListarEnderecos);
             PainelTelaCadastrosAdm.Controls.Add(BTN_CadastrarProdutos);
             PainelTelaCadastrosAdm.Controls.Add(BTN_CadastrarFuncionarios);
@@ -181,6 +183,19 @@
             Titulo_Principal.TextAlign = ContentAlignment.MiddleCenter;
             Titulo_Principal.Click += Titulo_Principal_Click;
             // 
+            // BtnListarClientes
+            // 
+            BtnListarClientes.BackgroundImage = Properties.Resources.Screenshot_1;
+            BtnListarClientes.BackgroundImageLayout = ImageLayout.Stretch;
+            BtnListarClientes.ForeColor = SystemColors.Info;
+            BtnListarClientes.Location = new Point(27, 219);
+            BtnListarClientes.Name = "BtnListarClientes";
+            BtnListarClientes.Size = new Size(135, 58);
+            BtnListarClientes.TabIndex = 9;
+            BtnListarClientes.Text = "LISTAR CLIENTES";
+            BtnListarClientes.UseVisualStyleBackColor = true;
+            BtnListarClientes.Click += BtnListarClientes_Click;
+            // 
             // Tela_Cadastros
             // 
             AutoScaleDimensions = new SizeF(9F, 14F);
@@ -215,5 +230,6 @@
         private Button BTN_CadastrarFuncionarios;
         private Button BTN_CadastrarProdutos;
         private Button BtnListarEnderecos;
+        private Button BtnListarClientes;
     }
 }

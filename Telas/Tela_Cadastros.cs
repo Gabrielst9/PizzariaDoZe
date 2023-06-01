@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PizzariaDoZe.Telas.DataGridView_s;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -73,10 +74,19 @@ namespace PizzariaDoZe.Telas
             cad.Show();
         }
 
+        //Chamando o DataGridView na tela
         private void BtnListarEnderecos_Click(object sender, EventArgs e)
         {
             ListarEnderecos t8 = new();
             t8.Show();
+        }
+
+
+        //Chamando o DataGridView na tela
+        private void BtnListarClientes_Click(object sender, EventArgs e)
+        {
+            ListarClientes lc = new ListarClientes();
+            lc.Show();
         }
     }
 }

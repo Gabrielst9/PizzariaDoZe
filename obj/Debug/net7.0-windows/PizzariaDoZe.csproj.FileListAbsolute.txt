@@ -171,3 +171,4 @@ C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZ
 C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\FluentValidation.dll
 C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Telas.ListarEnderecos.resources
 C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Telas.userControlEndereco.resources
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Telas.DataGridView_s.ListarClientes.resources
