@@ -113,7 +113,7 @@
             panel1.Controls.Add(BTN_LOGIN_ADM);
             panel1.Location = new Point(3, 96);
             panel1.Name = "panel1";
-            panel1.Size = new Size(207, 245);
+            panel1.Size = new Size(206, 245);
             panel1.TabIndex = 5;
             // 
             // BTN_TelaPrincipalShortCuts
@@ -156,13 +156,12 @@
             // 
             BTN1_CLIENTES.BackColor = SystemColors.Info;
             BTN1_CLIENTES.ForeColor = SystemColors.ControlText;
-            BTN1_CLIENTES.Image = Properties.Resources.icons8_user_male_48;
             BTN1_CLIENTES.ImageAlign = ContentAlignment.MiddleLeft;
             BTN1_CLIENTES.Location = new Point(0, 3);
             BTN1_CLIENTES.Name = "BTN1_CLIENTES";
             BTN1_CLIENTES.Size = new Size(207, 45);
             BTN1_CLIENTES.TabIndex = 3;
-            BTN1_CLIENTES.Text = "CLIENTE";
+            BTN1_CLIENTES.Text = "INICIO";
             BTN1_CLIENTES.UseVisualStyleBackColor = false;
             BTN1_CLIENTES.Click += BTN1_CLIENTES_Click;
             // 

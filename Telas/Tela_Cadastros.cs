@@ -17,7 +17,7 @@ namespace PizzariaDoZe.Telas
         {
             InitializeComponent();
 
-            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown!);
+            this.ConfigurarShortCut();
         }
 
         private void BTN_Cadastrar_Ingredientes_Click(object sender, EventArgs e)
@@ -63,7 +63,7 @@ namespace PizzariaDoZe.Telas
         private void BTN_CadastrarFuncionarios_Click(object sender, EventArgs e)
         {
             this.Close();
-            TelaFuncionario cad = new TelaFuncionario();
+            CadastroFuncionario cad = new CadastroFuncionario();
             cad.Show();
         }
 

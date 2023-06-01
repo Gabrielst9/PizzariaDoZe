@@ -16,7 +16,7 @@ namespace PizzariaDoZe
         {
             InitializeComponent();
 
-            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown!);
+            this.ConfigurarShortCut();
         }
 
         private void BTN8_SAIR_Click(object sender, EventArgs e)

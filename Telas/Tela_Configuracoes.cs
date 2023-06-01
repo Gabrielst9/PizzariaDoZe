@@ -16,7 +16,7 @@ namespace PizzariaDoZe
         public Tela_Configuracoes()
         {
             InitializeComponent();
-            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown!);
+            this.ConfigurarShortCut();
             
             //seleciona no comboBox o idioma/cultura atual
             //seleciona no combo a cultura atual

@@ -45,8 +45,8 @@
             TextNome = new Label();
             TextTelefone = new Label();
             panel2 = new Panel();
+            userControlEnderecoClientes = new Telas.userControlEndereco();
             panel5 = new Panel();
-            userControlEndereco1 = new Telas.userControlEndereco();
             flowLayoutPanel1.SuspendLayout();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
@@ -219,7 +219,7 @@
             // 
             MaskedTextboxTelefone.Anchor = AnchorStyles.None;
             MaskedTextboxTelefone.Location = new Point(0, 206);
-            MaskedTextboxTelefone.Mask = "(999) 000-0000";
+            MaskedTextboxTelefone.Mask = "(00) 90000-0000";
             MaskedTextboxTelefone.Name = "MaskedTextboxTelefone";
             MaskedTextboxTelefone.Size = new Size(92, 23);
             MaskedTextboxTelefone.TabIndex = 3;
@@ -255,11 +255,21 @@
             // 
             // panel2
             // 
-            panel2.Controls.Add(userControlEndereco1);
+            panel2.Controls.Add(userControlEnderecoClientes);
             panel2.Location = new Point(336, 3);
             panel2.Name = "panel2";
             panel2.Size = new Size(445, 285);
             panel2.TabIndex = 0;
+            // 
+            // userControlEnderecoClientes
+            // 
+            userControlEnderecoClientes.BackgroundImage = (Image)resources.GetObject("userControlEnderecoClientes.BackgroundImage");
+            userControlEnderecoClientes.BackgroundImageLayout = ImageLayout.Stretch;
+            userControlEnderecoClientes.ForeColor = SystemColors.Info;
+            userControlEnderecoClientes.Location = new Point(2, 0);
+            userControlEnderecoClientes.Name = "userControlEnderecoClientes";
+            userControlEnderecoClientes.Size = new Size(441, 285);
+            userControlEnderecoClientes.TabIndex = 2;
             // 
             // panel5
             // 
@@ -268,16 +278,6 @@
             panel5.Name = "panel5";
             panel5.Size = new Size(784, 86);
             panel5.TabIndex = 2;
-            // 
-            // userControlEndereco1
-            // 
-            userControlEndereco1.BackgroundImage = (Image)resources.GetObject("userControlEndereco1.BackgroundImage");
-            userControlEndereco1.BackgroundImageLayout = ImageLayout.Stretch;
-            userControlEndereco1.ForeColor = SystemColors.Info;
-            userControlEndereco1.Location = new Point(2, 0);
-            userControlEndereco1.Name = "userControlEndereco1";
-            userControlEndereco1.Size = new Size(441, 285);
-            userControlEndereco1.TabIndex = 2;
             // 
             // CadastroCliente
             // 
@@ -322,6 +322,6 @@
         private Label TextTelefone;
         private Panel panel2;
         private Panel panel5;
-        private Telas.userControlEndereco userControlEndereco1;
+        private Telas.userControlEndereco userControlEnderecoClientes;
     }
 }

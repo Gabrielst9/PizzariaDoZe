@@ -8,7 +8,7 @@ namespace PizzariaDoZe
         {
             InitializeComponent();
 
-            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown!);
+            this.ConfigurarShortCut();
 
           
         }

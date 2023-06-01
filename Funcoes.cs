@@ -119,7 +119,7 @@ namespace PizzariaDoZe
         /// <example>No construtor do formulário:
         /// this.KeyDown += new System.Windows.Forms.KeyEventHandler(ClassFuncoes.FormEventoKeyDown);
         ///</example>
-        public static void FormEventoKeyDown(object sender, KeyEventArgs e)
+        public static void FormEventoKeyDownEsc(object sender, KeyEventArgs e)
         {
             //obtém o form onde o componente gerou o evento
             Control x = (Control)sender;
@@ -190,7 +190,7 @@ namespace PizzariaDoZe
                 e.SuppressKeyPress = true;
                 //SendKeys.Send("{TAB}");
                 form.Close();
-                TelaFuncionario tl = new();
+                CadastroFuncionario tl = new();
                 tl.Show();
 
             }

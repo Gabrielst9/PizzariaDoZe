@@ -46,8 +46,6 @@
             TextBoxComplemento = new TextBox();
             maskedTextBoxCep = new MaskedTextBox();
             comboBoxUF = new ComboBox();
-            PnlPrincipal = new Panel();
-            PnlPrincipal.SuspendLayout();
             SuspendLayout();
             // 
             // label1
@@ -270,47 +268,36 @@
             comboBoxUF.Size = new Size(42, 23);
             comboBoxUF.TabIndex = 59;
             // 
-            // PnlPrincipal
-            // 
-            PnlPrincipal.BackColor = Color.Transparent;
-            PnlPrincipal.Controls.Add(comboBoxUF);
-            PnlPrincipal.Controls.Add(TextBoxBairro);
-            PnlPrincipal.Controls.Add(maskedTextBoxCep);
-            PnlPrincipal.Controls.Add(TextCep);
-            PnlPrincipal.Controls.Add(TextComplemento);
-            PnlPrincipal.Controls.Add(label1);
-            PnlPrincipal.Controls.Add(TextBoxComplemento);
-            PnlPrincipal.Controls.Add(TextBoxIdEndereco);
-            PnlPrincipal.Controls.Add(TextNumero);
-            PnlPrincipal.Controls.Add(TextBoxLogradouro);
-            PnlPrincipal.Controls.Add(TextBoxNumero);
-            PnlPrincipal.Controls.Add(TextLogradouro);
-            PnlPrincipal.Controls.Add(TextPais);
-            PnlPrincipal.Controls.Add(TextBairro);
-            PnlPrincipal.Controls.Add(TextBoxPais);
-            PnlPrincipal.Controls.Add(TextBoxCidade);
-            PnlPrincipal.Controls.Add(TextUF);
-            PnlPrincipal.Controls.Add(TextCidade);
-            PnlPrincipal.Dock = DockStyle.Fill;
-            PnlPrincipal.Location = new Point(0, 0);
-            PnlPrincipal.Name = "PnlPrincipal";
-            PnlPrincipal.Size = new Size(439, 289);
-            PnlPrincipal.TabIndex = 60;
-            // 
             // userControlEndereco
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Screenshot_1;
             BackgroundImageLayout = ImageLayout.Stretch;
-            Controls.Add(PnlPrincipal);
+            Controls.Add(comboBoxUF);
+            Controls.Add(TextBoxBairro);
+            Controls.Add(label1);
+            Controls.Add(maskedTextBoxCep);
+            Controls.Add(TextCidade);
+            Controls.Add(TextCep);
+            Controls.Add(TextUF);
+            Controls.Add(TextComplemento);
+            Controls.Add(TextBoxCidade);
+            Controls.Add(TextBoxPais);
+            Controls.Add(TextBoxComplemento);
+            Controls.Add(TextBairro);
+            Controls.Add(TextBoxIdEndereco);
+            Controls.Add(TextPais);
+            Controls.Add(TextNumero);
+            Controls.Add(TextLogradouro);
+            Controls.Add(TextBoxLogradouro);
+            Controls.Add(TextBoxNumero);
             DoubleBuffered = true;
             ForeColor = SystemColors.Info;
             Name = "userControlEndereco";
-            Size = new Size(439, 289);
-            PnlPrincipal.ResumeLayout(false);
-            PnlPrincipal.PerformLayout();
+            Size = new Size(434, 283);
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -333,6 +320,5 @@
         public MaskedTextBox maskedTextBoxCep;
         public ComboBox comboBoxUF;
         public TextBox TextBoxIdEndereco;
-        private Panel PnlPrincipal;
     }
 }

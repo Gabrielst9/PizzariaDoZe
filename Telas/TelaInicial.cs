@@ -22,7 +22,7 @@ namespace PizzariaDoZe
             InitializeComponent();
             //adiciona eventos em geral, exemplo: ganhar e perder o foco
             Funcoes.EventoFocoCampos(this);
-            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown!);
+            this.ConfigurarShortCut();
 
             //confirmação para fechar as janelas
             this.FormClosing += Funcoes.ConfirmarFechamentoDeFormulario;

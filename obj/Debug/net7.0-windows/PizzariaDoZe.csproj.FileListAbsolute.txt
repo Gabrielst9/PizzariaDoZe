@@ -122,11 +122,9 @@ C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZ
 C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\PizzariaDoZe.pdb
 C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\en-US\PizzariaDoZe.resources.dll
 C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\es\PizzariaDoZe.resources.dll
-C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\pt\PizzariaDoZe.resources.dll
 C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Tela_Configuracoes.resources
 C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\en-US\PizzariaDoZe.resources.dll
 C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\es\PizzariaDoZe.resources.dll
-C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\pt\PizzariaDoZe.resources.dll
 C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.genruntimeconfig.cache
 C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\ref\PizzariaDoZe.dll
 C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Telas.TELA_CADASTROS.resources
@@ -134,16 +132,11 @@ C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZ
 C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.CadastroIngredientes.resources
 C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.CadastroSabores.resources
 C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TelaAdm.resources
-C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TelaFuncionario.resources
 C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TelaInicial.resources
 C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TelaInicialClientes.resources
-C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TelaFuncionario.en-US.resources
-C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TelaFuncionario.es.resources
-C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.TelaFuncionario.pt.resources
 C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.CadastroCliente.resources
 C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.CadastroValores.resources
 C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.CadastrarProdutos.resources
-C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.CadastroAtendente.resources
 C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.CadastroEntregador.resources
 C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Telas.TelaShortCuts.resources
 C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\bin\Debug\net7.0-windows\Google.Protobuf.dll
@@ -172,3 +165,4 @@ C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZ
 C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Telas.ListarEnderecos.resources
 C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Telas.userControlEndereco.resources
 C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Telas.DataGridView_s.ListarClientes.resources
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Telas.CadastroFuncionario.resources

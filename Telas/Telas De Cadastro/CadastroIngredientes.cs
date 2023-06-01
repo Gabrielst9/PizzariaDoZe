@@ -37,7 +37,7 @@ namespace PizzariaDoZe
 
             dao = new IngredienteDAO();
 
-            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown!);
+            this.ConfigurarShortCut();
 
 
             crud1.BtnSalvar.Click += BtnSalvar_Click;

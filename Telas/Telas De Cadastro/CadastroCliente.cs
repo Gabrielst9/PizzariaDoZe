@@ -46,7 +46,7 @@ namespace PizzariaDoZe
 
 
 
-            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown!);
+            this.ConfigurarShortCut();
 
             //Ajuste de Foco campo nome
             TextboxNome.Enter += new

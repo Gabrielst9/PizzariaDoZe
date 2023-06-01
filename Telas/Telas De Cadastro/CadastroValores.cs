@@ -16,7 +16,7 @@ namespace PizzariaDoZe
         {
             InitializeComponent();
 
-            this.KeyDown += new KeyEventHandler(Funcoes.FormEventoKeyDown!);
+            this.ConfigurarShortCut();
 
             TextBox2Valor.Enter += new
             EventHandler(Funcoes.CampoEventoEnter!);
