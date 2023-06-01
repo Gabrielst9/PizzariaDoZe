@@ -30,6 +30,20 @@
         {
             TextCadastroDeFuncionario = new Label();
             panel1 = new Panel();
+            panel2 = new Panel();
+            RadioBtnEntregador = new RadioButton();
+            RadioBtnAtendente = new RadioButton();
+            RadioBtnAdm = new RadioButton();
+            ComboBoxCarteira = new ComboBox();
+            TextObservacao = new Label();
+            TextBoxObservacao = new TextBox();
+            TextSenha = new Label();
+            TextBoxSenha = new TextBox();
+            dateTimePicker1 = new DateTimePicker();
+            TextValidade = new Label();
+            TextCarteiraMotorista = new Label();
+            TextMatricula = new Label();
+            textBox1 = new TextBox();
             TextIDCliente = new Label();
             TextboxIdCliente = new TextBox();
             TextEmail = new Label();
@@ -40,20 +54,6 @@
             MaskedTextboxTelefone = new MaskedTextBox();
             TextNome = new Label();
             TextTelefone = new Label();
-            textBox1 = new TextBox();
-            TextMatricula = new Label();
-            TextCarteiraMotorista = new Label();
-            TextValidade = new Label();
-            dateTimePicker1 = new DateTimePicker();
-            TextSenha = new Label();
-            TextBoxSenha = new TextBox();
-            TextObservacao = new Label();
-            TextBoxObservacao = new TextBox();
-            ComboBoxCarteira = new ComboBox();
-            panel2 = new Panel();
-            RadioBtnAdm = new RadioButton();
-            RadioBtnAtendente = new RadioButton();
-            RadioBtnEntregador = new RadioButton();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             SuspendLayout();
@@ -97,8 +97,160 @@
             panel1.Controls.Add(TextTelefone);
             panel1.Location = new Point(160, 65);
             panel1.Name = "panel1";
-            panel1.Size = new Size(800, 451);
+            panel1.Size = new Size(527, 376);
             panel1.TabIndex = 0;
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.Transparent;
+            panel2.Controls.Add(RadioBtnEntregador);
+            panel2.Controls.Add(RadioBtnAtendente);
+            panel2.Controls.Add(RadioBtnAdm);
+            panel2.Location = new Point(395, 21);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(125, 128);
+            panel2.TabIndex = 68;
+            // 
+            // RadioBtnEntregador
+            // 
+            RadioBtnEntregador.AutoSize = true;
+            RadioBtnEntregador.Location = new Point(3, 107);
+            RadioBtnEntregador.Name = "RadioBtnEntregador";
+            RadioBtnEntregador.Size = new Size(108, 18);
+            RadioBtnEntregador.TabIndex = 70;
+            RadioBtnEntregador.TabStop = true;
+            RadioBtnEntregador.Text = "Entregador";
+            RadioBtnEntregador.UseVisualStyleBackColor = true;
+            // 
+            // RadioBtnAtendente
+            // 
+            RadioBtnAtendente.AutoSize = true;
+            RadioBtnAtendente.Location = new Point(3, 55);
+            RadioBtnAtendente.Name = "RadioBtnAtendente";
+            RadioBtnAtendente.Size = new Size(99, 18);
+            RadioBtnAtendente.TabIndex = 69;
+            RadioBtnAtendente.TabStop = true;
+            RadioBtnAtendente.Text = "Atendente";
+            RadioBtnAtendente.UseVisualStyleBackColor = true;
+            // 
+            // RadioBtnAdm
+            // 
+            RadioBtnAdm.AutoSize = true;
+            RadioBtnAdm.Location = new Point(3, 3);
+            RadioBtnAdm.Name = "RadioBtnAdm";
+            RadioBtnAdm.Size = new Size(123, 18);
+            RadioBtnAdm.TabIndex = 0;
+            RadioBtnAdm.TabStop = true;
+            RadioBtnAdm.Text = "Administrador";
+            RadioBtnAdm.UseVisualStyleBackColor = true;
+            // 
+            // ComboBoxCarteira
+            // 
+            ComboBoxCarteira.FormattingEnabled = true;
+            ComboBoxCarteira.Items.AddRange(new object[] { "Habilitação - A", "Habilitação - B", "Habilitação - C", "Habilitação - D", "Não Possuo Carteira" });
+            ComboBoxCarteira.Location = new Point(3, 210);
+            ComboBoxCarteira.Name = "ComboBoxCarteira";
+            ComboBoxCarteira.Size = new Size(242, 22);
+            ComboBoxCarteira.TabIndex = 67;
+            // 
+            // TextObservacao
+            // 
+            TextObservacao.AutoSize = true;
+            TextObservacao.BackColor = Color.Transparent;
+            TextObservacao.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            TextObservacao.Location = new Point(3, 235);
+            TextObservacao.Name = "TextObservacao";
+            TextObservacao.Size = new Size(198, 36);
+            TextObservacao.TabIndex = 65;
+            TextObservacao.Text = "OBSERVAÇÃO:\r\n(DADOS DO VEÍCULO)";
+            // 
+            // TextBoxObservacao
+            // 
+            TextBoxObservacao.Location = new Point(3, 274);
+            TextBoxObservacao.Multiline = true;
+            TextBoxObservacao.Name = "TextBoxObservacao";
+            TextBoxObservacao.Size = new Size(517, 95);
+            TextBoxObservacao.TabIndex = 64;
+            // 
+            // TextSenha
+            // 
+            TextSenha.AutoSize = true;
+            TextSenha.BackColor = Color.Transparent;
+            TextSenha.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            TextSenha.ForeColor = SystemColors.Info;
+            TextSenha.Location = new Point(393, 189);
+            TextSenha.Name = "TextSenha";
+            TextSenha.Size = new Size(73, 18);
+            TextSenha.TabIndex = 26;
+            TextSenha.Text = "SENHA";
+            TextSenha.TextAlign = ContentAlignment.TopCenter;
+            // 
+            // TextBoxSenha
+            // 
+            TextBoxSenha.Location = new Point(395, 211);
+            TextBoxSenha.Name = "TextBoxSenha";
+            TextBoxSenha.PasswordChar = '*';
+            TextBoxSenha.Size = new Size(123, 21);
+            TextBoxSenha.TabIndex = 25;
+            // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.Format = DateTimePickerFormat.Short;
+            dateTimePicker1.Location = new Point(251, 211);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(138, 21);
+            dateTimePicker1.TabIndex = 24;
+            // 
+            // TextValidade
+            // 
+            TextValidade.AutoSize = true;
+            TextValidade.BackColor = Color.Transparent;
+            TextValidade.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            TextValidade.ForeColor = SystemColors.Info;
+            TextValidade.Location = new Point(247, 189);
+            TextValidade.Name = "TextValidade";
+            TextValidade.Size = new Size(100, 18);
+            TextValidade.TabIndex = 23;
+            TextValidade.Text = "VALIDADE";
+            TextValidade.TextAlign = ContentAlignment.TopCenter;
+            // 
+            // TextCarteiraMotorista
+            // 
+            TextCarteiraMotorista.AutoSize = true;
+            TextCarteiraMotorista.BackColor = Color.Transparent;
+            TextCarteiraMotorista.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            TextCarteiraMotorista.ForeColor = SystemColors.Info;
+            TextCarteiraMotorista.Location = new Point(1, 189);
+            TextCarteiraMotorista.Name = "TextCarteiraMotorista";
+            TextCarteiraMotorista.Size = new Size(242, 18);
+            TextCarteiraMotorista.TabIndex = 21;
+            TextCarteiraMotorista.Text = "CARTEIRA DE MOROTISTA";
+            TextCarteiraMotorista.TextAlign = ContentAlignment.TopCenter;
+            // 
+            // TextMatricula
+            // 
+            TextMatricula.AutoSize = true;
+            TextMatricula.BackColor = Color.Transparent;
+            TextMatricula.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            TextMatricula.ForeColor = SystemColors.Info;
+            TextMatricula.Location = new Point(192, 2);
+            TextMatricula.Name = "TextMatricula";
+            TextMatricula.Size = new Size(115, 18);
+            TextMatricula.TabIndex = 19;
+            TextMatricula.Text = "MATRICULA";
+            TextMatricula.TextAlign = ContentAlignment.TopCenter;
+            // 
+            // textBox1
+            // 
+            textBox1.BackColor = SystemColors.ButtonHighlight;
+            textBox1.Cursor = Cursors.IBeam;
+            textBox1.Font = new Font("Copperplate Gothic Bold", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox1.ForeColor = SystemColors.MenuText;
+            textBox1.Location = new Point(192, 23);
+            textBox1.MaxLength = 80;
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(128, 21);
+            textBox1.TabIndex = 18;
             // 
             // TextIDCliente
             // 
@@ -215,160 +367,6 @@
             TextTelefone.TabIndex = 14;
             TextTelefone.Text = "TELEFONE";
             TextTelefone.TextAlign = ContentAlignment.TopCenter;
-            // 
-            // textBox1
-            // 
-            textBox1.BackColor = SystemColors.ButtonHighlight;
-            textBox1.Cursor = Cursors.IBeam;
-            textBox1.Font = new Font("Copperplate Gothic Bold", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox1.ForeColor = SystemColors.MenuText;
-            textBox1.Location = new Point(192, 23);
-            textBox1.MaxLength = 80;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(128, 21);
-            textBox1.TabIndex = 18;
-            // 
-            // TextMatricula
-            // 
-            TextMatricula.AutoSize = true;
-            TextMatricula.BackColor = Color.Transparent;
-            TextMatricula.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            TextMatricula.ForeColor = SystemColors.Info;
-            TextMatricula.Location = new Point(192, 2);
-            TextMatricula.Name = "TextMatricula";
-            TextMatricula.Size = new Size(115, 18);
-            TextMatricula.TabIndex = 19;
-            TextMatricula.Text = "MATRICULA";
-            TextMatricula.TextAlign = ContentAlignment.TopCenter;
-            // 
-            // TextCarteiraMotorista
-            // 
-            TextCarteiraMotorista.AutoSize = true;
-            TextCarteiraMotorista.BackColor = Color.Transparent;
-            TextCarteiraMotorista.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            TextCarteiraMotorista.ForeColor = SystemColors.Info;
-            TextCarteiraMotorista.Location = new Point(1, 189);
-            TextCarteiraMotorista.Name = "TextCarteiraMotorista";
-            TextCarteiraMotorista.Size = new Size(242, 18);
-            TextCarteiraMotorista.TabIndex = 21;
-            TextCarteiraMotorista.Text = "CARTEIRA DE MOROTISTA";
-            TextCarteiraMotorista.TextAlign = ContentAlignment.TopCenter;
-            // 
-            // TextValidade
-            // 
-            TextValidade.Anchor = AnchorStyles.None;
-            TextValidade.AutoSize = true;
-            TextValidade.BackColor = Color.Transparent;
-            TextValidade.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            TextValidade.ForeColor = SystemColors.Info;
-            TextValidade.Location = new Point(249, 189);
-            TextValidade.Name = "TextValidade";
-            TextValidade.Size = new Size(100, 18);
-            TextValidade.TabIndex = 23;
-            TextValidade.Text = "VALIDADE";
-            TextValidade.TextAlign = ContentAlignment.TopCenter;
-            // 
-            // dateTimePicker1
-            // 
-            dateTimePicker1.Format = DateTimePickerFormat.Short;
-            dateTimePicker1.Location = new Point(251, 211);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(138, 21);
-            dateTimePicker1.TabIndex = 24;
-            // 
-            // TextSenha
-            // 
-            TextSenha.Anchor = AnchorStyles.None;
-            TextSenha.AutoSize = true;
-            TextSenha.BackColor = Color.Transparent;
-            TextSenha.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            TextSenha.ForeColor = SystemColors.Info;
-            TextSenha.Location = new Point(395, 189);
-            TextSenha.Name = "TextSenha";
-            TextSenha.Size = new Size(73, 18);
-            TextSenha.TabIndex = 26;
-            TextSenha.Text = "SENHA";
-            TextSenha.TextAlign = ContentAlignment.TopCenter;
-            // 
-            // TextBoxSenha
-            // 
-            TextBoxSenha.Location = new Point(395, 211);
-            TextBoxSenha.Name = "TextBoxSenha";
-            TextBoxSenha.PasswordChar = '*';
-            TextBoxSenha.Size = new Size(123, 21);
-            TextBoxSenha.TabIndex = 25;
-            // 
-            // TextObservacao
-            // 
-            TextObservacao.AutoSize = true;
-            TextObservacao.BackColor = Color.Transparent;
-            TextObservacao.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            TextObservacao.Location = new Point(3, 235);
-            TextObservacao.Name = "TextObservacao";
-            TextObservacao.Size = new Size(198, 36);
-            TextObservacao.TabIndex = 65;
-            TextObservacao.Text = "OBSERVAÇÃO:\r\n(DADOS DO VEÍCULO)";
-            // 
-            // TextBoxObservacao
-            // 
-            TextBoxObservacao.Location = new Point(3, 274);
-            TextBoxObservacao.Multiline = true;
-            TextBoxObservacao.Name = "TextBoxObservacao";
-            TextBoxObservacao.Size = new Size(517, 95);
-            TextBoxObservacao.TabIndex = 64;
-            // 
-            // ComboBoxCarteira
-            // 
-            ComboBoxCarteira.FormattingEnabled = true;
-            ComboBoxCarteira.Items.AddRange(new object[] { "Habilitação - A", "Habilitação - B", "Habilitação - C", "Habilitação - D", "Não Possuo Carteira" });
-            ComboBoxCarteira.Location = new Point(3, 210);
-            ComboBoxCarteira.Name = "ComboBoxCarteira";
-            ComboBoxCarteira.Size = new Size(242, 22);
-            ComboBoxCarteira.TabIndex = 67;
-            // 
-            // panel2
-            // 
-            panel2.BackColor = Color.Transparent;
-            panel2.Controls.Add(RadioBtnEntregador);
-            panel2.Controls.Add(RadioBtnAtendente);
-            panel2.Controls.Add(RadioBtnAdm);
-            panel2.Location = new Point(395, 21);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(125, 128);
-            panel2.TabIndex = 68;
-            // 
-            // RadioBtnAdm
-            // 
-            RadioBtnAdm.AutoSize = true;
-            RadioBtnAdm.Location = new Point(3, 3);
-            RadioBtnAdm.Name = "RadioBtnAdm";
-            RadioBtnAdm.Size = new Size(123, 18);
-            RadioBtnAdm.TabIndex = 0;
-            RadioBtnAdm.TabStop = true;
-            RadioBtnAdm.Text = "Administrador";
-            RadioBtnAdm.UseVisualStyleBackColor = true;
-            // 
-            // RadioBtnAtendente
-            // 
-            RadioBtnAtendente.AutoSize = true;
-            RadioBtnAtendente.Location = new Point(3, 55);
-            RadioBtnAtendente.Name = "RadioBtnAtendente";
-            RadioBtnAtendente.Size = new Size(99, 18);
-            RadioBtnAtendente.TabIndex = 69;
-            RadioBtnAtendente.TabStop = true;
-            RadioBtnAtendente.Text = "Atendente";
-            RadioBtnAtendente.UseVisualStyleBackColor = true;
-            // 
-            // RadioBtnEntregador
-            // 
-            RadioBtnEntregador.AutoSize = true;
-            RadioBtnEntregador.Location = new Point(3, 107);
-            RadioBtnEntregador.Name = "RadioBtnEntregador";
-            RadioBtnEntregador.Size = new Size(108, 18);
-            RadioBtnEntregador.TabIndex = 70;
-            RadioBtnEntregador.TabStop = true;
-            RadioBtnEntregador.Text = "Entregador";
-            RadioBtnEntregador.UseVisualStyleBackColor = true;
             // 
             // CadastroFuncionario
             // 
