@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             TextCadastroDeFuncionario = new Label();
-            panel1 = new Panel();
-            panel2 = new Panel();
+            CadastroFunc = new Panel();
+            PnlFuncionario = new Panel();
             RadioBtnEntregador = new RadioButton();
             RadioBtnAtendente = new RadioButton();
             RadioBtnAdm = new RadioButton();
@@ -39,11 +39,11 @@
             TextBoxObservacao = new TextBox();
             TextSenha = new Label();
             TextBoxSenha = new TextBox();
-            dateTimePicker1 = new DateTimePicker();
+            DateTimePickerValidade = new DateTimePicker();
             TextValidade = new Label();
             TextCarteiraMotorista = new Label();
             TextMatricula = new Label();
-            textBox1 = new TextBox();
+            TextBoxMatricula = new TextBox();
             TextIDCliente = new Label();
             TextboxIdCliente = new TextBox();
             TextEmail = new Label();
@@ -54,8 +54,14 @@
             MaskedTextboxTelefone = new MaskedTextBox();
             TextNome = new Label();
             TextTelefone = new Label();
-            panel1.SuspendLayout();
-            panel2.SuspendLayout();
+            TextBoxIdFuncionario = new TextBox();
+            this.FlowLayoutPanelFuncionarios = new FlowLayoutPanel();
+            PnlUserControlEndereco = new Panel();
+            PnlCadastroFuncionario = new Panel();
+            CadastroFunc.SuspendLayout();
+            PnlFuncionario.SuspendLayout();
+            this.FlowLayoutPanelFuncionarios.SuspendLayout();
+            PnlCadastroFuncionario.SuspendLayout();
             SuspendLayout();
             // 
             // TextCadastroDeFuncionario
@@ -64,52 +70,54 @@
             TextCadastroDeFuncionario.AutoSize = true;
             TextCadastroDeFuncionario.Font = new Font("Copperplate Gothic Bold", 36F, FontStyle.Regular, GraphicsUnit.Point);
             TextCadastroDeFuncionario.Image = Properties.Resources.Screenshot_1;
-            TextCadastroDeFuncionario.Location = new Point(160, 9);
+            TextCadastroDeFuncionario.Location = new Point(219, 27);
             TextCadastroDeFuncionario.Name = "TextCadastroDeFuncionario";
             TextCadastroDeFuncionario.Size = new Size(818, 53);
             TextCadastroDeFuncionario.TabIndex = 0;
             TextCadastroDeFuncionario.Text = "CADASTRO DE FUNCIONÁRIO";
             // 
-            // panel1
+            // CadastroFunc
             // 
-            panel1.BackgroundImage = Properties.Resources.Screenshot_1;
-            panel1.BackgroundImageLayout = ImageLayout.Stretch;
-            panel1.Controls.Add(panel2);
-            panel1.Controls.Add(ComboBoxCarteira);
-            panel1.Controls.Add(TextObservacao);
-            panel1.Controls.Add(TextBoxObservacao);
-            panel1.Controls.Add(TextSenha);
-            panel1.Controls.Add(TextBoxSenha);
-            panel1.Controls.Add(dateTimePicker1);
-            panel1.Controls.Add(TextValidade);
-            panel1.Controls.Add(TextCarteiraMotorista);
-            panel1.Controls.Add(TextMatricula);
-            panel1.Controls.Add(textBox1);
-            panel1.Controls.Add(TextIDCliente);
-            panel1.Controls.Add(TextboxIdCliente);
-            panel1.Controls.Add(TextEmail);
-            panel1.Controls.Add(TextboxNome);
-            panel1.Controls.Add(TextCpf);
-            panel1.Controls.Add(TextboxEmail);
-            panel1.Controls.Add(MaskedTextboxCpf);
-            panel1.Controls.Add(MaskedTextboxTelefone);
-            panel1.Controls.Add(TextNome);
-            panel1.Controls.Add(TextTelefone);
-            panel1.Location = new Point(160, 65);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(527, 376);
-            panel1.TabIndex = 0;
+            CadastroFunc.BackgroundImage = Properties.Resources.Screenshot_1;
+            CadastroFunc.BackgroundImageLayout = ImageLayout.Stretch;
+            CadastroFunc.Controls.Add(PnlFuncionario);
+            CadastroFunc.Controls.Add(TextIDCliente);
+            CadastroFunc.Controls.Add(ComboBoxCarteira);
+            CadastroFunc.Controls.Add(TextObservacao);
+            CadastroFunc.Controls.Add(TextBoxObservacao);
+            CadastroFunc.Controls.Add(TextSenha);
+            CadastroFunc.Controls.Add(TextBoxSenha);
+            CadastroFunc.Controls.Add(DateTimePickerValidade);
+            CadastroFunc.Controls.Add(TextValidade);
+            CadastroFunc.Controls.Add(TextCarteiraMotorista);
+            CadastroFunc.Controls.Add(TextMatricula);
+            CadastroFunc.Controls.Add(TextBoxMatricula);
+            CadastroFunc.Controls.Add(TextBoxIdFuncionario);
+            CadastroFunc.Controls.Add(TextboxIdCliente);
+            CadastroFunc.Controls.Add(TextEmail);
+            CadastroFunc.Controls.Add(TextboxNome);
+            CadastroFunc.Controls.Add(TextCpf);
+            CadastroFunc.Controls.Add(TextboxEmail);
+            CadastroFunc.Controls.Add(MaskedTextboxCpf);
+            CadastroFunc.Controls.Add(MaskedTextboxTelefone);
+            CadastroFunc.Controls.Add(TextNome);
+            CadastroFunc.Controls.Add(TextTelefone);
+            CadastroFunc.Dock = DockStyle.Fill;
+            CadastroFunc.Location = new Point(0, 0);
+            CadastroFunc.Name = "CadastroFunc";
+            CadastroFunc.Size = new Size(533, 373);
+            CadastroFunc.TabIndex = 0;
             // 
-            // panel2
+            // PnlFuncionario
             // 
-            panel2.BackColor = Color.Transparent;
-            panel2.Controls.Add(RadioBtnEntregador);
-            panel2.Controls.Add(RadioBtnAtendente);
-            panel2.Controls.Add(RadioBtnAdm);
-            panel2.Location = new Point(395, 21);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(125, 128);
-            panel2.TabIndex = 68;
+            PnlFuncionario.BackColor = Color.Transparent;
+            PnlFuncionario.Controls.Add(RadioBtnEntregador);
+            PnlFuncionario.Controls.Add(RadioBtnAtendente);
+            PnlFuncionario.Controls.Add(RadioBtnAdm);
+            PnlFuncionario.Location = new Point(396, 3);
+            PnlFuncionario.Name = "PnlFuncionario";
+            PnlFuncionario.Size = new Size(131, 128);
+            PnlFuncionario.TabIndex = 68;
             // 
             // RadioBtnEntregador
             // 
@@ -136,7 +144,7 @@
             // RadioBtnAdm
             // 
             RadioBtnAdm.AutoSize = true;
-            RadioBtnAdm.Location = new Point(3, 3);
+            RadioBtnAdm.Location = new Point(3, 5);
             RadioBtnAdm.Name = "RadioBtnAdm";
             RadioBtnAdm.Size = new Size(123, 18);
             RadioBtnAdm.TabIndex = 0;
@@ -193,13 +201,13 @@
             TextBoxSenha.Size = new Size(123, 21);
             TextBoxSenha.TabIndex = 25;
             // 
-            // dateTimePicker1
+            // DateTimePickerValidade
             // 
-            dateTimePicker1.Format = DateTimePickerFormat.Short;
-            dateTimePicker1.Location = new Point(251, 211);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(138, 21);
-            dateTimePicker1.TabIndex = 24;
+            DateTimePickerValidade.Format = DateTimePickerFormat.Short;
+            DateTimePickerValidade.Location = new Point(251, 211);
+            DateTimePickerValidade.Name = "DateTimePickerValidade";
+            DateTimePickerValidade.Size = new Size(138, 21);
+            DateTimePickerValidade.TabIndex = 24;
             // 
             // TextValidade
             // 
@@ -240,17 +248,17 @@
             TextMatricula.Text = "MATRICULA";
             TextMatricula.TextAlign = ContentAlignment.TopCenter;
             // 
-            // textBox1
+            // TextBoxMatricula
             // 
-            textBox1.BackColor = SystemColors.ButtonHighlight;
-            textBox1.Cursor = Cursors.IBeam;
-            textBox1.Font = new Font("Copperplate Gothic Bold", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox1.ForeColor = SystemColors.MenuText;
-            textBox1.Location = new Point(192, 23);
-            textBox1.MaxLength = 80;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(128, 21);
-            textBox1.TabIndex = 18;
+            TextBoxMatricula.BackColor = SystemColors.ButtonHighlight;
+            TextBoxMatricula.Cursor = Cursors.IBeam;
+            TextBoxMatricula.Font = new Font("Copperplate Gothic Bold", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            TextBoxMatricula.ForeColor = SystemColors.MenuText;
+            TextBoxMatricula.Location = new Point(192, 23);
+            TextBoxMatricula.MaxLength = 80;
+            TextBoxMatricula.Name = "TextBoxMatricula";
+            TextBoxMatricula.Size = new Size(128, 21);
+            TextBoxMatricula.TabIndex = 18;
             // 
             // TextIDCliente
             // 
@@ -258,7 +266,7 @@
             TextIDCliente.BackColor = Color.Transparent;
             TextIDCliente.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
             TextIDCliente.ForeColor = SystemColors.Info;
-            TextIDCliente.Location = new Point(1, 2);
+            TextIDCliente.Location = new Point(0, 2);
             TextIDCliente.Name = "TextIDCliente";
             TextIDCliente.Size = new Size(26, 18);
             TextIDCliente.TabIndex = 17;
@@ -368,14 +376,52 @@
             TextTelefone.Text = "TELEFONE";
             TextTelefone.TextAlign = ContentAlignment.TopCenter;
             // 
+            // TextBoxIdFuncionario
+            // 
+            TextBoxIdFuncionario.BackColor = SystemColors.ControlDarkDark;
+            TextBoxIdFuncionario.Cursor = Cursors.IBeam;
+            TextBoxIdFuncionario.Enabled = false;
+            TextBoxIdFuncionario.Font = new Font("Copperplate Gothic Bold", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            TextBoxIdFuncionario.ForeColor = SystemColors.MenuText;
+            TextBoxIdFuncionario.Location = new Point(2, 23);
+            TextBoxIdFuncionario.MaxLength = 80;
+            TextBoxIdFuncionario.Name = "TextBoxIdFuncionario";
+            TextBoxIdFuncionario.Size = new Size(34, 21);
+            TextBoxIdFuncionario.TabIndex = 16;
+            // 
+            // FlowLayoutPanelFuncionarios
+            // 
+            this.FlowLayoutPanelFuncionarios.Controls.Add(PnlCadastroFuncionario);
+            this.FlowLayoutPanelFuncionarios.Controls.Add(PnlUserControlEndereco);
+            this.FlowLayoutPanelFuncionarios.Location = new Point(104, 63);
+            this.FlowLayoutPanelFuncionarios.Name = "FlowLayoutPanelFuncionarios";
+            this.FlowLayoutPanelFuncionarios.Size = new Size(1210, 420);
+            this.FlowLayoutPanelFuncionarios.TabIndex = 1;
+            // 
+            // PnlUserControlEndereco
+            // 
+            PnlUserControlEndereco.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            PnlUserControlEndereco.Location = new Point(542, 3);
+            PnlUserControlEndereco.Name = "PnlUserControlEndereco";
+            PnlUserControlEndereco.Size = new Size(488, 369);
+            PnlUserControlEndereco.TabIndex = 0;
+            // 
+            // PnlCadastroFuncionario
+            // 
+            PnlCadastroFuncionario.Controls.Add(CadastroFunc);
+            PnlCadastroFuncionario.Location = new Point(3, 3);
+            PnlCadastroFuncionario.Name = "PnlCadastroFuncionario";
+            PnlCadastroFuncionario.Size = new Size(533, 373);
+            PnlCadastroFuncionario.TabIndex = 1;
+            // 
             // CadastroFuncionario
             // 
             AutoScaleDimensions = new SizeF(9F, 14F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
             BackgroundImage = Properties.Resources.istockphoto_1137028124_612x612;
-            ClientSize = new Size(1029, 511);
-            Controls.Add(panel1);
+            ClientSize = new Size(1146, 546);
+            Controls.Add(this.FlowLayoutPanelFuncionarios);
             Controls.Add(TextCadastroDeFuncionario);
             Font = new Font("Copperplate Gothic Bold", 9F, FontStyle.Regular, GraphicsUnit.Point);
             ForeColor = SystemColors.Info;
@@ -386,10 +432,12 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "TELA_ATENDENTE";
             WindowState = FormWindowState.Maximized;
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
-            panel2.ResumeLayout(false);
-            panel2.PerformLayout();
+            CadastroFunc.ResumeLayout(false);
+            CadastroFunc.PerformLayout();
+            PnlFuncionario.ResumeLayout(false);
+            PnlFuncionario.PerformLayout();
+            this.FlowLayoutPanelFuncionarios.ResumeLayout(false);
+            PnlCadastroFuncionario.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -397,7 +445,7 @@
         #endregion
 
         private Label TextCadastroDeFuncionario;
-        private Panel panel1;
+        private Panel CadastroFunc;
         private Label TextIDCliente;
         private TextBox TextboxIdCliente;
         private Label TextEmail;
@@ -409,18 +457,31 @@
         private Label TextNome;
         private Label TextTelefone;
         private Label TextMatricula;
-        private TextBox textBox1;
+        private TextBox TextBoxMatricula;
         private Label TextValidade;
         private Label TextCarteiraMotorista;
         private Label TextSenha;
         private TextBox TextBoxSenha;
-        private DateTimePicker dateTimePicker1;
+        private DateTimePicker DateTimePickerValidade;
         private Label TextObservacao;
         private TextBox TextBoxObservacao;
         private ComboBox ComboBoxCarteira;
-        private Panel panel2;
+        private Panel PnlFuncionario;
         private RadioButton RadioBtnEntregador;
         private RadioButton RadioBtnAtendente;
         private RadioButton RadioBtnAdm;
+        private Label label8;
+        private Label label7;
+        private TextBox textBox5;
+        private Label label6;
+        private Label label5;
+        private TextBox TextBoxIdFuncionario;
+        private Label label3;
+        private MaskedTextBox maskedTextBox1;
+        private Label label2;
+        private Label label1;
+        private FlowLayoutPanel flowLayoutPanel1;
+        private Panel PnlUserControlEndereco;
+        private Panel PnlCadastroFuncionario;
     }
 }

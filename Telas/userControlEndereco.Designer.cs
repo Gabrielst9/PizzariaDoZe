@@ -46,16 +46,17 @@
             TextBoxComplemento = new TextBox();
             maskedTextBoxCep = new MaskedTextBox();
             comboBoxUF = new ComboBox();
+            PnlPrincipal = new Panel();
+            PnlPrincipal.SuspendLayout();
             SuspendLayout();
             // 
             // label1
             // 
-            label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label1.ForeColor = SystemColors.Info;
-            label1.Location = new Point(3, 0);
+            label1.Location = new Point(0, 0);
             label1.Name = "label1";
             label1.Size = new Size(26, 18);
             label1.TabIndex = 11;
@@ -64,27 +65,25 @@
             // 
             // TextBoxIdEndereco
             // 
-            TextBoxIdEndereco.Anchor = AnchorStyles.None;
             TextBoxIdEndereco.BackColor = SystemColors.ControlDarkDark;
             TextBoxIdEndereco.Cursor = Cursors.IBeam;
             TextBoxIdEndereco.Font = new Font("Copperplate Gothic Bold", 9F, FontStyle.Regular, GraphicsUnit.Point);
             TextBoxIdEndereco.ForeColor = SystemColors.MenuText;
-            TextBoxIdEndereco.Location = new Point(3, 21);
+            TextBoxIdEndereco.Location = new Point(0, 21);
             TextBoxIdEndereco.MaxLength = 80;
             TextBoxIdEndereco.Name = "TextBoxIdEndereco";
             TextBoxIdEndereco.ReadOnly = true;
-            TextBoxIdEndereco.Size = new Size(33, 21);
+            TextBoxIdEndereco.Size = new Size(29, 21);
             TextBoxIdEndereco.TabIndex = 10;
             TextBoxIdEndereco.TabStop = false;
             // 
             // TextCep
             // 
-            TextCep.Anchor = AnchorStyles.None;
             TextCep.AutoSize = true;
             TextCep.BackColor = Color.Transparent;
             TextCep.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
             TextCep.ForeColor = SystemColors.Info;
-            TextCep.Location = new Point(82, 0);
+            TextCep.Location = new Point(79, 0);
             TextCep.Name = "TextCep";
             TextCep.Size = new Size(45, 18);
             TextCep.TabIndex = 13;
@@ -93,12 +92,11 @@
             // 
             // TextLogradouro
             // 
-            TextLogradouro.Anchor = AnchorStyles.None;
             TextLogradouro.AutoSize = true;
             TextLogradouro.BackColor = Color.Transparent;
             TextLogradouro.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
             TextLogradouro.ForeColor = SystemColors.Info;
-            TextLogradouro.Location = new Point(3, 63);
+            TextLogradouro.Location = new Point(0, 63);
             TextLogradouro.Name = "TextLogradouro";
             TextLogradouro.Size = new Size(119, 18);
             TextLogradouro.TabIndex = 15;
@@ -107,25 +105,23 @@
             // 
             // TextBoxLogradouro
             // 
-            TextBoxLogradouro.Anchor = AnchorStyles.None;
             TextBoxLogradouro.BackColor = SystemColors.ButtonHighlight;
             TextBoxLogradouro.Cursor = Cursors.IBeam;
             TextBoxLogradouro.Font = new Font("Copperplate Gothic Bold", 9F, FontStyle.Regular, GraphicsUnit.Point);
             TextBoxLogradouro.ForeColor = SystemColors.MenuText;
-            TextBoxLogradouro.Location = new Point(3, 84);
+            TextBoxLogradouro.Location = new Point(0, 84);
             TextBoxLogradouro.MaxLength = 80;
             TextBoxLogradouro.Name = "TextBoxLogradouro";
-            TextBoxLogradouro.Size = new Size(299, 21);
+            TextBoxLogradouro.Size = new Size(295, 21);
             TextBoxLogradouro.TabIndex = 52;
             // 
             // TextBairro
             // 
-            TextBairro.Anchor = AnchorStyles.None;
             TextBairro.AutoSize = true;
             TextBairro.BackColor = Color.Transparent;
             TextBairro.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
             TextBairro.ForeColor = SystemColors.Info;
-            TextBairro.Location = new Point(213, 0);
+            TextBairro.Location = new Point(210, 0);
             TextBairro.Name = "TextBairro";
             TextBairro.Size = new Size(70, 18);
             TextBairro.TabIndex = 17;
@@ -134,25 +130,23 @@
             // 
             // TextBoxBairro
             // 
-            TextBoxBairro.Anchor = AnchorStyles.None;
             TextBoxBairro.BackColor = SystemColors.ButtonHighlight;
             TextBoxBairro.Cursor = Cursors.IBeam;
             TextBoxBairro.Font = new Font("Copperplate Gothic Bold", 9F, FontStyle.Regular, GraphicsUnit.Point);
             TextBoxBairro.ForeColor = SystemColors.MenuText;
-            TextBoxBairro.Location = new Point(213, 21);
+            TextBoxBairro.Location = new Point(210, 23);
             TextBoxBairro.MaxLength = 80;
             TextBoxBairro.Name = "TextBoxBairro";
-            TextBoxBairro.Size = new Size(225, 21);
+            TextBoxBairro.Size = new Size(221, 21);
             TextBoxBairro.TabIndex = 51;
             // 
             // TextCidade
             // 
-            TextCidade.Anchor = AnchorStyles.None;
             TextCidade.AutoSize = true;
             TextCidade.BackColor = Color.Transparent;
             TextCidade.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
             TextCidade.ForeColor = SystemColors.Info;
-            TextCidade.Location = new Point(3, 119);
+            TextCidade.Location = new Point(0, 119);
             TextCidade.Name = "TextCidade";
             TextCidade.Size = new Size(69, 18);
             TextCidade.TabIndex = 19;
@@ -161,25 +155,23 @@
             // 
             // TextBoxCidade
             // 
-            TextBoxCidade.Anchor = AnchorStyles.None;
             TextBoxCidade.BackColor = SystemColors.ButtonHighlight;
             TextBoxCidade.Cursor = Cursors.IBeam;
             TextBoxCidade.Font = new Font("Copperplate Gothic Bold", 9F, FontStyle.Regular, GraphicsUnit.Point);
             TextBoxCidade.ForeColor = SystemColors.MenuText;
-            TextBoxCidade.Location = new Point(3, 140);
+            TextBoxCidade.Location = new Point(0, 140);
             TextBoxCidade.MaxLength = 80;
             TextBoxCidade.Name = "TextBoxCidade";
-            TextBoxCidade.Size = new Size(299, 21);
+            TextBoxCidade.Size = new Size(295, 21);
             TextBoxCidade.TabIndex = 53;
             // 
             // TextUF
             // 
-            TextUF.Anchor = AnchorStyles.None;
             TextUF.AutoSize = true;
             TextUF.BackColor = Color.Transparent;
             TextUF.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
             TextUF.ForeColor = SystemColors.Info;
-            TextUF.Location = new Point(3, 175);
+            TextUF.Location = new Point(0, 175);
             TextUF.Name = "TextUF";
             TextUF.Size = new Size(33, 18);
             TextUF.TabIndex = 21;
@@ -188,12 +180,11 @@
             // 
             // TextPais
             // 
-            TextPais.Anchor = AnchorStyles.None;
             TextPais.AutoSize = true;
             TextPais.BackColor = Color.Transparent;
             TextPais.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
             TextPais.ForeColor = SystemColors.Info;
-            TextPais.Location = new Point(67, 175);
+            TextPais.Location = new Point(64, 175);
             TextPais.Name = "TextPais";
             TextPais.Size = new Size(46, 18);
             TextPais.TabIndex = 23;
@@ -202,25 +193,23 @@
             // 
             // TextBoxPais
             // 
-            TextBoxPais.Anchor = AnchorStyles.None;
             TextBoxPais.BackColor = SystemColors.ButtonHighlight;
             TextBoxPais.Cursor = Cursors.IBeam;
             TextBoxPais.Font = new Font("Copperplate Gothic Bold", 9F, FontStyle.Regular, GraphicsUnit.Point);
             TextBoxPais.ForeColor = SystemColors.MenuText;
-            TextBoxPais.Location = new Point(67, 196);
+            TextBoxPais.Location = new Point(64, 196);
             TextBoxPais.MaxLength = 80;
             TextBoxPais.Name = "TextBoxPais";
-            TextBoxPais.Size = new Size(299, 21);
+            TextBoxPais.Size = new Size(295, 21);
             TextBoxPais.TabIndex = 55;
             // 
             // TextNumero
             // 
-            TextNumero.Anchor = AnchorStyles.None;
             TextNumero.AutoSize = true;
             TextNumero.BackColor = Color.Transparent;
             TextNumero.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
             TextNumero.ForeColor = SystemColors.Info;
-            TextNumero.Location = new Point(3, 234);
+            TextNumero.Location = new Point(0, 234);
             TextNumero.Name = "TextNumero";
             TextNumero.Size = new Size(78, 18);
             TextNumero.TabIndex = 25;
@@ -229,25 +218,23 @@
             // 
             // TextBoxNumero
             // 
-            TextBoxNumero.Anchor = AnchorStyles.None;
             TextBoxNumero.BackColor = SystemColors.ButtonHighlight;
             TextBoxNumero.Cursor = Cursors.IBeam;
             TextBoxNumero.Font = new Font("Copperplate Gothic Bold", 9F, FontStyle.Regular, GraphicsUnit.Point);
             TextBoxNumero.ForeColor = SystemColors.MenuText;
-            TextBoxNumero.Location = new Point(3, 255);
+            TextBoxNumero.Location = new Point(0, 255);
             TextBoxNumero.MaxLength = 80;
             TextBoxNumero.Name = "TextBoxNumero";
-            TextBoxNumero.Size = new Size(124, 21);
+            TextBoxNumero.Size = new Size(120, 21);
             TextBoxNumero.TabIndex = 56;
             // 
             // TextComplemento
             // 
-            TextComplemento.Anchor = AnchorStyles.None;
             TextComplemento.AutoSize = true;
             TextComplemento.BackColor = Color.Transparent;
             TextComplemento.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
             TextComplemento.ForeColor = SystemColors.Info;
-            TextComplemento.Location = new Point(134, 234);
+            TextComplemento.Location = new Point(131, 234);
             TextComplemento.Name = "TextComplemento";
             TextComplemento.Size = new Size(129, 18);
             TextComplemento.TabIndex = 27;
@@ -256,35 +243,59 @@
             // 
             // TextBoxComplemento
             // 
-            TextBoxComplemento.Anchor = AnchorStyles.None;
             TextBoxComplemento.BackColor = SystemColors.ButtonHighlight;
             TextBoxComplemento.Cursor = Cursors.IBeam;
             TextBoxComplemento.Font = new Font("Copperplate Gothic Bold", 9F, FontStyle.Regular, GraphicsUnit.Point);
             TextBoxComplemento.ForeColor = SystemColors.MenuText;
-            TextBoxComplemento.Location = new Point(134, 255);
+            TextBoxComplemento.Location = new Point(131, 255);
             TextBoxComplemento.MaxLength = 80;
             TextBoxComplemento.Name = "TextBoxComplemento";
-            TextBoxComplemento.Size = new Size(299, 21);
+            TextBoxComplemento.Size = new Size(295, 21);
             TextBoxComplemento.TabIndex = 57;
             // 
             // maskedTextBoxCep
             // 
-            maskedTextBoxCep.Anchor = AnchorStyles.None;
-            maskedTextBoxCep.Location = new Point(82, 21);
+            maskedTextBoxCep.Location = new Point(79, 21);
             maskedTextBoxCep.Mask = "00.000-000";
             maskedTextBoxCep.Name = "maskedTextBoxCep";
-            maskedTextBoxCep.Size = new Size(108, 23);
+            maskedTextBoxCep.Size = new Size(104, 23);
             maskedTextBoxCep.TabIndex = 58;
             maskedTextBoxCep.TextMaskFormat = MaskFormat.ExcludePromptAndLiterals;
             // 
             // comboBoxUF
             // 
-            comboBoxUF.Anchor = AnchorStyles.None;
             comboBoxUF.FormattingEnabled = true;
-            comboBoxUF.Location = new Point(3, 194);
+            comboBoxUF.Location = new Point(0, 194);
             comboBoxUF.Name = "comboBoxUF";
-            comboBoxUF.Size = new Size(46, 23);
+            comboBoxUF.Size = new Size(42, 23);
             comboBoxUF.TabIndex = 59;
+            // 
+            // PnlPrincipal
+            // 
+            PnlPrincipal.BackColor = Color.Transparent;
+            PnlPrincipal.Controls.Add(comboBoxUF);
+            PnlPrincipal.Controls.Add(TextBoxBairro);
+            PnlPrincipal.Controls.Add(maskedTextBoxCep);
+            PnlPrincipal.Controls.Add(TextCep);
+            PnlPrincipal.Controls.Add(TextComplemento);
+            PnlPrincipal.Controls.Add(label1);
+            PnlPrincipal.Controls.Add(TextBoxComplemento);
+            PnlPrincipal.Controls.Add(TextBoxIdEndereco);
+            PnlPrincipal.Controls.Add(TextNumero);
+            PnlPrincipal.Controls.Add(TextBoxLogradouro);
+            PnlPrincipal.Controls.Add(TextBoxNumero);
+            PnlPrincipal.Controls.Add(TextLogradouro);
+            PnlPrincipal.Controls.Add(TextPais);
+            PnlPrincipal.Controls.Add(TextBairro);
+            PnlPrincipal.Controls.Add(TextBoxPais);
+            PnlPrincipal.Controls.Add(TextBoxCidade);
+            PnlPrincipal.Controls.Add(TextUF);
+            PnlPrincipal.Controls.Add(TextCidade);
+            PnlPrincipal.Dock = DockStyle.Fill;
+            PnlPrincipal.Location = new Point(0, 0);
+            PnlPrincipal.Name = "PnlPrincipal";
+            PnlPrincipal.Size = new Size(439, 289);
+            PnlPrincipal.TabIndex = 60;
             // 
             // userControlEndereco
             // 
@@ -292,30 +303,14 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Screenshot_1;
             BackgroundImageLayout = ImageLayout.Stretch;
-            Controls.Add(comboBoxUF);
-            Controls.Add(maskedTextBoxCep);
-            Controls.Add(TextComplemento);
-            Controls.Add(TextBoxComplemento);
-            Controls.Add(TextNumero);
-            Controls.Add(TextBoxNumero);
-            Controls.Add(TextPais);
-            Controls.Add(TextBoxPais);
-            Controls.Add(TextUF);
-            Controls.Add(TextCidade);
-            Controls.Add(TextBoxCidade);
-            Controls.Add(TextBairro);
-            Controls.Add(TextBoxBairro);
-            Controls.Add(TextLogradouro);
-            Controls.Add(TextBoxLogradouro);
-            Controls.Add(TextCep);
-            Controls.Add(label1);
-            Controls.Add(TextBoxIdEndereco);
+            Controls.Add(PnlPrincipal);
             DoubleBuffered = true;
             ForeColor = SystemColors.Info;
             Name = "userControlEndereco";
-            Size = new Size(441, 283);
+            Size = new Size(439, 289);
+            PnlPrincipal.ResumeLayout(false);
+            PnlPrincipal.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -338,5 +333,6 @@
         public MaskedTextBox maskedTextBoxCep;
         public ComboBox comboBoxUF;
         public TextBox TextBoxIdEndereco;
+        private Panel PnlPrincipal;
     }
 }

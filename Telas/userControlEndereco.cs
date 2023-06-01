@@ -71,5 +71,10 @@ namespace PizzariaDoZe.Telas
         {
             string cep = maskedTextBoxCep.Text.Trim();
         }
+
+        private void userControlEndereco_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
