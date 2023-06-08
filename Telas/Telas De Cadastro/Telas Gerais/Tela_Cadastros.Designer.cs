@@ -31,6 +31,8 @@
             BTN_Cadastrar_Ingredientes = new Button();
             BTN_Cadastro_Sabores = new Button();
             PainelTelaCadastrosAdm = new Panel();
+            BtnListarFuncionarios = new Button();
+            BtnListarClientes = new Button();
             BtnListarEnderecos = new Button();
             BTN_CadastrarProdutos = new Button();
             BTN_CadastrarFuncionarios = new Button();
@@ -38,7 +40,6 @@
             BTN_CadastrarClientes = new Button();
             BTN_Sair_TelaCadastro = new Button();
             Titulo_Principal = new Label();
-            BtnListarClientes = new Button();
             PainelTelaCadastrosAdm.SuspendLayout();
             SuspendLayout();
             // 
@@ -72,6 +73,7 @@
             // 
             PainelTelaCadastrosAdm.Anchor = AnchorStyles.None;
             PainelTelaCadastrosAdm.BackColor = Color.Transparent;
+            PainelTelaCadastrosAdm.Controls.Add(BtnListarFuncionarios);
             PainelTelaCadastrosAdm.Controls.Add(BtnListarClientes);
             PainelTelaCadastrosAdm.Controls.Add(BtnListarEnderecos);
             PainelTelaCadastrosAdm.Controls.Add(BTN_CadastrarProdutos);
@@ -84,6 +86,32 @@
             PainelTelaCadastrosAdm.Name = "PainelTelaCadastrosAdm";
             PainelTelaCadastrosAdm.Size = new Size(508, 280);
             PainelTelaCadastrosAdm.TabIndex = 3;
+            // 
+            // BtnListarFuncionarios
+            // 
+            BtnListarFuncionarios.BackgroundImage = Properties.Resources.Screenshot_1;
+            BtnListarFuncionarios.BackgroundImageLayout = ImageLayout.Stretch;
+            BtnListarFuncionarios.ForeColor = SystemColors.Info;
+            BtnListarFuncionarios.Location = new Point(350, 222);
+            BtnListarFuncionarios.Name = "BtnListarFuncionarios";
+            BtnListarFuncionarios.Size = new Size(135, 58);
+            BtnListarFuncionarios.TabIndex = 10;
+            BtnListarFuncionarios.Text = "LISTAR FUNCIONARIOS";
+            BtnListarFuncionarios.UseVisualStyleBackColor = true;
+            BtnListarFuncionarios.Click += BtnListarFuncionarios_Click;
+            // 
+            // BtnListarClientes
+            // 
+            BtnListarClientes.BackgroundImage = Properties.Resources.Screenshot_1;
+            BtnListarClientes.BackgroundImageLayout = ImageLayout.Stretch;
+            BtnListarClientes.ForeColor = SystemColors.Info;
+            BtnListarClientes.Location = new Point(27, 219);
+            BtnListarClientes.Name = "BtnListarClientes";
+            BtnListarClientes.Size = new Size(135, 58);
+            BtnListarClientes.TabIndex = 9;
+            BtnListarClientes.Text = "LISTAR CLIENTES";
+            BtnListarClientes.UseVisualStyleBackColor = true;
+            BtnListarClientes.Click += BtnListarClientes_Click;
             // 
             // BtnListarEnderecos
             // 
@@ -183,19 +211,6 @@
             Titulo_Principal.TextAlign = ContentAlignment.MiddleCenter;
             Titulo_Principal.Click += Titulo_Principal_Click;
             // 
-            // BtnListarClientes
-            // 
-            BtnListarClientes.BackgroundImage = Properties.Resources.Screenshot_1;
-            BtnListarClientes.BackgroundImageLayout = ImageLayout.Stretch;
-            BtnListarClientes.ForeColor = SystemColors.Info;
-            BtnListarClientes.Location = new Point(27, 219);
-            BtnListarClientes.Name = "BtnListarClientes";
-            BtnListarClientes.Size = new Size(135, 58);
-            BtnListarClientes.TabIndex = 9;
-            BtnListarClientes.Text = "LISTAR CLIENTES";
-            BtnListarClientes.UseVisualStyleBackColor = true;
-            BtnListarClientes.Click += BtnListarClientes_Click;
-            // 
             // Tela_Cadastros
             // 
             AutoScaleDimensions = new SizeF(9F, 14F);
@@ -231,5 +246,6 @@
         private Button BTN_CadastrarProdutos;
         private Button BtnListarEnderecos;
         private Button BtnListarClientes;
+        private Button BtnListarFuncionarios;
     }
 }

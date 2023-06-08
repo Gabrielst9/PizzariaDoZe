@@ -34,6 +34,8 @@
             // 
             // dataGridViewClientes
             // 
+            dataGridViewClientes.AllowUserToAddRows = false;
+            dataGridViewClientes.AllowUserToDeleteRows = false;
             dataGridViewClientes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewClientes.Dock = DockStyle.Fill;
             dataGridViewClientes.Location = new Point(0, 0);

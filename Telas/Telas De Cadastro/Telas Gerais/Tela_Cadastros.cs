@@ -88,5 +88,11 @@ namespace PizzariaDoZe.Telas
             ListarClientes lc = new ListarClientes();
             lc.Show();
         }
+
+        private void BtnListarFuncionarios_Click(object sender, EventArgs e)
+        {
+            ListarFuncionarios lf = new ListarFuncionarios();
+            lf.Show();
+        }
     }
 }

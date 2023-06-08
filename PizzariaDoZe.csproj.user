@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="Telas\DataGridView%27s\ListarFuncionarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Telas\Telas De Cadastro\CadastroFuncionario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -22,7 +25,7 @@
     <Compile Update="Telas\CRUD\CRUD.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="Telas\TelaAdm.cs">
+    <Compile Update="Telas\Telas De Cadastro\Telas Gerais\TelaAdm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Telas\Telas De Cadastro\CadastroCliente.cs">
@@ -31,19 +34,19 @@
     <Compile Update="Telas\DataGridView's\ListarEnderecos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Telas\TelaInicial.cs">
+    <Compile Update="Telas\Telas De Cadastro\Telas Gerais\TelaInicial.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Telas\TelaInicialClientes.cs">
+    <Compile Update="Telas\Telas De Cadastro\Telas Gerais\TelaInicialClientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Telas\TelaShortCuts.cs">
+    <Compile Update="Telas\Telas De Cadastro\Telas Gerais\TelaShortCuts.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Telas\Tela_Cadastros.cs">
+    <Compile Update="Telas\Telas De Cadastro\Telas Gerais\Tela_Cadastros.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Telas\Tela_Configuracoes.cs">
+    <Compile Update="Telas\Telas De Cadastro\Telas Gerais\Tela_Configuracoes.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Telas\Telas De Cadastro\CadastrarProdutos.cs">

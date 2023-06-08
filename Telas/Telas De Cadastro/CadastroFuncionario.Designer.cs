@@ -41,7 +41,6 @@
             RadioBtnAdministrador = new RadioButton();
             TextBoxObservacao = new TextBox();
             DateTimePickerValidade = new DateTimePicker();
-            ComboBoxCarteira = new ComboBox();
             TextSenha = new Label();
             TextBoxSenha = new TextBox();
             TextValidade = new Label();
@@ -61,6 +60,7 @@
             FlowLayoutPanelFuncionario = new FlowLayoutPanel();
             PnlCrudFuncionario = new Panel();
             CrudFuncionario = new CRUD();
+            ComboBoxCarteira = new ComboBox();
             PnlUserControlEnderecoFuncionario.SuspendLayout();
             PnlCadastroFuncionario.SuspendLayout();
             PnlGrupo.SuspendLayout();
@@ -226,15 +226,6 @@
             DateTimePickerValidade.Size = new Size(106, 23);
             DateTimePickerValidade.TabIndex = 6;
             DateTimePickerValidade.Value = new DateTime(2023, 6, 1, 0, 0, 0, 0);
-            // 
-            // ComboBoxCarteira
-            // 
-            ComboBoxCarteira.FormattingEnabled = true;
-            ComboBoxCarteira.Items.AddRange(new object[] { "Não Possuo Carteira", "Habilitação - A", "Habilitação - B", "Habilitação - C", "Habilitação - D" });
-            ComboBoxCarteira.Location = new Point(3, 219);
-            ComboBoxCarteira.Name = "ComboBoxCarteira";
-            ComboBoxCarteira.Size = new Size(241, 23);
-            ComboBoxCarteira.TabIndex = 5;
             // 
             // TextSenha
             // 
@@ -450,6 +441,16 @@
             CrudFuncionario.Name = "CrudFuncionario";
             CrudFuncionario.Size = new Size(973, 87);
             CrudFuncionario.TabIndex = 0;
+            CrudFuncionario.Load += CrudFuncionario_Load;
+            // 
+            // ComboBoxCarteira
+            // 
+            ComboBoxCarteira.FormattingEnabled = true;
+            ComboBoxCarteira.Items.AddRange(new object[] { "Não Possuo Carteira", "Habilitação - A", "Habilitação - B", "Habilitação - C", "Habilitação - D" });
+            ComboBoxCarteira.Location = new Point(3, 219);
+            ComboBoxCarteira.Name = "ComboBoxCarteira";
+            ComboBoxCarteira.Size = new Size(241, 23);
+            ComboBoxCarteira.TabIndex = 5;
             // 
             // CadastroFuncionario
             // 
@@ -492,7 +493,6 @@
         private Label TextTelefone;
         private Label TextMatricula;
         private TextBox TextBoxMatricula;
-        private ComboBox ComboBoxCarteira;
         private Label TextSenha;
         private TextBox TextBoxSenha;
         private Label TextValidade;
@@ -509,5 +509,6 @@
         private FlowLayoutPanel FlowLayoutPanelFuncionario;
         private Panel PnlCrudFuncionario;
         private CRUD CrudFuncionario;
+        private ComboBox ComboBoxCarteira;
     }
 }
