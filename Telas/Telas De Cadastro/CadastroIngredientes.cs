@@ -43,9 +43,9 @@ namespace PizzariaDoZe
             crud1.BtnSalvar.Click += BtnSalvar_Click;
 
             //Ajuste do Foco campo Nome
-            ING_NOME_TEXT.Enter += new
+            TextBoxNome.Enter += new
             EventHandler(Funcoes.CampoEventoEnter!);
-            ING_NOME_TEXT.Leave += new
+            TextBoxNome.Leave += new
             EventHandler(Funcoes.CampoEventoLeave!);
         }
 
@@ -65,7 +65,7 @@ namespace PizzariaDoZe
         private void BtnSalvar_Click(object sender, EventArgs e)
         {
             //Instância e Preenche o objeto com os dados da view
-            var ingrediente = new Ingrediente(ING_NOME_TEXT.Text);
+            var ingrediente = new Ingrediente(0, TextBoxNome.Text);
             var Validador = new ValidadorIngrediente();
 
             var resultadovalidacao = Validador.Validate(ingrediente);
@@ -92,7 +92,7 @@ namespace PizzariaDoZe
         private void AtualizarTela()
         {
             //Instância e Preenche o objeto com os dados da view
-            var ingrediente = new Ingrediente(ING_NOME_TEXT.Text);
+            var ingrediente = new Ingrediente(0, TextBoxNome.Text);
             try
             {
                 //chama o método para buscar todos os dados da nossa camada model

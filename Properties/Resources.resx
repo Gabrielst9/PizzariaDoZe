@@ -133,9 +133,9 @@
     <value>NOME</value>
     <comment>CADASTRO SABORES - 10</comment>
   </data>
-  <data name="TIT_10_CADASTRAR_PRODUTOS.Text" xml:space="preserve">
-    <value>CADASTRAR PRODUTOS</value>
-    <comment>Tela_Produtos - 13</comment>
+  <data name="BTN_9_SAIR" xml:space="preserve">
+    <value>SAIR</value>
+    <comment>Tela Valores - 12</comment>
   </data>
   <data name="LABEL1.Text" xml:space="preserve">
     <value>CADASTRO ATENDENTE</value>
@@ -145,6 +145,10 @@
     <value>CADASTRO DE ENTREGADOR</value>
     <comment>TELA ENTREGADOR - 8</comment>
   </data>
+  <data name="BTN7_CLIENTES.Text" xml:space="preserve">
+    <value>CLIENTES</value>
+    <comment>TELA CADASTROS - 9</comment>
+  </data>
   <data name="TIT7_CADASTRAR.Text" xml:space="preserve">
     <value>CADASTRAR:</value>
     <comment>TELA CADASTROS - 9</comment>
@@ -153,9 +157,9 @@
     <value>SAIR</value>
     <comment>TELA CADASTROS - 9</comment>
   </data>
-  <data name="RADIO6_HAB_B.Text" xml:space="preserve">
-    <value>HABILITAÇÃO - B</value>
-    <comment>TELA ENTREGADOR - 8</comment>
+  <data name="TEXT4_EMAIL" xml:space="preserve">
+    <value>EMAIL</value>
+    <comment>TELA ADM - 6</comment>
   </data>
   <data name="SABOR_FOTO.Text" xml:space="preserve">
     <value>FOTO</value>
@@ -173,9 +177,9 @@
     <value>NOME</value>
     <comment>Tela_Produtos - 13</comment>
   </data>
-  <data name="TIT_11_INGREDIENTES.Text" xml:space="preserve">
-    <value>CADASTRO DE INGREDIENTES</value>
-    <comment>CADASTRO INGREDIENTES - 11</comment>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="forma-do-usuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\forma-do-usuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TEXT5_TELEFONE.Text" xml:space="preserve">
     <value>TELEFONE</value>
@@ -197,9 +201,9 @@
     <value>OBSERVAÇÃO:</value>
     <comment>TELA ENTREGADOR - 8</comment>
   </data>
-  <data name="BTN7_CLIENTES.Text" xml:space="preserve">
-    <value>CLIENTES</value>
-    <comment>TELA CADASTROS - 9</comment>
+  <data name="RADIO6_HAB_B.Text" xml:space="preserve">
+    <value>HABILITAÇÃO - B</value>
+    <comment>TELA ENTREGADOR - 8</comment>
   </data>
   <data name="TIPO_SABOR.Text" xml:space="preserve">
     <value>TIPO</value>
@@ -229,9 +233,9 @@
     <value>CLIENTE</value>
     <comment>TELA LOGIN INICIAL- 1</comment>
   </data>
-  <data name="BTN8_SABORES" xml:space="preserve">
-    <value>CATALOGO DE SABORES</value>
-    <comment>TELA INICIAL CLIENTE - 4</comment>
+  <data name="TIT_11_INGREDIENTES.Text" xml:space="preserve">
+    <value>CADASTRO DE INGREDIENTES</value>
+    <comment>CADASTRO INGREDIENTES - 11</comment>
   </data>
   <data name="RADIO6_HAB_D.Text" xml:space="preserve">
     <value>HABILITAÇÃO - D</value>
@@ -249,17 +253,12 @@
     <value>SAIR</value>
     <comment>CADASTRO SABORES - 10</comment>
   </data>
-  <data name="TEXT6_EMAIL.Text" xml:space="preserve">
-    <value>EMAIL</value>
-    <comment>TELA ENTREGADOR - 8</comment>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="icons8-menu-squared-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-menu-squared-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="String1" xml:space="preserve">
-    <value />
-    <comment>Tela_Produtos - 13</comment>
+  <data name="TEXT6_EMAIL.Text" xml:space="preserve">
+    <value>EMAIL</value>
+    <comment>TELA ENTREGADOR - 8</comment>
   </data>
   <data name="icons8-user-male-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-user-male-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -272,13 +271,9 @@
     <value>CÓDIGO</value>
     <comment>CADASTRO SABORES - 10</comment>
   </data>
-  <data name="BTN_CADASTRAR.Text" xml:space="preserve">
-    <value>CADASTRAR</value>
-    <comment>Form1 - 3</comment>
-  </data>
-  <data name="VOLTAR_CAD_INGREDIENTES.Text" xml:space="preserve">
-    <value>VOLTAR</value>
-    <comment>CADASTRO SABORES - 10</comment>
+  <data name="BTN8_SABORES" xml:space="preserve">
+    <value>CATALOGO DE SABORES</value>
+    <comment>TELA INICIAL CLIENTE - 4</comment>
   </data>
   <data name="TEXT4_CNF_SENHA" xml:space="preserve">
     <value>CONFIRMAR SENHA</value>
@@ -308,12 +303,16 @@
     <value>NOME</value>
     <comment>TELA ENTREGADOR - 8</comment>
   </data>
-  <data name="TIT_CPF.Text" xml:space="preserve">
-    <value>CPF</value>
-    <comment>TELA CLIENTES - 2</comment>
+  <data name="BTN_CADASTRAR.Text" xml:space="preserve">
+    <value>CADASTRAR</value>
+    <comment>Form1 - 3</comment>
   </data>
   <data name="icons8-menu-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-menu-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TEXT5_CPF.Text" xml:space="preserve">
+    <value>CPF</value>
+    <comment>TELA ATENDENTE - 7</comment>
   </data>
   <data name="BTN_11_SAIR" xml:space="preserve">
     <value>SAIR</value>
@@ -338,16 +337,16 @@
     <value>NOME</value>
     <comment>TELA ATENDENTE - 7</comment>
   </data>
-  <data name="TIT12_CADASTRAR.Text" xml:space="preserve">
-    <value>CADASTRAR VALORES</value>
-    <comment>Tela Valores - 12</comment>
-  </data>
   <data name="TIT_TELEFONE.Text" xml:space="preserve">
     <value>TELEFONE</value>
     <comment>TELA CLIENTES - 2</comment>
   </data>
   <data name="TEXT_10_TIPO.Text" xml:space="preserve">
     <value>TIPO</value>
+    <comment>Tela_Produtos - 13</comment>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
     <comment>Tela_Produtos - 13</comment>
   </data>
   <data name="BTN_PEDIDOS.Text" xml:space="preserve">
@@ -378,9 +377,13 @@
     <value>FAZER PEDIDO</value>
     <comment>TELA INICIAL CLIENTE - 4</comment>
   </data>
-  <data name="TEXT4_ENDERECO" xml:space="preserve">
-    <value>ENDEREÇO</value>
-    <comment>TELA ADM - 6</comment>
+  <data name="TEXT6_CNF_SENHA.Text" xml:space="preserve">
+    <value>CONFIRMAR SENHA</value>
+    <comment>TELA ENTREGADOR - 8</comment>
+  </data>
+  <data name="TEXT6_SENHA.Text" xml:space="preserve">
+    <value>SENHA</value>
+    <comment>TELA ENTREGADOR - 8</comment>
   </data>
   <data name="RADIO6_HAB_A.Text" xml:space="preserve">
     <value>HABILITAÇÃO - A</value>
@@ -389,17 +392,13 @@
   <data name="Screenshot_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screenshot_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TEXT5_ENDERECO.Text" xml:space="preserve">
-    <value>ENDEREÇO</value>
-    <comment>TELA ATENDENTE - 7</comment>
+  <data name="TIT12_CADASTRAR.Text" xml:space="preserve">
+    <value>CADASTRAR VALORES</value>
+    <comment>Tela Valores - 12</comment>
   </data>
   <data name="TEXT4_CPF" xml:space="preserve">
     <value>CPF</value>
     <comment>TELA ADM - 6</comment>
-  </data>
-  <data name="BTN_7_PRODUTOS.Text" xml:space="preserve">
-    <value>PRODUTOS</value>
-    <comment>TELA CADASTROS - 9</comment>
   </data>
   <data name="BTN7_FUNCIONARIOS.Text" xml:space="preserve">
     <value>FUNCIONÁRIOS</value>
@@ -412,17 +411,13 @@
   <data name="291125" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\291125.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TEXT_9_TAMANHOS.Text" xml:space="preserve">
-    <value>TAMANHOS</value>
-    <comment>Tela Valores - 12</comment>
-  </data>
-  <data name="TEXT6_CNF_SENHA.Text" xml:space="preserve">
-    <value>CONFIRMAR SENHA</value>
-    <comment>TELA ENTREGADOR - 8</comment>
-  </data>
   <data name="SABOR_INGREDIENTES.Text" xml:space="preserve">
     <value>INGREDIENTES</value>
     <comment>CADASTRO SABORES - 10</comment>
+  </data>
+  <data name="TEXT1_MENU.Text" xml:space="preserve">
+    <value>MENU</value>
+    <comment>TELA LOGIN INICIAL- 1</comment>
   </data>
   <data name="TEXT_10_ML.Text" xml:space="preserve">
     <value>ML</value>
@@ -439,10 +434,6 @@
   <data name="TEXT_10_VALOR.Text" xml:space="preserve">
     <value>VALOR</value>
     <comment>Tela_Produtos - 13</comment>
-  </data>
-  <data name="TEXT4_TELEFONE" xml:space="preserve">
-    <value>TELEFONE</value>
-    <comment>TELA ADM - 6</comment>
   </data>
   <data name="TEXT5_EMAIL.Text" xml:space="preserve">
     <value>EMAIL</value>
@@ -466,21 +457,25 @@
     <value>ATA DO VENCIMENTO DA \r\nCARTEIRA DE MOTORISTA</value>
     <comment>TELA ENTREGADOR - 8</comment>
   </data>
-  <data name="TEXT_ENDERECO.Text" xml:space="preserve">
+  <data name="TEXT5_ENDERECO.Text" xml:space="preserve">
     <value>ENDEREÇO</value>
-    <comment>TELA CLIENTES - 2</comment>
+    <comment>TELA ATENDENTE - 7</comment>
   </data>
-  <data name="TEXT1_MENU.Text" xml:space="preserve">
-    <value>MENU</value>
-    <comment>TELA LOGIN INICIAL- 1</comment>
+  <data name="BTN_SALVAR_INGREDIENTES.Text" xml:space="preserve">
+    <value>SALVAR</value>
+    <comment>CADASTRO SABORES - 10</comment>
+  </data>
+  <data name="VOLTAR_CAD_INGREDIENTES.Text" xml:space="preserve">
+    <value>VOLTAR</value>
+    <comment>CADASTRO SABORES - 10</comment>
   </data>
   <data name="BTN_LOGIN_ADM.Text" xml:space="preserve">
     <value>ADMINISTRADOR</value>
     <comment>TELA LOGIN INICIAL- 1</comment>
   </data>
-  <data name="TEXT6_SENHA.Text" xml:space="preserve">
-    <value>SENHA</value>
-    <comment>TELA ENTREGADOR - 8</comment>
+  <data name="TIT_10_CADASTRAR_PRODUTOS.Text" xml:space="preserve">
+    <value>CADASTRAR PRODUTOS</value>
+    <comment>Tela_Produtos - 13</comment>
   </data>
   <data name="TEXT_9_VALOR" xml:space="preserve">
     <value>VALOR</value>
@@ -494,34 +489,42 @@
     <value>ENDEREÇO</value>
     <comment>TELA ENTREGADOR - 8</comment>
   </data>
-  <data name="BTN_9_SAIR" xml:space="preserve">
-    <value>SAIR</value>
-    <comment>Tela Valores - 12</comment>
+  <data name="TEXT_ENDERECO.Text" xml:space="preserve">
+    <value>ENDEREÇO</value>
+    <comment>TELA CLIENTES - 2</comment>
+  </data>
+  <data name="BTN_7_PRODUTOS.Text" xml:space="preserve">
+    <value>PRODUTOS</value>
+    <comment>TELA CADASTROS - 9</comment>
   </data>
   <data name="istockphoto-1137028124-612x612" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\istockphoto-1137028124-612x612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BTN_SALVAR_INGREDIENTES.Text" xml:space="preserve">
-    <value>SALVAR</value>
-    <comment>CADASTRO SABORES - 10</comment>
+  <data name="TEXT4_TELEFONE" xml:space="preserve">
+    <value>TELEFONE</value>
+    <comment>TELA ADM - 6</comment>
   </data>
-  <data name="TEXT5_CPF.Text" xml:space="preserve">
+  <data name="TIT_CPF.Text" xml:space="preserve">
     <value>CPF</value>
+    <comment>TELA CLIENTES - 2</comment>
+  </data>
+  <data name="TEXT_9_TAMANHOS.Text" xml:space="preserve">
+    <value>TAMANHOS</value>
+    <comment>Tela Valores - 12</comment>
+  </data>
+  <data name="TEXT4_ENDERECO" xml:space="preserve">
+    <value>ENDEREÇO</value>
+    <comment>TELA ADM - 6</comment>
+  </data>
+  <data name="BTN5_ENVIAR.Text" xml:space="preserve">
+    <value>ENVIAR</value>
     <comment>TELA ATENDENTE - 7</comment>
   </data>
   <data name="Btn20_SAIR.Text" xml:space="preserve">
     <value>SAIR</value>
     <comment>Form1 - 3</comment>
   </data>
-  <data name="BTN5_ENVIAR.Text" xml:space="preserve">
-    <value>ENVIAR</value>
-    <comment>TELA ATENDENTE - 7</comment>
-  </data>
-  <data name="TEXT4_EMAIL" xml:space="preserve">
-    <value>EMAIL</value>
-    <comment>TELA ADM - 6</comment>
-  </data>
-  <data name="forma-do-usuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\forma-do-usuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-imagem-100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-imagem-100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

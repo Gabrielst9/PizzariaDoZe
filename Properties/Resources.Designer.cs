@@ -372,6 +372,16 @@ namespace PizzariaDoZe.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap icons8_imagem_100 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-imagem-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap icons8_lock_48 {
             get {
                 object obj = ResourceManager.GetObject("icons8-lock-48", resourceCulture);

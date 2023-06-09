@@ -25,7 +25,7 @@
     <Compile Update="Telas\CRUD\CRUD.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="Telas\Telas De Cadastro\Telas Gerais\TelaAdm.cs">
+    <Compile Update="Telas\Telas Gerais\TelaAdm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Telas\Telas De Cadastro\CadastroCliente.cs">
@@ -34,19 +34,19 @@
     <Compile Update="Telas\DataGridView's\ListarEnderecos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Telas\Telas De Cadastro\Telas Gerais\TelaInicial.cs">
+    <Compile Update="Telas\Telas Gerais\TelaInicial.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Telas\Telas De Cadastro\Telas Gerais\TelaInicialClientes.cs">
+    <Compile Update="Telas\Telas Gerais\TelaInicialClientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Telas\Telas De Cadastro\Telas Gerais\TelaShortCuts.cs">
+    <Compile Update="Telas\Telas Gerais\TelaShortCuts.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Telas\Telas De Cadastro\Telas Gerais\Tela_Cadastros.cs">
+    <Compile Update="Telas\Telas Gerais\Tela_Cadastros.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Telas\Telas De Cadastro\Telas Gerais\Tela_Configuracoes.cs">
+    <Compile Update="Telas\Telas Gerais\Tela_Configuracoes.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Telas\Telas De Cadastro\CadastrarProdutos.cs">

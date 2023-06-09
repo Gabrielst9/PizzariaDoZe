@@ -31,7 +31,7 @@
             Pnl_11_Ingredientes = new Panel();
             BtnListaIngredientes = new Button();
             crud1 = new CRUD();
-            ING_NOME_TEXT = new TextBox();
+            TextBoxNome = new TextBox();
             ING_NOME = new Label();
             Tit_11_Ingredientes = new Label();
             Btn_11_Sair = new Button();
@@ -45,7 +45,7 @@
             Pnl_11_Ingredientes.BackgroundImageLayout = ImageLayout.Stretch;
             Pnl_11_Ingredientes.Controls.Add(BtnListaIngredientes);
             Pnl_11_Ingredientes.Controls.Add(crud1);
-            Pnl_11_Ingredientes.Controls.Add(ING_NOME_TEXT);
+            Pnl_11_Ingredientes.Controls.Add(TextBoxNome);
             Pnl_11_Ingredientes.Controls.Add(ING_NOME);
             Pnl_11_Ingredientes.Location = new Point(237, 88);
             Pnl_11_Ingredientes.Name = "Pnl_11_Ingredientes";
@@ -75,13 +75,13 @@
             crud1.Size = new Size(452, 65);
             crud1.TabIndex = 2;
             // 
-            // ING_NOME_TEXT
+            // TextBoxNome
             // 
-            ING_NOME_TEXT.Location = new Point(130, 66);
-            ING_NOME_TEXT.MaxLength = 80;
-            ING_NOME_TEXT.Name = "ING_NOME_TEXT";
-            ING_NOME_TEXT.Size = new Size(188, 23);
-            ING_NOME_TEXT.TabIndex = 0;
+            TextBoxNome.Location = new Point(130, 66);
+            TextBoxNome.MaxLength = 80;
+            TextBoxNome.Name = "TextBoxNome";
+            TextBoxNome.Size = new Size(188, 23);
+            TextBoxNome.TabIndex = 0;
             // 
             // ING_NOME
             // 
@@ -155,7 +155,7 @@
 
         #endregion
         private Panel Pnl_11_Ingredientes;
-        private TextBox ING_NOME_TEXT;
+        private TextBox TextBoxNome;
         private Label ING_NOME;
         private CRUD crud1;
         private Label Tit_11_Ingredientes;

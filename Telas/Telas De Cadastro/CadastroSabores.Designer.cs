@@ -29,25 +29,25 @@
         private void InitializeComponent()
         {
             Pnl_8_Sabores = new Panel();
-            crud1 = new CRUD();
+            listBoxTipo = new ListBox();
+            listBoxCategoria = new ListBox();
+            CrudSabores = new CRUD();
+            checkedListBoxIngredientes = new CheckedListBox();
             SABOR_INGREDIENTES = new Label();
-            listView1 = new ListView();
-            TIPO_SABOR = new Label();
-            SABOR_TIPO = new CheckedListBox();
-            CATEGORIA_SABOR = new Label();
-            SABOR_CATEGORIA = new CheckedListBox();
-            SABOR_FOTO = new Label();
-            FOTO_SABOR = new PictureBox();
-            SABOR_COD_TEXT = new TextBox();
-            SABOR_COD = new Label();
-            SABOR_NOME_TEXT = new TextBox();
-            SABOR_NOME = new Label();
+            TextTipo = new Label();
+            TextCategoria = new Label();
+            TextFoto = new Label();
+            TextBoxId = new TextBox();
+            TextID = new Label();
+            TextBoxNome = new TextBox();
+            TextNome = new Label();
             Btn_Salvar_Ingredientes = new Button();
             VOLTAR_CAD_INGREDIENTES = new Button();
             Tit_8_Cadastro_Sabores = new Label();
             Btn_8_Sair = new Button();
+            pictureBoxImagem = new PictureBox();
             Pnl_8_Sabores.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)FOTO_SABOR).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxImagem).BeginInit();
             SuspendLayout();
             // 
             // Pnl_8_Sabores
@@ -55,19 +55,19 @@
             Pnl_8_Sabores.Anchor = AnchorStyles.None;
             Pnl_8_Sabores.BackgroundImage = Properties.Resources.Screenshot_1;
             Pnl_8_Sabores.BackgroundImageLayout = ImageLayout.Stretch;
-            Pnl_8_Sabores.Controls.Add(crud1);
+            Pnl_8_Sabores.Controls.Add(pictureBoxImagem);
+            Pnl_8_Sabores.Controls.Add(listBoxTipo);
+            Pnl_8_Sabores.Controls.Add(listBoxCategoria);
+            Pnl_8_Sabores.Controls.Add(CrudSabores);
+            Pnl_8_Sabores.Controls.Add(checkedListBoxIngredientes);
             Pnl_8_Sabores.Controls.Add(SABOR_INGREDIENTES);
-            Pnl_8_Sabores.Controls.Add(listView1);
-            Pnl_8_Sabores.Controls.Add(TIPO_SABOR);
-            Pnl_8_Sabores.Controls.Add(SABOR_TIPO);
-            Pnl_8_Sabores.Controls.Add(CATEGORIA_SABOR);
-            Pnl_8_Sabores.Controls.Add(SABOR_CATEGORIA);
-            Pnl_8_Sabores.Controls.Add(SABOR_FOTO);
-            Pnl_8_Sabores.Controls.Add(FOTO_SABOR);
-            Pnl_8_Sabores.Controls.Add(SABOR_COD_TEXT);
-            Pnl_8_Sabores.Controls.Add(SABOR_COD);
-            Pnl_8_Sabores.Controls.Add(SABOR_NOME_TEXT);
-            Pnl_8_Sabores.Controls.Add(SABOR_NOME);
+            Pnl_8_Sabores.Controls.Add(TextTipo);
+            Pnl_8_Sabores.Controls.Add(TextCategoria);
+            Pnl_8_Sabores.Controls.Add(TextFoto);
+            Pnl_8_Sabores.Controls.Add(TextBoxId);
+            Pnl_8_Sabores.Controls.Add(TextID);
+            Pnl_8_Sabores.Controls.Add(TextBoxNome);
+            Pnl_8_Sabores.Controls.Add(TextNome);
             Pnl_8_Sabores.Controls.Add(Btn_Salvar_Ingredientes);
             Pnl_8_Sabores.Controls.Add(VOLTAR_CAD_INGREDIENTES);
             Pnl_8_Sabores.Location = new Point(182, 94);
@@ -75,14 +75,42 @@
             Pnl_8_Sabores.Size = new Size(665, 371);
             Pnl_8_Sabores.TabIndex = 28;
             // 
-            // crud1
+            // listBoxTipo
             // 
-            crud1.BackColor = SystemColors.Desktop;
-            crud1.ForeColor = SystemColors.Info;
-            crud1.Location = new Point(38, 303);
-            crud1.Name = "crud1";
-            crud1.Size = new Size(583, 65);
-            crud1.TabIndex = 5;
+            listBoxTipo.FormattingEnabled = true;
+            listBoxTipo.ItemHeight = 14;
+            listBoxTipo.Items.AddRange(new object[] { "TRADICIONAL", "ESPECIAL" });
+            listBoxTipo.Location = new Point(22, 204);
+            listBoxTipo.Name = "listBoxTipo";
+            listBoxTipo.Size = new Size(160, 32);
+            listBoxTipo.TabIndex = 41;
+            // 
+            // listBoxCategoria
+            // 
+            listBoxCategoria.FormattingEnabled = true;
+            listBoxCategoria.ItemHeight = 14;
+            listBoxCategoria.Items.AddRange(new object[] { "TRADICIONAL", "ESPECIAL" });
+            listBoxCategoria.Location = new Point(22, 148);
+            listBoxCategoria.Name = "listBoxCategoria";
+            listBoxCategoria.Size = new Size(160, 32);
+            listBoxCategoria.TabIndex = 40;
+            // 
+            // CrudSabores
+            // 
+            CrudSabores.BackColor = SystemColors.Desktop;
+            CrudSabores.ForeColor = SystemColors.Info;
+            CrudSabores.Location = new Point(0, 306);
+            CrudSabores.Name = "CrudSabores";
+            CrudSabores.Size = new Size(451, 65);
+            CrudSabores.TabIndex = 39;
+            // 
+            // checkedListBoxIngredientes
+            // 
+            checkedListBoxIngredientes.FormattingEnabled = true;
+            checkedListBoxIngredientes.Location = new Point(490, 36);
+            checkedListBoxIngredientes.Name = "checkedListBoxIngredientes";
+            checkedListBoxIngredientes.Size = new Size(160, 324);
+            checkedListBoxIngredientes.TabIndex = 38;
             // 
             // SABOR_INGREDIENTES
             // 
@@ -91,135 +119,96 @@
             SABOR_INGREDIENTES.BackColor = Color.Transparent;
             SABOR_INGREDIENTES.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
             SABOR_INGREDIENTES.ForeColor = SystemColors.Info;
-            SABOR_INGREDIENTES.Location = new Point(423, 139);
+            SABOR_INGREDIENTES.Location = new Point(490, 15);
             SABOR_INGREDIENTES.Name = "SABOR_INGREDIENTES";
             SABOR_INGREDIENTES.Size = new Size(145, 18);
             SABOR_INGREDIENTES.TabIndex = 37;
             SABOR_INGREDIENTES.Text = "INGREDIENTES";
             SABOR_INGREDIENTES.TextAlign = ContentAlignment.TopCenter;
             // 
-            // listView1
+            // TextTipo
             // 
-            listView1.Location = new Point(359, 160);
-            listView1.Name = "listView1";
-            listView1.Size = new Size(262, 105);
-            listView1.TabIndex = 4;
-            listView1.UseCompatibleStateImageBehavior = false;
-            listView1.SelectedIndexChanged += listView1_SelectedIndexChanged;
+            TextTipo.Anchor = AnchorStyles.None;
+            TextTipo.AutoSize = true;
+            TextTipo.BackColor = Color.Transparent;
+            TextTipo.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            TextTipo.ForeColor = SystemColors.Info;
+            TextTipo.Location = new Point(22, 183);
+            TextTipo.Name = "TextTipo";
+            TextTipo.Size = new Size(50, 18);
+            TextTipo.TabIndex = 35;
+            TextTipo.Text = "TIPO";
+            TextTipo.TextAlign = ContentAlignment.TopCenter;
             // 
-            // TIPO_SABOR
+            // TextCategoria
             // 
-            TIPO_SABOR.Anchor = AnchorStyles.None;
-            TIPO_SABOR.AutoSize = true;
-            TIPO_SABOR.BackColor = Color.Transparent;
-            TIPO_SABOR.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            TIPO_SABOR.ForeColor = SystemColors.Info;
-            TIPO_SABOR.Location = new Point(99, 196);
-            TIPO_SABOR.Name = "TIPO_SABOR";
-            TIPO_SABOR.Size = new Size(50, 18);
-            TIPO_SABOR.TabIndex = 35;
-            TIPO_SABOR.Text = "TIPO";
-            TIPO_SABOR.TextAlign = ContentAlignment.TopCenter;
+            TextCategoria.Anchor = AnchorStyles.None;
+            TextCategoria.AutoSize = true;
+            TextCategoria.BackColor = Color.Transparent;
+            TextCategoria.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            TextCategoria.ForeColor = SystemColors.Info;
+            TextCategoria.Location = new Point(22, 127);
+            TextCategoria.Name = "TextCategoria";
+            TextCategoria.Size = new Size(116, 18);
+            TextCategoria.TabIndex = 33;
+            TextCategoria.Text = "CATEGORIA";
+            TextCategoria.TextAlign = ContentAlignment.TopCenter;
             // 
-            // SABOR_TIPO
+            // TextFoto
             // 
-            SABOR_TIPO.BackColor = SystemColors.InfoText;
-            SABOR_TIPO.ForeColor = SystemColors.Info;
-            SABOR_TIPO.FormattingEnabled = true;
-            SABOR_TIPO.Items.AddRange(new object[] { "DOCE", "SALGADA" });
-            SABOR_TIPO.Location = new Point(35, 217);
-            SABOR_TIPO.Name = "SABOR_TIPO";
-            SABOR_TIPO.Size = new Size(188, 36);
-            SABOR_TIPO.TabIndex = 3;
+            TextFoto.AutoSize = true;
+            TextFoto.BackColor = Color.Transparent;
+            TextFoto.Font = new Font("Copperplate Gothic Bold", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            TextFoto.ForeColor = SystemColors.Info;
+            TextFoto.Location = new Point(233, 9);
+            TextFoto.Name = "TextFoto";
+            TextFoto.Size = new Size(69, 21);
+            TextFoto.TabIndex = 31;
+            TextFoto.Text = "FOTO";
             // 
-            // CATEGORIA_SABOR
+            // TextBoxId
             // 
-            CATEGORIA_SABOR.Anchor = AnchorStyles.None;
-            CATEGORIA_SABOR.AutoSize = true;
-            CATEGORIA_SABOR.BackColor = Color.Transparent;
-            CATEGORIA_SABOR.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            CATEGORIA_SABOR.ForeColor = SystemColors.Info;
-            CATEGORIA_SABOR.Location = new Point(64, 136);
-            CATEGORIA_SABOR.Name = "CATEGORIA_SABOR";
-            CATEGORIA_SABOR.Size = new Size(116, 18);
-            CATEGORIA_SABOR.TabIndex = 33;
-            CATEGORIA_SABOR.Text = "CATEGORIA";
-            CATEGORIA_SABOR.TextAlign = ContentAlignment.TopCenter;
+            TextBoxId.BackColor = SystemColors.ControlDark;
+            TextBoxId.Location = new Point(24, 33);
+            TextBoxId.Name = "TextBoxId";
+            TextBoxId.ReadOnly = true;
+            TextBoxId.Size = new Size(47, 21);
+            TextBoxId.TabIndex = 1;
             // 
-            // SABOR_CATEGORIA
+            // TextID
             // 
-            SABOR_CATEGORIA.BackColor = SystemColors.InfoText;
-            SABOR_CATEGORIA.ForeColor = SystemColors.Info;
-            SABOR_CATEGORIA.FormattingEnabled = true;
-            SABOR_CATEGORIA.Items.AddRange(new object[] { "TRADICIONAL", "ESPECIAL" });
-            SABOR_CATEGORIA.Location = new Point(35, 157);
-            SABOR_CATEGORIA.Name = "SABOR_CATEGORIA";
-            SABOR_CATEGORIA.Size = new Size(188, 36);
-            SABOR_CATEGORIA.TabIndex = 2;
+            TextID.Anchor = AnchorStyles.None;
+            TextID.AutoSize = true;
+            TextID.BackColor = Color.Transparent;
+            TextID.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            TextID.ForeColor = SystemColors.Info;
+            TextID.Location = new Point(24, 12);
+            TextID.Name = "TextID";
+            TextID.Size = new Size(26, 18);
+            TextID.TabIndex = 28;
+            TextID.Text = "ID";
+            TextID.TextAlign = ContentAlignment.TopCenter;
             // 
-            // SABOR_FOTO
+            // TextBoxNome
             // 
-            SABOR_FOTO.AutoSize = true;
-            SABOR_FOTO.BackColor = SystemColors.InactiveCaptionText;
-            SABOR_FOTO.Font = new Font("Copperplate Gothic Bold", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            SABOR_FOTO.ForeColor = SystemColors.Info;
-            SABOR_FOTO.Location = new Point(359, 36);
-            SABOR_FOTO.Name = "SABOR_FOTO";
-            SABOR_FOTO.Size = new Size(69, 21);
-            SABOR_FOTO.TabIndex = 31;
-            SABOR_FOTO.Text = "FOTO";
+            TextBoxNome.Location = new Point(22, 92);
+            TextBoxNome.Name = "TextBoxNome";
+            TextBoxNome.Size = new Size(188, 21);
+            TextBoxNome.TabIndex = 0;
             // 
-            // FOTO_SABOR
+            // TextNome
             // 
-            FOTO_SABOR.BackColor = SystemColors.Info;
-            FOTO_SABOR.BorderStyle = BorderStyle.Fixed3D;
-            FOTO_SABOR.Location = new Point(434, 15);
-            FOTO_SABOR.Name = "FOTO_SABOR";
-            FOTO_SABOR.Size = new Size(117, 105);
-            FOTO_SABOR.TabIndex = 30;
-            FOTO_SABOR.TabStop = false;
-            // 
-            // SABOR_COD_TEXT
-            // 
-            SABOR_COD_TEXT.Location = new Point(35, 99);
-            SABOR_COD_TEXT.Name = "SABOR_COD_TEXT";
-            SABOR_COD_TEXT.Size = new Size(188, 21);
-            SABOR_COD_TEXT.TabIndex = 1;
-            // 
-            // SABOR_COD
-            // 
-            SABOR_COD.Anchor = AnchorStyles.None;
-            SABOR_COD.AutoSize = true;
-            SABOR_COD.BackColor = Color.Transparent;
-            SABOR_COD.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            SABOR_COD.ForeColor = SystemColors.Info;
-            SABOR_COD.Location = new Point(85, 75);
-            SABOR_COD.Name = "SABOR_COD";
-            SABOR_COD.Size = new Size(81, 18);
-            SABOR_COD.TabIndex = 28;
-            SABOR_COD.Text = "CÓDIGO";
-            SABOR_COD.TextAlign = ContentAlignment.TopCenter;
-            // 
-            // SABOR_NOME_TEXT
-            // 
-            SABOR_NOME_TEXT.Location = new Point(35, 36);
-            SABOR_NOME_TEXT.Name = "SABOR_NOME_TEXT";
-            SABOR_NOME_TEXT.Size = new Size(188, 21);
-            SABOR_NOME_TEXT.TabIndex = 0;
-            // 
-            // SABOR_NOME
-            // 
-            SABOR_NOME.Anchor = AnchorStyles.None;
-            SABOR_NOME.AutoSize = true;
-            SABOR_NOME.BackColor = Color.Transparent;
-            SABOR_NOME.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            SABOR_NOME.ForeColor = SystemColors.Info;
-            SABOR_NOME.Location = new Point(86, 15);
-            SABOR_NOME.Name = "SABOR_NOME";
-            SABOR_NOME.Size = new Size(63, 18);
-            SABOR_NOME.TabIndex = 26;
-            SABOR_NOME.Text = "NOME";
-            SABOR_NOME.TextAlign = ContentAlignment.TopCenter;
+            TextNome.Anchor = AnchorStyles.None;
+            TextNome.AutoSize = true;
+            TextNome.BackColor = Color.Transparent;
+            TextNome.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            TextNome.ForeColor = SystemColors.Info;
+            TextNome.Location = new Point(22, 71);
+            TextNome.Name = "TextNome";
+            TextNome.Size = new Size(63, 18);
+            TextNome.TabIndex = 26;
+            TextNome.Text = "NOME";
+            TextNome.TextAlign = ContentAlignment.TopCenter;
             // 
             // Btn_Salvar_Ingredientes
             // 
@@ -289,6 +278,17 @@
             Btn_8_Sair.UseVisualStyleBackColor = false;
             Btn_8_Sair.Click += Btn_8_Sair_Click;
             // 
+            // pictureBoxImagem
+            // 
+            pictureBoxImagem.Image = Properties.Resources.icons8_imagem_100;
+            pictureBoxImagem.Location = new Point(233, 36);
+            pictureBoxImagem.Name = "pictureBoxImagem";
+            pictureBoxImagem.Size = new Size(171, 144);
+            pictureBoxImagem.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBoxImagem.TabIndex = 42;
+            pictureBoxImagem.TabStop = false;
+            pictureBoxImagem.Click += pictureBoxImagem_Click;
+            // 
             // CadastroSabores
             // 
             AutoScaleDimensions = new SizeF(9F, 14F);
@@ -306,32 +306,31 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "CADASTRO_SABORES";
             WindowState = FormWindowState.Maximized;
-            Load += CadastroSabores_Load;
             Pnl_8_Sabores.ResumeLayout(false);
             Pnl_8_Sabores.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)FOTO_SABOR).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxImagem).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
         private Panel Pnl_8_Sabores;
-        private TextBox SABOR_COD_TEXT;
-        private Label SABOR_COD;
-        private TextBox SABOR_NOME_TEXT;
-        private Label SABOR_NOME;
+        private TextBox TextBoxId;
+        private Label TextID;
+        private TextBox TextBoxNome;
+        private Label TextNome;
         private Button Btn_Salvar_Ingredientes;
         private Button VOLTAR_CAD_INGREDIENTES;
-        private Label TIPO_SABOR;
-        private CheckedListBox SABOR_TIPO;
-        private Label CATEGORIA_SABOR;
-        private CheckedListBox SABOR_CATEGORIA;
-        private Label SABOR_FOTO;
-        private PictureBox FOTO_SABOR;
-        private ListView listView1;
+        private Label TextTipo;
+        private Label TextCategoria;
+        private Label TextFoto;
         private Label SABOR_INGREDIENTES;
         private Label Tit_8_Cadastro_Sabores;
         private Button Btn_8_Sair;
-        private CRUD crud1;
+        private CheckedListBox checkedListBoxIngredientes;
+        private CRUD CrudSabores;
+        private ListBox listBoxCategoria;
+        private ListBox listBoxTipo;
+        private PictureBox pictureBoxImagem;
     }
 }
