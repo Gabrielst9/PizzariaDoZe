@@ -167,3 +167,6 @@ C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZ
 C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Telas.DataGridView_s.ListarClientes.resources
 C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Telas.CadastroFuncionario.resources
 C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Telas.DataGridView_s.ListarFuncionarios.resources
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Telas.DataGridView_s.ListarSabores.resources
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Telas.Telas_De_Cadastro.ListarValores.resources
+C:\Users\Administrador\Downloads\PROJETO-2.5-Luciano\PROJETO Luciano\PizzariaDoZe\obj\Debug\net7.0-windows\PizzariaDoZe.Telas.DataGridView_s.ListarProdutos.resources

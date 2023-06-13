@@ -30,7 +30,6 @@
         {
             BTN_Cadastrar_Ingredientes = new Button();
             BTN_Cadastro_Sabores = new Button();
-            PainelTelaCadastrosAdm = new Panel();
             BtnListarFuncionarios = new Button();
             BtnListarClientes = new Button();
             BtnListarEnderecos = new Button();
@@ -39,8 +38,15 @@
             BTN_CadastroValores = new Button();
             BTN_CadastrarClientes = new Button();
             BTN_Sair_TelaCadastro = new Button();
-            Titulo_Principal = new Label();
-            PainelTelaCadastrosAdm.SuspendLayout();
+            TextCadastroListagem = new Label();
+            splitContainer1 = new SplitContainer();
+            BtnListarProdutos = new Button();
+            BtnListarValores = new Button();
+            BtnListarSabores = new Button();
+            ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
+            splitContainer1.Panel1.SuspendLayout();
+            splitContainer1.Panel2.SuspendLayout();
+            splitContainer1.SuspendLayout();
             SuspendLayout();
             // 
             // BTN_Cadastrar_Ingredientes
@@ -48,7 +54,7 @@
             BTN_Cadastrar_Ingredientes.BackgroundImage = Properties.Resources.Screenshot_1;
             BTN_Cadastrar_Ingredientes.BackgroundImageLayout = ImageLayout.Stretch;
             BTN_Cadastrar_Ingredientes.ForeColor = SystemColors.Info;
-            BTN_Cadastrar_Ingredientes.Location = new Point(23, 33);
+            BTN_Cadastrar_Ingredientes.Location = new Point(3, 12);
             BTN_Cadastrar_Ingredientes.Name = "BTN_Cadastrar_Ingredientes";
             BTN_Cadastrar_Ingredientes.Size = new Size(135, 58);
             BTN_Cadastrar_Ingredientes.TabIndex = 1;
@@ -61,7 +67,7 @@
             BTN_Cadastro_Sabores.BackgroundImage = Properties.Resources.Screenshot_1;
             BTN_Cadastro_Sabores.BackgroundImageLayout = ImageLayout.Stretch;
             BTN_Cadastro_Sabores.ForeColor = SystemColors.Info;
-            BTN_Cadastro_Sabores.Location = new Point(23, 131);
+            BTN_Cadastro_Sabores.Location = new Point(3, 88);
             BTN_Cadastro_Sabores.Name = "BTN_Cadastro_Sabores";
             BTN_Cadastro_Sabores.Size = new Size(135, 58);
             BTN_Cadastro_Sabores.TabIndex = 4;
@@ -69,30 +75,12 @@
             BTN_Cadastro_Sabores.UseVisualStyleBackColor = true;
             BTN_Cadastro_Sabores.Click += BTN_Cadastro_Sabores_Click;
             // 
-            // PainelTelaCadastrosAdm
-            // 
-            PainelTelaCadastrosAdm.Anchor = AnchorStyles.None;
-            PainelTelaCadastrosAdm.BackColor = Color.Transparent;
-            PainelTelaCadastrosAdm.Controls.Add(BtnListarFuncionarios);
-            PainelTelaCadastrosAdm.Controls.Add(BtnListarClientes);
-            PainelTelaCadastrosAdm.Controls.Add(BtnListarEnderecos);
-            PainelTelaCadastrosAdm.Controls.Add(BTN_CadastrarProdutos);
-            PainelTelaCadastrosAdm.Controls.Add(BTN_CadastrarFuncionarios);
-            PainelTelaCadastrosAdm.Controls.Add(BTN_CadastroValores);
-            PainelTelaCadastrosAdm.Controls.Add(BTN_CadastrarClientes);
-            PainelTelaCadastrosAdm.Controls.Add(BTN_Cadastrar_Ingredientes);
-            PainelTelaCadastrosAdm.Controls.Add(BTN_Cadastro_Sabores);
-            PainelTelaCadastrosAdm.Location = new Point(334, 154);
-            PainelTelaCadastrosAdm.Name = "PainelTelaCadastrosAdm";
-            PainelTelaCadastrosAdm.Size = new Size(508, 280);
-            PainelTelaCadastrosAdm.TabIndex = 3;
-            // 
             // BtnListarFuncionarios
             // 
             BtnListarFuncionarios.BackgroundImage = Properties.Resources.Screenshot_1;
             BtnListarFuncionarios.BackgroundImageLayout = ImageLayout.Stretch;
             BtnListarFuncionarios.ForeColor = SystemColors.Info;
-            BtnListarFuncionarios.Location = new Point(350, 222);
+            BtnListarFuncionarios.Location = new Point(14, 12);
             BtnListarFuncionarios.Name = "BtnListarFuncionarios";
             BtnListarFuncionarios.Size = new Size(135, 58);
             BtnListarFuncionarios.TabIndex = 10;
@@ -105,7 +93,7 @@
             BtnListarClientes.BackgroundImage = Properties.Resources.Screenshot_1;
             BtnListarClientes.BackgroundImageLayout = ImageLayout.Stretch;
             BtnListarClientes.ForeColor = SystemColors.Info;
-            BtnListarClientes.Location = new Point(27, 219);
+            BtnListarClientes.Location = new Point(174, 12);
             BtnListarClientes.Name = "BtnListarClientes";
             BtnListarClientes.Size = new Size(135, 58);
             BtnListarClientes.TabIndex = 9;
@@ -118,7 +106,7 @@
             BtnListarEnderecos.BackgroundImage = Properties.Resources.Screenshot_1;
             BtnListarEnderecos.BackgroundImageLayout = ImageLayout.Stretch;
             BtnListarEnderecos.ForeColor = SystemColors.Info;
-            BtnListarEnderecos.Location = new Point(184, 219);
+            BtnListarEnderecos.Location = new Point(337, 12);
             BtnListarEnderecos.Name = "BtnListarEnderecos";
             BtnListarEnderecos.Size = new Size(135, 58);
             BtnListarEnderecos.TabIndex = 8;
@@ -131,7 +119,7 @@
             BTN_CadastrarProdutos.BackgroundImage = Properties.Resources.Screenshot_1;
             BTN_CadastrarProdutos.BackgroundImageLayout = ImageLayout.Stretch;
             BTN_CadastrarProdutos.ForeColor = SystemColors.Info;
-            BTN_CadastrarProdutos.Location = new Point(350, 131);
+            BTN_CadastrarProdutos.Location = new Point(312, 88);
             BTN_CadastrarProdutos.Name = "BTN_CadastrarProdutos";
             BTN_CadastrarProdutos.Size = new Size(135, 58);
             BTN_CadastrarProdutos.TabIndex = 6;
@@ -144,7 +132,7 @@
             BTN_CadastrarFuncionarios.BackgroundImage = Properties.Resources.Screenshot_1;
             BTN_CadastrarFuncionarios.BackgroundImageLayout = ImageLayout.Stretch;
             BTN_CadastrarFuncionarios.ForeColor = SystemColors.Info;
-            BTN_CadastrarFuncionarios.Location = new Point(350, 33);
+            BTN_CadastrarFuncionarios.Location = new Point(312, 12);
             BTN_CadastrarFuncionarios.Name = "BTN_CadastrarFuncionarios";
             BTN_CadastrarFuncionarios.Size = new Size(135, 58);
             BTN_CadastrarFuncionarios.TabIndex = 3;
@@ -157,7 +145,7 @@
             BTN_CadastroValores.BackgroundImage = Properties.Resources.Screenshot_1;
             BTN_CadastroValores.BackgroundImageLayout = ImageLayout.Stretch;
             BTN_CadastroValores.ForeColor = SystemColors.Info;
-            BTN_CadastroValores.Location = new Point(184, 131);
+            BTN_CadastroValores.Location = new Point(156, 88);
             BTN_CadastroValores.Name = "BTN_CadastroValores";
             BTN_CadastroValores.Size = new Size(135, 58);
             BTN_CadastroValores.TabIndex = 5;
@@ -170,7 +158,7 @@
             BTN_CadastrarClientes.BackgroundImage = Properties.Resources.Screenshot_1;
             BTN_CadastrarClientes.BackgroundImageLayout = ImageLayout.Stretch;
             BTN_CadastrarClientes.ForeColor = SystemColors.Info;
-            BTN_CadastrarClientes.Location = new Point(184, 33);
+            BTN_CadastrarClientes.Location = new Point(156, 12);
             BTN_CadastrarClientes.Name = "BTN_CadastrarClientes";
             BTN_CadastrarClientes.Size = new Size(135, 58);
             BTN_CadastrarClientes.TabIndex = 2;
@@ -185,31 +173,97 @@
             BTN_Sair_TelaCadastro.BackgroundImageLayout = ImageLayout.Stretch;
             BTN_Sair_TelaCadastro.Font = new Font("Copperplate Gothic Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
             BTN_Sair_TelaCadastro.ForeColor = SystemColors.Info;
-            BTN_Sair_TelaCadastro.Location = new Point(513, 440);
+            BTN_Sair_TelaCadastro.Location = new Point(476, 454);
             BTN_Sair_TelaCadastro.Name = "BTN_Sair_TelaCadastro";
-            BTN_Sair_TelaCadastro.Size = new Size(150, 58);
+            BTN_Sair_TelaCadastro.Size = new Size(150, 55);
             BTN_Sair_TelaCadastro.TabIndex = 7;
             BTN_Sair_TelaCadastro.Text = "SAIR";
             BTN_Sair_TelaCadastro.UseVisualStyleBackColor = true;
             BTN_Sair_TelaCadastro.Click += BTN_Sair_TelaCadastro_Click;
             // 
-            // Titulo_Principal
+            // TextCadastroListagem
             // 
-            Titulo_Principal.Anchor = AnchorStyles.None;
-            Titulo_Principal.AutoSize = true;
-            Titulo_Principal.BackColor = SystemColors.ActiveCaptionText;
-            Titulo_Principal.BorderStyle = BorderStyle.Fixed3D;
-            Titulo_Principal.Font = new Font("Copperplate Gothic Bold", 36F, FontStyle.Regular, GraphicsUnit.Point);
-            Titulo_Principal.ForeColor = SystemColors.Info;
-            Titulo_Principal.Image = Properties.Resources.Screenshot_1;
-            Titulo_Principal.Location = new Point(361, 72);
-            Titulo_Principal.Margin = new Padding(4, 50, 4, 0);
-            Titulo_Principal.Name = "Titulo_Principal";
-            Titulo_Principal.Size = new Size(454, 55);
-            Titulo_Principal.TabIndex = 5;
-            Titulo_Principal.Text = "PIZZARIA DO ZÉ";
-            Titulo_Principal.TextAlign = ContentAlignment.MiddleCenter;
-            Titulo_Principal.Click += Titulo_Principal_Click;
+            TextCadastroListagem.Anchor = AnchorStyles.None;
+            TextCadastroListagem.AutoSize = true;
+            TextCadastroListagem.BackColor = SystemColors.ActiveCaptionText;
+            TextCadastroListagem.BorderStyle = BorderStyle.Fixed3D;
+            TextCadastroListagem.Font = new Font("Copperplate Gothic Bold", 36F, FontStyle.Regular, GraphicsUnit.Point);
+            TextCadastroListagem.ForeColor = SystemColors.Info;
+            TextCadastroListagem.Image = Properties.Resources.Screenshot_1;
+            TextCadastroListagem.Location = new Point(218, 10);
+            TextCadastroListagem.Margin = new Padding(4, 50, 4, 0);
+            TextCadastroListagem.Name = "TextCadastroListagem";
+            TextCadastroListagem.Size = new Size(735, 55);
+            TextCadastroListagem.TabIndex = 5;
+            TextCadastroListagem.Text = "CADASTROS E LISTAGENS";
+            TextCadastroListagem.TextAlign = ContentAlignment.MiddleCenter;
+            TextCadastroListagem.Click += Titulo_Principal_Click;
+            // 
+            // splitContainer1
+            // 
+            splitContainer1.BackColor = Color.Transparent;
+            splitContainer1.Location = new Point(119, 191);
+            splitContainer1.Name = "splitContainer1";
+            // 
+            // splitContainer1.Panel1
+            // 
+            splitContainer1.Panel1.Controls.Add(BTN_Cadastrar_Ingredientes);
+            splitContainer1.Panel1.Controls.Add(BTN_CadastrarClientes);
+            splitContainer1.Panel1.Controls.Add(BTN_CadastrarFuncionarios);
+            splitContainer1.Panel1.Controls.Add(BTN_CadastrarProdutos);
+            splitContainer1.Panel1.Controls.Add(BTN_Cadastro_Sabores);
+            splitContainer1.Panel1.Controls.Add(BTN_CadastroValores);
+            // 
+            // splitContainer1.Panel2
+            // 
+            splitContainer1.Panel2.Controls.Add(BtnListarProdutos);
+            splitContainer1.Panel2.Controls.Add(BtnListarValores);
+            splitContainer1.Panel2.Controls.Add(BtnListarSabores);
+            splitContainer1.Panel2.Controls.Add(BtnListarEnderecos);
+            splitContainer1.Panel2.Controls.Add(BtnListarClientes);
+            splitContainer1.Panel2.Controls.Add(BtnListarFuncionarios);
+            splitContainer1.Size = new Size(938, 158);
+            splitContainer1.SplitterDistance = 457;
+            splitContainer1.TabIndex = 8;
+            // 
+            // BtnListarProdutos
+            // 
+            BtnListarProdutos.BackgroundImage = Properties.Resources.Screenshot_1;
+            BtnListarProdutos.BackgroundImageLayout = ImageLayout.Stretch;
+            BtnListarProdutos.ForeColor = SystemColors.Info;
+            BtnListarProdutos.Location = new Point(337, 88);
+            BtnListarProdutos.Name = "BtnListarProdutos";
+            BtnListarProdutos.Size = new Size(135, 58);
+            BtnListarProdutos.TabIndex = 13;
+            BtnListarProdutos.Text = "LISTAR PRODUTOS";
+            BtnListarProdutos.UseVisualStyleBackColor = true;
+            BtnListarProdutos.Click += BtnListarProdutos_Click;
+            // 
+            // BtnListarValores
+            // 
+            BtnListarValores.BackgroundImage = Properties.Resources.Screenshot_1;
+            BtnListarValores.BackgroundImageLayout = ImageLayout.Stretch;
+            BtnListarValores.ForeColor = SystemColors.Info;
+            BtnListarValores.Location = new Point(174, 88);
+            BtnListarValores.Name = "BtnListarValores";
+            BtnListarValores.Size = new Size(135, 58);
+            BtnListarValores.TabIndex = 12;
+            BtnListarValores.Text = "LISTAR VALORES";
+            BtnListarValores.UseVisualStyleBackColor = true;
+            BtnListarValores.Click += BtnListarValores_Click;
+            // 
+            // BtnListarSabores
+            // 
+            BtnListarSabores.BackgroundImage = Properties.Resources.Screenshot_1;
+            BtnListarSabores.BackgroundImageLayout = ImageLayout.Stretch;
+            BtnListarSabores.ForeColor = SystemColors.Info;
+            BtnListarSabores.Location = new Point(14, 88);
+            BtnListarSabores.Name = "BtnListarSabores";
+            BtnListarSabores.Size = new Size(135, 58);
+            BtnListarSabores.TabIndex = 11;
+            BtnListarSabores.Text = "LISTAR SABORES";
+            BtnListarSabores.UseVisualStyleBackColor = true;
+            BtnListarSabores.Click += BtnListarSabores_Click;
             // 
             // Tela_Cadastros
             // 
@@ -217,9 +271,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.istockphoto_1137028124_612x612;
             ClientSize = new Size(1176, 540);
-            Controls.Add(Titulo_Principal);
+            Controls.Add(splitContainer1);
+            Controls.Add(TextCadastroListagem);
             Controls.Add(BTN_Sair_TelaCadastro);
-            Controls.Add(PainelTelaCadastrosAdm);
             Font = new Font("Copperplate Gothic Bold", 9F, FontStyle.Regular, GraphicsUnit.Point);
             FormBorderStyle = FormBorderStyle.None;
             KeyPreview = true;
@@ -228,7 +282,10 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Tela_Cadastros";
             WindowState = FormWindowState.Maximized;
-            PainelTelaCadastrosAdm.ResumeLayout(false);
+            splitContainer1.Panel1.ResumeLayout(false);
+            splitContainer1.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();
+            splitContainer1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -237,9 +294,8 @@
 
         private Button BTN_Cadastrar_Ingredientes;
         private Button BTN_Cadastro_Sabores;
-        private Panel PainelTelaCadastrosAdm;
         private Button BTN_Sair_TelaCadastro;
-        private Label Titulo_Principal;
+        private Label TextCadastroListagem;
         private Button BTN_CadastrarClientes;
         private Button BTN_CadastroValores;
         private Button BTN_CadastrarFuncionarios;
@@ -247,5 +303,9 @@
         private Button BtnListarEnderecos;
         private Button BtnListarClientes;
         private Button BtnListarFuncionarios;
+        private SplitContainer splitContainer1;
+        private Button BtnListarSabores;
+        private Button BtnListarValores;
+        private Button BtnListarProdutos;
     }
 }

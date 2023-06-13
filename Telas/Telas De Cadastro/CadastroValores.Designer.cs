@@ -29,17 +29,19 @@
         private void InitializeComponent()
         {
             TIT12_CADASTRAR = new Label();
-            TextBox2ValorBorda = new TextBox();
-            TextBox2Valor = new TextBox();
+            TextBoxValorBorda = new TextBox();
+            TextBoxValor = new TextBox();
             Text_9_Valor = new Label();
             Text_9_Valores_Adicionais = new Label();
-            ListBox_9_Tamanhos = new ListBox();
+            listBoxTamanhos = new ListBox();
             Text_9_Tamanhos = new Label();
-            ListBox_9_Categorias = new ListBox();
+            listBoxCategorias = new ListBox();
             Text_9_Categorias = new Label();
             Btn_9_Sair = new Button();
             Pnl_9_Valores = new Panel();
-            crud1 = new CRUD();
+            TextBoxId = new TextBox();
+            TextID = new Label();
+            CrudValores = new CRUD();
             Pnl_9_Valores.SuspendLayout();
             SuspendLayout();
             // 
@@ -56,26 +58,26 @@
             TIT12_CADASTRAR.TabIndex = 6;
             TIT12_CADASTRAR.Text = "CADASTRAR VALORES";
             // 
-            // TextBox2ValorBorda
+            // TextBoxValorBorda
             // 
-            TextBox2ValorBorda.Location = new Point(46, 196);
-            TextBox2ValorBorda.Name = "TextBox2ValorBorda";
-            TextBox2ValorBorda.Size = new Size(319, 25);
-            TextBox2ValorBorda.TabIndex = 1;
+            TextBoxValorBorda.Location = new Point(46, 196);
+            TextBoxValorBorda.Name = "TextBoxValorBorda";
+            TextBoxValorBorda.Size = new Size(319, 25);
+            TextBoxValorBorda.TabIndex = 1;
             // 
-            // TextBox2Valor
+            // TextBoxValor
             // 
-            TextBox2Valor.Location = new Point(46, 70);
-            TextBox2Valor.Name = "TextBox2Valor";
-            TextBox2Valor.Size = new Size(319, 25);
-            TextBox2Valor.TabIndex = 0;
+            TextBoxValor.Location = new Point(46, 121);
+            TextBoxValor.Name = "TextBoxValor";
+            TextBoxValor.Size = new Size(319, 25);
+            TextBoxValor.TabIndex = 0;
             // 
             // Text_9_Valor
             // 
             Text_9_Valor.AutoSize = true;
             Text_9_Valor.BackColor = Color.Transparent;
             Text_9_Valor.ForeColor = SystemColors.Info;
-            Text_9_Valor.Location = new Point(153, 49);
+            Text_9_Valor.Location = new Point(46, 100);
             Text_9_Valor.Name = "Text_9_Valor";
             Text_9_Valor.Size = new Size(71, 18);
             Text_9_Valor.TabIndex = 9;
@@ -86,23 +88,23 @@
             Text_9_Valores_Adicionais.AutoSize = true;
             Text_9_Valores_Adicionais.BackColor = Color.Transparent;
             Text_9_Valores_Adicionais.ForeColor = SystemColors.Info;
-            Text_9_Valores_Adicionais.Location = new Point(73, 175);
+            Text_9_Valores_Adicionais.Location = new Point(46, 175);
             Text_9_Valores_Adicionais.Name = "Text_9_Valores_Adicionais";
             Text_9_Valores_Adicionais.Size = new Size(246, 18);
             Text_9_Valores_Adicionais.TabIndex = 10;
             Text_9_Valores_Adicionais.Text = "VALOR ADICIONAL BORDA";
             // 
-            // ListBox_9_Tamanhos
+            // listBoxTamanhos
             // 
-            ListBox_9_Tamanhos.BackColor = SystemColors.Desktop;
-            ListBox_9_Tamanhos.ForeColor = SystemColors.Info;
-            ListBox_9_Tamanhos.FormattingEnabled = true;
-            ListBox_9_Tamanhos.ItemHeight = 18;
-            ListBox_9_Tamanhos.Items.AddRange(new object[] { "PEQUENA", "MÉDIA", "GRANDE", "FAMÍLIA" });
-            ListBox_9_Tamanhos.Location = new Point(458, 108);
-            ListBox_9_Tamanhos.Name = "ListBox_9_Tamanhos";
-            ListBox_9_Tamanhos.Size = new Size(120, 94);
-            ListBox_9_Tamanhos.TabIndex = 2;
+            listBoxTamanhos.BackColor = SystemColors.Desktop;
+            listBoxTamanhos.ForeColor = SystemColors.Info;
+            listBoxTamanhos.FormattingEnabled = true;
+            listBoxTamanhos.ItemHeight = 18;
+            listBoxTamanhos.Items.AddRange(new object[] { "PEQUENA", "MÉDIA", "GRANDE", "FAMÍLIA" });
+            listBoxTamanhos.Location = new Point(458, 108);
+            listBoxTamanhos.Name = "listBoxTamanhos";
+            listBoxTamanhos.Size = new Size(120, 94);
+            listBoxTamanhos.TabIndex = 2;
             // 
             // Text_9_Tamanhos
             // 
@@ -115,17 +117,17 @@
             Text_9_Tamanhos.TabIndex = 14;
             Text_9_Tamanhos.Text = "TAMANHOS: ";
             // 
-            // ListBox_9_Categorias
+            // listBoxCategorias
             // 
-            ListBox_9_Categorias.BackColor = SystemColors.Desktop;
-            ListBox_9_Categorias.ForeColor = SystemColors.Info;
-            ListBox_9_Categorias.FormattingEnabled = true;
-            ListBox_9_Categorias.ItemHeight = 18;
-            ListBox_9_Categorias.Items.AddRange(new object[] { "TRADICIONAL", "ESPECIAL" });
-            ListBox_9_Categorias.Location = new Point(640, 108);
-            ListBox_9_Categorias.Name = "ListBox_9_Categorias";
-            ListBox_9_Categorias.Size = new Size(120, 94);
-            ListBox_9_Categorias.TabIndex = 3;
+            listBoxCategorias.BackColor = SystemColors.Desktop;
+            listBoxCategorias.ForeColor = SystemColors.Info;
+            listBoxCategorias.FormattingEnabled = true;
+            listBoxCategorias.ItemHeight = 18;
+            listBoxCategorias.Items.AddRange(new object[] { "TRADICIONAL", "ESPECIAL" });
+            listBoxCategorias.Location = new Point(640, 108);
+            listBoxCategorias.Name = "listBoxCategorias";
+            listBoxCategorias.Size = new Size(120, 94);
+            listBoxCategorias.TabIndex = 3;
             // 
             // Text_9_Categorias
             // 
@@ -161,28 +163,53 @@
             // 
             Pnl_9_Valores.BackgroundImage = Properties.Resources.Screenshot_1;
             Pnl_9_Valores.BackgroundImageLayout = ImageLayout.Stretch;
-            Pnl_9_Valores.Controls.Add(crud1);
+            Pnl_9_Valores.Controls.Add(TextBoxId);
+            Pnl_9_Valores.Controls.Add(TextID);
+            Pnl_9_Valores.Controls.Add(CrudValores);
             Pnl_9_Valores.Controls.Add(Text_9_Valor);
-            Pnl_9_Valores.Controls.Add(TextBox2ValorBorda);
+            Pnl_9_Valores.Controls.Add(TextBoxValorBorda);
             Pnl_9_Valores.Controls.Add(Text_9_Categorias);
-            Pnl_9_Valores.Controls.Add(TextBox2Valor);
-            Pnl_9_Valores.Controls.Add(ListBox_9_Categorias);
+            Pnl_9_Valores.Controls.Add(TextBoxValor);
+            Pnl_9_Valores.Controls.Add(listBoxCategorias);
             Pnl_9_Valores.Controls.Add(Text_9_Valores_Adicionais);
             Pnl_9_Valores.Controls.Add(Text_9_Tamanhos);
-            Pnl_9_Valores.Controls.Add(ListBox_9_Tamanhos);
+            Pnl_9_Valores.Controls.Add(listBoxTamanhos);
             Pnl_9_Valores.Location = new Point(270, 105);
             Pnl_9_Valores.Name = "Pnl_9_Valores";
             Pnl_9_Valores.Size = new Size(831, 351);
             Pnl_9_Valores.TabIndex = 18;
             // 
-            // crud1
+            // TextBoxId
             // 
-            crud1.BackColor = SystemColors.Desktop;
-            crud1.ForeColor = SystemColors.Info;
-            crud1.Location = new Point(41, 283);
-            crud1.Name = "crud1";
-            crud1.Size = new Size(765, 65);
-            crud1.TabIndex = 4;
+            TextBoxId.BackColor = SystemColors.ControlDark;
+            TextBoxId.Location = new Point(46, 47);
+            TextBoxId.Name = "TextBoxId";
+            TextBoxId.ReadOnly = true;
+            TextBoxId.Size = new Size(47, 25);
+            TextBoxId.TabIndex = 29;
+            // 
+            // TextID
+            // 
+            TextID.Anchor = AnchorStyles.None;
+            TextID.AutoSize = true;
+            TextID.BackColor = Color.Transparent;
+            TextID.Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            TextID.ForeColor = SystemColors.Info;
+            TextID.Location = new Point(46, 26);
+            TextID.Name = "TextID";
+            TextID.Size = new Size(26, 18);
+            TextID.TabIndex = 30;
+            TextID.Text = "ID";
+            TextID.TextAlign = ContentAlignment.TopCenter;
+            // 
+            // CrudValores
+            // 
+            CrudValores.BackColor = SystemColors.Desktop;
+            CrudValores.ForeColor = SystemColors.Info;
+            CrudValores.Location = new Point(0, 286);
+            CrudValores.Name = "CrudValores";
+            CrudValores.Size = new Size(831, 65);
+            CrudValores.TabIndex = 17;
             // 
             // CadastroValores
             // 
@@ -210,16 +237,18 @@
         #endregion
 
         private Label TIT12_CADASTRAR;
-        private TextBox TextBox2ValorBorda;
-        private TextBox TextBox2Valor;
+        private TextBox TextBoxValorBorda;
+        private TextBox TextBoxValor;
         private Label Text_9_Valor;
         private Label Text_9_Valores_Adicionais;
-        private ListBox ListBox_9_Tamanhos;
+        private ListBox listBoxTamanhos;
         private Label Text_9_Tamanhos;
-        private ListBox ListBox_9_Categorias;
+        private ListBox listBoxCategorias;
         private Label Text_9_Categorias;
         private Button Btn_9_Sair;
         private Panel Pnl_9_Valores;
-        private CRUD crud1;
+        private CRUD CrudValores;
+        private TextBox TextBoxId;
+        private Label TextID;
     }
 }

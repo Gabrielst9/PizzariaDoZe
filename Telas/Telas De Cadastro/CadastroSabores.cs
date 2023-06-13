@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using PizzariaDoZe.Telas;
 using PizzariaDoZe_DAO;
 using PizzariaDoZe_DAO.Ingredientes;
+using PizzariaDoZe_DAO.Sabor;
 using static PizzariaDoZe.ClassEnum;
 
 namespace PizzariaDoZe
@@ -18,6 +19,8 @@ namespace PizzariaDoZe
     public partial class CadastroSabores : Form
     {
         private IngredienteDAO ingredienteDAO;
+        private SaborDAO saborDAO;
+        public Sabor sabor;
         public CadastroSabores()
         {
             InitializeComponent();
@@ -31,12 +34,41 @@ namespace PizzariaDoZe
             ingredienteDAO.Provider = provider;
             ingredienteDAO.StringConexao = strConnection;
 
+            // cria a instancia da classe da model
+            saborDAO = new SaborDAO(provider, strConnection);
+
 
 
             this.ConfigurarShortCut();
             Funcoes.EventoFocoCampos(this);
             CarregaIngredientesCheckedListBox();
             CarregaEnumListBox();
+
+            CrudSabores.BtnSalvar.Click += BtnSalvar_Click;
+        }
+
+        private void BtnSalvar_Click(object? sender, EventArgs e)
+        {
+            //Instância e Preenche o objeto com os dados da view
+            sabor = new Sabor
+            {
+                Id = 0,
+                Descricao = TextBoxNome.Text,
+                Foto = Funcoes.ConverteImagemParaByteArray(pictureBoxImagem.Image),
+                Categoria = (char)(EnumSaborCategoria)Enum.Parse(typeof(EnumSaborCategoria), listBoxCategoria.Text),
+                Tipo = (char)(EnumSaborTipo)Enum.Parse(typeof(EnumSaborTipo), listBoxTipo.Text),
+                SaborIngredientes = checkedListBoxIngredientes.CheckedItems.OfType<Ingrediente>().ToList(),
+            };
+            try
+            {
+                // chama o método para inserir da camada model
+                saborDAO.Inserir(sabor);
+                MessageBox.Show("Dados inseridos com sucesso!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void SAIR_SABORES_Btn_Click(object sender, EventArgs e)

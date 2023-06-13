@@ -4,6 +4,12 @@
     <Compile Update="Telas\DataGridView%27s\ListarFuncionarios.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Telas\DataGridView%27s\ListarProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\DataGridView%27s\ListarSabores.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Telas\Telas De Cadastro\CadastroFuncionario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -24,6 +30,9 @@
     </Compile>
     <Compile Update="Telas\CRUD\CRUD.cs">
       <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Telas\DataGridView's\ListarValores.cs">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Update="Telas\Telas Gerais\TelaAdm.cs">
       <SubType>Form</SubType>

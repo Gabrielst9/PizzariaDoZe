@@ -1,4 +1,5 @@
 ﻿using PizzariaDoZe.Telas.DataGridView_s;
+using PizzariaDoZe.Telas.Telas_De_Cadastro;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -93,6 +94,24 @@ namespace PizzariaDoZe.Telas
         {
             ListarFuncionarios lf = new ListarFuncionarios();
             lf.Show();
+        }
+
+        private void BtnListarSabores_Click(object sender, EventArgs e)
+        {
+            ListarSabores ls = new ListarSabores();
+            ls.Show();
+        }
+
+        private void BtnListarValores_Click(object sender, EventArgs e)
+        {
+            ListarValores listarValores = new ListarValores();
+            listarValores.Show();
+        }
+
+        private void BtnListarProdutos_Click(object sender, EventArgs e)
+        {
+            ListarProdutos lp = new ListarProdutos();
+            lp.Show();
         }
     }
 }

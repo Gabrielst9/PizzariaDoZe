@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             Pnl_8_Sabores = new Panel();
+            pictureBoxImagem = new PictureBox();
             listBoxTipo = new ListBox();
             listBoxCategoria = new ListBox();
-            CrudSabores = new CRUD();
             checkedListBoxIngredientes = new CheckedListBox();
             SABOR_INGREDIENTES = new Label();
             TextTipo = new Label();
@@ -45,7 +45,7 @@
             VOLTAR_CAD_INGREDIENTES = new Button();
             Tit_8_Cadastro_Sabores = new Label();
             Btn_8_Sair = new Button();
-            pictureBoxImagem = new PictureBox();
+            CrudSabores = new CRUD();
             Pnl_8_Sabores.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBoxImagem).BeginInit();
             SuspendLayout();
@@ -55,10 +55,10 @@
             Pnl_8_Sabores.Anchor = AnchorStyles.None;
             Pnl_8_Sabores.BackgroundImage = Properties.Resources.Screenshot_1;
             Pnl_8_Sabores.BackgroundImageLayout = ImageLayout.Stretch;
+            Pnl_8_Sabores.Controls.Add(CrudSabores);
             Pnl_8_Sabores.Controls.Add(pictureBoxImagem);
             Pnl_8_Sabores.Controls.Add(listBoxTipo);
             Pnl_8_Sabores.Controls.Add(listBoxCategoria);
-            Pnl_8_Sabores.Controls.Add(CrudSabores);
             Pnl_8_Sabores.Controls.Add(checkedListBoxIngredientes);
             Pnl_8_Sabores.Controls.Add(SABOR_INGREDIENTES);
             Pnl_8_Sabores.Controls.Add(TextTipo);
@@ -74,6 +74,17 @@
             Pnl_8_Sabores.Name = "Pnl_8_Sabores";
             Pnl_8_Sabores.Size = new Size(665, 371);
             Pnl_8_Sabores.TabIndex = 28;
+            // 
+            // pictureBoxImagem
+            // 
+            pictureBoxImagem.Image = Properties.Resources.icons8_imagem_100;
+            pictureBoxImagem.Location = new Point(233, 36);
+            pictureBoxImagem.Name = "pictureBoxImagem";
+            pictureBoxImagem.Size = new Size(171, 144);
+            pictureBoxImagem.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBoxImagem.TabIndex = 42;
+            pictureBoxImagem.TabStop = false;
+            pictureBoxImagem.Click += pictureBoxImagem_Click;
             // 
             // listBoxTipo
             // 
@@ -94,15 +105,6 @@
             listBoxCategoria.Name = "listBoxCategoria";
             listBoxCategoria.Size = new Size(160, 32);
             listBoxCategoria.TabIndex = 40;
-            // 
-            // CrudSabores
-            // 
-            CrudSabores.BackColor = SystemColors.Desktop;
-            CrudSabores.ForeColor = SystemColors.Info;
-            CrudSabores.Location = new Point(0, 306);
-            CrudSabores.Name = "CrudSabores";
-            CrudSabores.Size = new Size(451, 65);
-            CrudSabores.TabIndex = 39;
             // 
             // checkedListBoxIngredientes
             // 
@@ -278,16 +280,14 @@
             Btn_8_Sair.UseVisualStyleBackColor = false;
             Btn_8_Sair.Click += Btn_8_Sair_Click;
             // 
-            // pictureBoxImagem
+            // CrudSabores
             // 
-            pictureBoxImagem.Image = Properties.Resources.icons8_imagem_100;
-            pictureBoxImagem.Location = new Point(233, 36);
-            pictureBoxImagem.Name = "pictureBoxImagem";
-            pictureBoxImagem.Size = new Size(171, 144);
-            pictureBoxImagem.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBoxImagem.TabIndex = 42;
-            pictureBoxImagem.TabStop = false;
-            pictureBoxImagem.Click += pictureBoxImagem_Click;
+            CrudSabores.BackColor = SystemColors.Desktop;
+            CrudSabores.ForeColor = SystemColors.Info;
+            CrudSabores.Location = new Point(-4, 306);
+            CrudSabores.Name = "CrudSabores";
+            CrudSabores.Size = new Size(488, 65);
+            CrudSabores.TabIndex = 43;
             // 
             // CadastroSabores
             // 
@@ -328,9 +328,9 @@
         private Label Tit_8_Cadastro_Sabores;
         private Button Btn_8_Sair;
         private CheckedListBox checkedListBoxIngredientes;
-        private CRUD CrudSabores;
         private ListBox listBoxCategoria;
         private ListBox listBoxTipo;
         private PictureBox pictureBoxImagem;
+        private CRUD CrudSabores;
     }
 }

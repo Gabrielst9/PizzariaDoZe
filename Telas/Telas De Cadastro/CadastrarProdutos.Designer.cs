@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             Text_10_ML = new Label();
-            ListBox_10_ML = new ListBox();
+            listBoxMl = new ListBox();
             Text_10_Tipo = new Label();
-            ListBox_10_Tipo = new ListBox();
+            listBoxTipo = new ListBox();
             Text_10_Nome = new Label();
             Text_10_Valor = new Label();
-            TextBoxValorCadastros = new TextBox();
-            TextBoxNomeCadastros = new TextBox();
+            TextBoxValor = new TextBox();
+            TextBoxNome = new TextBox();
             Tit_10_Cadastrar_Produtos = new Label();
             Pnl_10_Produtos = new Panel();
-            crud1 = new CRUD();
-            Btn_10_Sair = new Button();
+            BtnSair = new Button();
+            CrudProdutos = new CRUD();
             Pnl_10_Produtos.SuspendLayout();
             SuspendLayout();
             // 
@@ -54,17 +54,17 @@
             Text_10_ML.TabIndex = 25;
             Text_10_ML.Text = "ML:";
             // 
-            // ListBox_10_ML
+            // listBoxMl
             // 
-            ListBox_10_ML.BackColor = SystemColors.Desktop;
-            ListBox_10_ML.ForeColor = SystemColors.Info;
-            ListBox_10_ML.FormattingEnabled = true;
-            ListBox_10_ML.ItemHeight = 18;
-            ListBox_10_ML.Items.AddRange(new object[] { "150", "300", "600", "1000", "1500", "2000" });
-            ListBox_10_ML.Location = new Point(586, 125);
-            ListBox_10_ML.Name = "ListBox_10_ML";
-            ListBox_10_ML.Size = new Size(151, 94);
-            ListBox_10_ML.TabIndex = 4;
+            listBoxMl.BackColor = SystemColors.Desktop;
+            listBoxMl.ForeColor = SystemColors.Info;
+            listBoxMl.FormattingEnabled = true;
+            listBoxMl.ItemHeight = 18;
+            listBoxMl.Items.AddRange(new object[] { "150", "300", "600", "1000", "1500", "2000" });
+            listBoxMl.Location = new Point(586, 125);
+            listBoxMl.Name = "listBoxMl";
+            listBoxMl.Size = new Size(151, 94);
+            listBoxMl.TabIndex = 4;
             // 
             // Text_10_Tipo
             // 
@@ -77,17 +77,17 @@
             Text_10_Tipo.TabIndex = 23;
             Text_10_Tipo.Text = "TIPO:";
             // 
-            // ListBox_10_Tipo
+            // listBoxTipo
             // 
-            ListBox_10_Tipo.BackColor = SystemColors.Desktop;
-            ListBox_10_Tipo.ForeColor = SystemColors.Info;
-            ListBox_10_Tipo.FormattingEnabled = true;
-            ListBox_10_Tipo.ItemHeight = 18;
-            ListBox_10_Tipo.Items.AddRange(new object[] { "REFRIGERANTE", "CERVEJA", "SUCU", "ÁGUA", "OUTROS" });
-            ListBox_10_Tipo.Location = new Point(407, 125);
-            ListBox_10_Tipo.Name = "ListBox_10_Tipo";
-            ListBox_10_Tipo.Size = new Size(151, 94);
-            ListBox_10_Tipo.TabIndex = 3;
+            listBoxTipo.BackColor = SystemColors.Desktop;
+            listBoxTipo.ForeColor = SystemColors.Info;
+            listBoxTipo.FormattingEnabled = true;
+            listBoxTipo.ItemHeight = 18;
+            listBoxTipo.Items.AddRange(new object[] { "REFRIGERANTE", "CERVEJA", "SUCU", "ÁGUA", "OUTROS" });
+            listBoxTipo.Location = new Point(407, 125);
+            listBoxTipo.Name = "listBoxTipo";
+            listBoxTipo.Size = new Size(151, 94);
+            listBoxTipo.TabIndex = 3;
             // 
             // Text_10_Nome
             // 
@@ -111,19 +111,19 @@
             Text_10_Valor.TabIndex = 20;
             Text_10_Valor.Text = "VALOR:";
             // 
-            // TextBoxValorCadastros
+            // TextBoxValor
             // 
-            TextBoxValorCadastros.Location = new Point(38, 188);
-            TextBoxValorCadastros.Name = "TextBoxValorCadastros";
-            TextBoxValorCadastros.Size = new Size(319, 25);
-            TextBoxValorCadastros.TabIndex = 1;
+            TextBoxValor.Location = new Point(38, 188);
+            TextBoxValor.Name = "TextBoxValor";
+            TextBoxValor.Size = new Size(319, 25);
+            TextBoxValor.TabIndex = 1;
             // 
-            // TextBoxNomeCadastros
+            // TextBoxNome
             // 
-            TextBoxNomeCadastros.Location = new Point(38, 77);
-            TextBoxNomeCadastros.Name = "TextBoxNomeCadastros";
-            TextBoxNomeCadastros.Size = new Size(319, 25);
-            TextBoxNomeCadastros.TabIndex = 0;
+            TextBoxNome.Location = new Point(38, 77);
+            TextBoxNome.Name = "TextBoxNome";
+            TextBoxNome.Size = new Size(319, 25);
+            TextBoxNome.TabIndex = 0;
             // 
             // Tit_10_Cadastrar_Produtos
             // 
@@ -142,47 +142,47 @@
             // 
             Pnl_10_Produtos.BackgroundImage = Properties.Resources.Screenshot_1;
             Pnl_10_Produtos.BackgroundImageLayout = ImageLayout.Stretch;
-            Pnl_10_Produtos.Controls.Add(crud1);
+            Pnl_10_Produtos.Controls.Add(CrudProdutos);
             Pnl_10_Produtos.Controls.Add(Text_10_Nome);
-            Pnl_10_Produtos.Controls.Add(TextBoxValorCadastros);
+            Pnl_10_Produtos.Controls.Add(TextBoxValor);
             Pnl_10_Produtos.Controls.Add(Text_10_ML);
-            Pnl_10_Produtos.Controls.Add(TextBoxNomeCadastros);
-            Pnl_10_Produtos.Controls.Add(ListBox_10_ML);
+            Pnl_10_Produtos.Controls.Add(TextBoxNome);
+            Pnl_10_Produtos.Controls.Add(listBoxMl);
             Pnl_10_Produtos.Controls.Add(Text_10_Valor);
             Pnl_10_Produtos.Controls.Add(Text_10_Tipo);
-            Pnl_10_Produtos.Controls.Add(ListBox_10_Tipo);
+            Pnl_10_Produtos.Controls.Add(listBoxTipo);
             Pnl_10_Produtos.Location = new Point(294, 105);
             Pnl_10_Produtos.Name = "Pnl_10_Produtos";
             Pnl_10_Produtos.Size = new Size(783, 351);
             Pnl_10_Produtos.TabIndex = 0;
             // 
-            // crud1
+            // BtnSair
             // 
-            crud1.BackColor = SystemColors.Desktop;
-            crud1.ForeColor = SystemColors.Info;
-            crud1.Location = new Point(15, 263);
-            crud1.Name = "crud1";
-            crud1.Size = new Size(745, 70);
-            crud1.TabIndex = 6;
+            BtnSair.Anchor = AnchorStyles.None;
+            BtnSair.BackColor = SystemColors.HotTrack;
+            BtnSair.BackgroundImage = Properties.Resources.Screenshot_1;
+            BtnSair.BackgroundImageLayout = ImageLayout.Stretch;
+            BtnSair.Cursor = Cursors.Hand;
+            BtnSair.FlatStyle = FlatStyle.Flat;
+            BtnSair.Font = new Font("Copperplate Gothic Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            BtnSair.ForeColor = SystemColors.Info;
+            BtnSair.Location = new Point(540, 482);
+            BtnSair.Margin = new Padding(4, 3, 4, 3);
+            BtnSair.Name = "BtnSair";
+            BtnSair.Size = new Size(229, 32);
+            BtnSair.TabIndex = 7;
+            BtnSair.Text = "SAIR";
+            BtnSair.UseVisualStyleBackColor = false;
+            BtnSair.Click += BtnSair_Click;
             // 
-            // Btn_10_Sair
+            // CrudProdutos
             // 
-            Btn_10_Sair.Anchor = AnchorStyles.None;
-            Btn_10_Sair.BackColor = SystemColors.HotTrack;
-            Btn_10_Sair.BackgroundImage = Properties.Resources.Screenshot_1;
-            Btn_10_Sair.BackgroundImageLayout = ImageLayout.Stretch;
-            Btn_10_Sair.Cursor = Cursors.Hand;
-            Btn_10_Sair.FlatStyle = FlatStyle.Flat;
-            Btn_10_Sair.Font = new Font("Copperplate Gothic Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            Btn_10_Sair.ForeColor = SystemColors.Info;
-            Btn_10_Sair.Location = new Point(540, 482);
-            Btn_10_Sair.Margin = new Padding(4, 3, 4, 3);
-            Btn_10_Sair.Name = "Btn_10_Sair";
-            Btn_10_Sair.Size = new Size(229, 32);
-            Btn_10_Sair.TabIndex = 7;
-            Btn_10_Sair.Text = "SAIR";
-            Btn_10_Sair.UseVisualStyleBackColor = false;
-            Btn_10_Sair.Click += Btn_10_Sair_Click;
+            CrudProdutos.BackColor = SystemColors.Desktop;
+            CrudProdutos.ForeColor = SystemColors.Info;
+            CrudProdutos.Location = new Point(0, 286);
+            CrudProdutos.Name = "CrudProdutos";
+            CrudProdutos.Size = new Size(783, 65);
+            CrudProdutos.TabIndex = 26;
             // 
             // CadastrarProdutos
             // 
@@ -190,7 +190,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.istockphoto_1137028124_612x612;
             ClientSize = new Size(1370, 540);
-            Controls.Add(Btn_10_Sair);
+            Controls.Add(BtnSair);
             Controls.Add(Pnl_10_Produtos);
             Controls.Add(Tit_10_Cadastrar_Produtos);
             Font = new Font("Copperplate Gothic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point);
@@ -210,16 +210,17 @@
         #endregion
 
         private Label Text_10_ML;
-        private ListBox ListBox_10_ML;
+        private ListBox listBoxMl;
         private Label Text_10_Tipo;
-        private ListBox ListBox_10_Tipo;
+        private ListBox listBoxTipo;
         private Label Text_10_Nome;
         private Label Text_10_Valor;
-        private TextBox TextBoxValorCadastros;
-        private TextBox TextBoxNomeCadastros;
+        private TextBox TextBoxValor;
+        private TextBox TextBoxNome;
         private Label Tit_10_Cadastrar_Produtos;
         private Panel Pnl_10_Produtos;
         private CRUD crud1;
-        private Button Btn_10_Sair;
+        private Button BtnSair;
+        private CRUD CrudProdutos;
     }
 }

@@ -49,5 +49,31 @@ namespace PizzariaDoZe
             [Description("Salgada")]
             Salgada = 'S'
         }
+
+        public enum EnumValorTamanho
+        {
+            [Description("Pequena")]
+            Pequena = 'P',
+            [Description("Média")]
+            Media = 'M',
+            [Description("Grande")]
+            Grande = 'G',
+            [Description("Família")]
+            Familia = 'F'
+        }
+
+        public enum EnumProdutoTipo
+        {
+            [Description("Refrigerante")]
+            Refrigerante = 'R',
+            [Description("Cerveja")]
+            Cerveja = 'C',
+            [Description("Suco")]
+            Suco = 'S',
+            [Description("Água")]
+            Agua = 'A',
+            [Description("Outros")]
+            Outros = 'O'
+        }
     }
 }
