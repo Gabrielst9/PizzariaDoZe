@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PizzariaDoZe.Telas.Telas_De_Cadastro;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,6 +23,12 @@ namespace PizzariaDoZe
         private void BTN8_SAIR_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void BTN8_FAZER_PEDIDO_Click(object sender, EventArgs e)
+        {
+            CadastroPedidos cp = new CadastroPedidos();
+            cp.Show();
         }
     }
 }

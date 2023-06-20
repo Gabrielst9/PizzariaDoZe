@@ -17,6 +17,8 @@ namespace PizzariaDoZe
     public partial class TelaInicial : Form
     {
         bool PNL_LATERAL_EXPANDE;
+
+        bool primeiroCLick = true;
         public TelaInicial()
         {
             InitializeComponent();
@@ -39,12 +41,21 @@ namespace PizzariaDoZe
             t1.Show();
         }
 
-        private void MENU1_BTN_Click(object sender, EventArgs e)
-        {
-        }
-
         private void Button2_Click(object sender, EventArgs e)
         {
+            if(primeiroCLick == true)
+            {
+                PNL_LATERAL_LOGIN.MaximumSize = new System.Drawing.Size(50, 100);
+                PNL_LATERAL_LOGIN.Size = new System.Drawing.Size(50, 100);
+                primeiroCLick = false;
+            }
+            else
+            {
+                PNL_LATERAL_LOGIN.MaximumSize = new System.Drawing.Size(206, 1200);
+                PNL_LATERAL_LOGIN.Size = new System.Drawing.Size(206, 1200);
+                primeiroCLick = true;
+            }
+                
         }
         /// <summary>
         /// este botão redireciona para a página de cadastrar administrador
@@ -57,9 +68,6 @@ namespace PizzariaDoZe
             t1.Show();
         }
 
-        private void PNL1_MENU_Paint(object sender, PaintEventArgs e)
-        {
-        }
         /// <summary>
         /// botão de voltar padrão
         /// </summary>
@@ -124,15 +132,6 @@ namespace PizzariaDoZe
             t20.Show();
         }
 
-        private void PNL_LATERAL_LOGIN_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void TelaInicial_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void BTN_TelaPrincipalShortCuts_Click(object sender, EventArgs e)
         {
@@ -140,15 +139,6 @@ namespace PizzariaDoZe
             t.Show();
         }
 
-        private void contextMenuStrip_Opening(object sender, CancelEventArgs e)
-        {
-
-        }
-
-        private void abrirApliacaçaoToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
         private void FormPrincipal_Resize(object sender, EventArgs e)
         {
             if (this.WindowState == FormWindowState.Minimized)

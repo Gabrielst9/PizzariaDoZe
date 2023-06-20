@@ -41,6 +41,7 @@
             RadioBtnAdministrador = new RadioButton();
             TextBoxObservacao = new TextBox();
             DateTimePickerValidade = new DateTimePicker();
+            ComboBoxCarteira = new ComboBox();
             TextSenha = new Label();
             TextBoxSenha = new TextBox();
             TextValidade = new Label();
@@ -48,7 +49,7 @@
             TextMatricula = new Label();
             TextBoxMatricula = new TextBox();
             TextIDCliente = new Label();
-            TextboxIdCliente = new TextBox();
+            TextboxId = new TextBox();
             TextEmail = new Label();
             TextboxNome = new TextBox();
             TextCpf = new Label();
@@ -60,7 +61,6 @@
             FlowLayoutPanelFuncionario = new FlowLayoutPanel();
             PnlCrudFuncionario = new Panel();
             CrudFuncionario = new CRUD();
-            ComboBoxCarteira = new ComboBox();
             PnlUserControlEnderecoFuncionario.SuspendLayout();
             PnlCadastroFuncionario.SuspendLayout();
             PnlGrupo.SuspendLayout();
@@ -119,7 +119,7 @@
             PnlCadastroFuncionario.Controls.Add(TextMatricula);
             PnlCadastroFuncionario.Controls.Add(TextBoxMatricula);
             PnlCadastroFuncionario.Controls.Add(TextIDCliente);
-            PnlCadastroFuncionario.Controls.Add(TextboxIdCliente);
+            PnlCadastroFuncionario.Controls.Add(TextboxId);
             PnlCadastroFuncionario.Controls.Add(TextEmail);
             PnlCadastroFuncionario.Controls.Add(TextboxNome);
             PnlCadastroFuncionario.Controls.Add(TextCpf);
@@ -227,6 +227,15 @@
             DateTimePickerValidade.TabIndex = 6;
             DateTimePickerValidade.Value = new DateTime(2023, 6, 1, 0, 0, 0, 0);
             // 
+            // ComboBoxCarteira
+            // 
+            ComboBoxCarteira.FormattingEnabled = true;
+            ComboBoxCarteira.Items.AddRange(new object[] { "Não Possuo Carteira", "Habilitação - A", "Habilitação - B", "Habilitação - C", "Habilitação - D" });
+            ComboBoxCarteira.Location = new Point(3, 219);
+            ComboBoxCarteira.Name = "ComboBoxCarteira";
+            ComboBoxCarteira.Size = new Size(241, 23);
+            ComboBoxCarteira.TabIndex = 5;
+            // 
             // TextSenha
             // 
             TextSenha.AutoSize = true;
@@ -308,18 +317,18 @@
             TextIDCliente.Text = "ID";
             TextIDCliente.TextAlign = ContentAlignment.TopCenter;
             // 
-            // TextboxIdCliente
+            // TextboxId
             // 
-            TextboxIdCliente.BackColor = SystemColors.ControlDarkDark;
-            TextboxIdCliente.Cursor = Cursors.IBeam;
-            TextboxIdCliente.Enabled = false;
-            TextboxIdCliente.Font = new Font("Copperplate Gothic Bold", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            TextboxIdCliente.ForeColor = SystemColors.MenuText;
-            TextboxIdCliente.Location = new Point(3, 21);
-            TextboxIdCliente.MaxLength = 80;
-            TextboxIdCliente.Name = "TextboxIdCliente";
-            TextboxIdCliente.Size = new Size(41, 21);
-            TextboxIdCliente.TabIndex = 16;
+            TextboxId.BackColor = SystemColors.ControlDarkDark;
+            TextboxId.Cursor = Cursors.IBeam;
+            TextboxId.Enabled = false;
+            TextboxId.Font = new Font("Copperplate Gothic Bold", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            TextboxId.ForeColor = SystemColors.MenuText;
+            TextboxId.Location = new Point(3, 21);
+            TextboxId.MaxLength = 80;
+            TextboxId.Name = "TextboxId";
+            TextboxId.Size = new Size(41, 21);
+            TextboxId.TabIndex = 16;
             // 
             // TextEmail
             // 
@@ -443,15 +452,6 @@
             CrudFuncionario.TabIndex = 0;
             CrudFuncionario.Load += CrudFuncionario_Load;
             // 
-            // ComboBoxCarteira
-            // 
-            ComboBoxCarteira.FormattingEnabled = true;
-            ComboBoxCarteira.Items.AddRange(new object[] { "Não Possuo Carteira", "Habilitação - A", "Habilitação - B", "Habilitação - C", "Habilitação - D" });
-            ComboBoxCarteira.Location = new Point(3, 219);
-            ComboBoxCarteira.Name = "ComboBoxCarteira";
-            ComboBoxCarteira.Size = new Size(241, 23);
-            ComboBoxCarteira.TabIndex = 5;
-            // 
             // CadastroFuncionario
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -482,7 +482,7 @@
         private Label TextCadastroFuncionario;
         private Panel PnlCadastroFuncionario;
         private Label TextIDCliente;
-        private TextBox TextboxIdCliente;
+        private TextBox TextboxId;
         private Label TextEmail;
         private TextBox TextboxNome;
         private Label TextCpf;

@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using PizzariaDoZe;
 using PizzariaDoZe_DAO.Funcionario;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace PizzariaDoZe.Telas
 {
@@ -55,7 +56,6 @@ namespace PizzariaDoZe.Telas
 
 
             CrudFuncionario.BtnSalvar.Click += BtnSalvar_Click;
-
         }
 
         private void maskedTextBoxCep_Leave(object sender, EventArgs e)
@@ -137,6 +137,61 @@ namespace PizzariaDoZe.Telas
         private void CrudFuncionario_Load(object sender, EventArgs e)
         {
 
+        }
+
+
+        public void AtualizaTelaEditar(int id)
+        {
+            //Instância e Preenche o objeto com os dados da view
+            var funcionario = new Funcionario
+            {
+                Id = id,
+            };
+            try
+            {
+                // chama o método para buscar todos os dados da nossa camada model
+                DataTable linhas = funcionarioDAO.Buscar(funcionario);
+                // seta os dados na tela
+                foreach (DataRow row in linhas.Rows)
+                {
+                    TextboxId.Text = row[0].ToString();
+                    TextboxNome.Text = row[1].ToString();
+                    MaskedboxCpf.Text = row[2].ToString();
+                    TextBoxMatricula.Text = row[3].ToString();
+                    TextBoxSenha.Text = row[4].ToString();
+                    if (row[5].ToString().Equals("1"))
+                    {
+                        RadioBtnAdministrador.Checked = true;
+                    }
+                    else if (row[5].ToString().Equals("2"))
+                    {
+                        RadioBtnAtendente.Checked = true;
+                    }
+                    else
+                    {
+                        RadioBtnEntregador.Checked = true;
+                    }
+                    ComboBoxCarteira.Text = row[6].ToString();
+                    DateTimePickerValidade.Text = row[7].ToString();
+                    TextBoxObservacao.Text = row[8].ToString();
+                    MaskedboxTelefone.Text = row[9].ToString();
+                    TextboxEmail.Text = row[10].ToString();
+                    userControlEnderecoFuncionarios.TextBoxIdEndereco.Text = row[11].ToString();
+                    userControlEnderecoFuncionarios.maskedTextBoxCep.Text = row[12].ToString();
+                    userControlEnderecoFuncionarios.TextBoxLogradouro.Text = row[13].ToString();
+                    userControlEnderecoFuncionarios.TextBoxBairro.Text = row[14].ToString();
+                    userControlEnderecoFuncionarios.TextBoxCidade.Text = row[16].ToString();
+                    userControlEnderecoFuncionarios.comboBoxUF.Text = row[18].ToString();
+                    userControlEnderecoFuncionarios.TextBoxPais.Text = row[20].ToString();
+                    userControlEnderecoFuncionarios.TextBoxNumero.Text = row[21].ToString();
+                    userControlEnderecoFuncionarios.TextBoxComplemento.Text = row[22].ToString();
+                }
+                TextboxNome.Focus();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

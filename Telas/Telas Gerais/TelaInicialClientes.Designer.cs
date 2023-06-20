@@ -48,6 +48,7 @@
             BTN8_FAZER_PEDIDO.TabIndex = 0;
             BTN8_FAZER_PEDIDO.Text = "FAZER PEDIDO";
             BTN8_FAZER_PEDIDO.UseVisualStyleBackColor = true;
+            BTN8_FAZER_PEDIDO.Click += BTN8_FAZER_PEDIDO_Click;
             // 
             // Titulo8_Principal
             // 

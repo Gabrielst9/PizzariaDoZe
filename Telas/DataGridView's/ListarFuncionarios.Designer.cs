@@ -38,10 +38,13 @@
             dataGridViewFuncionarios.AllowUserToDeleteRows = false;
             dataGridViewFuncionarios.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewFuncionarios.Dock = DockStyle.Fill;
+            dataGridViewFuncionarios.EditMode = DataGridViewEditMode.EditProgrammatically;
             dataGridViewFuncionarios.EnableHeadersVisualStyles = false;
             dataGridViewFuncionarios.Location = new Point(0, 0);
+            dataGridViewFuncionarios.MultiSelect = false;
             dataGridViewFuncionarios.Name = "dataGridViewFuncionarios";
             dataGridViewFuncionarios.RowTemplate.Height = 25;
+            dataGridViewFuncionarios.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridViewFuncionarios.Size = new Size(800, 450);
             dataGridViewFuncionarios.TabIndex = 0;
             dataGridViewFuncionarios.CellFormatting += dataGridViewFuncionarios_CellFormatting;

@@ -12,6 +12,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static PizzariaDoZe.ClassEnum;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace PizzariaDoZe.Telas.DataGridView_s
 {
@@ -99,6 +100,21 @@ namespace PizzariaDoZe.Telas.DataGridView_s
                 }
             }
         }
+
+        private void DataGridViewDados_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            if (dataGridViewFuncionarios.SelectedCells.Count > 0)
+            {
+                //pega a primeira coluna, que esta com o ID, da linha selecionada
+                DataGridViewRow selectedRow = dataGridViewFuncionarios.Rows[dataGridViewFuncionarios.SelectedCells[0].RowIndex];
+                int id = Convert.ToInt32(selectedRow.Cells[0].Value);
+                AtualizaTelaEditar(id);
+            }
+        }
+
+
+
+
     }
 }
 

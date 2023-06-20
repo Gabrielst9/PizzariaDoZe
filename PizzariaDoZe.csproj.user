@@ -10,9 +10,6 @@
     <Compile Update="Telas\DataGridView%27s\ListarSabores.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Telas\Telas De Cadastro\CadastroFuncionario.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="Telas\DataGridView%27s\ListarClientes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -22,7 +19,13 @@
     <Compile Update="ItensNãoUsados\CadastroAdm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Telas\Telas De Cadastro\CadastroFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Telas\Telas De Cadastro\CadastroIngredientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas\Telas De Cadastro\CadastroPedidos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Telas\Telas De Cadastro\CadastroSabores.cs">
