@@ -108,7 +108,7 @@ namespace PizzariaDoZe.Telas.DataGridView_s
                 //pega a primeira coluna, que esta com o ID, da linha selecionada
                 DataGridViewRow selectedRow = dataGridViewFuncionarios.Rows[dataGridViewFuncionarios.SelectedCells[0].RowIndex];
                 int id = Convert.ToInt32(selectedRow.Cells[0].Value);
-                AtualizaTelaEditar(id);
+                //AtualizaTelaEditar(id);
             }
         }
 
