@@ -42,32 +42,8 @@ namespace PizzariaDoZe
 
             CrudCliente.BtnSalvar.Click += BtnSalvar_Click;
             //--------------------------------------------------------------------------------------
-
-
-
-
             this.ConfigurarShortCut();
-
-            //Ajuste de Foco campo nome
-            TextboxNome.Enter += new
-            EventHandler(Funcoes.CampoEventoEnter!);
-            TextboxNome.Leave += new
-            EventHandler(Funcoes.CampoEventoLeave!);
-            //Ajuste de Foco campo email
-            TextboxEmail.Enter += new
-            EventHandler(Funcoes.CampoEventoEnter!);
-            TextboxEmail.Leave += new
-            EventHandler(Funcoes.CampoEventoLeave!);
-            //Ajuste de Foco campo cpf
-            MaskedTextboxCpf.Enter += new
-            EventHandler(Funcoes.CampoEventoEnter!);
-            MaskedTextboxCpf.Leave += new
-            EventHandler(Funcoes.CampoEventoLeave!);
-            //Ajuste do Foco campo telefone
-            MaskedTextboxTelefone.Enter += new
-            EventHandler(Funcoes.CampoEventoEnter!);
-            MaskedTextboxTelefone.Leave += new
-            EventHandler(Funcoes.CampoEventoLeave!);
+            Funcoes.EventoFocoCampos(this);
         }
 
         private void Btn2_Voltar_Click(object sender, EventArgs e)
